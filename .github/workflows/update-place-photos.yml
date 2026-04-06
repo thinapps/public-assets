@@ -24,11 +24,13 @@ on:
         required: false
         default: "travel"
   schedule:
+    # weekly fallback run for filling any remaining blanks
     - cron: "17 3 * * 1"
 
 permissions:
   contents: write
 
+# prevent overlapping runs from racing each other and creating messy commits
 concurrency:
   group: update-place-photos
   cancel-in-progress: false
@@ -36,6 +38,8 @@ concurrency:
 jobs:
   update-place-photos:
     runs-on: ubuntu-latest
+
+    # safety cap in case the script hangs on network or api issues
     timeout-minutes: 15
 
     steps:
@@ -51,11 +55,13 @@ jobs:
         env:
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         run: |
+          # fail fast with a clear message if the repo secret is missing
           if [[ -z "${UNSPLASH_ACCESS_KEY}" ]]; then
             echo "missing UNSPLASH_ACCESS_KEY"
             exit 1
           fi
 
+          # most admins will only tweak these flags from the actions ui
           python generate_place_photos.py \
             --limit "${{ inputs.limit || '25' }}" \
             ${{ (inputs.overwrite == 'true' && '--overwrite') || '' }} \
@@ -67,10 +73,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # keep the commit scope tight so the workflow only writes the data it owns
           git add version.json place_photos
+
           if git diff --cached --quiet; then
             echo "no changes to commit"
             exit 0
           fi
+
           git commit -m "update place photos"
           git push
