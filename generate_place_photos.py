@@ -9,22 +9,22 @@ from pathlib import Path
 from typing import Any, Dict, List, Tuple
 from urllib import error, parse, request
 
-# Unsplash api base for search requests.
+# unsplash api base for search requests
 UNSPLASH_API_BASE = "https://api.unsplash.com"
 
-# Unsplash wants attribution links to include your app/source info.
-# These can stay hardcoded, or an admin can override them with repo/env settings later.
+# unsplash wants attribution links to include your app or source info
+# these can stay hardcoded, or an admin can override them with env settings later
 UTM_SOURCE = os.environ.get("UNSPLASH_UTM_SOURCE", "freebase")
 UTM_MEDIUM = os.environ.get("UNSPLASH_UTM_MEDIUM", "referral")
 
-# Default repo paths.
-# This script assumes it lives at the repo root next to version.json and place_photos/.
+# default repo paths
+# this script assumes it lives at the repo root next to version.json and place_photos
 DEFAULT_ROOT = Path(__file__).resolve().parent
 PLACE_PHOTOS_DIR = DEFAULT_ROOT / "place_photos"
 VERSION_FILE = DEFAULT_ROOT / "version.json"
 
-# Canonical schema for every place photo object.
-# Keeping this centralized makes it easier to backfill blanks consistently.
+# canonical schema for every place photo object
+# keeping this centralized makes it easier to backfill blanks consistently
 PHOTO_FIELDS = (
     "place_id",
     "image_url",
