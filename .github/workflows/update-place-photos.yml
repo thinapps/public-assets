@@ -1,4 +1,4 @@
-name: update place photos
+name: Update Place Photos
 
 on:
   workflow_dispatch:
