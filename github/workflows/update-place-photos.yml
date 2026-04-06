@@ -1,0 +1,66 @@
+name: update place photos
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: how many missing entries to fill this run, 0 means no limit
+        required: false
+        default: "25"
+      overwrite:
+        description: replace existing photo_url values too
+        required: false
+        default: "false"
+      path_contains:
+        description: optional path filter like countries/japan or ontario
+        required: false
+        default: ""
+      place_id_contains:
+        description: optional place_id filter like tokyo or city:
+        required: false
+        default: ""
+      query_suffix:
+        description: extra query words like travel, skyline city, beach, temple
+        required: false
+        default: "travel"
+  schedule:
+    - cron: "17 3 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  update-place-photos:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v4
+
+      - name: set up python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: run updater
+        env:
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+        run: |
+          python generate_place_photos.py \
+            --limit "${{ inputs.limit || '25' }}" \
+            ${{ (inputs.overwrite == 'true' && '--overwrite') || '' }} \
+            --path-contains "${{ inputs.path_contains || '' }}" \
+            --place-id-contains "${{ inputs.place_id_contains || '' }}" \
+            --query-suffix "${{ inputs.query_suffix || 'travel' }}"
+
+      - name: commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add version.json place_photos
+          if git diff --cached --quiet; then
+            echo "no changes to commit"
+            exit 0
+          fi
+          git commit -m "update place photos"
+          git push
