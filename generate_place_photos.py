@@ -14,6 +14,8 @@ UTM_SOURCE = os.environ.get("UNSPLASH_UTM_SOURCE", "freebase")
 UTM_MEDIUM = os.environ.get("UNSPLASH_UTM_MEDIUM", "referral")
 DEFAULT_ROOT = Path(__file__).resolve().parent
 PLACE_PHOTOS_DIR = DEFAULT_ROOT / "place_photos"
+VERSION_FILE = DEFAULT_ROOT / "version.json"
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
@@ -149,14 +151,16 @@ def choose_photo(access_key: str, query: str, per_page: int) -> Dict[str, Any]:
     return candidates[0]
 
 
-def build_photo_entry(existing: Dict[str, Any], photo: Dict[str, Any]) -> Dict[str, Any]:
-    updated = {
-        "place_id": existing.get("place_id", ""),
-        "photo_url": photo.get("urls", {}).get("regular", ""),
-        "photographer_name": photo.get("user", {}).get("name", ""),
-        "photographer_url": append_referral(photo.get("user", {}).get("links", {}).get("html", "")),
-        "unsplash_url": append_referral(photo.get("links", {}).get("html", "")),
-    }
+def build_photo_entry(existing: Dict[str, Any], photo: Dict[str, Any], query: str) -> Dict[str, Any]:
+    updated = dict(existing)
+    updated.update(
+        {
+            "image_url": photo.get("urls", {}).get("regular", ""),
+            "photographer_name": photo.get("user", {}).get("name", ""),
+            "photographer_url": append_referral(photo.get("user", {}).get("links", {}).get("html", "")),
+            "source_url": append_referral(photo.get("links", {}).get("html", "")),
+        }
+    )
     return updated
 
 
@@ -164,7 +168,7 @@ def should_process(entry: Dict[str, Any], args: argparse.Namespace) -> bool:
     place_id = entry.get("place_id", "")
     if args.place_id_contains and args.place_id_contains.lower() not in place_id.lower():
         return False
-    if not args.overwrite and entry.get("photo_url"):
+    if not args.overwrite and entry.get("image_url"):
         return False
     return True
 
@@ -182,15 +186,6 @@ def update_version_file(root: Path, dry_run: bool) -> None:
         return
 
     payload = load_json(version_path)
-    version = payload.get("version", 0)
-
-    if isinstance(version, str):
-        try:
-            version = int(version)
-        except ValueError:
-            version = 0
-
-    payload = {"version": int(version) + 1}
     if dry_run:
         print(f"would update {version_path}")
         return
@@ -247,7 +242,7 @@ def main() -> int:
                 print(f"error for {place_id}: {exc}", file=sys.stderr)
                 continue
 
-            payload[index] = build_photo_entry(entry, photo)
+            payload[index] = build_photo_entry(entry, photo, query)
             file_changed = True
             processed += 1
 
