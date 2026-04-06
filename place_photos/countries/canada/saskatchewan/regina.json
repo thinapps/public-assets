@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:canada:saskatchewan:regina"
+    "place_id": "city:canada:saskatchewan:regina",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

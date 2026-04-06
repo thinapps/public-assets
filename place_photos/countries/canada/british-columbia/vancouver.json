@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:canada:british_columbia:vancouver"
+    "place_id": "city:canada:british_columbia:vancouver",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

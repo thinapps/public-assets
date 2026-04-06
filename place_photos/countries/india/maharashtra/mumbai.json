@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:india:maharashtra:mumbai"
+    "place_id": "city:india:maharashtra:mumbai",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:japan:kanagawa:yokohama"
+    "place_id": "city:japan:kanagawa:yokohama",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

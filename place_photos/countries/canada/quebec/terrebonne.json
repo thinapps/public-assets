@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:canada:quebec:terrebonne"
+    "place_id": "city:canada:quebec:terrebonne",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

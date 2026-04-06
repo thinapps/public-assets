@@ -1,11 +1,23 @@
 [
   {
-    "place_id": "region:north_america"
+    "place_id": "region:north_america",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   },
   {
-    "place_id": "region:asia"
+    "place_id": "region:asia",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   },
   {
-    "place_id": "region:europe"
+    "place_id": "region:europe",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

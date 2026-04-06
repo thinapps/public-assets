@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:canada:saskatchewan:saskatoon"
+    "place_id": "city:canada:saskatchewan:saskatoon",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

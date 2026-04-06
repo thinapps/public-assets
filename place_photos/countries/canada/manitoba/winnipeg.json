@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:canada:manitoba:winnipeg"
+    "place_id": "city:canada:manitoba:winnipeg",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

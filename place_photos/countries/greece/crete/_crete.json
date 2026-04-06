@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "subdivision:greece:crete"
+    "place_id": "subdivision:greece:crete",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

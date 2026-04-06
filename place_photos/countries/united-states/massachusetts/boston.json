@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:united_states:massachusetts:boston"
+    "place_id": "city:united_states:massachusetts:boston",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

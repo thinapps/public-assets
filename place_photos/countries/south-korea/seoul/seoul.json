@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:south_korea:seoul:seoul"
+    "place_id": "city:south_korea:seoul:seoul",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

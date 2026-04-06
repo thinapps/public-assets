@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "country:france"
+    "place_id": "country:france",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

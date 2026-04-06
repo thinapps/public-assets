@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:canada:ontario:mississauga"
+    "place_id": "city:canada:ontario:mississauga",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

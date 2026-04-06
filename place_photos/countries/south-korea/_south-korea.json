@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "country:south_korea"
+    "place_id": "country:south_korea",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

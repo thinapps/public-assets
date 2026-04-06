@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:greece:crete:chania"
+    "place_id": "city:greece:crete:chania",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

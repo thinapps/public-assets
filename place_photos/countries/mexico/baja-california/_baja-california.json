@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "subdivision:mexico:baja_california"
+    "place_id": "subdivision:mexico:baja_california",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

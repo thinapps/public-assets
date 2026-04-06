@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:france:provence_alpes_cote_dazur:marseille"
+    "place_id": "city:france:provence_alpes_cote_dazur:marseille",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:greece:crete:heraklion"
+    "place_id": "city:greece:crete:heraklion",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

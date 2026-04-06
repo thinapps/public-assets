@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:canada:alberta:lethbridge"
+    "place_id": "city:canada:alberta:lethbridge",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

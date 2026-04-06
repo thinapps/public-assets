@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "subdivision:france:auvergne_rhone_alpes"
+    "place_id": "subdivision:france:auvergne_rhone_alpes",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

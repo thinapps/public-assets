@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:netherlands:north_holland:amsterdam"
+    "place_id": "city:netherlands:north_holland:amsterdam",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

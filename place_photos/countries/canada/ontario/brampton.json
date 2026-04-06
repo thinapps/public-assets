@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:canada:ontario:brampton"
+    "place_id": "city:canada:ontario:brampton",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

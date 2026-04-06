@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "country:taiwan"
+    "place_id": "country:taiwan",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

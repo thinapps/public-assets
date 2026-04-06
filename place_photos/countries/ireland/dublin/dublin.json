@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:ireland:dublin:dublin"
+    "place_id": "city:ireland:dublin:dublin",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

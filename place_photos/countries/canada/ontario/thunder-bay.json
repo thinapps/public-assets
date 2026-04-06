@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:canada:ontario:thunder_bay"
+    "place_id": "city:canada:ontario:thunder_bay",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "city:japan:osaka:osaka"
+    "place_id": "city:japan:osaka:osaka",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

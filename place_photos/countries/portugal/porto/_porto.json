@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "subdivision:portugal:porto"
+    "place_id": "subdivision:portugal:porto",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

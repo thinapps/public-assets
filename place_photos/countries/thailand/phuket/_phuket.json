@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "subdivision:thailand:phuket"
+    "place_id": "subdivision:thailand:phuket",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "subdivision:taiwan:kaohsiung"
+    "place_id": "subdivision:taiwan:kaohsiung",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "country:united_kingdom"
+    "place_id": "country:united_kingdom",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]

@@ -1,5 +1,9 @@
 [
   {
-    "place_id": "subdivision:france:ile_de_france"
+    "place_id": "subdivision:france:ile_de_france",
+    "photo_url": "",
+    "photographer_name": "",
+    "photographer_url": "",
+    "unsplash_url": ""
   }
 ]
