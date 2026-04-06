@@ -21,17 +21,6 @@ UTM_MEDIUM = os.environ.get("UNSPLASH_UTM_MEDIUM", "referral")
 # this script assumes it lives at the repo root next to version.json and place_photos
 DEFAULT_ROOT = Path(__file__).resolve().parent
 PLACE_PHOTOS_DIR = DEFAULT_ROOT / "place_photos"
-VERSION_FILE = DEFAULT_ROOT / "version.json"
-
-# canonical schema for every place photo object
-# keeping this centralized makes it easier to backfill blanks consistently
-PHOTO_FIELDS = (
-    "place_id",
-    "image_url",
-    "photographer_name",
-    "photographer_url",
-    "source_url",
-)
 
 
 def parse_args() -> argparse.Namespace:
@@ -304,10 +293,12 @@ def update_version_file(root: Path, dry_run: bool) -> None:
 
     save_json(version_path, payload)
     print(f"bumped {version_path} to version={payload['version']}")
-    
+
 
 def main() -> int:
     args = parse_args()
+
+    # repo secret must be present before any api work can happen
     access_key = os.environ.get("UNSPLASH_ACCESS_KEY", "").strip()
     if not access_key:
         print("missing UNSPLASH_ACCESS_KEY", file=sys.stderr)
@@ -315,9 +306,7 @@ def main() -> int:
 
     root = Path(args.root).resolve()
     global PLACE_PHOTOS_DIR
-    global VERSION_FILE
     PLACE_PHOTOS_DIR = root / "place_photos"
-    VERSION_FILE = root / "version.json"
 
     processed = 0
     changed_files = 0
@@ -344,10 +333,8 @@ def main() -> int:
             normalized_entry = normalize_photo_entry(entry)
             if normalized_entry != entry:
                 payload[index] = normalized_entry
-                entry = normalized_entry
                 file_changed = True
-            else:
-                entry = normalized_entry
+            entry = normalized_entry
 
             if not should_process(entry, args):
                 continue
