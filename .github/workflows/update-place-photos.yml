@@ -76,11 +76,17 @@ jobs:
             exit 1
           fi
 
+          # only pass --overwrite when the actions input is explicitly true
+          OVERWRITE_FLAG=""
+          if [[ "${{ inputs.overwrite }}" == "true" ]]; then
+            OVERWRITE_FLAG="--overwrite"
+          fi
+
           # most admins will only tweak these flags from the actions ui
           # the python script handles the actual search, update, and version bump logic
           python generate_place_photos.py \
             --limit "${{ inputs.limit || '25' }}" \
-            ${{ (inputs.overwrite == 'true' && '--overwrite') || '' }} \
+            ${OVERWRITE_FLAG} \
             --path-contains "${{ inputs.path_contains || '' }}" \
             --place-id-contains "${{ inputs.place_id_contains || '' }}" \
             --query-suffix "${{ inputs.query_suffix || '' }}"
