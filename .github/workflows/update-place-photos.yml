@@ -24,7 +24,7 @@ on:
       place_id_contains:
         # easiest way to target a machine-id slice from the actions ui
         # examples: city:, country:japan, tokyo
-        description: optional place_id filter like tokyo or city:
+        description: optional place_id filter like tokyo or city
         required: false
         default: ""
       query_suffix:
