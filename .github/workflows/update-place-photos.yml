@@ -4,29 +4,40 @@ on:
   workflow_dispatch:
     inputs:
       limit:
+        # max number of missing entries to fill in one run
+        # set to 0 if you want to let the script keep going until filters are exhausted
         description: how many missing entries to fill this run, 0 means no limit
         required: false
         default: "25"
       overwrite:
+        # false is the safer default because it only fills blank image slots
+        # switch to true later if you want to refresh already-populated files too
         description: replace existing image_url values too
         required: false
         default: "false"
       path_contains:
+        # easiest way to target a folder subtree from the actions ui
+        # examples: countries/japan, countries/thailand, ontario
         description: optional path filter like countries/japan or ontario
         required: false
         default: ""
       place_id_contains:
+        # easiest way to target a machine-id slice from the actions ui
+        # examples: city:, country:japan, tokyo
         description: optional place_id filter like tokyo or city:
         required: false
         default: ""
       query_suffix:
+        # quick search steering without editing python
+        # examples: travel, skyline city, beach, temple
         description: extra query words like travel, skyline city, beach, temple
         required: false
-        default: "travel"
-  schedule:
-    # weekly fallback run for filling any remaining blanks
-    - cron: "17 3 * * 1"
+        default: ""
+  #schedule:
+    ## weekly fallback run for filling any remaining blanks
+    #- cron: "17 3 * * 1"
 
+# the workflow only needs permission to commit data back into this repo
 permissions:
   contents: write
 
@@ -37,6 +48,7 @@ concurrency:
 
 jobs:
   update-place-photos:
+    # ubuntu-latest is enough for a simple python + git workflow like this
     runs-on: ubuntu-latest
 
     # safety cap in case the script hangs on network or api issues
@@ -44,15 +56,18 @@ jobs:
 
     steps:
       - name: checkout repo
-        uses: actions/checkout@v4
+        # pull the current repo contents into the runner so the script can edit files
+        uses: actions/checkout@v6
 
       - name: set up python
-        uses: actions/setup-python@v5
+        # keep python explicit so future runners do not surprise you with version changes
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
       - name: run updater
         env:
+          # repo secret used for unsplash api access
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         run: |
           # fail fast with a clear message if the repo secret is missing
@@ -62,25 +77,31 @@ jobs:
           fi
 
           # most admins will only tweak these flags from the actions ui
+          # the python script handles the actual search, update, and version bump logic
           python generate_place_photos.py \
             --limit "${{ inputs.limit || '25' }}" \
             ${{ (inputs.overwrite == 'true' && '--overwrite') || '' }} \
             --path-contains "${{ inputs.path_contains || '' }}" \
             --place-id-contains "${{ inputs.place_id_contains || '' }}" \
-            --query-suffix "${{ inputs.query_suffix || 'travel' }}"
+            --query-suffix "${{ inputs.query_suffix || '' }}"
 
       - name: commit changes
         run: |
+          # use the standard github actions bot identity for commits made by the workflow
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           # keep the commit scope tight so the workflow only writes the data it owns
           git add version.json place_photos
 
+          # skip commit and push cleanly when nothing changed
           if git diff --cached --quiet; then
             echo "no changes to commit"
             exit 0
           fi
 
+          # keep commit message boring and predictable for repo history
           git commit -m "update place photos"
+
+          # push straight back to the checked-out branch
           git push
