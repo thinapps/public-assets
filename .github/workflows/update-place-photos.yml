@@ -8,7 +8,7 @@ on:
         required: false
         default: "25"
       overwrite:
-        description: replace existing photo_url values too
+        description: replace existing image_url values too
         required: false
         default: "false"
       path_contains:
@@ -29,9 +29,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-place-photos
+  cancel-in-progress: false
+
 jobs:
   update-place-photos:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: checkout repo
@@ -46,6 +51,11 @@ jobs:
         env:
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         run: |
+          if [[ -z "${UNSPLASH_ACCESS_KEY}" ]]; then
+            echo "missing UNSPLASH_ACCESS_KEY"
+            exit 1
+          fi
+
           python generate_place_photos.py \
             --limit "${{ inputs.limit || '25' }}" \
             ${{ (inputs.overwrite == 'true' && '--overwrite') || '' }} \
