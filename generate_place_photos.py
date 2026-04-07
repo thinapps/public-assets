@@ -268,6 +268,60 @@ def iter_photo_files(root: Path) -> List[Path]:
     return files
 
 
+
+
+def is_valid_photo_entry(entry: Dict[str, Any]) -> bool:
+    if not isinstance(entry, dict):
+        return False
+
+    place_id = str(entry.get("place_id", "")).strip()
+    image_url = str(entry.get("image_url", "")).strip()
+    photographer_name = str(entry.get("photographer_name", "")).strip()
+    photographer_url = str(entry.get("photographer_url", "")).strip()
+    source_url = str(entry.get("source_url", "")).strip()
+
+    if not place_id:
+        return False
+
+    if not image_url:
+        return False
+
+    if not photographer_name:
+        return False
+
+    if not photographer_url:
+        return False
+
+    if not source_url:
+        return False
+
+    return True
+
+
+def update_manifest_file(root: Path, dry_run: bool) -> None:
+    manifest_path = root / "manifest.json"
+    place_ids = []
+
+    for file_path in iter_photo_files(root):
+        payload = load_json(file_path)
+        if not isinstance(payload, list):
+            continue
+
+        for entry in payload:
+            if is_valid_photo_entry(entry):
+                place_ids.append(entry["place_id"])
+
+    manifest_payload = {
+        "place_ids": sorted(set(place_ids)),
+    }
+
+    if dry_run:
+        print(f"would update {manifest_path} with {len(manifest_payload['place_ids'])} place_ids")
+        return
+
+    save_json(manifest_path, manifest_payload)
+    print(f"updated {manifest_path} with {len(manifest_payload['place_ids'])} place_ids")
+
 def update_version_file(root: Path, dry_run: bool) -> None:
     # this repo uses a very simple integer version file
     # bump it only when at least one file was actually changed
@@ -380,6 +434,8 @@ def main() -> int:
 
         if args.limit and processed >= args.limit:
             break
+
+    update_manifest_file(root, dry_run=args.dry_run)
 
     if changed_files:
         update_version_file(root, dry_run=args.dry_run)
