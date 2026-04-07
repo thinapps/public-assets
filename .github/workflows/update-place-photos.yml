@@ -98,7 +98,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           # keep the commit scope tight so the workflow only writes the data it owns
-          git add version.json place_photos
+          git add version.json manifest.json place_photos
 
           # skip commit and push cleanly when nothing changed
           if git diff --cached --quiet; then
