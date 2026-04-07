@@ -1,9 +1,9 @@
 [
   {
     "place_id": "country:germany",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1572990650506-1ad1c2dee2f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxHZXJtYW55JTIwdHJhdmVsfGVufDF8MHx8fDE3NzU1NzEzOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Duncan Smith",
+    "photographer_url": "https://unsplash.com/@photop20pro?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/group-of-people-at-train-station-jHUTm4vkBDI?utm_source=freebase&utm_medium=referral"
   }
 ]

@@ -24,9 +24,17 @@
     "city:czechia:moravian_silesian:ostrava",
     "city:czechia:prague:prague",
     "city:france:auvergne_rhone_alpes:lyon",
+    "city:france:ile_de_france:paris",
+    "city:germany:bavaria:munich",
+    "city:germany:bavaria:nuremberg",
+    "city:germany:berlin:berlin",
+    "city:germany:hamburg:hamburg",
+    "city:greece:crete:chania",
     "country:canada",
     "country:czechia",
     "country:france",
+    "country:germany",
+    "country:greece",
     "subdivision:canada:alberta",
     "subdivision:canada:british_columbia",
     "subdivision:canada:manitoba",
@@ -39,6 +47,13 @@
     "subdivision:czechia:plzen",
     "subdivision:czechia:prague",
     "subdivision:france:auvergne_rhone_alpes",
-    "subdivision:france:ile_de_france"
+    "subdivision:france:ile_de_france",
+    "subdivision:france:provence_alpes_cote_dazur",
+    "subdivision:germany:bavaria",
+    "subdivision:germany:berlin",
+    "subdivision:germany:hamburg",
+    "subdivision:greece:attica",
+    "subdivision:greece:central_macedonia",
+    "subdivision:greece:crete"
   ]
 }
