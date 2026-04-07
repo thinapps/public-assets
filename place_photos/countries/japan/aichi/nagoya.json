@@ -1,9 +1,9 @@
 [
   {
     "place_id": "city:japan:aichi:nagoya",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1765448856419-117073c63afb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxOYWdveWElMkMlMjBBaWNoaSUyQyUyMEphcGFuJTIwc2t5bGluZSUyMGNpdHl8ZW58MXwwfHx8MTc3NTU5Njk4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Flavio Mori",
+    "photographer_url": "https://unsplash.com/@flvision_?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/cityscape-at-dusk-with-illuminated-buildings-and-dramatic-sky-N1VE9j-l2qE?utm_source=freebase&utm_medium=referral"
   }
 ]
