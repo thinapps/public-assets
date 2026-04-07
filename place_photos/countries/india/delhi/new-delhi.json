@@ -1,9 +1,9 @@
 [
   {
     "place_id": "city:india:delhi:new_delhi",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1695667424131-a9680e0307ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxOZXclMjBEZWxoaSUyQyUyMERlbGhpJTJDJTIwSW5kaWElMjBza3lsaW5lJTIwY2l0eXxlbnwxfDB8fHwxNzc1NTg5NzEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Richard Khuptong",
+    "photographer_url": "https://unsplash.com/@richardkhuptong?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-city-street-filled-with-lots-of-traffic-next-to-tall-buildings-AyDBVDjnZ5Y?utm_source=freebase&utm_medium=referral"
   }
 ]
