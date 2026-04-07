@@ -21,7 +21,12 @@
     "city:canada:quebec:sherbrooke",
     "city:canada:quebec:trois_rivieres",
     "city:canada:saskatchewan:regina",
+    "city:czechia:moravian_silesian:ostrava",
+    "city:czechia:prague:prague",
+    "city:france:auvergne_rhone_alpes:lyon",
     "country:canada",
+    "country:czechia",
+    "country:france",
     "subdivision:canada:alberta",
     "subdivision:canada:british_columbia",
     "subdivision:canada:manitoba",
@@ -29,6 +34,11 @@
     "subdivision:canada:nova_scotia",
     "subdivision:canada:ontario",
     "subdivision:canada:quebec",
-    "subdivision:canada:saskatchewan"
+    "subdivision:canada:saskatchewan",
+    "subdivision:czechia:moravian_silesian",
+    "subdivision:czechia:plzen",
+    "subdivision:czechia:prague",
+    "subdivision:france:auvergne_rhone_alpes",
+    "subdivision:france:ile_de_france"
   ]
 }
