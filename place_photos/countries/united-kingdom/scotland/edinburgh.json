@@ -1,9 +1,9 @@
 [
   {
     "place_id": "city:united_kingdom:scotland:edinburgh",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1751923214826-1853f301017a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxFZGluYnVyZ2glMkMlMjBTY290bGFuZCUyQyUyMFVuaXRlZCUyMEtpbmdkb20lMjBza3lsaW5lJTIwY2l0eXxlbnwxfDB8fHwxNzc1Njg1NjYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rob Wingate",
+    "photographer_url": "https://unsplash.com/@robwingate?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/edinburgh-scotland-skyline-at-dusk-Kbi4QIuI_7M?utm_source=freebase&utm_medium=referral"
   }
 ]

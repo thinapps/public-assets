@@ -82,6 +82,15 @@
     "city:united_arab_emirates:dubai:dubai",
     "city:united_arab_emirates:sharjah:sharjah",
     "city:united_kingdom:england:birmingham",
+    "city:united_kingdom:england:london",
+    "city:united_kingdom:england:manchester",
+    "city:united_kingdom:scotland:edinburgh",
+    "city:united_states:california:los_angeles",
+    "city:united_states:california:san_diego",
+    "city:united_states:california:san_francisco",
+    "city:united_states:florida:miami",
+    "city:united_states:illinois:chicago",
+    "city:united_states:massachusetts:boston",
     "country:canada",
     "country:czechia",
     "country:france",
@@ -104,6 +113,7 @@
     "country:thailand",
     "country:united_arab_emirates",
     "country:united_kingdom",
+    "country:united_states",
     "subdivision:canada:alberta",
     "subdivision:canada:british_columbia",
     "subdivision:canada:manitoba",
@@ -179,6 +189,11 @@
     "subdivision:united_arab_emirates:abu_dhabi",
     "subdivision:united_arab_emirates:dubai",
     "subdivision:united_arab_emirates:sharjah",
-    "subdivision:united_kingdom:england"
+    "subdivision:united_kingdom:england",
+    "subdivision:united_kingdom:scotland",
+    "subdivision:united_states:california",
+    "subdivision:united_states:florida",
+    "subdivision:united_states:illinois",
+    "subdivision:united_states:massachusetts"
   ]
 }
