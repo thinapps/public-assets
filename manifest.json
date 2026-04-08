@@ -75,6 +75,13 @@
     "city:taiwan:taipei_city:taipei",
     "city:thailand:bangkok:bangkok",
     "city:thailand:chiang_mai:chiang_mai",
+    "city:thailand:chon_buri:chon_buri",
+    "city:thailand:chon_buri:pattaya",
+    "city:thailand:phuket:phuket",
+    "city:united_arab_emirates:abu_dhabi:abu_dhabi",
+    "city:united_arab_emirates:dubai:dubai",
+    "city:united_arab_emirates:sharjah:sharjah",
+    "city:united_kingdom:england:birmingham",
     "country:canada",
     "country:czechia",
     "country:france",
@@ -95,6 +102,8 @@
     "country:spain",
     "country:taiwan",
     "country:thailand",
+    "country:united_arab_emirates",
+    "country:united_kingdom",
     "subdivision:canada:alberta",
     "subdivision:canada:british_columbia",
     "subdivision:canada:manitoba",
@@ -164,6 +173,12 @@
     "subdivision:taiwan:tainan",
     "subdivision:taiwan:taipei_city",
     "subdivision:thailand:bangkok",
-    "subdivision:thailand:chiang_mai"
+    "subdivision:thailand:chiang_mai",
+    "subdivision:thailand:chon_buri",
+    "subdivision:thailand:phuket",
+    "subdivision:united_arab_emirates:abu_dhabi",
+    "subdivision:united_arab_emirates:dubai",
+    "subdivision:united_arab_emirates:sharjah",
+    "subdivision:united_kingdom:england"
   ]
 }
