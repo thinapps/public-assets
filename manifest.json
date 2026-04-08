@@ -51,6 +51,12 @@
     "city:japan:osaka:osaka",
     "city:japan:tokyo:tokyo",
     "city:malaysia:kuala_lumpur:kuala_lumpur",
+    "city:malaysia:penang:penang",
+    "city:mexico:baja_california:tijuana",
+    "city:mexico:mexico_city:mexico_city",
+    "city:mexico:nuevo_leon:monterrey",
+    "city:netherlands:north_holland:amsterdam",
+    "city:netherlands:south_holland:rotterdam",
     "country:canada",
     "country:czechia",
     "country:france",
@@ -62,6 +68,8 @@
     "country:italy",
     "country:japan",
     "country:malaysia",
+    "country:mexico",
+    "country:netherlands",
     "subdivision:canada:alberta",
     "subdivision:canada:british_columbia",
     "subdivision:canada:manitoba",
@@ -104,6 +112,13 @@
     "subdivision:japan:tokyo",
     "subdivision:malaysia:johor",
     "subdivision:malaysia:kuala_lumpur",
-    "subdivision:malaysia:penang"
+    "subdivision:malaysia:penang",
+    "subdivision:malaysia:sabah",
+    "subdivision:mexico:baja_california",
+    "subdivision:mexico:jalisco",
+    "subdivision:mexico:mexico_city",
+    "subdivision:mexico:nuevo_leon",
+    "subdivision:netherlands:north_holland",
+    "subdivision:netherlands:south_holland"
   ]
 }
