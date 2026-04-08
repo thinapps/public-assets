@@ -63,6 +63,12 @@
     "city:portugal:faro:faro",
     "city:portugal:lisbon:lisbon",
     "city:portugal:porto:porto",
+    "city:singapore:singapore:singapore",
+    "city:south_korea:busan:busan",
+    "city:south_korea:seoul:seoul",
+    "city:spain:andalusia:malaga",
+    "city:spain:andalusia:seville",
+    "city:spain:catalonia:barcelona",
     "country:canada",
     "country:czechia",
     "country:france",
@@ -79,6 +85,8 @@
     "country:philippines",
     "country:portugal",
     "country:singapore",
+    "country:south_korea",
+    "country:spain",
     "subdivision:canada:alberta",
     "subdivision:canada:british_columbia",
     "subdivision:canada:manitoba",
@@ -134,6 +142,13 @@
     "subdivision:philippines:metro_manila",
     "subdivision:portugal:faro",
     "subdivision:portugal:lisbon",
-    "subdivision:portugal:porto"
+    "subdivision:portugal:porto",
+    "subdivision:singapore:singapore",
+    "subdivision:south_korea:busan",
+    "subdivision:south_korea:daegu",
+    "subdivision:south_korea:incheon",
+    "subdivision:south_korea:seoul",
+    "subdivision:spain:andalusia",
+    "subdivision:spain:catalonia"
   ]
 }
