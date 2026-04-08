@@ -69,6 +69,12 @@
     "city:spain:andalusia:malaga",
     "city:spain:andalusia:seville",
     "city:spain:catalonia:barcelona",
+    "city:spain:community_of_madrid:madrid",
+    "city:taiwan:kaohsiung:kaohsiung",
+    "city:taiwan:tainan:tainan",
+    "city:taiwan:taipei_city:taipei",
+    "city:thailand:bangkok:bangkok",
+    "city:thailand:chiang_mai:chiang_mai",
     "country:canada",
     "country:czechia",
     "country:france",
@@ -87,6 +93,8 @@
     "country:singapore",
     "country:south_korea",
     "country:spain",
+    "country:taiwan",
+    "country:thailand",
     "subdivision:canada:alberta",
     "subdivision:canada:british_columbia",
     "subdivision:canada:manitoba",
@@ -149,6 +157,13 @@
     "subdivision:south_korea:incheon",
     "subdivision:south_korea:seoul",
     "subdivision:spain:andalusia",
-    "subdivision:spain:catalonia"
+    "subdivision:spain:catalonia",
+    "subdivision:spain:community_of_madrid",
+    "subdivision:taiwan:kaohsiung",
+    "subdivision:taiwan:taichung",
+    "subdivision:taiwan:tainan",
+    "subdivision:taiwan:taipei_city",
+    "subdivision:thailand:bangkok",
+    "subdivision:thailand:chiang_mai"
   ]
 }
