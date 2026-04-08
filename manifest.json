@@ -57,6 +57,12 @@
     "city:mexico:nuevo_leon:monterrey",
     "city:netherlands:north_holland:amsterdam",
     "city:netherlands:south_holland:rotterdam",
+    "city:philippines:cebu:cebu",
+    "city:philippines:metro_manila:manila",
+    "city:portugal:faro:albufeira",
+    "city:portugal:faro:faro",
+    "city:portugal:lisbon:lisbon",
+    "city:portugal:porto:porto",
     "country:canada",
     "country:czechia",
     "country:france",
@@ -70,6 +76,9 @@
     "country:malaysia",
     "country:mexico",
     "country:netherlands",
+    "country:philippines",
+    "country:portugal",
+    "country:singapore",
     "subdivision:canada:alberta",
     "subdivision:canada:british_columbia",
     "subdivision:canada:manitoba",
@@ -119,6 +128,12 @@
     "subdivision:mexico:mexico_city",
     "subdivision:mexico:nuevo_leon",
     "subdivision:netherlands:north_holland",
-    "subdivision:netherlands:south_holland"
+    "subdivision:netherlands:south_holland",
+    "subdivision:netherlands:utrecht",
+    "subdivision:philippines:cebu",
+    "subdivision:philippines:metro_manila",
+    "subdivision:portugal:faro",
+    "subdivision:portugal:lisbon",
+    "subdivision:portugal:porto"
   ]
 }
