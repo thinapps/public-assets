@@ -122,6 +122,9 @@
     "country:united_kingdom",
     "country:united_states",
     "country:vietnam",
+    "region:asia",
+    "region:europe",
+    "region:north_america",
     "subdivision:canada:alberta",
     "subdivision:canada:british_columbia",
     "subdivision:canada:manitoba",
@@ -209,6 +212,7 @@
     "subdivision:vietnam:da_nang",
     "subdivision:vietnam:hai_phong",
     "subdivision:vietnam:hanoi",
-    "subdivision:vietnam:ho_chi_minh_city"
+    "subdivision:vietnam:ho_chi_minh_city",
+    "subdivision:vietnam:khanh_hoa"
   ]
 }
