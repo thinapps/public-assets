@@ -1,9 +1,9 @@
 [
   {
     "place_id": "city:united_states:washington:seattle",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1565053011557-13ee5743c660?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw2fHxTZWF0dGxlJTJDJTIwV2FzaGluZ3RvbiUyQyUyMFVuaXRlZCUyMFN0YXRlcyUyMHNreWxpbmUlMjBjaXR5fGVufDF8MHx8fDE3NzU2ODkzMDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "bill wegener",
+    "photographer_url": "https://unsplash.com/@wegenerb?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/seattle-buildings-under-blue-sky-WMPGzCaLRBI?utm_source=freebase&utm_medium=referral"
   }
 ]

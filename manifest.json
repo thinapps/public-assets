@@ -91,6 +91,13 @@
     "city:united_states:florida:miami",
     "city:united_states:illinois:chicago",
     "city:united_states:massachusetts:boston",
+    "city:united_states:new_york:new_york",
+    "city:united_states:texas:austin",
+    "city:united_states:washington:seattle",
+    "city:vietnam:da_nang:da_nang",
+    "city:vietnam:hai_phong:hai_phong",
+    "city:vietnam:hanoi:hanoi",
+    "city:vietnam:ho_chi_minh_city:ho_chi_minh_city",
     "country:canada",
     "country:czechia",
     "country:france",
@@ -114,6 +121,7 @@
     "country:united_arab_emirates",
     "country:united_kingdom",
     "country:united_states",
+    "country:vietnam",
     "subdivision:canada:alberta",
     "subdivision:canada:british_columbia",
     "subdivision:canada:manitoba",
@@ -194,6 +202,13 @@
     "subdivision:united_states:california",
     "subdivision:united_states:florida",
     "subdivision:united_states:illinois",
-    "subdivision:united_states:massachusetts"
+    "subdivision:united_states:massachusetts",
+    "subdivision:united_states:new_york",
+    "subdivision:united_states:texas",
+    "subdivision:united_states:washington",
+    "subdivision:vietnam:da_nang",
+    "subdivision:vietnam:hai_phong",
+    "subdivision:vietnam:hanoi",
+    "subdivision:vietnam:ho_chi_minh_city"
   ]
 }
