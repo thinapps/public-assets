@@ -47,6 +47,10 @@
     "city:italy:piedmont:turin",
     "city:japan:aichi:nagoya",
     "city:japan:kanagawa:yokohama",
+    "city:japan:kyoto:kyoto",
+    "city:japan:osaka:osaka",
+    "city:japan:tokyo:tokyo",
+    "city:malaysia:kuala_lumpur:kuala_lumpur",
     "country:canada",
     "country:czechia",
     "country:france",
@@ -57,6 +61,7 @@
     "country:ireland",
     "country:italy",
     "country:japan",
+    "country:malaysia",
     "subdivision:canada:alberta",
     "subdivision:canada:british_columbia",
     "subdivision:canada:manitoba",
@@ -94,6 +99,11 @@
     "subdivision:italy:piedmont",
     "subdivision:japan:aichi",
     "subdivision:japan:kanagawa",
-    "subdivision:japan:kyoto"
+    "subdivision:japan:kyoto",
+    "subdivision:japan:osaka",
+    "subdivision:japan:tokyo",
+    "subdivision:malaysia:johor",
+    "subdivision:malaysia:kuala_lumpur",
+    "subdivision:malaysia:penang"
   ]
 }
