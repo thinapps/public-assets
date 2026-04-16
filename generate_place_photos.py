@@ -32,7 +32,7 @@ def parse_args() -> argparse.Namespace:
 
     # max number of entries to fill in one run
     # use 0 for no limit
-    parser.add_argument("--limit", type=int, default=15)
+    parser.add_argument("--limit", type=int, default=10)
 
     # number of unsplash results to fetch before picking the best one
     # higher values can improve quality a bit, but also use more response payload
