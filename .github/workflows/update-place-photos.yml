@@ -8,7 +8,7 @@ on:
         # set to 0 if you want to let the script keep going until filters are exhausted
         description: how many missing entries to fill this run, 0 means no limit
         required: false
-        default: "15"
+        default: "10"
       overwrite:
         # false is the safer default because it only fills blank image slots
         # switch to true later if you want to refresh already-populated files too
@@ -34,8 +34,8 @@ on:
         required: false
         default: ""
   schedule:
-    # hourly autopilot run
-    - cron: "17 * * * *"
+    # autopilot run every 3 hours
+    - cron: "17 */3 * * *"
 
 # the workflow only needs permission to commit data back into this repo
 permissions:
@@ -85,7 +85,7 @@ jobs:
           # most admins will only tweak these flags from the actions ui
           # the python script handles the actual search, update, and version bump logic
           python generate_place_photos.py \
-            --limit "${{ inputs.limit || '15' }}" \
+            --limit "${{ inputs.limit || '10' }}" \
             ${OVERWRITE_FLAG} \
             --path-contains "${{ inputs.path_contains || '' }}" \
             --place-id-contains "${{ inputs.place_id_contains || '' }}" \
