@@ -1,9 +1,9 @@
 [
   {
     "place_id": "city:canada:alberta:red_deer",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1644688271627-3bc024874fa2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxSZWQlMjBEZWVyJTJDJTIwQWxiZXJ0YXxlbnwxfDB8fHwxNzc2NDA3ODA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Anthony Manalili",
+    "photographer_url": "https://unsplash.com/@iasman?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-pile-of-hay-sitting-on-top-of-a-dry-grass-field-7f7EHG6VLAY?utm_source=freebase&utm_medium=referral"
   }
 ]
