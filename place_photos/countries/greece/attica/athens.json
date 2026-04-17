@@ -1,9 +1,9 @@
 [
   {
     "place_id": "city:greece:attica:athens",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1622616235730-dcd590f44a39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxBdGhlbnMlMkMlMjBBdHRpY2ElMkMlMjBHcmVlY2V8ZW58MXwwfHx8MTc3NjQzNDM5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Datingscout",
+    "photographer_url": "https://unsplash.com/@datingscout?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-near-brown-rock-formation-during-daytime-DyYt8Ef6Qq8?utm_source=freebase&utm_medium=referral"
   }
 ]

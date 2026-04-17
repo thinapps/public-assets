@@ -1,9 +1,9 @@
 [
   {
     "place_id": "city:greece:central_macedonia:thessaloniki",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1640773970628-ddd3040b1b32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxUaGVzc2Fsb25pa2klMkMlMjBHcmVlY2V8ZW58MXwwfHx8MTc3NjQzNDQwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Teo Zac",
+    "photographer_url": "https://unsplash.com/@teo?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-tree-next-to-a-body-of-water-vc7-5Se2rUE?utm_source=freebase&utm_medium=referral"
   }
 ]

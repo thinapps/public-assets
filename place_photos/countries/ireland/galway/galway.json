@@ -1,9 +1,9 @@
 [
   {
     "place_id": "city:ireland:galway:galway",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1692804239075-4d4dc0cd565b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxHYWx3YXklMkMlMjBJcmVsYW5kfGVufDF8MHx8fDE3NzY0MzQ0MDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Daniel Zbroja",
+    "photographer_url": "https://unsplash.com/@danzbroja?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-river-running-through-a-city-at-night-C-VJl12EhCM?utm_source=freebase&utm_medium=referral"
   }
 ]
