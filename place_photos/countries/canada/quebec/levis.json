@@ -1,9 +1,9 @@
 [
   {
     "place_id": "city:canada:quebec:levis",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1719227762841-70aa7efe450c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMZXZpcyUyQyUyMFF1ZWJlYyUyQyUyMENhbmFkYXxlbnwxfDB8fHwxNzc2NDIyMTg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Pascal Bernardon",
+    "photographer_url": "https://unsplash.com/@pbernardon?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-sign-that-says-bonjou-in-front-of-a-city-KrTBLjUyv0c?utm_source=freebase&utm_medium=referral"
   }
 ]
