@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: how many photo entries to update this run, 0 means no limit
+        description: max entries to attempt this run 0 means no limit
         required: false
         default: "10"
       overwrite:
@@ -27,11 +27,11 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      # check out the latest repo state for this run
+      # check out the exact repo state for this run
       - name: checkout repo
         uses: actions/checkout@v6
 
-      # keep python version pinned for stable behavior
+      # keep python pinned for stable behavior
       - name: set up python
         uses: actions/setup-python@v6
         with:
@@ -48,21 +48,21 @@ jobs:
           fi
 
           OVERWRITE_FLAG=""
-          if [[ "${{ inputs.overwrite }}" == "true" ]]; then
+          if [[ "${{ github.event.inputs.overwrite || 'false' }}" == "true" ]]; then
             OVERWRITE_FLAG="--overwrite"
           fi
 
           python generate_place_photos.py \
-            --limit "${{ inputs.limit || '10' }}" \
+            --limit "${{ github.event.inputs.limit || '10' }}" \
             ${OVERWRITE_FLAG}
 
-      # only commit if place files or metadata actually changed
+      # only commit if files actually changed
       - name: commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add version.json manifest.json place_photos
+          git add manifest.json version.json place_photos
 
           if git diff --cached --quiet; then
             echo "no changes to commit"
