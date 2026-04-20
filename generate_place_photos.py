@@ -5,60 +5,33 @@ import os
 import re
 import sys
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 from urllib import error, parse, request
 
-# unsplash api base for search requests
 UNSPLASH_API_BASE = "https://api.unsplash.com"
-
-# unsplash wants attribution links to include your app or source info
-# these can stay hardcoded, or an admin can override them with env settings later
 UTM_SOURCE = os.environ.get("UNSPLASH_UTM_SOURCE", "freebase")
 UTM_MEDIUM = os.environ.get("UNSPLASH_UTM_MEDIUM", "referral")
-
-# default repo paths
-# this script assumes it lives at the repo root next to version.json and place_photos
 DEFAULT_ROOT = Path(__file__).resolve().parent
 PLACE_PHOTOS_DIR = DEFAULT_ROOT / "place_photos"
+DEFAULT_LIMIT = 10
+DEFAULT_PER_PAGE = 3
+DEFAULT_PAUSE = 1.25
+DEFAULT_ORIENTATION = "landscape"
+DEFAULT_CONTENT_FILTER = "high"
+DEFAULT_CITY_QUERY_SUFFIX = ""
+DEFAULT_SUBDIVISION_QUERY_SUFFIX = "travel"
+DEFAULT_COUNTRY_QUERY_SUFFIX = "travel"
+DEFAULT_REGION_QUERY_SUFFIX = "travel"
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-
-    # repo root to operate on
-    # most admins will never change this unless they test against another checkout path
     parser.add_argument("--root", default=str(DEFAULT_ROOT))
-
-    # max number of entries to fill in one run
-    # use 0 for no limit
-    parser.add_argument("--limit", type=int, default=10)
-
-    # number of unsplash results to fetch before picking the best one
-    # keep this low so the script stays lightweight while still allowing simple tie-breaking
-    parser.add_argument("--per-page", type=int, default=3)
-
-    # sleep between successful requests
-    # helpful for being a little gentler on the api during larger runs
-    parser.add_argument("--pause", type=float, default=1.25)
-
-    # when false, only blank image_url entries are filled
-    # when true, already-populated entries can be replaced
+    parser.add_argument("--limit", type=int, default=DEFAULT_LIMIT)
     parser.add_argument("--overwrite", action="store_true")
-
-    # preview changes without writing files
     parser.add_argument("--dry-run", action="store_true")
-
-    # optional path filter, usually used from the actions ui
-    parser.add_argument("--path-contains", default="")
-
-    # optional machine-id filter, usually used from the actions ui
-    parser.add_argument("--place-id-contains", default="")
-
-    # optional manual suffix to steer search results
-    # blank is usually best because the script now uses structured fallback queries by default
-    parser.add_argument("--query-suffix", default="")
-
     return parser.parse_args()
 
 
@@ -80,7 +53,6 @@ def slug_to_label(value: str) -> str:
 
 
 def append_referral(url: str) -> str:
-    # keep blank urls blank instead of generating malformed referral links
     if not url:
         return ""
 
@@ -94,8 +66,6 @@ def append_referral(url: str) -> str:
 
 
 def infer_location_from_path(file_path: Path) -> Tuple[str, Optional[str], Optional[str]]:
-    # infer clean display/query labels from folder structure
-    # this is used only for query building, not for changing machine ids or file paths
     rel = file_path.relative_to(PLACE_PHOTOS_DIR)
     parts = rel.parts
     if not parts:
@@ -107,16 +77,13 @@ def infer_location_from_path(file_path: Path) -> Tuple[str, Optional[str], Optio
     if parts[0] == "countries":
         country = slug_to_label(parts[1]) if len(parts) > 1 else None
 
-        # country-level metadata files use names like _japan.json
         if len(parts) == 3 and parts[2].startswith("_"):
             return (country or "Location", None, country)
 
-        # subdivision-level metadata files use names like ontario/_ontario.json
         if len(parts) == 4 and parts[3].startswith("_"):
             subdivision = slug_to_label(parts[2])
             return (f"{subdivision}, {country}", subdivision, country)
 
-        # city files use names like ontario/toronto.json
         if len(parts) >= 4 and not parts[-1].startswith("_"):
             city = slug_to_label(parts[-1].replace(".json", ""))
             subdivision = slug_to_label(parts[-2])
@@ -130,8 +97,6 @@ def infer_location_from_path(file_path: Path) -> Tuple[str, Optional[str], Optio
 
 
 def infer_query_parts(place_id: str, file_path: Path) -> Tuple[str, Optional[str], Optional[str]]:
-    # build the cleanest base labels we can from place_id first
-    # then reconcile with path-derived labels when needed
     if place_id.startswith("region:"):
         region = slug_to_label(place_id.split(":", 1)[1])
         base = region
@@ -175,43 +140,26 @@ def infer_query_parts(place_id: str, file_path: Path) -> Tuple[str, Optional[str
         return infer_location_from_path(file_path)
 
     path_base, path_part_one, path_part_two = infer_location_from_path(file_path)
-
-    # prefer the cleaner path-derived label when it disagrees with the raw place_id-derived one
-    # this helps smooth over awkward machine-id patterns without editing ids
     if base != path_base:
         return (path_base, path_part_one, path_part_two)
 
     return (base, part_one, part_two)
 
 
-def build_search_queries(place_id: str, file_path: Path, query_suffix: str) -> List[str]:
-    base, part_one, part_two = infer_query_parts(place_id, file_path)
-    suffix = query_suffix.strip()
+def add_suffix(query: str, suffix: str) -> str:
+    query = query.strip().strip(",")
+    suffix = suffix.strip()
+    if suffix:
+        return f"{query} {suffix}".strip()
+    return query
 
-    queries: List[str] = []
 
-    if place_id.startswith("city:") and part_one and part_two:
-        country = None
-        parts = [part.strip() for part in base.split(",") if part.strip()]
-        if len(parts) >= 2:
-            country = parts[-1]
-
-        queries.append(base)
-        queries.append(f"{part_one}, {part_two}")
-
-        if country and country.lower() != part_two.lower():
-            queries.append(f"{part_one}, {country}")
-    else:
-        queries.append(base)
-
+def dedupe_queries(queries: List[str]) -> List[str]:
     normalized_queries: List[str] = []
     seen = set()
 
     for query in queries:
         query = query.strip().strip(",")
-        if suffix:
-            query = f"{query} {suffix}".strip()
-
         key = query.lower()
         if query and key not in seen:
             normalized_queries.append(query)
@@ -220,8 +168,44 @@ def build_search_queries(place_id: str, file_path: Path, query_suffix: str) -> L
     return normalized_queries
 
 
+def build_search_queries(place_id: str, file_path: Path) -> List[str]:
+    base, part_one, part_two = infer_query_parts(place_id, file_path)
+
+    if place_id.startswith("city:") and part_one and part_two:
+        queries = [base, f"{part_one}, {part_two}"]
+        parts = [part.strip() for part in base.split(",") if part.strip()]
+        if len(parts) >= 2:
+            country = parts[-1]
+            if country.lower() != part_two.lower():
+                queries.append(f"{part_one}, {country}")
+
+        if DEFAULT_CITY_QUERY_SUFFIX:
+            queries.append(add_suffix(base, DEFAULT_CITY_QUERY_SUFFIX))
+
+        return dedupe_queries(queries)
+
+    if place_id.startswith("subdivision:"):
+        return dedupe_queries([
+            base,
+            add_suffix(base, DEFAULT_SUBDIVISION_QUERY_SUFFIX),
+        ])
+
+    if place_id.startswith("country:"):
+        return dedupe_queries([
+            base,
+            add_suffix(base, DEFAULT_COUNTRY_QUERY_SUFFIX),
+        ])
+
+    if place_id.startswith("region:"):
+        return dedupe_queries([
+            base,
+            add_suffix(base, DEFAULT_REGION_QUERY_SUFFIX),
+        ])
+
+    return dedupe_queries([base])
+
+
 def unsplash_get(access_key: str, endpoint: str, params: Dict[str, Any]) -> Dict[str, Any]:
-    # make one unsplash api request and return the decoded json response
     query = parse.urlencode({key: value for key, value in params.items() if value not in (None, "")})
     url = f"{UNSPLASH_API_BASE}{endpoint}?{query}"
     req = request.Request(url)
@@ -231,16 +215,16 @@ def unsplash_get(access_key: str, endpoint: str, params: Dict[str, Any]) -> Dict
         return json.loads(response.read().decode("utf-8"))
 
 
-def fetch_unsplash_results(access_key: str, query: str, per_page: int) -> List[Dict[str, Any]]:
+def fetch_unsplash_results(access_key: str, query: str) -> List[Dict[str, Any]]:
     payload = unsplash_get(
         access_key,
         "/search/photos",
         {
             "query": query,
             "page": 1,
-            "per_page": per_page,
-            "orientation": "landscape",
-            "content_filter": "high",
+            "per_page": DEFAULT_PER_PAGE,
+            "orientation": DEFAULT_ORIENTATION,
+            "content_filter": DEFAULT_CONTENT_FILTER,
         },
     )
     return payload.get("results", [])
@@ -250,7 +234,6 @@ def choose_best_photo(results: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]
     if not results:
         return None
 
-    # prefer larger images first, then use likes as a rough quality tie-breaker
     candidates = sorted(
         results,
         key=lambda item: (
@@ -262,12 +245,12 @@ def choose_best_photo(results: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]
     return candidates[0]
 
 
-def resolve_photo(access_key: str, queries: List[str], per_page: int) -> Tuple[Optional[Dict[str, Any]], List[str]]:
+def resolve_photo(access_key: str, queries: List[str]) -> Tuple[Optional[Dict[str, Any]], List[str]]:
     tried_queries: List[str] = []
 
     for query in queries:
         tried_queries.append(query)
-        results = fetch_unsplash_results(access_key, query, per_page)
+        results = fetch_unsplash_results(access_key, query)
         photo = choose_best_photo(results)
         if photo:
             return (photo, tried_queries)
@@ -275,21 +258,34 @@ def resolve_photo(access_key: str, queries: List[str], per_page: int) -> Tuple[O
     return (None, tried_queries)
 
 
+def utc_now_iso() -> str:
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+def parse_cached_at(value: str) -> float:
+    value = str(value or "").strip()
+    if not value:
+        return 0.0
+
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00")).timestamp()
+    except ValueError:
+        return 0.0
+
+
 def normalize_photo_entry(entry: Dict[str, Any]) -> Dict[str, Any]:
-    # preserve place_id but force every object into the canonical 5-field schema
-    # this keeps placeholder files and filled files structurally consistent
     normalized = {
         "place_id": entry.get("place_id", ""),
         "image_url": entry.get("image_url", ""),
         "photographer_name": entry.get("photographer_name", ""),
         "photographer_url": entry.get("photographer_url", ""),
         "source_url": entry.get("source_url", ""),
+        "cached_at": entry.get("cached_at", ""),
     }
     return normalized
 
 
 def build_photo_entry(existing: Dict[str, Any], photo: Dict[str, Any]) -> Dict[str, Any]:
-    # start from a normalized entry so field order and blanks stay consistent
     updated = normalize_photo_entry(existing)
     updated.update(
         {
@@ -297,30 +293,10 @@ def build_photo_entry(existing: Dict[str, Any], photo: Dict[str, Any]) -> Dict[s
             "photographer_name": photo.get("user", {}).get("name", ""),
             "photographer_url": append_referral(photo.get("user", {}).get("links", {}).get("html", "")),
             "source_url": append_referral(photo.get("links", {}).get("html", "")),
+            "cached_at": utc_now_iso(),
         }
     )
     return updated
-
-
-def should_process(entry: Dict[str, Any], args: argparse.Namespace) -> bool:
-    place_id = entry.get("place_id", "")
-
-    # optional machine-id filter from the workflow
-    if args.place_id_contains and args.place_id_contains.lower() not in place_id.lower():
-        return False
-
-    # safer default behavior is to only fill blank image slots
-    if not args.overwrite and entry.get("image_url"):
-        return False
-
-    return True
-
-
-def iter_photo_files(root: Path) -> List[Path]:
-    files = sorted((root / "place_photos").rglob("*.json"))
-    if not files:
-        raise RuntimeError("no place_photos json files found")
-    return files
 
 
 def is_valid_photo_entry(entry: Dict[str, Any]) -> bool:
@@ -351,6 +327,13 @@ def is_valid_photo_entry(entry: Dict[str, Any]) -> bool:
     return True
 
 
+def iter_photo_files(root: Path) -> List[Path]:
+    files = sorted((root / "place_photos").rglob("*.json"))
+    if not files:
+        raise RuntimeError("no place_photos json files found")
+    return files
+
+
 def update_manifest_file(root: Path, dry_run: bool) -> None:
     manifest_path = root / "manifest.json"
     place_ids = []
@@ -377,8 +360,6 @@ def update_manifest_file(root: Path, dry_run: bool) -> None:
 
 
 def update_version_file(root: Path, dry_run: bool) -> None:
-    # this repo uses a very simple integer version file
-    # bump it only when at least one file was actually changed
     version_path = root / "version.json"
     if not version_path.exists():
         return
@@ -403,10 +384,137 @@ def update_version_file(root: Path, dry_run: bool) -> None:
     print(f"bumped {version_path} to version={payload['version']}")
 
 
+def normalize_all_files(root: Path, dry_run: bool) -> int:
+    changed_files = 0
+
+    for file_path in iter_photo_files(root):
+        rel = file_path.relative_to(root).as_posix()
+        payload = load_json(file_path)
+        if not isinstance(payload, list):
+            print(f"[WARN] skip non-list json: {rel}")
+            continue
+
+        normalized_payload = []
+        file_changed = False
+
+        for entry in payload:
+            if not isinstance(entry, dict):
+                normalized_payload.append(entry)
+                continue
+
+            normalized_entry = normalize_photo_entry(entry)
+            normalized_payload.append(normalized_entry)
+            if normalized_entry != entry:
+                file_changed = True
+
+        if file_changed:
+            changed_files += 1
+            if dry_run:
+                print(f"would normalize {rel}")
+            else:
+                save_json(file_path, normalized_payload)
+                print(f"normalized {rel}")
+
+    return changed_files
+
+
+def build_candidates(root: Path, overwrite: bool) -> List[Dict[str, Any]]:
+    blank_candidates: List[Dict[str, Any]] = []
+    filled_candidates: List[Dict[str, Any]] = []
+
+    for file_path in iter_photo_files(root):
+        payload = load_json(file_path)
+        if not isinstance(payload, list):
+            continue
+
+        for index, entry in enumerate(payload):
+            if not isinstance(entry, dict):
+                continue
+
+            normalized_entry = normalize_photo_entry(entry)
+            place_id = str(normalized_entry.get("place_id", "")).strip()
+            if not place_id:
+                continue
+
+            image_url = str(normalized_entry.get("image_url", "")).strip()
+            candidate = {
+                "file_path": file_path,
+                "index": index,
+                "place_id": place_id,
+                "has_photo": bool(image_url),
+                "cached_at": str(normalized_entry.get("cached_at", "")).strip(),
+            }
+
+            if image_url:
+                filled_candidates.append(candidate)
+            else:
+                blank_candidates.append(candidate)
+
+    blank_candidates.sort(key=lambda item: (item["file_path"].as_posix(), item["index"]))
+    filled_candidates.sort(key=lambda item: (parse_cached_at(item["cached_at"]), item["file_path"].as_posix(), item["index"]))
+
+    if overwrite:
+        return filled_candidates + blank_candidates
+
+    return blank_candidates
+
+
+def process_candidate(root: Path, candidate: Dict[str, Any], access_key: str, dry_run: bool) -> Tuple[bool, bool]:
+    file_path = candidate["file_path"]
+    index = candidate["index"]
+    rel = file_path.relative_to(root).as_posix()
+    payload = load_json(file_path)
+    if not isinstance(payload, list):
+        print(f"[WARN] skip non-list json: {rel}")
+        return (False, False)
+
+    if index >= len(payload) or not isinstance(payload[index], dict):
+        print(f"[WARN] skip missing entry: {rel} [{index}]")
+        return (False, False)
+
+    entry = normalize_photo_entry(payload[index])
+    place_id = entry.get("place_id", "")
+    if not place_id:
+        print(f"[WARN] skip missing place_id: {rel} [{index}]")
+        return (False, False)
+
+    queries = build_search_queries(place_id, file_path)
+    print(f"[INFO] search {place_id} -> {' | '.join(queries)}")
+
+    try:
+        photo, tried_queries = resolve_photo(access_key, queries)
+    except error.HTTPError as exc:
+        body = exc.read().decode("utf-8", errors="replace")
+        print(f"[ERROR] api failure for {place_id}: {exc.code} {body}", file=sys.stderr)
+        if exc.code == 429:
+            return (False, True)
+        raise
+    except error.URLError as exc:
+        print(f"[ERROR] network failure for {place_id}: {exc}", file=sys.stderr)
+        raise
+
+    if not photo:
+        print(f"[WARN] no results for {place_id} -> tried: {' | '.join(tried_queries)}")
+        return (False, False)
+
+    updated_entry = build_photo_entry(entry, photo)
+    if updated_entry == entry:
+        return (False, False)
+
+    payload[index] = updated_entry
+
+    if dry_run:
+        print(f"would update {rel}")
+    else:
+        save_json(file_path, payload)
+        print(f"updated {rel}")
+
+    print(f"[INFO] found photo for {place_id} -> {tried_queries[-1]}")
+    return (True, False)
+
+
 def main() -> int:
     args = parse_args()
-
-    # repo secret must be present before any api work can happen
     access_key = os.environ.get("UNSPLASH_ACCESS_KEY", "").strip()
     if not access_key:
         print("missing UNSPLASH_ACCESS_KEY", file=sys.stderr)
@@ -416,84 +524,27 @@ def main() -> int:
     global PLACE_PHOTOS_DIR
     PLACE_PHOTOS_DIR = root / "place_photos"
 
+    changed_files = normalize_all_files(root, dry_run=args.dry_run)
     processed = 0
-    changed_files = 0
-    files = iter_photo_files(root)
+    stop_cleanly = False
+    candidates = build_candidates(root, overwrite=args.overwrite)
 
-    for file_path in files:
-        rel = file_path.relative_to(root).as_posix()
+    for candidate in candidates:
+        try:
+            changed, should_stop = process_candidate(root, candidate, access_key, args.dry_run)
+        except Exception as exc:
+            print(f"[ERROR] unexpected failure for {candidate['place_id']}: {exc}", file=sys.stderr)
+            return 1
 
-        # optional path filter from the workflow, usually the easiest way to target a country subtree
-        if args.path_contains and args.path_contains.lower() not in rel.lower():
-            continue
-
-        payload = load_json(file_path)
-        if not isinstance(payload, list):
-            print(f"[WARN] skip non-list json: {rel}")
-            continue
-
-        file_changed = False
-        for index, entry in enumerate(payload):
-            if not isinstance(entry, dict):
-                continue
-
-            # normalize every object we touch so structure stays consistent across the repo
-            normalized_entry = normalize_photo_entry(entry)
-            if normalized_entry != entry:
-                payload[index] = normalized_entry
-                file_changed = True
-            entry = normalized_entry
-
-            if not should_process(entry, args):
-                continue
-
-            place_id = entry.get("place_id", "")
-            if not place_id:
-                print(f"[WARN] skip missing place_id: {rel} [{index}]")
-                continue
-
-            queries = build_search_queries(place_id, file_path, args.query_suffix)
-            print(f"[INFO] search {place_id} -> {' | '.join(queries)}")
-
-            try:
-                photo, tried_queries = resolve_photo(access_key, queries, args.per_page)
-            except error.HTTPError as exc:
-                body = exc.read().decode("utf-8", errors="replace")
-                print(f"[ERROR] api failure for {place_id}: {exc.code} {body}", file=sys.stderr)
-                if exc.code == 429:
-                    return 0
-                return 1
-            except error.URLError as exc:
-                print(f"[ERROR] network failure for {place_id}: {exc}", file=sys.stderr)
-                return 1
-            except Exception as exc:
-                print(f"[ERROR] unexpected failure for {place_id}: {exc}", file=sys.stderr)
-                return 1
-
-            if not photo:
-                print(f"[WARN] no results for {place_id} -> tried: {' | '.join(tried_queries)}")
-                continue
-
-            updated_entry = build_photo_entry(entry, photo)
-            if updated_entry != entry:
-                payload[index] = updated_entry
-                file_changed = True
-                processed += 1
-                print(f"[INFO] found photo for {place_id} -> {tried_queries[-1]}")
-
-            if args.limit and processed >= args.limit:
-                break
-
-            if args.pause > 0:
-                time.sleep(args.pause)
-
-        if file_changed:
+        if changed:
             changed_files += 1
-            if args.dry_run:
-                print(f"would update {rel}")
-            else:
-                save_json(file_path, payload)
-                print(f"updated {rel}")
+            processed += 1
+            if DEFAULT_PAUSE > 0:
+                time.sleep(DEFAULT_PAUSE)
+
+        if should_stop:
+            stop_cleanly = True
+            break
 
         if args.limit and processed >= args.limit:
             break
@@ -503,7 +554,11 @@ def main() -> int:
     if changed_files:
         update_version_file(root, dry_run=args.dry_run)
 
-    print(f"processed_entries={processed} changed_files={changed_files}")
+    print(f"eligible_candidates={len(candidates)} processed_entries={processed} changed_files={changed_files}")
+
+    if stop_cleanly:
+        return 0
+
     return 0
 
 
