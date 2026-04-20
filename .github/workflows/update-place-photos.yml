@@ -27,14 +27,17 @@ jobs:
     timeout-minutes: 15
 
     steps:
+      # check out the latest repo state for this run
       - name: checkout repo
         uses: actions/checkout@v6
 
+      # keep python version pinned for stable behavior
       - name: set up python
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
+      # run the updater with only the two inputs we actually need
       - name: run updater
         env:
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
@@ -53,6 +56,7 @@ jobs:
             --limit "${{ inputs.limit || '10' }}" \
             ${OVERWRITE_FLAG}
 
+      # only commit if place files or metadata actually changed
       - name: commit changes
         run: |
           git config user.name "github-actions[bot]"
