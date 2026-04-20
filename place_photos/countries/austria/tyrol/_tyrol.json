@@ -1,9 +1,10 @@
 [
   {
     "place_id": "subdivision:austria:tyrol",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1598285661018-0ecd83bef80c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxUeXJvbCUyQyUyMEF1c3RyaWF8ZW58MXwwfHx8MTc3NjcxNTQzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jonas Tebbe",
+    "photographer_url": "https://unsplash.com/@jonastebbe?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-mountain-under-white-clouds-during-daytime-SE_eVebrPbM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-20T20:03:55Z"
   }
 ]

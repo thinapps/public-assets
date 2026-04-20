@@ -1,9 +1,10 @@
 [
   {
     "place_id": "city:austria:vienna:vienna",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1615483672771-466423e1b511?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxWaWVubmElMkMlMjBBdXN0cmlhfGVufDF8MHx8fDE3NzY3MTU0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Peter Oertel",
+    "photographer_url": "https://unsplash.com/@pakro?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-horse-with-carriage-on-road-near-building-during-daytime-mMQc9h390G8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-20T20:03:59Z"
   }
 ]

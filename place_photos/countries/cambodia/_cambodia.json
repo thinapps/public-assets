@@ -1,9 +1,10 @@
 [
   {
     "place_id": "country:cambodia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1599283787923-51b965a58b05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDYW1ib2RpYXxlbnwxfDB8fHwxNzc2NzE1NDQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "allPhoto Bangkok",
+    "photographer_url": "https://unsplash.com/@allphotobangkok?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/people-walking-on-park-near-trees-and-building-during-daytime-gt3gK_Wob2g?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-20T20:04:01Z"
   }
 ]

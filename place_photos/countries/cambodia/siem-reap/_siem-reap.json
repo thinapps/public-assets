@@ -1,9 +1,10 @@
 [
   {
     "place_id": "subdivision:cambodia:siem_reap",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1650777697569-6c57268a5800?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTaWVtJTIwUmVhcCUyQyUyMENhbWJvZGlhfGVufDF8MHx8fDE3NzY3MTU0NDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Pech Visoth",
+    "photographer_url": "https://unsplash.com/@pechvisoth?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-person-sitting-at-a-table-outside-a-building-u3lza0vaHXA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-20T20:04:08Z"
   }
 ]
