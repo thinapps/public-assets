@@ -46,12 +46,14 @@ def save_json(path: Path, data: Any) -> None:
         handle.write("\n")
 
 
+# convert repo slugs into cleaner search labels
 def slug_to_label(value: str) -> str:
     value = value.strip().replace("_", " ").replace("-", " ")
     value = re.sub(r"\s+", " ", value)
     return value.title()
 
 
+# keep referral params consistent on unsplash links
 def append_referral(url: str) -> str:
     if not url:
         return ""
@@ -65,6 +67,7 @@ def append_referral(url: str) -> str:
     return parse.urlunsplit((parsed.scheme, parsed.netloc, parsed.path, query, parsed.fragment))
 
 
+# infer clean labels from the file path as a fallback source of truth
 def infer_location_from_path(file_path: Path) -> Tuple[str, Optional[str], Optional[str]]:
     rel = file_path.relative_to(PLACE_PHOTOS_DIR)
     parts = rel.parts
@@ -96,6 +99,7 @@ def infer_location_from_path(file_path: Path) -> Tuple[str, Optional[str], Optio
     return (slug_to_label(file_path.stem), None, None)
 
 
+# prefer place_id, but fall back to the path if ids and paths ever disagree
 def infer_query_parts(place_id: str, file_path: Path) -> Tuple[str, Optional[str], Optional[str]]:
     if place_id.startswith("region:"):
         region = slug_to_label(place_id.split(":", 1)[1])
@@ -154,6 +158,7 @@ def add_suffix(query: str, suffix: str) -> str:
     return query
 
 
+# avoid retrying the same query string twice
 def dedupe_queries(queries: List[str]) -> List[str]:
     normalized_queries: List[str] = []
     seen = set()
@@ -168,6 +173,7 @@ def dedupe_queries(queries: List[str]) -> List[str]:
     return normalized_queries
 
 
+# keep search logic simple and place-type aware
 def build_search_queries(place_id: str, file_path: Path) -> List[str]:
     base, part_one, part_two = infer_query_parts(place_id, file_path)
 
@@ -215,6 +221,7 @@ def unsplash_get(access_key: str, endpoint: str, params: Dict[str, Any]) -> Dict
         return json.loads(response.read().decode("utf-8"))
 
 
+# fetch a small candidate set to keep api usage light
 def fetch_unsplash_results(access_key: str, query: str) -> List[Dict[str, Any]]:
     payload = unsplash_get(
         access_key,
@@ -230,6 +237,7 @@ def fetch_unsplash_results(access_key: str, query: str) -> List[Dict[str, Any]]:
     return payload.get("results", [])
 
 
+# prefer larger images, then likes, for a stable best pick
 def choose_best_photo(results: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
     if not results:
         return None
@@ -245,6 +253,7 @@ def choose_best_photo(results: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]
     return candidates[0]
 
 
+# try queries in order until one returns a usable photo
 def resolve_photo(access_key: str, queries: List[str]) -> Tuple[Optional[Dict[str, Any]], List[str]]:
     tried_queries: List[str] = []
 
@@ -262,6 +271,7 @@ def utc_now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
+# parse timestamps so overwrite mode can refresh oldest items first
 def parse_cached_at(value: str) -> float:
     value = str(value or "").strip()
     if not value:
@@ -272,6 +282,8 @@ def parse_cached_at(value: str) -> float:
     except ValueError:
         return 0.0
 
+
+# normalize entry keys so every file follows the same schema
 
 def normalize_photo_entry(entry: Dict[str, Any]) -> Dict[str, Any]:
     normalized = {
@@ -285,6 +297,7 @@ def normalize_photo_entry(entry: Dict[str, Any]) -> Dict[str, Any]:
     return normalized
 
 
+# keep old place_id and only refresh the photo-specific fields
 def build_photo_entry(existing: Dict[str, Any], photo: Dict[str, Any]) -> Dict[str, Any]:
     updated = normalize_photo_entry(existing)
     updated.update(
@@ -299,6 +312,7 @@ def build_photo_entry(existing: Dict[str, Any], photo: Dict[str, Any]) -> Dict[s
     return updated
 
 
+# only photo-backed entries belong in manifest.json
 def is_valid_photo_entry(entry: Dict[str, Any]) -> bool:
     if not isinstance(entry, dict):
         return False
@@ -327,6 +341,7 @@ def is_valid_photo_entry(entry: Dict[str, Any]) -> bool:
     return True
 
 
+# scan the whole tree every run so behavior stays automatic
 def iter_photo_files(root: Path) -> List[Path]:
     files = sorted((root / "place_photos").rglob("*.json"))
     if not files:
@@ -334,6 +349,7 @@ def iter_photo_files(root: Path) -> List[Path]:
     return files
 
 
+# rebuild manifest from the current valid cached photo entries
 def update_manifest_file(root: Path, dry_run: bool) -> None:
     manifest_path = root / "manifest.json"
     place_ids = []
@@ -359,6 +375,7 @@ def update_manifest_file(root: Path, dry_run: bool) -> None:
     print(f"updated {manifest_path} with {len(manifest_payload['place_ids'])} place_ids")
 
 
+# only bump version when actual repo content changed
 def update_version_file(root: Path, dry_run: bool) -> None:
     version_path = root / "version.json"
     if not version_path.exists():
@@ -384,6 +401,7 @@ def update_version_file(root: Path, dry_run: bool) -> None:
     print(f"bumped {version_path} to version={payload['version']}")
 
 
+# normalize every json file before processing so the schema stays stable
 def normalize_all_files(root: Path, dry_run: bool) -> int:
     changed_files = 0
 
@@ -418,6 +436,7 @@ def normalize_all_files(root: Path, dry_run: bool) -> int:
     return changed_files
 
 
+# build a deterministic queue of blanks or oldest cached entries
 def build_candidates(root: Path, overwrite: bool) -> List[Dict[str, Any]]:
     blank_candidates: List[Dict[str, Any]] = []
     filled_candidates: List[Dict[str, Any]] = []
@@ -459,6 +478,7 @@ def build_candidates(root: Path, overwrite: bool) -> List[Dict[str, Any]]:
     return blank_candidates
 
 
+# process one entry and stop only on hard api rate limiting
 def process_candidate(root: Path, candidate: Dict[str, Any], access_key: str, dry_run: bool) -> Tuple[bool, bool]:
     file_path = candidate["file_path"]
     index = candidate["index"]
