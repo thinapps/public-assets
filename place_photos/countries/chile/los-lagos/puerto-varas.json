@@ -1,9 +1,10 @@
 [
   {
     "place_id": "city:chile:los_lagos:puerto_varas",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1615217305916-154091424d6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQdWVydG8lMjBWYXJhcyUyQyUyMExvcyUyMExhZ29zJTJDJTIwQ2hpbGV8ZW58MXwwfHx8MTc3NjcxNTU2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Amanda Hortiz",
+    "photographer_url": "https://unsplash.com/@amandahortiz?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/grayscale-photo-of-man-and-woman-walking-on-beach-Q9jYJIupdkQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-20T20:06:01Z"
   }
 ]

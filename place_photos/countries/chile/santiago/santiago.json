@@ -1,9 +1,10 @@
 [
   {
     "place_id": "city:chile:santiago:santiago",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1689850543263-01a52ccc6943?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYW50aWFnbyUyQyUyMENoaWxlfGVufDF8MHx8fDE3NzY3MTU1NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Chalo Gallardo",
+    "photographer_url": "https://unsplash.com/@chalogallardo?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-city-with-mountains-in-the-background-eXL2DYVmq-0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-20T20:06:04Z"
   }
 ]

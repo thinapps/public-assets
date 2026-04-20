@@ -1,9 +1,10 @@
 [
   {
     "place_id": "subdivision:colombia:bolivar",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1594952881603-0c314c0d25e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCb2xpdmFyJTJDJTIwQ29sb21iaWF8ZW58MXwwfHx8MTc3NjcxNTU3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Andrés Gómez",
+    "photographer_url": "https://unsplash.com/@andresloquesea?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/people-walking-near-brown-concrete-building-during-daytime-rNobUr7ZDxw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-20T20:06:16Z"
   }
 ]

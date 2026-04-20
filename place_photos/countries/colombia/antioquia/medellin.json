@@ -1,9 +1,10 @@
 [
   {
     "place_id": "city:colombia:antioquia:medellin",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1515366974328-f1181eb25189?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNZWRlbGxpbiUyQyUyMEFudGlvcXVpYSUyQyUyMENvbG9tYmlhfGVufDF8MHx8fDE3NzY3MTU1NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Juan Saravia",
+    "photographer_url": "https://unsplash.com/@juansaravia?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/city-scraper-at-night-time-03gVOLHq9ec?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-20T20:06:11Z"
   }
 ]

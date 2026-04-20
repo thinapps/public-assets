@@ -1,9 +1,10 @@
 [
   {
     "place_id": "country:croatia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1554585343-acd99e31977b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxDcm9hdGlhfGVufDF8MHx8fDE3NzY3MTU1Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Hrvoje_Photography 🇭🇷",
+    "photographer_url": "https://unsplash.com/@hrvoje_photography?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-island-in-the-middle-of-a-lake-ktF1Rr8EBFY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-20T20:06:19Z"
   }
 ]

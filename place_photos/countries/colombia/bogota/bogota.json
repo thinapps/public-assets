@@ -1,9 +1,10 @@
 [
   {
     "place_id": "city:colombia:bogota:bogota",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1568632234157-ce7aecd03d0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCb2dvdGElMkMlMjBDb2xvbWJpYXxlbnwxfDB8fHwxNzc2NzE1NTczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Random Institute",
+    "photographer_url": "https://unsplash.com/@randominstitute?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/buildings-near-mountain-GkacI-_mGlg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-20T20:06:14Z"
   }
 ]
