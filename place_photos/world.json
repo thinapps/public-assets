@@ -49,7 +49,11 @@
     "source_url": "https://unsplash.com/photos/black-and-silver-slr-camera-on-table-duQ1ulzTJbM?utm_source=freebase&utm_medium=referral"
   },
   {
-    "place_id": "region:central_asia"
+    "place_id": "region:central_asia",
+    "image_url": "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxXb3JsZHxlbnwxfDB8fHwxNzc2Njc5MDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "NASA",
+    "photographer_url": "https://unsplash.com/@nasa?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/earth-with-clouds-above-the-african-continent-vhSz50AaFAs?utm_source=freebase&utm_medium=referral"
   },
   {
     "place_id": "region:southeast_asia",
