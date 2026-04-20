@@ -1,9 +1,10 @@
 [
   {
     "place_id": "subdivision:croatia:split_dalmatia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1756886565879-4635a7d3652b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTcGxpdCUyMERhbG1hdGlhJTJDJTIwQ3JvYXRpYXxlbnwxfDB8fHwxNzc2NzIyNzE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Taras Terletskyy",
+    "photographer_url": "https://unsplash.com/@taraster?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/grand-square-with-arched-buildings-on-a-sunny-day-Ijqk7yOMm1g?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-20T22:05:16Z"
   }
 ]
