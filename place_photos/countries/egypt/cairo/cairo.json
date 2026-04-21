@@ -1,9 +1,10 @@
 [
   {
     "place_id": "city:egypt:cairo:cairo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1704643764068-308605fae52b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxDYWlybyUyQyUyMEVneXB0fGVufDF8MHx8fDE3NzY3NDMyNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dione Film",
+    "photographer_url": "https://unsplash.com/@criandocomdione?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-city-street-filled-with-lots-of-traffic-XqFL9Vbjfd8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-21T03:47:33Z"
   }
 ]

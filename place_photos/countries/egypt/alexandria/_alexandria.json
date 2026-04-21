@@ -1,9 +1,10 @@
 [
   {
     "place_id": "subdivision:egypt:alexandria",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1674950405763-8bd434d78ea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxBbGV4YW5kcmlhJTJDJTIwRWd5cHR8ZW58MXwwfHx8MTc3Njc0MzI0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Suhayla Darwish",
+    "photographer_url": "https://unsplash.com/@sohailai_darwesh?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-body-of-water-from-a-pier-jN_rj0tf3q4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-21T03:47:29Z"
   }
 ]
