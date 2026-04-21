@@ -1,9 +1,10 @@
 [
   {
     "place_id": "country:peru",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1526392060635-9d6019884377?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQZXJ1fGVufDF8MHx8fDE3NzY3Njg0Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Willian Justen de Vasconcellos",
+    "photographer_url": "https://unsplash.com/@willianjusten?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/mountain-with-clouds-4hMET7vYTAQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-21T10:47:08Z"
   }
 ]
