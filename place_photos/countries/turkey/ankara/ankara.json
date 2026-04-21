@@ -1,9 +1,10 @@
 [
   {
     "place_id": "city:turkey:ankara:ankara",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1664909890164-c89e06054c9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxBbmthcmElMkMlMjBUdXJrZXl8ZW58MXwwfHx8MTc3NjgwMDQwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "ekrem osmanoglu",
+    "photographer_url": "https://unsplash.com/@konevi?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-building-with-towers-vdDU8WqKdxY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-21T22:02:10Z"
   }
 ]

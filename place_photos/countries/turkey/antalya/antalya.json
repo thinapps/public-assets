@@ -1,9 +1,10 @@
 [
   {
     "place_id": "city:turkey:antalya:antalya",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1657347054884-6ef4317ea6a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxBbnRhbHlhJTJDJTIwVHVya2V5fGVufDF8MHx8fDE3NzY4MDg5MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Oleksandr Brovko",
+    "photographer_url": "https://unsplash.com/@alex_brov?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-tree-on-a-hill-Fq2G3YFoIcs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-21T22:02:13Z"
   }
 ]
