@@ -1,9 +1,10 @@
 [
   {
     "place_id": "subdivision:kenya:nakuru",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1706394212062-16b231f61987?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxOYWt1cnUlMkMlMjBLZW55YXxlbnwxfDB8fHwxNzc2NzU5MDc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Brian Kungu",
+    "photographer_url": "https://unsplash.com/@oldceltic?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-rhino-grazing-in-a-grassy-field-with-trees-in-the-background-J-ATC9cJ6Qg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-21T08:11:17Z"
   }
 ]

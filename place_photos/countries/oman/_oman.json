@@ -1,9 +1,10 @@
 [
   {
     "place_id": "country:oman",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1699855803432-17f4ab468b2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxPbWFufGVufDF8MHx8fDE3NzY3NTkwODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Hongbin",
+    "photographer_url": "https://unsplash.com/@hbsun2013?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-building-with-a-tower-and-a-clock-on-it-plMrhMCk4bQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-21T08:11:20Z"
   }
 ]
