@@ -1,9 +1,10 @@
 [
   {
     "place_id": "city:sri_lanka:western:colombo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1546656495-fc838de15e5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDb2xvbWJvJTJDJTIwU3JpJTIwTGFua2F8ZW58MXwwfHx8MTc3Njc4OTIzNnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Christoph Theisinger",
+    "photographer_url": "https://unsplash.com/@chippenpuepp?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-city-buildings-9PPYa3LK6II?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-21T16:33:56Z"
   }
 ]

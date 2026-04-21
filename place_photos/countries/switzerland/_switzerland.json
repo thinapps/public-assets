@@ -1,9 +1,10 @@
 [
   {
     "place_id": "country:switzerland",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1570161766218-f8488ebb8078?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTd2l0emVybGFuZHxlbnwxfDB8fHwxNzc2Nzg5MjM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Tron Le",
+    "photographer_url": "https://unsplash.com/@tronle_sg?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-photography-of-houses-on-green-hill-aAn-_iTks4E?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-21T16:33:57Z"
   }
 ]
