@@ -1,9 +1,10 @@
 [
   {
     "place_id": "subdivision:sri_lanka:central",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1678914906836-9c07c810d9ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDZW50cmFsJTJDJTIwU3JpJTIwTGFua2ElMjB0cmF2ZWx8ZW58MXwwfHx8MTc3Njc4MDY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alla Havriushenko",
+    "photographer_url": "https://unsplash.com/@a_h_svit?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-people-riding-bikes-on-a-bridge-6pNzF61kcTA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-21T14:11:08Z"
   }
 ]

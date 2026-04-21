@@ -1,9 +1,10 @@
 [
   {
     "place_id": "subdivision:peru:cusco",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1733163013364-6ef3f7f42a70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxDdXNjbyUyQyUyMFBlcnV8ZW58MXwwfHx8MTc3Njc4MDY2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Kieran Proctor",
+    "photographer_url": "https://unsplash.com/@inlovelyblue?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-city-with-mountains-in-the-background-QOmm_zkbxZ0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-21T14:11:00Z"
   }
 ]
