@@ -1,9 +1,10 @@
 [
   {
     "place_id": "city:turkey:izmir:izmir",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": ""
+    "image_url": "https://images.unsplash.com/photo-1663608173526-30c5c596d656?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxJem1pciUyQyUyMFR1cmtleXxlbnwxfDB8fHwxNzc2ODA4OTM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Krisztian Nemes",
+    "photographer_url": "https://unsplash.com/@nemes_k?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-city-next-to-a-body-of-water-M47fKurkPA0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-22T03:44:07Z"
   }
 ]
