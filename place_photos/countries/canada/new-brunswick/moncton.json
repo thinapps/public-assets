@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:canada:new_brunswick:moncton",
+    "image_url": "https://images.unsplash.com/photo-1616646068300-8d1a96f6dac0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNb25jdG9uJTIwTmV3JTIwQnJ1bnN3aWNrfGVufDF8MHx8fDE3NzY5NTM2Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Kelsey K",
+    "photographer_url": "https://unsplash.com/@peacheepea?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/blue-and-white-wooden-house-near-body-of-water-during-daytime-kEzKzp453jY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T14:14:40Z"
+  }
+]

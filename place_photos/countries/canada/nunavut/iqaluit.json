@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:canada:nunavut:iqaluit",
+    "image_url": "https://images.unsplash.com/photo-1569603479302-3aa76752436e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxJcWFsdWl0JTIwTnVuYXZ1dHxlbnwxfDB8fHwxNzc2OTUzNjg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Chris Boyer",
+    "photographer_url": "https://unsplash.com/@csgboyer?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/yellow-concrete-building-A21Y9XhK6IY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T14:14:46Z"
+  }
+]

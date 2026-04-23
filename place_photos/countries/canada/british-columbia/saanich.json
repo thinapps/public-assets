@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:canada:british_columbia:saanich",
+    "image_url": "https://images.unsplash.com/photo-1669583963654-de29421c5228?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTYWFuaWNoJTIwQnJpdGlzaCUyMENvbHVtYmlhfGVufDF8MHx8fDE3NzY5NTM2NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Vlad D",
+    "photographer_url": "https://unsplash.com/@hiking_corgi?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-rocky-beach-with-trees-and-water-lWoDwoL2rEY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T14:14:34Z"
+  }
+]

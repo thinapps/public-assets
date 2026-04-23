@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "subdivision:canada:new_brunswick",
+    "image_url": "https://images.unsplash.com/photo-1674658159807-d196e842fb95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxOZXclMjBCcnVuc3dpY2slMjBDYW5hZGF8ZW58MXwwfHx8MTc3Njk1MzY3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Justine Poirrier",
+    "photographer_url": "https://unsplash.com/@juh_?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-light-house-sitting-on-top-of-a-lush-green-field-R4boDHS_AlY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T14:14:36Z"
+  }
+]

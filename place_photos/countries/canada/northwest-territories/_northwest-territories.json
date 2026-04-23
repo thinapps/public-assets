@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "subdivision:canada:northwest_territories",
+    "image_url": "https://images.unsplash.com/photo-1685171755238-0b1c05b0fd84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxOb3J0aHdlc3QlMjBUZXJyaXRvcmllcyUyMENhbmFkYXxlbnwxfDB8fHwxNzc2OTUzNjgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Luke Moore",
+    "photographer_url": "https://unsplash.com/@chasingluke?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-truck-driving-through-a-forest-ZQrVgMYpnHg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T14:14:41Z"
+  }
+]

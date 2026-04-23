@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:canada:northwest_territories:yellowknife",
+    "image_url": "https://images.unsplash.com/photo-1685171755238-0b1c05b0fd84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxZZWxsb3drbmlmZSUyME5vcnRod2VzdCUyMFRlcnJpdG9yaWVzfGVufDF8MHx8fDE3NzY5NTM2ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Luke Moore",
+    "photographer_url": "https://unsplash.com/@chasingluke?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-truck-driving-through-a-forest-ZQrVgMYpnHg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T14:14:43Z"
+  }
+]

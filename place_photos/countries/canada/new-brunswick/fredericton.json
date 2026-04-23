@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:canada:new_brunswick:fredericton",
+    "image_url": "https://images.unsplash.com/photo-1676046759798-524449812840?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxGcmVkZXJpY3RvbiUyME5ldyUyMEJydW5zd2lja3xlbnwxfDB8fHwxNzc2OTUzNjc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Yousef Hussain",
+    "photographer_url": "https://unsplash.com/@usefieee?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-snow-covered-field-with-tracks-in-the-snow-L1pP3MDHZEs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T14:14:38Z"
+  }
+]

@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:canada:british_columbia:langley",
+    "image_url": "https://images.unsplash.com/photo-1688795024455-52ec3367362d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxMYW5nbGV5JTIwQnJpdGlzaCUyMENvbHVtYmlhfGVufDF8MHx8fDE3NzY5NTM2NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Yuheng Ouyang",
+    "photographer_url": "https://unsplash.com/@govizlora?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-bunch-of-red-roses-on-a-bush-behind-a-chain-link-fence-nJII2UmUIho?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T14:14:33Z"
+  }
+]
