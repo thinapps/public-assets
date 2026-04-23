@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "country:costa_rica",
+    "image_url": "https://images.unsplash.com/photo-1586640866012-8273df34e593?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxDb3N0YSUyMFJpY2F8ZW58MXwwfHx8MTc3Njk2OTI2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sterling Lanier",
+    "photographer_url": "https://unsplash.com/@sterlinglanier?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/water-falls-in-the-middle-of-green-trees-WDBqiHt3tNo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T18:38:14Z"
+  }
+]

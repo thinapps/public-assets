@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:indonesia:banten:cilegon",
+    "image_url": "https://images.unsplash.com/photo-1632134113821-608f01997480?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxDaWxlZ29uJTIwSW5kb25lc2lhfGVufDF8MHx8fDE3NzY5NjkyNzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ahmad Faiz",
+    "photographer_url": "https://unsplash.com/@ahmad_vayz06?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-people-standing-on-top-of-a-beach-under-a-blue-sky-OtFas7Jf7YA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T18:38:22Z"
+  }
+]

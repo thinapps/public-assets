@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:indonesia:banten:tangerang",
+    "image_url": "https://images.unsplash.com/photo-1594586304384-e7f60fc1a19f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUYW5nZXJhbmclMjBCYW50ZW58ZW58MXwwfHx8MTc3Njk2OTI3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Eugenia Clara @fleetingstill",
+    "photographer_url": "https://unsplash.com/@eugeniaclara?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-brown-wooden-table-zl_XTluNrec?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T18:38:26Z"
+  }
+]
