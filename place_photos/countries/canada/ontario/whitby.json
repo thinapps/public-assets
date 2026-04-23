@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:canada:ontario:whitby",
+    "image_url": "https://images.unsplash.com/photo-1610918152727-497ab071d4b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxXaGl0YnklMjBPbnRhcmlvfGVufDF8MHx8fDE3NzY5NjMyNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Meri Vasilevski",
+    "photographer_url": "https://unsplash.com/@meri_vasilevski?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-and-white-wooden-house-on-brown-grass-field-under-blue-sky-during-daytime-zHU-dquIOlM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T16:54:00Z"
+  }
+]

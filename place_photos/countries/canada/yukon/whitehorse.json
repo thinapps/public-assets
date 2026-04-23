@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:canada:yukon:whitehorse",
+    "image_url": "https://images.unsplash.com/photo-1753944847480-92f369a5f00e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxXaGl0ZWhvcnNlJTIwWXVrb258ZW58MXwwfHx8MTc3Njk2MzI1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Gabriela",
+    "photographer_url": "https://unsplash.com/@gabigi?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-person-looks-at-movie-posters-RKT2n8Hu1xo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T16:54:13Z"
+  }
+]

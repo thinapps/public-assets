@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:canada:ontario:clarington",
+    "image_url": "https://images.unsplash.com/photo-1585394722369-48130905ed2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDbGFyaW5ndG9uJTIwT250YXJpb3xlbnwxfDB8fHwxNzc2OTYzMjM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "PT Russell",
+    "photographer_url": "https://unsplash.com/@pt_photos?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-black-wooden-cabinet-5jNdRgNKlH8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T16:53:56Z"
+  }
+]

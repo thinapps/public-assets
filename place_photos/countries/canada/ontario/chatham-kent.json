@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:canada:ontario:chatham_kent",
+    "image_url": "https://images.unsplash.com/photo-1588304028669-74ecae226bc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDaGF0aGFtJTIwS2VudCUyME9udGFyaW98ZW58MXwwfHx8MTc3Njk2MzIzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "James Lord",
+    "photographer_url": "https://unsplash.com/@jl_hair_and_graphix?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-rock-formation-with-green-grass-during-daytime-mZH-s74DqB0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T16:53:54Z"
+  }
+]
