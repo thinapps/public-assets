@@ -64,6 +64,62 @@ def parse_cached_at(value: str) -> float:
         return 0.0
 
 
+def normalize_photo_entry(entry: Dict[str, Any]) -> Dict[str, Any]:
+    # preserve the repo schema and keep cached_at optional but supported
+    return {
+        "place_id": entry.get("place_id", ""),
+        "image_url": entry.get("image_url", ""),
+        "photographer_name": entry.get("photographer_name", ""),
+        "photographer_url": entry.get("photographer_url", ""),
+        "source_url": entry.get("source_url", ""),
+        "cached_at": entry.get("cached_at", ""),
+    }
+
+
+def build_empty_photo_entry(place_id: str) -> Dict[str, Any]:
+    # create a stub record for files that currently only contain an empty array
+    return normalize_photo_entry({
+        "place_id": place_id,
+        "image_url": "",
+        "photographer_name": "",
+        "photographer_url": "",
+        "source_url": "",
+        "cached_at": "",
+    })
+
+
+def build_photo_entry(existing: Dict[str, Any], photo: Dict[str, Any]) -> Dict[str, Any]:
+    # only stamp cached_at when a photo entry is actually written
+    updated = normalize_photo_entry(existing)
+    updated["image_url"] = photo.get("urls", {}).get("regular", "")
+    updated["photographer_name"] = photo.get("user", {}).get("name", "")
+    updated["photographer_url"] = append_referral(photo.get("user", {}).get("links", {}).get("html", ""))
+    updated["source_url"] = append_referral(photo.get("links", {}).get("html", ""))
+    updated["cached_at"] = utc_now_iso()
+    return updated
+
+
+def is_valid_photo_entry(entry: Dict[str, Any]) -> bool:
+    # manifest should only include fully usable cached photo records
+    if not isinstance(entry, dict):
+        return False
+
+    place_id = str(entry.get("place_id", "")).strip()
+    image_url = str(entry.get("image_url", "")).strip()
+    photographer_name = str(entry.get("photographer_name", "")).strip()
+    photographer_url = str(entry.get("photographer_url", "")).strip()
+    source_url = str(entry.get("source_url", "")).strip()
+
+    return bool(place_id and image_url and photographer_name and photographer_url and source_url)
+
+
+def iter_photo_files(place_photos_dir: Path) -> List[Path]:
+    files = sorted(place_photos_dir.rglob("*.json"))
+    if not files:
+        raise RuntimeError("no place_photos json files found")
+    return files
+
+
 def unsplash_get(access_key: str, endpoint: str, params: Dict[str, Any]) -> Dict[str, Any]:
     query = parse.urlencode({key: value for key, value in params.items() if value not in (None, "")})
     url = f"{UNSPLASH_API_BASE}{endpoint}?{query}"
