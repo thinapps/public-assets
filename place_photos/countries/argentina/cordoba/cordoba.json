@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:argentina:cordoba:cordoba",
+    "image_url": "https://images.unsplash.com/photo-1648429294848-510634436d84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxDb3Jkb2JhJTIwQXJnZW50aW5hfGVufDF8MHx8fDE3NzY5Mzc4NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Hector Ramon Perez",
+    "photographer_url": "https://unsplash.com/@argentinanatural?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-mountain-range-from-a-high-point-of-view-MEgL22XnmB8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T09:51:01Z"
+  }
+]

@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "subdivision:argentina:mendoza",
+    "image_url": "https://images.unsplash.com/photo-1690993444739-c75bef705568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNZW5kb3phJTIwQXJnZW50aW5hfGVufDF8MHx8fDE3NzY5Mzc4NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rafael Hoyos Weht",
+    "photographer_url": "https://unsplash.com/@rhweht?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-long-empty-road-with-mountains-in-the-background-yYEDDTDUSt0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T09:51:03Z"
+  }
+]
