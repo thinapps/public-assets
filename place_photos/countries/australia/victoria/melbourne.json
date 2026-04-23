@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:australia:victoria:melbourne",
+    "image_url": "https://images.unsplash.com/photo-1656177864235-a61846ef8795?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNZWxib3VybmUlMjBWaWN0b3JpYXxlbnwxfDB8fHwxNzc2OTM5MDM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Florencia Lewis",
+    "photographer_url": "https://unsplash.com/@florlewis?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-park-with-benches-bsTdyOrgmPg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T10:14:31Z"
+  }
+]

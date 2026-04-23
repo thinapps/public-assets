@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:australia:western_australia:perth",
+    "image_url": "https://images.unsplash.com/photo-1579425789363-f360540e4834?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxQZXJ0aCUyMFdlc3Rlcm4lMjBBdXN0cmFsaWF8ZW58MXwwfHx8MTc3NjkzOTI3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nathan Hurst",
+    "photographer_url": "https://unsplash.com/@nathan_hurst?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/city-buildings-under-white-sky-during-daytime-1VtXqlexBHY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T10:14:35Z"
+  }
+]

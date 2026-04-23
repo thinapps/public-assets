@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "subdivision:bahamas:new_providence",
+    "image_url": "https://images.unsplash.com/photo-1704667806510-4515198d1be7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxOZXclMjBQcm92aWRlbmNlJTIwQmFoYW1hc3xlbnwxfDB8fHwxNzc2OTM5Mjc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rinald Rolle",
+    "photographer_url": "https://unsplash.com/@anstoxx?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-sailboat-in-the-water-with-a-lighthouse-in-the-background-Yy9M-zqMjhg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T10:14:38Z"
+  }
+]
