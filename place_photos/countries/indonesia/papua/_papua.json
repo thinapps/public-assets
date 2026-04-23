@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "subdivision:indonesia:papua",
+    "image_url": "https://images.unsplash.com/photo-1604250015955-42fc0bd204f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQYXB1YSUyMEluZG9uZXNpYXxlbnwxfDB8fHwxNzc2OTczNDM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dino Januarsa",
+    "photographer_url": "https://unsplash.com/@dinosapta?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/2-girls-in-white-and-brown-stripe-dress-standing-on-beach-shore-during-daytime-wCW_Gg_uJVE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T19:43:57Z"
+  }
+]

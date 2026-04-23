@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:indonesia:riau_islands:batam",
+    "image_url": "https://images.unsplash.com/photo-1616643672214-90b0da973171?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxCYXRhbSUyMEluZG9uZXNpYXxlbnwxfDB8fHwxNzc2OTczNDQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Arthur Sipayung",
+    "photographer_url": "https://unsplash.com/@aturhs?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-and-brown-iguana-on-brown-rock-HSrtgZiizbw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T19:44:02Z"
+  }
+]

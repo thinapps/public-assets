@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:indonesia:papua:jayapura",
+    "image_url": "https://images.unsplash.com/photo-1735541822580-dc64720d3105?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxKYXlhcHVyYSUyMFBhcHVhfGVufDF8MHx8fDE3NzY5NzM0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Simon Spring",
+    "photographer_url": "https://unsplash.com/@springsimon?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-cell-tower-on-top-of-a-lush-green-hillside-tNYMWOMfC3I?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T19:43:58Z"
+  }
+]

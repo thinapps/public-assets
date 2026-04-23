@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:indonesia:north_sumatra:medan",
+    "image_url": "https://images.unsplash.com/photo-1720630567501-13e284f0a7bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNZWRhbiUyME5vcnRoJTIwU3VtYXRyYXxlbnwxfDB8fHwxNzc2OTczNDM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mosquegrapher",
+    "photographer_url": "https://unsplash.com/@mosquegrapher?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-building-with-stairs-leading-up-to-it-eqTEftqdtLM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T19:43:55Z"
+  }
+]
