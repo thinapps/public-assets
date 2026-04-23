@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:indonesia:south_sulawesi:makassar",
+    "image_url": "https://images.unsplash.com/photo-1643429158639-635fc142e699?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxNYWthc3NhciUyMEluZG9uZXNpYXxlbnwxfDB8fHwxNzc2OTgxODE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "sam sul",
+    "photographer_url": "https://unsplash.com/@samdxg?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-woman-is-handing-something-to-a-boy-in-a-store-HGfYVcv97E4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T22:03:37Z"
+  }
+]

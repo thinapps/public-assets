@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:indonesia:west_java:depok",
+    "image_url": "https://images.unsplash.com/photo-1671342986407-1377be93f1e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxEZXBvayUyMFdlc3QlMjBKYXZhfGVufDF8MHx8fDE3NzY5ODE4MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ammar Andiko",
+    "photographer_url": "https://unsplash.com/@ammar_andiko?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-city-with-a-lot-of-traffic-KceK8XYl2ws?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T22:03:45Z"
+  }
+]

@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "subdivision:indonesia:south_sumatra",
+    "image_url": "https://images.unsplash.com/photo-1594112100464-81fd733ce1ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMFN1bWF0cmElMjBJbmRvbmVzaWF8ZW58MXwwfHx8MTc3Njk4MTgxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Hadi Utama",
+    "photographer_url": "https://unsplash.com/@hadiputama?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/red-metal-bridge-under-white-clouds-during-daytime-KLL3-cMVU3I?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T22:03:38Z"
+  }
+]
