@@ -70,6 +70,13 @@ def slug_to_label(value: str) -> str:
     return value.title()
 
 
+def normalize_query_text(value: str) -> str:
+    # keep searches plain and deterministic with no commas or extra spaces
+    value = value.replace(",", " ")
+    value = re.sub(r"\s+", " ", value)
+    return value.strip()
+
+
 def append_referral(url: str) -> str:
     # keep unsplash attribution links consistent
     if not url:
@@ -94,6 +101,18 @@ def normalize_photo_entry(entry: Dict[str, Any]) -> Dict[str, Any]:
         "source_url": entry.get("source_url", ""),
         "cached_at": entry.get("cached_at", ""),
     }
+
+
+def build_empty_photo_entry(place_id: str) -> Dict[str, Any]:
+    # create a stub record for files that currently only contain an empty array
+    return normalize_photo_entry({
+        "place_id": place_id,
+        "image_url": "",
+        "photographer_name": "",
+        "photographer_url": "",
+        "source_url": "",
+        "cached_at": "",
+    })
 
 
 def build_photo_entry(existing: Dict[str, Any], photo: Dict[str, Any]) -> Dict[str, Any]:
@@ -128,98 +147,136 @@ def iter_photo_files(place_photos_dir: Path) -> List[Path]:
     return files
 
 
-def infer_location_from_path(place_photos_dir: Path, file_path: Path) -> Tuple[str, Optional[str], Optional[str]]:
+def infer_place_id_from_path(place_photos_dir: Path, file_path: Path) -> Optional[str]:
+    # infer a single place_id from normal country, subdivision, or city file paths
+    rel = file_path.relative_to(place_photos_dir)
+    parts = rel.parts
+
+    if not parts or parts == ("world.json",):
+        return None
+
+    if parts[0] != "countries" or len(parts) < 3:
+        return None
+
+    country_slug = parts[1]
+
+    if len(parts) == 3 and parts[2].startswith("_"):
+        return f"country:{country_slug}"
+
+    if len(parts) == 4 and parts[3].startswith("_"):
+        subdivision_slug = parts[2]
+        return f"subdivision:{country_slug}:{subdivision_slug}"
+
+    if len(parts) >= 4 and not parts[-1].startswith("_"):
+        subdivision_slug = parts[-2]
+        city_slug = file_path.stem
+        return f"city:{country_slug}:{subdivision_slug}:{city_slug}"
+
+    return None
+
+
+def infer_labels_from_path(place_photos_dir: Path, file_path: Path) -> Dict[str, Optional[str]]:
     # use the path as a clean fallback source of truth
     rel = file_path.relative_to(place_photos_dir)
     parts = rel.parts
 
+    labels: Dict[str, Optional[str]] = {
+        "place_type": None,
+        "region": None,
+        "country": None,
+        "subdivision": None,
+        "city": None,
+    }
+
     if not parts:
-        return ("Location", None, None)
+        return labels
 
     if parts == ("world.json",):
-        return ("World", None, None)
+        labels["place_type"] = "world"
+        return labels
 
     if parts[0] != "countries":
-        return (slug_to_label(file_path.stem), None, None)
+        return labels
 
-    country = slug_to_label(parts[1]) if len(parts) > 1 else None
+    labels["country"] = slug_to_label(parts[1]) if len(parts) > 1 else None
 
     if len(parts) == 3 and parts[2].startswith("_"):
-        return (country or "Location", None, country)
+        labels["place_type"] = "country"
+        return labels
 
     if len(parts) == 4 and parts[3].startswith("_"):
-        subdivision = slug_to_label(parts[2])
-        return (f"{subdivision}, {country}", subdivision, country)
+        labels["place_type"] = "subdivision"
+        labels["subdivision"] = slug_to_label(parts[2])
+        return labels
 
     if len(parts) >= 4 and not parts[-1].startswith("_"):
-        city = slug_to_label(parts[-1].replace(".json", ""))
-        subdivision = slug_to_label(parts[-2])
+        labels["place_type"] = "city"
+        labels["subdivision"] = slug_to_label(parts[-2])
+        labels["city"] = slug_to_label(file_path.stem)
+        return labels
 
-        if city.lower() == subdivision.lower():
-            return (f"{city}, {country}", city, country)
-
-        return (f"{city}, {subdivision}, {country}", city, subdivision)
-
-    return (slug_to_label(file_path.stem), None, None)
+    return labels
 
 
-def infer_query_parts(place_photos_dir: Path, place_id: str, file_path: Path) -> Tuple[str, Optional[str], Optional[str]]:
+def infer_query_parts(place_photos_dir: Path, place_id: str, file_path: Path) -> Dict[str, Optional[str]]:
     # prefer place_id but trust the path if ids and paths ever disagree
+    path_parts = infer_labels_from_path(place_photos_dir, file_path)
+
     if place_id.startswith("region:"):
-        region = slug_to_label(place_id.split(":", 1)[1])
-        base = region
-        part_one = region
-        part_two = None
+        labels = {
+            "place_type": "region",
+            "region": slug_to_label(place_id.split(":", 1)[1]),
+            "country": None,
+            "subdivision": None,
+            "city": None,
+        }
     elif place_id.startswith("country:"):
-        country = slug_to_label(place_id.split(":", 1)[1])
-        base = country
-        part_one = None
-        part_two = country
+        labels = {
+            "place_type": "country",
+            "region": None,
+            "country": slug_to_label(place_id.split(":", 1)[1]),
+            "subdivision": None,
+            "city": None,
+        }
     elif place_id.startswith("subdivision:"):
         parts = place_id.split(":")
         if len(parts) < 3:
-            return infer_location_from_path(place_photos_dir, file_path)
+            return path_parts
 
         _, country_slug, subdivision_slug = parts[:3]
-        subdivision = slug_to_label(subdivision_slug)
-        country = slug_to_label(country_slug)
-        base = f"{subdivision}, {country}"
-        part_one = subdivision
-        part_two = country
+        labels = {
+            "place_type": "subdivision",
+            "region": None,
+            "country": slug_to_label(country_slug),
+            "subdivision": slug_to_label(subdivision_slug),
+            "city": None,
+        }
     elif place_id.startswith("city:"):
         parts = place_id.split(":")
         if len(parts) < 4:
-            return infer_location_from_path(place_photos_dir, file_path)
+            return path_parts
 
         _, country_slug, subdivision_slug, city_slug = parts[:4]
-        city = slug_to_label(city_slug)
-        subdivision = slug_to_label(subdivision_slug)
-        country = slug_to_label(country_slug)
-
-        if city.lower() == subdivision.lower():
-            base = f"{city}, {country}"
-            part_one = city
-            part_two = country
-        else:
-            base = f"{city}, {subdivision}, {country}"
-            part_one = city
-            part_two = subdivision
+        labels = {
+            "place_type": "city",
+            "region": None,
+            "country": slug_to_label(country_slug),
+            "subdivision": slug_to_label(subdivision_slug),
+            "city": slug_to_label(city_slug),
+        }
     else:
-        return infer_location_from_path(place_photos_dir, file_path)
+        return path_parts
 
-    path_base, path_part_one, path_part_two = infer_location_from_path(place_photos_dir, file_path)
-    if base != path_base:
-        return (path_base, path_part_one, path_part_two)
+    if path_parts["place_type"] and labels["place_type"] != path_parts["place_type"]:
+        return path_parts
 
-    return (base, part_one, part_two)
+    for key in ("country", "subdivision", "city"):
+        path_value = path_parts.get(key)
+        label_value = labels.get(key)
+        if path_value and label_value and path_value != label_value:
+            return path_parts
 
-
-def add_suffix(query: str, suffix: str) -> str:
-    query = query.strip().strip(",")
-    suffix = suffix.strip()
-    if suffix:
-        return f"{query} {suffix}".strip()
-    return query
+    return labels
 
 
 def dedupe_queries(queries: List[str]) -> List[str]:
@@ -228,7 +285,7 @@ def dedupe_queries(queries: List[str]) -> List[str]:
     seen = set()
 
     for query in queries:
-        query = query.strip().strip(",")
+        query = normalize_query_text(query)
         key = query.lower()
         if query and key not in seen:
             results.append(query)
@@ -239,38 +296,44 @@ def dedupe_queries(queries: List[str]) -> List[str]:
 
 def build_search_queries(place_photos_dir: Path, place_id: str, file_path: Path) -> List[str]:
     # keep queries simple and deterministic
-    base, part_one, part_two = infer_query_parts(place_photos_dir, place_id, file_path)
+    labels = infer_query_parts(place_photos_dir, place_id, file_path)
+    place_type = labels.get("place_type")
+    region = labels.get("region")
+    country = labels.get("country")
+    subdivision = labels.get("subdivision")
+    city = labels.get("city")
 
-    if place_id.startswith("city:") and part_one and part_two:
-        queries = [base, f"{part_one}, {part_two}"]
-        parts = [part.strip() for part in base.split(",") if part.strip()]
+    if place_type == "city" and city and subdivision and country:
+        if city.lower() == subdivision.lower():
+            return dedupe_queries([f"{city} {country}"])
 
-        if len(parts) >= 2:
-            country = parts[-1]
-            if country.lower() != part_two.lower():
-                queries.append(f"{part_one}, {country}")
-
-        return dedupe_queries(queries)
-
-    if place_id.startswith("subdivision:"):
         return dedupe_queries([
-            base,
-            add_suffix(base, "travel"),
+            f"{city} {subdivision}",
+            f"{city} {country}",
         ])
 
-    if place_id.startswith("country:"):
-        return dedupe_queries([
-            base,
-            add_suffix(base, "travel"),
-        ])
+    if place_type == "subdivision" and subdivision and country:
+        return dedupe_queries([f"{subdivision} {country}"])
 
-    if place_id.startswith("region:"):
-        return dedupe_queries([
-            base,
-            add_suffix(base, "travel"),
-        ])
+    if place_type == "country" and country:
+        return dedupe_queries([country])
 
-    return dedupe_queries([base])
+    if place_type == "region" and region:
+        return dedupe_queries([region])
+
+    if city and subdivision:
+        return dedupe_queries([f"{city} {subdivision}", f"{city} {country or ''}"])
+
+    if subdivision and country:
+        return dedupe_queries([f"{subdivision} {country}"])
+
+    if country:
+        return dedupe_queries([country])
+
+    if region:
+        return dedupe_queries([region])
+
+    return []
 
 
 def unsplash_get(access_key: str, endpoint: str, params: Dict[str, Any]) -> Dict[str, Any]:
@@ -340,12 +403,27 @@ def build_candidates(place_photos_dir: Path, overwrite: bool) -> List[Dict[str, 
         if not isinstance(payload, list):
             continue
 
+        # empty arrays are valid placeholders and should still be eligible
+        if not payload and not overwrite:
+            place_id = infer_place_id_from_path(place_photos_dir, file_path)
+            if place_id:
+                blank_candidates.append({
+                    "file_path": file_path,
+                    "index": None,
+                    "place_id": place_id,
+                    "has_photo": False,
+                    "cached_at": "",
+                })
+            continue
+
         for index, entry in enumerate(payload):
             if not isinstance(entry, dict):
                 continue
 
             normalized_entry = normalize_photo_entry(entry)
             place_id = str(normalized_entry.get("place_id", "")).strip()
+            if not place_id:
+                place_id = infer_place_id_from_path(place_photos_dir, file_path) or ""
             if not place_id:
                 continue
 
@@ -363,12 +441,12 @@ def build_candidates(place_photos_dir: Path, overwrite: bool) -> List[Dict[str, 
             else:
                 blank_candidates.append(candidate)
 
-    blank_candidates.sort(key=lambda item: (item["file_path"].as_posix(), item["index"]))
+    blank_candidates.sort(key=lambda item: (item["file_path"].as_posix(), str(item["index"])))
     filled_candidates.sort(
         key=lambda item: (
             parse_cached_at(item["cached_at"]),
             item["file_path"].as_posix(),
-            item["index"],
+            str(item["index"]),
         )
     )
 
@@ -395,17 +473,30 @@ def process_candidate(
         print(f"[WARN] skip non-list json: {rel}")
         return (False, False)
 
-    if index >= len(payload) or not isinstance(payload[index], dict):
-        print(f"[WARN] skip missing entry: {rel} [{index}]")
-        return (False, False)
+    # empty placeholder files need a stub record before photo data can be written
+    if index is None:
+        entry = build_empty_photo_entry(candidate["place_id"])
+    else:
+        if index >= len(payload) or not isinstance(payload[index], dict):
+            print(f"[WARN] skip missing entry: {rel} [{index}]")
+            return (False, False)
 
-    entry = normalize_photo_entry(payload[index])
+        entry = normalize_photo_entry(payload[index])
+        place_id = str(entry.get("place_id", "")).strip()
+        if not place_id:
+            place_id = candidate["place_id"]
+            entry["place_id"] = place_id
+
     place_id = str(entry.get("place_id", "")).strip()
     if not place_id:
         print(f"[WARN] skip missing place_id: {rel} [{index}]")
         return (False, False)
 
     queries = build_search_queries(place_photos_dir, place_id, file_path)
+    if not queries:
+        print(f"[WARN] skip empty search query: {place_id}")
+        return (False, False)
+
     print(f"[INFO] search {place_id} -> {' | '.join(queries)}")
 
     try:
@@ -429,7 +520,10 @@ def process_candidate(
         print(f"[INFO] no change for {place_id}")
         return (False, False)
 
-    payload[index] = updated_entry
+    if index is None:
+        payload = [updated_entry]
+    else:
+        payload[index] = updated_entry
 
     if dry_run:
         print(f"would update {rel}")
