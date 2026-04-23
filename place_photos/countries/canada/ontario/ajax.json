@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:canada:ontario:ajax",
+    "image_url": "https://images.unsplash.com/photo-1688353215037-d7133aaca102?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxBamF4JTIwT250YXJpb3xlbnwxfDB8fHwxNzc2OTYzMjMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "gretta vosper",
+    "photographer_url": "https://unsplash.com/@grettav?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-bunch-of-flowers-that-are-in-a-trunk-6b5awQXLnoM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T16:53:53Z"
+  }
+]
