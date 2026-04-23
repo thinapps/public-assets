@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:brazil:bahia:salvador",
+    "image_url": "https://images.unsplash.com/photo-1591233055842-a984961b71af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYWx2YWRvciUyMEJhaGlhfGVufDF8MHx8fDE3NzY5NDE0MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Matheus Seiji Goto",
+    "photographer_url": "https://unsplash.com/@seijigoto?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-city-buildings-near-body-of-water-during-daytime-3Rl__CP0fHY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T10:50:23Z"
+  }
+]

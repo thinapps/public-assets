@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "subdivision:brazil:pernambuco",
+    "image_url": "https://images.unsplash.com/photo-1650970650581-958e901c9693?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxQZXJuYW1idWNvJTIwQnJhemlsfGVufDF8MHx8fDE3NzY5NDE0MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "thiago japyassu",
+    "photographer_url": "https://unsplash.com/@thiagojapyassu?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-buildings-with-trees-in-front-of-them-1Y8x6kvyzJA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T10:50:25Z"
+  }
+]

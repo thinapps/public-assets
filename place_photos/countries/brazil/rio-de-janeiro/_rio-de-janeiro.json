@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "subdivision:brazil:rio_de_janeiro",
+    "image_url": "https://images.unsplash.com/photo-1466986334032-276c4d2b810b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxSaW8lMjBEZSUyMEphbmVpcm8lMjBCcmF6aWx8ZW58MXwwfHx8MTc3Njk0MTQyOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Antonio Lapa",
+    "photographer_url": "https://unsplash.com/@tomlapa?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/gray-and-black-helicopter-under-white-cloudy-sky-during-daytime-lHsgbAVACws?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T10:50:28Z"
+  }
+]

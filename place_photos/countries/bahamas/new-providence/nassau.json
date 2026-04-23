@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:bahamas:new_providence:nassau",
+    "image_url": "https://images.unsplash.com/photo-1647100857555-14ee42bac264?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxOYXNzYXUlMjBOZXclMjBQcm92aWRlbmNlfGVufDF8MHx8fDE3NzY5NDE0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rinald Rolle",
+    "photographer_url": "https://unsplash.com/@anstoxx?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-cruise-ship-and-a-smaller-boat-in-the-water-AI_DeYf-jM4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T10:50:19Z"
+  }
+]
