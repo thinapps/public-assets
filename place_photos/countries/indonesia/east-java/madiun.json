@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:indonesia:east_java:madiun",
+    "image_url": "https://images.unsplash.com/photo-1595835018349-198460e1d309?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNYWRpdW4lMjBFYXN0JTIwSmF2YXxlbnwxfDB8fHwxNzc2OTY5NjI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jeremy Liem",
+    "photographer_url": "https://unsplash.com/@chinesesadboi?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-on-mountain-during-daytime-nXUT5sYIA30?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T18:40:29Z"
+  }
+]

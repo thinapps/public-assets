@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:indonesia:east_java:malang",
+    "image_url": "https://images.unsplash.com/photo-1608613435881-b96d1ea2a847?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxNYWxhbmclMjBFYXN0JTIwSmF2YXxlbnwxfDB8fHwxNzc2OTY5NjMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Robert Euro Djojoseputro",
+    "photographer_url": "https://unsplash.com/@roberteurodjo?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-and-green-mountain-under-blue-sky-and-white-clouds-during-daytime-FvAdpy4DX6I?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T18:40:30Z"
+  }
+]

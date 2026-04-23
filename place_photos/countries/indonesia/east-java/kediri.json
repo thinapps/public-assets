@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:indonesia:east_java:kediri",
+    "image_url": "https://images.unsplash.com/photo-1719406567281-e929125f5cb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLZWRpcmklMjBFYXN0JTIwSmF2YXxlbnwxfDB8fHwxNzc2OTY5NjI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Aryasatya Rafa Prayitno",
+    "photographer_url": "https://unsplash.com/@911mind?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-people-riding-motorcycles-down-a-street-Zdq6hnX0Z78?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T18:40:27Z"
+  }
+]

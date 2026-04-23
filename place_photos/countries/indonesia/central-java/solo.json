@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:indonesia:central_java:solo",
+    "image_url": "https://images.unsplash.com/photo-1637618881011-ccd86c4caba2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTb2xvJTIwQ2VudHJhbCUyMEphdmF8ZW58MXwwfHx8MTc3Njk2OTYyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mourizal Zativa",
+    "photographer_url": "https://unsplash.com/@mourimoto?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-man-standing-in-front-of-a-train-at-a-train-station-2s-dnBRdKek?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T18:40:26Z"
+  }
+]

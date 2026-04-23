@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:indonesia:central_java:semarang",
+    "image_url": "https://images.unsplash.com/photo-1614503718439-46b9ed6bf1db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTZW1hcmFuZyUyMENlbnRyYWwlMjBKYXZhfGVufDF8MHx8fDE3NzY5Njk2MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Visual Karsa",
+    "photographer_url": "https://unsplash.com/@visualbywahyu?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/man-in-red-long-sleeve-shirt-playing-drum-8AirHgE4a1w?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T18:40:24Z"
+  }
+]

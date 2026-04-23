@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:indonesia:east_kalimantan:balikpapan",
+    "image_url": "https://images.unsplash.com/photo-1760657798485-0ddaec03929b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCYWxpa3BhcGFuJTIwRWFzdCUyMEthbGltYW50YW58ZW58MXwwfHx8MTc3Njk2OTYzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Airu",
+    "photographer_url": "https://unsplash.com/@airuphotograph?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-green-and-white-van-driving-on-a-street-yne91csf8Ok?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-23T18:40:34Z"
+  }
+]
