@@ -64,6 +64,21 @@ def parse_cached_at(value: str) -> float:
         return 0.0
 
 
+
+
+def append_referral(url: str) -> str:
+    # keep unsplash attribution links consistent
+    if not url:
+        return ""
+
+    parsed = parse.urlsplit(url)
+    pairs = parse.parse_qsl(parsed.query, keep_blank_values=True)
+    pairs = [(key, value) for key, value in pairs if key not in {"utm_source", "utm_medium"}]
+    pairs.append(("utm_source", UTM_SOURCE))
+    pairs.append(("utm_medium", UTM_MEDIUM))
+    query = parse.urlencode(pairs)
+    return parse.urlunsplit((parsed.scheme, parsed.netloc, parsed.path, query, parsed.fragment))
+
 def normalize_photo_entry(entry: Dict[str, Any]) -> Dict[str, Any]:
     # preserve the repo schema and keep cached_at optional but supported
     return {
