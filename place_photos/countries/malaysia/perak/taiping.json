@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:malaysia:perak:taiping",
+    "image_url": "https://images.unsplash.com/photo-1756965836796-fe5601636ab3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxUYWlwaW5nJTIwUGVyYWt8ZW58MXwwfHx8MTc3NzA1ODExM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mohamed Basyir",
+    "photographer_url": "https://unsplash.com/@basyiak?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-bull-with-curved-horns-eats-leaves-UugPlHfe97E?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T19:15:13Z"
+  }
+]

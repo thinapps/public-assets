@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:malaysia:penang:butterworth",
+    "image_url": "https://images.unsplash.com/photo-1566979325154-ccb4094e665b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxCdXR0ZXJ3b3J0aCUyME1hbGF5c2lhfGVufDF8MHx8fDE3NzcwNTgxMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Chris Tan",
+    "photographer_url": "https://unsplash.com/@jihaotannn?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/several-blue-sailboats-NzAoi8jZ5NY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T19:15:08Z"
+  }
+]
