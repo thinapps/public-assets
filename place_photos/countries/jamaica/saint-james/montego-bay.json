@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:jamaica:saint_james:montego_bay",
+    "image_url": "https://images.unsplash.com/photo-1589960592070-d7ecdcd577e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNb250ZWdvJTIwQmF5JTIwSmFtYWljYXxlbnwxfDB8fHwxNzc3MDE5MDg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Brighton Pereira",
+    "photographer_url": "https://unsplash.com/@brighton1977?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/people-on-beach-during-daytime-7LbIUXkMA8I?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T08:24:46Z"
+  }
+]

@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:kazakhstan:almaty:almaty",
+    "image_url": "https://images.unsplash.com/photo-1757430289583-2410bc23fd2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxBbG1hdHklMjBLYXpha2hzdGFufGVufDF8MHx8fDE3NzcwMTkwODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dmitrii Filatov",
+    "photographer_url": "https://unsplash.com/@dmitrii_filatov?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/person-standing-by-a-water-channel-with-mountains-behind-S3rjDB-X_6o?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T08:24:51Z"
+  }
+]

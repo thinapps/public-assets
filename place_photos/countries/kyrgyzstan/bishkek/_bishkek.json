@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "subdivision:kyrgyzstan:bishkek",
+    "image_url": "https://images.unsplash.com/photo-1728977571861-fa12369bb5a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCaXNoa2VrJTIwS3lyZ3l6c3RhbnxlbnwxfDB8fHwxNzc3MDE5MDk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Abai K",
+    "photographer_url": "https://unsplash.com/@singmeinlied?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-clock-tower-in-the-middle-of-a-city-RKAvOHFXdTo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T08:24:56Z"
+  }
+]

@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "country:kyrgyzstan",
+    "image_url": "https://images.unsplash.com/photo-1610720684893-619cd7a5cde5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLeXJneXpzdGFufGVufDF8MHx8fDE3NzcwMTkwOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mick Truyts",
+    "photographer_url": "https://unsplash.com/@mcktrts?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-and-white-mountains-under-white-clouds-during-daytime-4dZnL_Da9gk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T08:24:55Z"
+  }
+]
