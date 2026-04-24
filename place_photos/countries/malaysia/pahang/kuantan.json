@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:malaysia:pahang:kuantan",
+    "image_url": "https://images.unsplash.com/photo-1702542086997-85196cb8bcd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxLdWFudGFuJTIwUGFoYW5nfGVufDF8MHx8fDE3NzcwNDcyMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Amirul Hilmi",
+    "photographer_url": "https://unsplash.com/@nicerz?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/two-people-riding-motorcycles-down-a-curvy-road-wQDo34dHeQw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T16:13:51Z"
+  }
+]

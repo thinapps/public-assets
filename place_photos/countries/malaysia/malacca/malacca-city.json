@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:malaysia:malacca:malacca_city",
+    "image_url": "https://images.unsplash.com/photo-1739852836949-64c21cf1484b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNYWxhY2NhJTIwQ2l0eSUyME1hbGFjY2F8ZW58MXwwfHx8MTc3NzA0NzIxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Edwin Petrus",
+    "photographer_url": "https://unsplash.com/@ep_petrus?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-bridge-over-a-body-of-water-jyRXu3K8aiU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T16:13:39Z"
+  }
+]

@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:malaysia:negeri_sembilan:seremban",
+    "image_url": "https://images.unsplash.com/photo-1709036242868-8224eaa76029?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTZXJlbWJhbiUyME1hbGF5c2lhfGVufDF8MHx8fDE3NzcwNDcyMjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Cecelia Chang",
+    "photographer_url": "https://unsplash.com/@ceceliaccc?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/rows-of-candles-are-lined-up-against-a-wall-EDQoSeNoRsY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T16:13:46Z"
+  }
+]
