@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "subdivision:kyrgyzstan:issyk_kul",
+    "image_url": "https://images.unsplash.com/photo-1694167232441-fd7a2c238d19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxJc3N5ayUyMEt1bCUyMEt5cmd5enN0YW58ZW58MXwwfHx8MTc3NzAyNzYzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rinat T",
+    "photographer_url": "https://unsplash.com/@xspyer?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-yurt-sitting-in-the-middle-of-a-desert-L8LxYIqoXRA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T10:47:18Z"
+  }
+]

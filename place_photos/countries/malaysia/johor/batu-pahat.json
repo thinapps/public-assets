@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:malaysia:johor:batu_pahat",
+    "image_url": "https://images.unsplash.com/photo-1647265918567-175b90e514b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCYXR1JTIwUGFoYXQlMjBNYWxheXNpYXxlbnwxfDB8fHwxNzc3MDI3NjQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "happy ant",
+    "photographer_url": "https://unsplash.com/@happy_ant?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-wooden-table-with-a-magazine-on-top-of-it-3VJv8H5VOtQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T10:47:22Z"
+  }
+]

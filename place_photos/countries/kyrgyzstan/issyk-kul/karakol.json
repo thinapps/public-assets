@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:kyrgyzstan:issyk_kul:karakol",
+    "image_url": "https://images.unsplash.com/photo-1733695175635-f8906619fa5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxLYXJha29sJTIwSXNzeWslMjBLdWx8ZW58MXwwfHx8MTc3NzAyNzY0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Far Chinberdiev",
+    "photographer_url": "https://unsplash.com/@far5n10v?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-scenic-view-of-a-lake-surrounded-by-mountains-ugBk7iWar5w?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T10:47:20Z"
+  }
+]

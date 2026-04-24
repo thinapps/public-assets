@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:malaysia:kedah:alor_setar",
+    "image_url": "https://images.unsplash.com/photo-1772625717721-3422757d3ff0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxBbG9yJTIwU2V0YXIlMjBLZWRhaHxlbnwxfDB8fHwxNzc3MDI3NjQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Fajar Herlambang STUDIO",
+    "photographer_url": "https://unsplash.com/@hng21?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-smiling-woman-in-a-pink-hijab-7quXTigAsF8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T10:47:29Z"
+  }
+]

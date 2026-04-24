@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:malaysia:johor:kluang",
+    "image_url": "https://images.unsplash.com/photo-1686467947403-d41e536e3d40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLbHVhbmclMjBNYWxheXNpYXxlbnwxfDB8fHwxNzc3MDI3NjQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "James Lo",
+    "photographer_url": "https://unsplash.com/@olsemaj?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-waterfall-in-the-middle-of-a-forest-98WZcfKIBNs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T10:47:24Z"
+  }
+]
