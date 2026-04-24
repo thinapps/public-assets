@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:indonesia:west_kalimantan:pontianak",
+    "image_url": "https://images.unsplash.com/photo-1699152502986-99f7b1a3c2e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQb250aWFuYWslMjBJbmRvbmVzaWF8ZW58MXwwfHx8MTc3NzAwMjgxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ya' Wahyu",
+    "photographer_url": "https://unsplash.com/@yawahyu?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-fruit-stand-with-a-lot-of-fruit-on-display-f3duS4-RqRw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T03:53:30Z"
+  }
+]

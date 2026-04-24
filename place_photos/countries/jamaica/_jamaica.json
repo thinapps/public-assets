@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "country:jamaica",
+    "image_url": "https://images.unsplash.com/photo-1606466123170-d39e5346aa76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxKYW1haWNhfGVufDF8MHx8fDE3NzcwMDI4MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rock Staar",
+    "photographer_url": "https://unsplash.com/@rockstaar_?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-blue-bus-near-palm-tree-under-blue-sky-during-daytime-wGyHvtLcW_U?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T03:53:39Z"
+  }
+]

@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:indonesia:west_sumatra:bukittinggi",
+    "image_url": "https://images.unsplash.com/photo-1739202117615-b82e7d718250?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxCdWtpdHRpbmdnaSUyMFdlc3QlMjBTdW1hdHJhfGVufDF8MHx8fDE3NzcwMDI4MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mohamad Fokkerizky",
+    "photographer_url": "https://unsplash.com/@fokkerizky?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-tall-clock-tower-with-a-clock-on-each-of-its-sides-p881ztxhRMc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T03:53:34Z"
+  }
+]

@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:indonesia:yogyakarta:yogyakarta",
+    "image_url": "https://images.unsplash.com/photo-1612633296346-ee8c9ff06c7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxZb2d5YWthcnRhJTIwSW5kb25lc2lhfGVufDF8MHx8fDE3NzcwMDI4MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rendy Novantino",
+    "photographer_url": "https://unsplash.com/@novantino?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/man-in-red-and-black-polo-shirt-carrying-red-and-black-backpack-73g__rYxCXQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T03:53:38Z"
+  }
+]

@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:indonesia:west_sumatra:padang",
+    "image_url": "https://images.unsplash.com/photo-1720033787459-0eb7ea2913d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQYWRhbmclMjBXZXN0JTIwU3VtYXRyYXxlbnwxfDB8fHwxNzc3MDAyODE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Fathur Rizki",
+    "photographer_url": "https://unsplash.com/@jaksell?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-lush-green-valley-surrounded-by-mountains-42m5DqxTcE0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T03:53:35Z"
+  }
+]
