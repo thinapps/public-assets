@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:malaysia:kedah:sungai_petani",
+    "image_url": "https://images.unsplash.com/photo-1591015744878-793b76c1163e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTdW5nYWklMjBQZXRhbmklMjBNYWxheXNpYXxlbnwxfDB8fHwxNzc3MDM5ODQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ravin Rau",
+    "photographer_url": "https://unsplash.com/@ravinrau?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-wooden-house-under-blue-sky-during-daytime-kaRquWIWxBw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T14:10:42Z"
+  }
+]

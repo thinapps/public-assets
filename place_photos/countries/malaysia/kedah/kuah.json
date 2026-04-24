@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:malaysia:kedah:kuah",
+    "image_url": "https://images.unsplash.com/photo-1610606631950-45f7da5acf63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxLdWFoJTIwS2VkYWh8ZW58MXwwfHx8MTc3NzAzOTgzOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Muradi",
+    "photographer_url": "https://unsplash.com/@simuradi?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/group-of-people-wearing-black-and-white-coat-DSSfXBzruoA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-24T14:10:39Z"
+  }
+]
