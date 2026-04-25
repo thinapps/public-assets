@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:malaysia:sarawak:miri",
+    "image_url": "https://images.unsplash.com/photo-1626266172549-68821a522eb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNaXJpJTIwU2FyYXdha3xlbnwxfDB8fHwxNzc3MDg4MDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "James Lo",
+    "photographer_url": "https://unsplash.com/@olsemaj?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/person-in-blue-jacket-sitting-on-rock-oL84jLluMz8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T03:34:09Z"
+  }
+]

@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:malaysia:sarawak:bintulu",
+    "image_url": "https://images.unsplash.com/photo-1598801945504-5b879cad1804?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxCaW50dWx1JTIwU2FyYXdha3xlbnwxfDB8fHwxNzc3MDg4MDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Marscella Ling",
+    "photographer_url": "https://unsplash.com/@marscellaling?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/man-in-blue-denim-jeans-playing-guitar-vjBhbsxNqxQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T03:34:06Z"
+  }
+]

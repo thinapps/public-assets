@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:malaysia:sarawak:kuching",
+    "image_url": "https://images.unsplash.com/photo-1572270753774-b892279d50e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLdWNoaW5nJTIwU2FyYXdha3xlbnwxfDB8fHwxNzc3MDg4MDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ir-One M",
+    "photographer_url": "https://unsplash.com/@free049?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-clouds-hRdksxsJSEQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T03:34:08Z"
+  }
+]

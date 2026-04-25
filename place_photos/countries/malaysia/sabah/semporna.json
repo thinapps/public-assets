@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:malaysia:sabah:semporna",
+    "image_url": "https://images.unsplash.com/photo-1600605413643-9ab3636d4e7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTZW1wb3JuYSUyMFNhYmFofGVufDF8MHx8fDE3NzcwODgwNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "LingXing Lee",
+    "photographer_url": "https://unsplash.com/@twinklestar_1030?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-black-boat-on-sea-during-daytime-zXr-Rs1CVUA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T03:34:01Z"
+  }
+]

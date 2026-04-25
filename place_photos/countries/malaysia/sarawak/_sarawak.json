@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "subdivision:malaysia:sarawak",
+    "image_url": "https://images.unsplash.com/photo-1747054593722-3a26f6348f09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYXJhd2FrJTIwTWFsYXlzaWF8ZW58MXwwfHx8MTc3NzA4ODA0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Muhamed Sukry",
+    "photographer_url": "https://unsplash.com/@drdx?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/mosque-silhouettes-against-a-beautiful-sunset-8ZAeFmc5pVE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T03:34:05Z"
+  }
+]
