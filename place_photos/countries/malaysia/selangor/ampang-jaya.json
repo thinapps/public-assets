@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:malaysia:selangor:ampang_jaya",
+    "image_url": "https://images.unsplash.com/photo-1592329088614-5834ae5d1bd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxBbXBhbmclMjBKYXlhJTIwTWFsYXlzaWF8ZW58MXwwfHx8MTc3NzEwMzI2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ryan Photos",
+    "photographer_url": "https://unsplash.com/@ryaryannn_?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/black-and-yellow-turtle-on-brown-sand-L5gBoLmFvhw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T07:47:43Z"
+  }
+]

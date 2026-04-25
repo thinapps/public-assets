@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:malaysia:selangor:kajang",
+    "image_url": "https://images.unsplash.com/flagged/photo-1557032913-a3aca8e92d4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLYWphbmclMjBTZWxhbmdvcnxlbnwxfDB8fHwxNzc3MTAzMjY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Priyanka Singh",
+    "photographer_url": "https://unsplash.com/@priyankasingh31?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/boats-on-body-of-water-under-cloudy-sky-during-daytime-YcQbq53g1AQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T07:47:46Z"
+  }
+]
