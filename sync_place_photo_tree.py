@@ -9,12 +9,25 @@ def load_json_file(file_path):
     try:
         with file_path.open("r", encoding="utf-8") as file_handle:
             return json.load(file_handle)
-    except json.JSONDecodeError:
+    except (json.JSONDecodeError, OSError):
         return None
 
 
-def get_place_id(data):
-    place_id = data.get("place_id")
+def get_first_entry(data):
+    if isinstance(data, list) and data and isinstance(data[0], dict):
+        return data[0]
+
+    if isinstance(data, dict):
+        return data
+
+    return None
+
+
+def get_place_id(entry):
+    if not isinstance(entry, dict):
+        return ""
+
+    place_id = entry.get("place_id") or entry.get("id")
 
     if isinstance(place_id, str) and place_id.strip():
         return place_id.strip()
@@ -22,15 +35,27 @@ def get_place_id(data):
     return ""
 
 
-def get_blank_photo_entry(place_id):
-    return {
-        "place_id": place_id,
-        "image_url": "",
-        "photographer_name": "",
-        "photographer_url": "",
-        "source_url": "",
-        "cached_at": "",
-    }
+def get_label(entry, fallback):
+    if isinstance(entry, dict):
+        label = entry.get("label")
+
+        if isinstance(label, str) and label.strip():
+            return label.strip()
+
+    return fallback.replace("-", " ").replace("_", " ").title()
+
+
+def get_blank_photo_data(place_id):
+    return [
+        {
+            "place_id": place_id,
+            "image_url": "",
+            "photographer_name": "",
+            "photographer_url": "",
+            "source_url": "",
+            "cached_at": ""
+        }
+    ]
 
 
 def write_json_file(file_path, data):
@@ -41,36 +66,57 @@ def write_json_file(file_path, data):
         file_handle.write("\n")
 
 
-def sync_place_file(source_file, target_file):
-    source_data = load_json_file(source_file)
+def normalize_existing_photo_file(target_file, expected_place_id):
+    target_data = load_json_file(target_file)
 
-    if not isinstance(source_data, dict):
+    if not isinstance(target_data, list) or not target_data:
         return False
 
-    place_id = get_place_id(source_data)
+    first_entry = target_data[0]
 
-    if not place_id:
+    if not isinstance(first_entry, dict):
         return False
 
-    if target_file.exists():
+    current_place_id = first_entry.get("place_id", "")
+
+    if current_place_id == expected_place_id:
         return False
 
-    write_json_file(target_file, [get_blank_photo_entry(place_id)])
+    first_entry["place_id"] = expected_place_id
+    write_json_file(target_file, target_data)
 
     return True
 
 
+def sync_file(source_file, target_file):
+    source_data = load_json_file(source_file)
+    source_entry = get_first_entry(source_data)
+
+    if not isinstance(source_entry, dict):
+        return 0
+
+    place_id = get_place_id(source_entry)
+
+    if not place_id:
+        return 0
+
+    if target_file.exists():
+        return 1 if normalize_existing_photo_file(target_file, place_id) else 0
+
+    write_json_file(target_file, get_blank_photo_data(place_id))
+
+    return 1
+
+
 def sync_place_photo_tree(source_root, photo_root):
-    created_files = 0
+    created_or_updated_files = 0
 
     for source_file in sorted(source_root.rglob("*.json")):
         relative_path = source_file.relative_to(source_root)
         target_file = photo_root.joinpath(*relative_path.parts)
+        created_or_updated_files += sync_file(source_file, target_file)
 
-        if sync_place_file(source_file, target_file):
-            created_files += 1
-
-    return created_files
+    return created_or_updated_files
 
 
 def main():
@@ -89,9 +135,9 @@ def main():
     if not source_root.is_dir():
         raise NotADirectoryError(f"source root is not a directory: {source_root}")
 
-    created_files = sync_place_photo_tree(source_root, photo_root)
+    created_or_updated_files = sync_place_photo_tree(source_root, photo_root)
 
-    print(f"created {created_files} missing place photo placeholder files")
+    print(f"created or updated {created_or_updated_files} place photo files")
 
 
 if __name__ == "__main__":
