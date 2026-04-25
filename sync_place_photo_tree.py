@@ -35,16 +35,6 @@ def get_place_id(entry):
     return ""
 
 
-def get_label(entry, fallback):
-    if isinstance(entry, dict):
-        label = entry.get("label")
-
-        if isinstance(label, str) and label.strip():
-            return label.strip()
-
-    return fallback.replace("-", " ").replace("_", " ").title()
-
-
 def get_blank_photo_data(place_id):
     return [
         {
@@ -69,20 +59,31 @@ def write_json_file(file_path, data):
 def normalize_existing_photo_file(target_file, expected_place_id):
     target_data = load_json_file(target_file)
 
-    if not isinstance(target_data, list) or not target_data:
+    if not isinstance(target_data, list):
         return False
+
+    if not target_data:
+        write_json_file(target_file, get_blank_photo_data(expected_place_id))
+        return True
 
     first_entry = target_data[0]
 
     if not isinstance(first_entry, dict):
         return False
 
-    current_place_id = first_entry.get("place_id", "")
+    normalized_first_entry = {
+        "place_id": expected_place_id,
+        "image_url": first_entry.get("image_url", ""),
+        "photographer_name": first_entry.get("photographer_name", ""),
+        "photographer_url": first_entry.get("photographer_url", ""),
+        "source_url": first_entry.get("source_url", ""),
+        "cached_at": first_entry.get("cached_at", ""),
+    }
 
-    if current_place_id == expected_place_id:
+    if len(target_data) == 1 and first_entry == normalized_first_entry:
         return False
 
-    first_entry["place_id"] = expected_place_id
+    target_data[0] = normalized_first_entry
     write_json_file(target_file, target_data)
 
     return True
