@@ -13,15 +13,6 @@ def load_json_file(file_path):
         return None
 
 
-def get_label(data, fallback):
-    label = data.get("label")
-
-    if isinstance(label, str) and label.strip():
-        return label.strip()
-
-    return fallback.replace("-", " ").replace("_", " ").title()
-
-
 def get_place_id(data):
     place_id = data.get("place_id")
 
@@ -31,11 +22,14 @@ def get_place_id(data):
     return ""
 
 
-def get_blank_photo_data(place_id, label):
+def get_blank_photo_entry(place_id):
     return {
         "place_id": place_id,
-        "label": label,
-        "photo": {}
+        "image_url": "",
+        "photographer_name": "",
+        "photographer_url": "",
+        "source_url": "",
+        "cached_at": "",
     }
 
 
@@ -47,14 +41,13 @@ def write_json_file(file_path, data):
         file_handle.write("\n")
 
 
-def sync_self_file(source_file, target_file):
+def sync_place_file(source_file, target_file):
     source_data = load_json_file(source_file)
 
     if not isinstance(source_data, dict):
         return False
 
     place_id = get_place_id(source_data)
-    label = get_label(source_data, source_file.parent.name)
 
     if not place_id:
         return False
@@ -62,27 +55,7 @@ def sync_self_file(source_file, target_file):
     if target_file.exists():
         return False
 
-    write_json_file(target_file, get_blank_photo_data(place_id, label))
-
-    return True
-
-
-def sync_city_file(source_file, target_file):
-    source_data = load_json_file(source_file)
-
-    if not isinstance(source_data, dict):
-        return False
-
-    place_id = get_place_id(source_data)
-    label = get_label(source_data, source_file.stem)
-
-    if not place_id:
-        return False
-
-    if target_file.exists():
-        return False
-
-    write_json_file(target_file, get_blank_photo_data(place_id, label))
+    write_json_file(target_file, [get_blank_photo_entry(place_id)])
 
     return True
 
@@ -92,17 +65,9 @@ def sync_place_photo_tree(source_root, photo_root):
 
     for source_file in sorted(source_root.rglob("*.json")):
         relative_path = source_file.relative_to(source_root)
-        path_parts = relative_path.parts
-
-        if source_file.name.startswith("_"):
-            target_file = photo_root.joinpath(*relative_path.parent.parts, "_self.json")
-            if sync_self_file(source_file, target_file):
-                created_files += 1
-            continue
-
         target_file = photo_root.joinpath(*relative_path.parts)
 
-        if sync_city_file(source_file, target_file):
+        if sync_place_file(source_file, target_file):
             created_files += 1
 
     return created_files
