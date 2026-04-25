@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:mexico:jalisco:puerto_vallarta",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1736888982316-7023579e28c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQdWVydG8lMjBWYWxsYXJ0YSUyMEphbGlzY298ZW58MXwwfHx8MTc3NzEzMjcwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ondrej Bocek",
+    "photographer_url": "https://unsplash.com/@ondrejbocek?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-beach-with-mountains-in-the-background-CsacwUK-UpU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T15:58:26Z"
   }
 ]

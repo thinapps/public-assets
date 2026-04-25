@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:mexico:oaxaca",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1671225603584-8412a795a2d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxPYXhhY2ElMjBNZXhpY298ZW58MXwwfHx8MTc3NzEzMjcwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sergi Ferrete",
+    "photographer_url": "https://unsplash.com/@sergiferrete?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-wooden-table-topped-with-a-bowl-of-food-ho-zdmck4cc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T15:58:28Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:mexico:guanajuato",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1578451555390-b115f419f7ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxHdWFuYWp1YXRvJTIwTWV4aWNvfGVufDF8MHx8fDE3NzcxMzI3MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Raul Varela",
+    "photographer_url": "https://unsplash.com/@raulvarela?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-photography-guanajuato-city-in-mexico-during-daytime-cvovn1q8sdU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T15:58:20Z"
   }
 ]
