@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "country:morocco",
+    "image_url": "https://images.unsplash.com/photo-1569383746724-6f1b882b8f46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNb3JvY2NvfGVufDF8MHx8fDE3NzcxMjQ0NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Heidi Kaden",
+    "photographer_url": "https://unsplash.com/@infinitexplorer?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/blue-and-white-painted-houses-on-the-cliff-NncAbldgViA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T13:40:57Z"
+  }
+]

@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "city:morocco:casablanca_settat:casablanca",
+    "image_url": "https://images.unsplash.com/photo-1519594445471-0e5f86b3fb09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxDYXNhYmxhbmNhJTIwTW9yb2Njb3xlbnwxfDB8fHwxNzc3MTI0NDYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Philipp Klausner",
+    "photographer_url": "https://unsplash.com/@philkl?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/boats-on-seashore-near-houses-TYHyrF56Gys?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T13:41:00Z"
+  }
+]

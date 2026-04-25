@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "subdivision:morocco:fez_meknes",
+    "image_url": "https://images.unsplash.com/photo-1705765276920-b63fd304b056?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxGZXolMjBNZWtuZXMlMjBNb3JvY2NvfGVufDF8MHx8fDE3NzcxMjQ0NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Miltiadis Fragkidis",
+    "photographer_url": "https://unsplash.com/@_miltiadis_?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-people-walking-down-a-narrow-alley-way-d1h9Ht5WLgE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T13:41:02Z"
+  }
+]

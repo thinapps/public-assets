@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "subdivision:morocco:marrakesh_safi",
+    "image_url": "https://images.unsplash.com/photo-1624805098931-098c0d918b34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNYXJyYWtlc2glMjBTYWZpJTIwTW9yb2Njb3xlbnwxfDB8fHwxNzc3MTI0NDY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "rigel",
+    "photographer_url": "https://unsplash.com/@rigels?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-wooden-table-and-chairs-on-a-sunny-day-vXoWmtiyEpY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T13:41:05Z"
+  }
+]
