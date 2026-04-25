@@ -27,15 +27,38 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      # check out the exact repo state for this run
+      # check out the public assets repo
       - name: checkout repo
         uses: actions/checkout@v6
+
+      # check out the private source repo without exposing its name in this workflow
+      - name: checkout source repo
+        uses: actions/checkout@v6
+        with:
+          repository: ${{ secrets.SOURCE_REPOSITORY }}
+          token: ${{ secrets.SOURCE_REPOSITORY_TOKEN }}
+          path: source-repository
+          persist-credentials: false
 
       # keep python pinned for stable behavior
       - name: set up python
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
+
+      # mirror missing public photo placeholders from the private app place tree
+      - name: sync place photo tree
+        env:
+          SOURCE_PLACES_PATH: ${{ secrets.SOURCE_PLACES_PATH }}
+        run: |
+          if [[ -z "${SOURCE_PLACES_PATH}" ]]; then
+            echo "missing SOURCE_PLACES_PATH"
+            exit 1
+          fi
+
+          python sync_place_photo_tree.py \
+            --source-root "source-repository/${SOURCE_PLACES_PATH}" \
+            --photo-root "place_photos/countries"
 
       # run the updater with only the two inputs we actually need
       - name: run updater
