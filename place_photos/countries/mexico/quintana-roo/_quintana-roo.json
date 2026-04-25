@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:mexico:quintana_roo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1603131747133-e95271822da5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxRdWludGFuYSUyMFJvbyUyME1leGljb3xlbnwxfDB8fHwxNzc3MTU0MDc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Tomas Martinez",
+    "photographer_url": "https://unsplash.com/@tomasmartinez?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-wooden-beach-house-on-blue-sea-under-blue-sky-during-daytime-cfsXeT944zA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T21:54:34Z"
   }
 ]

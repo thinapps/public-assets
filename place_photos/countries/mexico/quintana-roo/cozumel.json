@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:mexico:quintana_roo:cozumel",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1666051637521-c759f6780dc7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDb3p1bWVsJTIwUXVpbnRhbmElMjBSb298ZW58MXwwfHx8MTc3NzE1NDA3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Marco Murakami",
+    "photographer_url": "https://unsplash.com/@marcomurakami?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-dock-with-a-boat-and-the-sun-in-the-background-FS52IzdpE5s?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T21:54:38Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:mexico:quintana_roo:cancun",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1650927282131-2d44d32729bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxDYW5jdW4lMjBRdWludGFuYSUyMFJvb3xlbnwxfDB8fHwxNzc3MTU0MDc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jose Marroquin",
+    "photographer_url": "https://unsplash.com/@josemarroquin?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-beach-with-umbrellas-and-chairs-GIvRZMUk3Kk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T21:54:36Z"
   }
 ]
