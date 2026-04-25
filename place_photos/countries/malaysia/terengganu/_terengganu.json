@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "place_id": "subdivision:malaysia:terengganu",
+    "image_url": "https://images.unsplash.com/photo-1713952765955-c78765469521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxUZXJlbmdnYW51JTIwTWFsYXlzaWF8ZW58MXwwfHx8MTc3NzExMTcyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Zhen zz",
+    "photographer_url": "https://unsplash.com/@zhenzz?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-body-of-water-next-to-a-city-VsdgO8cni2E?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T10:08:47Z"
+  }
+]
