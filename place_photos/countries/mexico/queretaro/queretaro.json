@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:mexico:queretaro:queretaro",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1600185404121-336a156bc75f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxRdWVyZXRhcm8lMjBNZXhpY298ZW58MXwwfHx8MTc3NzE0NDM3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jose Antonio Chávez Mendez",
+    "photographer_url": "https://unsplash.com/@josean?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/man-statue-near-brown-concrete-building-during-daytime-32zuGfq9XVk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-25T19:12:59Z"
   }
 ]
