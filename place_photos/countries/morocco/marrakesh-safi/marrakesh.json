@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:morocco:marrakesh_safi:marrakesh",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1706553397756-07063648e11a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNYXJyYWtlc2glMjBNb3JvY2NvfGVufDF8MHx8fDE3NzcxNzU4Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Austin Curtis",
+    "photographer_url": "https://unsplash.com/@afcurtis?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-building-with-a-palm-tree-in-front-of-it-VmCkVgInHkg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-26T03:57:57Z"
   }
 ]

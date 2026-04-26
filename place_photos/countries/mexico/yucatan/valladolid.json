@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:mexico:yucatan:valladolid",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1695385246289-2e7d2ab5e16b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxWYWxsYWRvbGlkJTIwWXVjYXRhbnxlbnwxfDB8fHwxNzc3MTc1ODc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Loris Boulinguez",
+    "photographer_url": "https://unsplash.com/@cli_k?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-street-lined-with-colorful-buildings-and-flags-9AFMVXjp5ik?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-26T03:57:56Z"
   }
 ]

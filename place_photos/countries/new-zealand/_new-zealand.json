@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:new_zealand",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1597655601841-214a4cfe8b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxOZXclMjBaZWFsYW5kfGVufDF8MHx8fDE3NzcxNzU4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sophie Turner",
+    "photographer_url": "https://unsplash.com/@sophie_turner?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/mountain-near-body-of-water-during-daytime-LZVmvKlchM0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-26T03:58:03Z"
   }
 ]
