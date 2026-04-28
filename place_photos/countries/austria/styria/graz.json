@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:austria:styria:graz",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1638617333101-6ec5a0f4893d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxHcmF6JTIwU3R5cmlhfGVufDF8MHx8fDE3Nzc0MTQ0MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Christoph Theisinger",
+    "photographer_url": "https://unsplash.com/@chippenpuepp?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-church-with-a-steeple-on-top-of-a-hill-1T4anD8MNQA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-28T22:13:20Z"
   }
 ]

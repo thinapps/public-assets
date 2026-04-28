@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:austria:tyrol:kitzbuhel",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1595702389296-93fc247e7c5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxLaXR6YnVoZWwlMjBUeXJvbHxlbnwxfDB8fHwxNzc3NDE0NDA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alin Andersen",
+    "photographer_url": "https://unsplash.com/@onixion?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-on-green-grass-field-near-mountain-under-white-clouds-during-daytime-YY8xgBDAglc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-28T22:13:27Z"
   }
 ]

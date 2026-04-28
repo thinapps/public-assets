@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:austria:tyrol:lienz",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1532637408536-97adac8b2a7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMaWVueiUyMFR5cm9sfGVufDF8MHx8fDE3Nzc0MTQ0MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Pascal Debrunner",
+    "photographer_url": "https://unsplash.com/@debrupas?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-rocky-mountain-over-horizon-5Hhc7HrRhpc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-28T22:13:29Z"
   }
 ]

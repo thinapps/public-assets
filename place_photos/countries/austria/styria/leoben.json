@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:austria:styria:leoben",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1473526750398-bfd02f485230?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxMZW9iZW4lMjBBdXN0cmlhfGVufDF8MHx8fDE3Nzc0MTQ0MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Stefan Steinbauer",
+    "photographer_url": "https://unsplash.com/@usinglight?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/photography-of-gray-concrete-building-at-night-time-zjRK4hRP6sQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-28T22:13:24Z"
   }
 ]
