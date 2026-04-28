@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:austria:salzburg:zell_am_see",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1691089280157-d2c78c6a08f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxaZWxsJTIwQW0lMjBTZWUlMjBTYWx6YnVyZ3xlbnwxfDB8fHwxNzc3NDA2MzAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Stock Birken",
+    "photographer_url": "https://unsplash.com/@stockbirken?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-snow-covered-mountain-with-a-ski-lift-in-the-distance-mqxaBcSv2wI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-28T19:58:23Z"
   }
 ]
