@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:belgium:flanders:hasselt",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1519725527372-7264f9a2b39e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxIYXNzZWx0JTIwQmVsZ2l1bXxlbnwxfDB8fHwxNzc3NDYwODU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "yarne fiten",
+    "photographer_url": "https://unsplash.com/@yarnefiten?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-gray-duck-on-body-of-water-L8AY7KabMDk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-29T11:07:40Z"
   }
 ]

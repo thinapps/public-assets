@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:belgium:flanders:antwerp",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1630958461674-d0fbfaaf2190?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBbnR3ZXJwJTIwRmxhbmRlcnN8ZW58MXwwfHx8MTc3NzQ2MDg0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Lien Van Win",
+    "photographer_url": "https://unsplash.com/@lienvanwin?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/sliced-bread-with-strawberry-on-white-ceramic-plate-Z1p_FQLEtcU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-29T11:07:28Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:belgium:flanders:genk",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1757787878968-54b787f2bb7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxHZW5rJTIwQmVsZ2l1bXxlbnwxfDB8fHwxNzc3NDYwODU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nikola Majksner",
+    "photographer_url": "https://unsplash.com/@majksner?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-young-grebe-swims-in-the-calm-water-sFNvAoXbUvk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-29T11:07:36Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:belgium:flanders:ghent",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1666170001373-2689649c3376?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxHaGVudCUyMEZsYW5kZXJzfGVufDF8MHx8fDE3Nzc0NjA4NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Eduard Delputte",
+    "photographer_url": "https://unsplash.com/@edelputte?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-castle-with-a-moat-x2zm_EWNB0o?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-29T11:07:37Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:belgium:flanders:knokke_heist",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1653385024126-d2a52181bd83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxLbm9ra2UlMjBIZWlzdCUyMEZsYW5kZXJzfGVufDF8MHx8fDE3Nzc0NjA4NjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sergey Sukhov",
+    "photographer_url": "https://unsplash.com/@sukhov?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-river-running-through-a-city-next-to-tall-buildings-IVSHeVFZ4ac?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-29T11:07:41Z"
   }
 ]
