@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:belgium:flanders:ypres",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1728549127207-5ab6ff993154?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxZcHJlcyUyMEZsYW5kZXJzfGVufDF8MHx8fDE3Nzc0NzMyMDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Eduard Delputte",
+    "photographer_url": "https://unsplash.com/@edelputte?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-city-with-tall-buildings-73peVVti-FE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-29T14:33:24Z"
   }
 ]

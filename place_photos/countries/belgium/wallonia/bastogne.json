@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:belgium:wallonia:bastogne",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1520440712-31802af3c144?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCYXN0b2duZSUyMEJlbGdpdW18ZW58MXwwfHx8MTc3NzQ3MzIwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Caleb Stokes",
+    "photographer_url": "https://unsplash.com/@yoitscalebb?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/closeup-photo-of-dried-leaf-dWc5Gs4E2wA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-29T14:33:28Z"
   }
 ]
