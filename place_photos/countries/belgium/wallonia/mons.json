@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:belgium:wallonia:mons",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1632341292711-6f12cf7e61b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNb25zJTIwV2FsbG9uaWF8ZW58MXwwfHx8MTc3NzQ4MTczOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Aleksandr Kadykov",
+    "photographer_url": "https://unsplash.com/@kadykov?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-building-with-arches-and-arches-on-the-ceiling-Gmr-qeD1uUc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-29T16:55:38Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:belgium:wallonia:namur",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1773657065514-e46a2830c344?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxOYW11ciUyMFdhbGxvbmlhfGVufDF8MHx8fDE3Nzc0ODE3NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "ALEKO KEZEVADZE",
+    "photographer_url": "https://unsplash.com/@alexanderkez?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-a-historic-european-city-with-a-castle--YzBsoMZXYc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-29T16:55:40Z"
   }
 ]

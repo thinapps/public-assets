@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:belgium:wallonia:durbuy",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1599619792041-e1e516ebfe1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxEdXJidXklMjBXYWxsb25pYXxlbnwxfDB8fHwxNzc3NDgxNzMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Michael Maga-ao",
+    "photographer_url": "https://unsplash.com/@michaelmagaao?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-city-during-daytime-n6VdPO3csOo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-29T16:55:33Z"
   }
 ]
