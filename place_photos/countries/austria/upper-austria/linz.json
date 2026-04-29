@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:austria:upper_austria:linz",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1607554338776-4b7ceb683d3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxMaW56JTIwVXBwZXIlMjBBdXN0cmlhfGVufDF8MHx8fDE3Nzc0MzU1MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Matthias Mitterlehner",
+    "photographer_url": "https://unsplash.com/@mattmitt?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-and-white-concrete-building-during-daytime-7Ol8dpU1y70?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-29T04:05:19Z"
   }
 ]
