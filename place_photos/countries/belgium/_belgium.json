@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:belgium",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1559113202-c916b8e44373?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxCZWxnaXVtfGVufDF8MHx8fDE3Nzc0NTE3MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Thomas Somme",
+    "photographer_url": "https://unsplash.com/@tsomme?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-concrete-gate-m39OKAexaqo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-29T08:35:06Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:austria:vorarlberg:feldkirch",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1667926309868-be5ea79ac75b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxGZWxka2lyY2glMjBWb3JhcmxiZXJnfGVufDF8MHx8fDE3Nzc0NTE3MDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Leonhard Niederwimmer",
+    "photographer_url": "https://unsplash.com/@lnlnln?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-city-with-many-buildings-and-trees-huXUzkT51qc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-29T08:35:03Z"
   }
 ]

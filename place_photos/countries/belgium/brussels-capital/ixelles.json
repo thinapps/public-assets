@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:belgium:brussels_capital:ixelles",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1653940855875-95c9f53778ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxJeGVsbGVzJTIwQnJ1c3NlbHMlMjBDYXBpdGFsfGVufDF8MHx8fDE3Nzc0NTE3MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "henri buenen",
+    "photographer_url": "https://unsplash.com/@henri_b?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-building-with-a-lot-of-windows-on-top-of-it-OQNVJzKbWEY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-29T08:35:11Z"
   }
 ]
