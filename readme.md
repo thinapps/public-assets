@@ -1,6 +1,6 @@
 # Public Assets
 
-Public asset cache for Freebase.
+Public asset cache for the app.
 
 This repo stores photo metadata used by the app without storing image binaries. Photo files are small JSON records that point to Unsplash image URLs and required attribution links.
 
