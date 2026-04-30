@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:czechia:south_bohemian",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1690146235818-99c8d79d4ddd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMEJvaGVtaWFuJTIwQ3plY2hpYXxlbnwxfDB8fHwxNzc3NTY3ODQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Aleksei Tertychnyi",
+    "photographer_url": "https://unsplash.com/@pinelab?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-white-castle-with-a-clock-tower-fJqAH4rubLk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-30T16:50:43Z"
   }
 ]

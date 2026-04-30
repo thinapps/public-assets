@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:czechia:pardubice:pardubice",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1651248710963-50e3e451f179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQYXJkdWJpY2UlMjBDemVjaGlhfGVufDF8MHx8fDE3Nzc1Njc4MzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Karel Mistrík",
+    "photographer_url": "https://unsplash.com/@kaaja0_0?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-red-car-parked-in-front-of-a-building-X78AJtmPQNE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-30T16:50:38Z"
   }
 ]
