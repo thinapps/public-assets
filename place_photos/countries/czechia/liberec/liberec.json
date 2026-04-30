@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:czechia:liberec:liberec",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1657650530207-a9b3d9c8ea33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxMaWJlcmVjJTIwQ3plY2hpYXxlbnwxfDB8fHwxNzc3NTQ3NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Vanta Nev",
+    "photographer_url": "https://unsplash.com/@vantanev00?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-buildings-behind-trees-14nED5YWZyo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-30T11:10:34Z"
   }
 ]

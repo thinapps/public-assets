@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:czechia:karlovy_vary:karlovy_vary",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1745668642577-728880c796ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLYXJsb3Z5JTIwVmFyeSUyMEN6ZWNoaWF8ZW58MXwwfHx8MTc3NzU0NzQyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Shalev Cohen",
+    "photographer_url": "https://unsplash.com/@shalevcohen?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/beautiful-ornate-building-with-many-windows-7gcAFdEkZW8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-30T11:10:28Z"
   }
 ]

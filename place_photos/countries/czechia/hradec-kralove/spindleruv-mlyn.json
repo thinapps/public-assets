@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:czechia:hradec_kralove:spindleruv_mlyn",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1666877456794-42b65403a5a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTcGluZGxlcnV2JTIwTWx5biUyMEN6ZWNoaWF8ZW58MXwwfHx8MTc3NzU0NzQyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Max Böhme",
+    "photographer_url": "https://unsplash.com/@max_boehme?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-lake-surrounded-by-trees-and-mountains-3AO-g446ogA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-04-30T11:10:25Z"
   }
 ]
