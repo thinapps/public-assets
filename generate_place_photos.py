@@ -64,8 +64,6 @@ def parse_cached_at(value: str) -> float:
         return 0.0
 
 
-
-
 def append_referral(url: str) -> str:
     # keep unsplash attribution links consistent
     if not url:
@@ -78,6 +76,7 @@ def append_referral(url: str) -> str:
     pairs.append(("utm_medium", UTM_MEDIUM))
     query = parse.urlencode(pairs)
     return parse.urlunsplit((parsed.scheme, parsed.netloc, parsed.path, query, parsed.fragment))
+
 
 def normalize_photo_entry(entry: Dict[str, Any]) -> Dict[str, Any]:
     # preserve the repo schema and keep cached_at optional but supported
@@ -423,7 +422,7 @@ def main() -> int:
             stop_cleanly = True
             break
 
-        if args.limit and attempted_entries >= args.limit:
+        if args.limit and changed_entries >= args.limit:
             break
 
         if DEFAULT_PAUSE_SECONDS > 0:
