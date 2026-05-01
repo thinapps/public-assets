@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:croatia:istria:porec",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1730205963551-2e8ea9a2def1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQb3JlYyUyMElzdHJpYXxlbnwxfDB8fHwxNzc3NjQzODI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Tanja Tepavac",
+    "photographer_url": "https://unsplash.com/@ttepavac?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-body-of-water-with-a-city-in-the-background-1UoXbe6I3yk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-01T13:57:04Z"
   }
 ]

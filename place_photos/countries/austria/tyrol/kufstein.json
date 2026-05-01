@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:austria:tyrol:kufstein",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1625754838684-f200fd9e8292?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLdWZzdGVpbiUyMFR5cm9sfGVufDF8MHx8fDE3Nzc2NDM3OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rudolf Huber",
+    "photographer_url": "https://unsplash.com/@autoz?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-beside-body-of-water-during-daytime-UBqhuiEpu3k?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-01T13:56:34Z"
   }
 ]
