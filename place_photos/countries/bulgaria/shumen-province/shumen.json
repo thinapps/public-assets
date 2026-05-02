@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:bulgaria:shumen_province:shumen",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1541591380705-1c60f99aad4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTaHVtZW4lMjBCdWxnYXJpYXxlbnwxfDB8fHwxNzc3NzM3ODQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Atanas Dzhingarov",
+    "photographer_url": "https://unsplash.com/@a_dzhingarov?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/silhouette-of-flags-NscXYu_HrmE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-02T16:04:03Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:bulgaria:lovech_province:lovech",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1642075786687-678f68926ce5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMb3ZlY2glMjBCdWxnYXJpYXxlbnwxfDB8fHwxNzc3NzM3ODE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ivo Yordanov",
+    "photographer_url": "https://unsplash.com/@ivoyordanov?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-city-from-above-mKePX5D9w6Q?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-02T16:03:35Z"
   }
 ]
