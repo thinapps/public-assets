@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:bulgaria:gabrovo_province:gabrovo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1712259963960-b87586c9b20a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxHYWJyb3ZvJTIwQnVsZ2FyaWF8ZW58MXwwfHx8MTc3NzcyOTg5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Stoyan Ramalchanov",
+    "photographer_url": "https://unsplash.com/@stoyan_ramalchanov?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-black-mustang-parked-on-the-side-of-a-road-JgYGe2FRT84?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-02T13:51:38Z"
   }
 ]
