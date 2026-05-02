@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:bulgaria:sofia_city:sofia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1751312494113-8207ce240650?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTb2ZpYSUyMFNvZmlhJTIwQ2l0eXxlbnwxfDB8fHwxNzc3NzUwMjQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Virginia Marinova",
+    "photographer_url": "https://unsplash.com/@virginiaphotostories?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/buildings-line-a-street-under-a-cloudy-sky-G3mSYaWgpk0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-02T19:30:48Z"
   }
 ]

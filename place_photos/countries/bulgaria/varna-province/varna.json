@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:bulgaria:varna_province:varna",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1575623841192-473bbd2f386f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxWYXJuYSUyMEJ1bGdhcmlhfGVufDF8MHx8fDE3Nzc3NTAyNjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nikolay Hristov",
+    "photographer_url": "https://unsplash.com/@nikolayh?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/blue-body-of-water-y8zfsWc9aMQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-02T19:31:03Z"
   }
 ]
