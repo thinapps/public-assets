@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:cyprus:famagusta_district:famagusta",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1671276066756-5aebbfd701ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxGYW1hZ3VzdGElMjBDeXBydXN8ZW58MXwwfHx8MTc3NzgzNjY2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Steffen Lemmerzahl",
+    "photographer_url": "https://unsplash.com/@steffen_l?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-room-with-a-lot-of-windows-in-it-78DcX4nAIHI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-03T19:31:04Z"
   }
 ]

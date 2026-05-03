@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:denmark:capital_region:copenhagen",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1611515905024-d6530366c87c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDb3BlbmhhZ2VuJTIwRGVubWFya3xlbnwxfDB8fHwxNzc3ODM2NjkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nick Karvounis",
+    "photographer_url": "https://unsplash.com/@nickkarvounis?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-boat-on-dock-near-buildings-during-daytime-e2uVGn0_LgI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-03T19:31:33Z"
   }
 ]

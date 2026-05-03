@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:denmark",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxEZW5tYXJrfGVufDF8MHx8fDE3Nzc4MzY2ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nick Karvounis",
+    "photographer_url": "https://unsplash.com/@nickkarvounis?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/two-gray-and-black-boats-near-dock-3_ZGrsirryY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-03T19:31:29Z"
   }
 ]

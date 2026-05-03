@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:czechia:zlin:kromeriz",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1775218181224-747e0ced2ceb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLcm9tZXJpeiUyMFpsaW58ZW58MXwwfHx8MTc3NzgzNjY4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sotirios T. K",
+    "photographer_url": "https://unsplash.com/@toapalad?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/village-with-church-steeple-by-a-lake-under-stormy-skies-i4dTUlWxCfc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-03T19:31:26Z"
   }
 ]
