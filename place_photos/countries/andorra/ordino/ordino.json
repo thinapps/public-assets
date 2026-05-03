@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:andorra:ordino:ordino",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1726051897591-d4a50d913e45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxPcmRpbm8lMjBBbmRvcnJhfGVufDF8MHx8fDE3Nzc3ODE2NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Franco Gandini",
+    "photographer_url": "https://unsplash.com/@gandinifranco4?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-panoramic-view-of-a-valley-with-mountains-in-the-background-tL-KoWirwWY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-03T04:14:06Z"
   }
 ]

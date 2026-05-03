@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:bulgaria:vratsa_province:vratsa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1593616040388-df0aa9049cd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxWcmF0c2ElMjBCdWxnYXJpYXxlbnwxfDB8fHwxNzc3NzgxNzA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ivan Nedelchev",
+    "photographer_url": "https://unsplash.com/@inedelchev?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-mountains-beside-river-under-blue-sky-during-daytime-66JOmOvYoKE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-03T04:15:09Z"
   }
 ]
