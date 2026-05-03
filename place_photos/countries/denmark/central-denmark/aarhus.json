@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:denmark:central_denmark:aarhus",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1693046954106-5a0166e8e034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxBYXJodXMlMjBDZW50cmFsJTIwRGVubWFya3xlbnwxfDB8fHwxNzc3ODQ1OTE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Tomasz Anusiewicz",
+    "photographer_url": "https://unsplash.com/@oxganggreen?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-bike-is-parked-outside-of-a-house-ou1yAzEorH8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-03T22:05:17Z"
   }
 ]
