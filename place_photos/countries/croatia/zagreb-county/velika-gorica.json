@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:croatia:zagreb_county:velika_gorica",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1660756373336-31505c603b6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxWZWxpa2ElMjBHb3JpY2ElMjBDcm9hdGlhfGVufDF8MHx8fDE3Nzc4MjQyNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Antoine Schibler",
+    "photographer_url": "https://unsplash.com/@antoine_schibler?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-group-of-people-in-a-large-building-QTHJn8FGMaE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-03T16:04:39Z"
   }
 ]

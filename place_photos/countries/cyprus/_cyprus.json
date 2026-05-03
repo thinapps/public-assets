@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:cyprus",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1677023484291-005b9840132f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxDeXBydXN8ZW58MXwwfHx8MTc3NzgyNDI4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Katerina Bot",
+    "photographer_url": "https://unsplash.com/@katerinabot?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-harbor-filled-with-lots-of-boats-on-top-of-a-body-of-water-sZ8zn03gFKU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-03T16:04:41Z"
   }
 ]
