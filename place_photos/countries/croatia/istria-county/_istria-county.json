@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:croatia:istria_county",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1721722133152-748a23c5ba3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxJc3RyaWElMjBDb3VudHklMjBDcm9hdGlhfGVufDF8MHx8fDE3Nzc3OTYyODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dominik Puskas",
+    "photographer_url": "https://unsplash.com/@puskas_dominik?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-village-from-a-high-point-of-view-MWvBf9RFSi4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-03T08:18:09Z"
   }
 ]
