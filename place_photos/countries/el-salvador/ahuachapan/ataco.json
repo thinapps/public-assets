@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:el_salvador:ahuachapan:ataco",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1613585373386-b85565369d7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBdGFjbyUyMEFodWFjaGFwYW58ZW58MXwwfHx8MTc3Nzg4NDMwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jarritos Mexican Soda",
+    "photographer_url": "https://unsplash.com/@jarritos?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/burger-and-fries-on-white-ceramic-plate-7p4WC2MX7rM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-04T08:45:09Z"
   }
 ]
