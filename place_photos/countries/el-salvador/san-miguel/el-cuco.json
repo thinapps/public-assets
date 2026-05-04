@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:el_salvador:san_miguel:el_cuco",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1650651281314-dac5391d4935?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxFbCUyMEN1Y28lMjBFbCUyMFNhbHZhZG9yfGVufDF8MHx8fDE3Nzc5MjQ3NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Anthony Darmanin",
+    "photographer_url": "https://unsplash.com/@anthonydar?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-beach-with-a-sunset-D5YK64MYZQ0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-04T19:59:25Z"
   }
 ]

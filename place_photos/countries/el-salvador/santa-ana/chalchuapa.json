@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:el_salvador:santa_ana:chalchuapa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1721297990863-d93adf19fa7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDaGFsY2h1YXBhJTIwU2FudGElMjBBbmF8ZW58MXwwfHx8MTc3NzkyNDc4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Luis Rodriguez",
+    "photographer_url": "https://unsplash.com/@luisroding?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-grassy-field-with-a-building-in-the-background-GSY_NUKM_R0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-04T19:59:44Z"
   }
 ]
