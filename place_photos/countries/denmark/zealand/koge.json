@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:denmark:zealand:koge",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1747658370758-8ba34d2f51b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxLb2dlJTIwWmVhbGFuZHxlbnwxfDB8fHwxNzc3ODY4MDg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "JinHui CHEN",
+    "photographer_url": "https://unsplash.com/@jimmydaddy?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/road-curves-along-a-scenic-lake-towards-the-mountains-oMSI1vmbF4c?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-04T04:14:48Z"
   }
 ]

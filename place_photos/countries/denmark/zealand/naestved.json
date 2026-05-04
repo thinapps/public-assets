@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:denmark:zealand:naestved",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1768921524186-d7c1375e3891?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxOYWVzdHZlZCUyMERlbm1hcmt8ZW58MXwwfHx8MTc3Nzg2ODA5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rasmus Lauridsen",
+    "photographer_url": "https://unsplash.com/@captainslow?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/gas-station-at-night-with-a-car-5PYb2d6uj_c?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-04T04:14:50Z"
   }
 ]

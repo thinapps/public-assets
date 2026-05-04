@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:denmark:south_denmark:odense",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1621517754404-ad11e2be514e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxPZGVuc2UlMjBEZW5tYXJrfGVufDF8MHx8fDE3Nzc4NjgwODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Lasse Jensen",
+    "photographer_url": "https://unsplash.com/@maybejensen?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime-jVd2bDKDLCI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-04T04:14:43Z"
   }
 ]
