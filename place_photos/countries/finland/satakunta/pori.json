@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:finland:satakunta:pori",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1662385096167-da7f673c5ebf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxQb3JpJTIwU2F0YWt1bnRhfGVufDF8MHx8fDE3NzgwMTA5Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Martin L.",
+    "photographer_url": "https://unsplash.com/@ahmatti08?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-close-up-of-a-pine-cone-kAeHfUfM7u8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-05T19:56:07Z"
   }
 ]

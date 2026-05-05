@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:finland:south_savo:mikkeli",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1561731171-9ad513514271?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNaWtrZWxpJTIwRmlubGFuZHxlbnwxfDB8fHwxNzc4MDEwOTc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Denis Arslanbekov",
+    "photographer_url": "https://unsplash.com/@arslanbekov?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-photo-of-river-704sL_v2szU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-05T19:56:17Z"
   }
 ]

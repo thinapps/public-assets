@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:finland:pirkanmaa:tampere",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1642165515845-468a4ca8bdcf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxUYW1wZXJlJTIwUGlya2FubWFhfGVufDF8MHx8fDE3NzgwMTA5NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Hendrik Morkel",
+    "photographer_url": "https://unsplash.com/@hendrikmorkel?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-grocery-store-filled-with-lots-of-fresh-produce-hZIhvOwyP0U?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-05T19:56:04Z"
   }
 ]

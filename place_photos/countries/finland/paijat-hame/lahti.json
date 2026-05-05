@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:finland:paijat_hame:lahti",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1692651512668-f128d7d9f153?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxMYWh0aSUyMEZpbmxhbmR8ZW58MXwwfHx8MTc3ODAxMDk2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jim Tran",
+    "photographer_url": "https://unsplash.com/@jimcbl?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-lake-surrounded-by-trees-and-a-dock-bJiPWBSMaDY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-05T19:56:00Z"
   }
 ]

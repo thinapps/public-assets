@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:finland:pirkanmaa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1691859491587-f2ac80e2b566?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxQaXJrYW5tYWElMjBGaW5sYW5kfGVufDF8MHx8fDE3NzgwMTA5NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Veikko Venemies",
+    "photographer_url": "https://unsplash.com/@veikkovenemies?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-tall-tower-in-the-middle-of-a-city-U_z1tGtEriQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-05T19:56:02Z"
   }
 ]
