@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:estonia:laane_viru:tapa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1642600885900-5e4eb821d569?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxUYXBhJTIwTGFhbmUlMjBWaXJ1fGVufDF8MHx8fDE3Nzc5Njk5MzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "JS Shariff",
+    "photographer_url": "https://unsplash.com/@jsshariff?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-man-in-a-yellow-turban-is-dancing-lBjwawul0KI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-05T08:32:15Z"
   }
 ]

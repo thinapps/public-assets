@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:estonia:rapla",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1672478865437-781a128b61ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxSYXBsYSUyMEVzdG9uaWF8ZW58MXwwfHx8MTc3Nzk2OTk0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Anton Khmelnitsky",
+    "photographer_url": "https://unsplash.com/@antonkhmelnitsky?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-man-riding-a-bike-up-the-side-of-a-ramp-Q1i7y_YQzp8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-05T08:32:25Z"
   }
 ]

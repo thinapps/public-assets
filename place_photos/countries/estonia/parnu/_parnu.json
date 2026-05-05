@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:estonia:parnu",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1597332181681-ee4367664d90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQYXJudSUyMEVzdG9uaWF8ZW58MXwwfHx8MTc3Nzk2OTk0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alex Dadukin",
+    "photographer_url": "https://unsplash.com/@st235?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/gray-rocks-near-body-of-water-during-daytime-CeRI16oF7PA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-05T08:32:20Z"
   }
 ]
