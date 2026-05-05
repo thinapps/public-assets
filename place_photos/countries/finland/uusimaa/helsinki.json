@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:finland:uusimaa:helsinki",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1623307201350-7f1cd80bfba8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxIZWxzaW5raSUyMFV1c2ltYWF8ZW58MXwwfHx8MTc3ODAxOTQ2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Hendrik Morkel",
+    "photographer_url": "https://unsplash.com/@hendrikmorkel?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-building-with-a-clock-tower-on-top-of-it-EhQG2cHBFSc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-05T22:17:40Z"
   }
 ]

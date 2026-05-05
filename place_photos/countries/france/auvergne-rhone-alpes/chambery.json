@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:auvergne_rhone_alpes:chambery",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1776251232190-000944cdc76e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDaGFtYmVyeSUyMEF1dmVyZ25lJTIwUmhvbmUlMjBBbHBlc3xlbnwxfDB8fHwxNzc4MDE5NDY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Thomas K",
+    "photographer_url": "https://unsplash.com/@thomasthomask?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/snow-capped-mountains-reflected-in-a-calm-lake-aMNHOynjeJA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-05T22:17:44Z"
   }
 ]
