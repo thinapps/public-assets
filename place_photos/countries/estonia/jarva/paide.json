@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:estonia:jarva:paide",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1724178305791-dd56fde6d22e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxQYWlkZSUyMEVzdG9uaWF8ZW58MXwwfHx8MTc3Nzk1MzMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Aliaksei Lepik",
+    "photographer_url": "https://unsplash.com/@vegfrt?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-harbor-filled-with-lots-of-boats-under-a-blue-sky-M0Lb3R6Zi8o?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-05T03:55:36Z"
   }
 ]

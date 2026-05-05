@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:estonia:ida_viru:narva",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1709237938503-b632893e491a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxOYXJ2YSUyMEVzdG9uaWF8ZW58MXwwfHx8MTc3Nzk1MzMzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mariana Mishina",
+    "photographer_url": "https://unsplash.com/@mariana_mi?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-picture-of-jesus-on-the-side-of-a-building-HSo1BgBNE6g?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-05T03:55:30Z"
   }
 ]

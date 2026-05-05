@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:estonia:ida_viru:sillamae",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1777309816366-e129a8a12d14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTaWxsYW1hZSUyMElkYSUyMFZpcnV8ZW58MXwwfHx8MTc3Nzk1MzMzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sergio Aguirre",
+    "photographer_url": "https://unsplash.com/@zeryozero?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/woman-in-white-dress-and-red-headscarf-smiles-gYu0GtU0Mfk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-05T03:55:32Z"
   }
 ]
