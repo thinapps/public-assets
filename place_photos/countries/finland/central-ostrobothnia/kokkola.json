@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:finland:central_ostrobothnia:kokkola",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1771944161815-888678704bf1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLb2trb2xhJTIwRmlubGFuZHxlbnwxfDB8fHwxNzc3OTkxNDA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Juho Luomala",
+    "photographer_url": "https://unsplash.com/@juho_aleksi_luomala?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-aurora-borealis-over-a-forest-cabin-eS0P5pShD-A?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-05T14:30:05Z"
   }
 ]
