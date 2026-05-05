@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:estonia:viljandi",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1662619480721-936f25c388aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxWaWxqYW5kaSUyMEVzdG9uaWF8ZW58MXwwfHx8MTc3Nzk3ODcxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Andres Siimon",
+    "photographer_url": "https://unsplash.com/@johnmcclane?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-bench-sits-unoccupied-P2Im7VEfXpo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-05T10:58:35Z"
   }
 ]

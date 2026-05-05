@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:estonia:tartu:elva",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1719577823946-8a6331d450a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxFbHZhJTIwVGFydHV8ZW58MXwwfHx8MTc3Nzk3ODcwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Denisa Trif",
+    "photographer_url": "https://unsplash.com/@denisatrif?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-close-up-of-a-pie-on-a-plate-Bmg2NAItnhE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-05T10:58:28Z"
   }
 ]
