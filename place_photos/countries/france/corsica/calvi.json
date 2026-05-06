@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:corsica:calvi",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1571168545252-5f9fbd0c23d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxDYWx2aSUyMENvcnNpY2F8ZW58MXwwfHx8MTc3ODA4MDAyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Hannah Wright",
+    "photographer_url": "https://unsplash.com/@hannahwrightdesigner?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-houses-and-boats-liYhIr4WOCU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-06T15:07:05Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:corsica:porto_vecchio",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1549910696-4c30b47302bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxQb3J0byUyMFZlY2NoaW8lMjBDb3JzaWNhfGVufDF8MHx8fDE3NzgwODAwMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ludovic Charlet",
+    "photographer_url": "https://unsplash.com/@ludo_photos?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/calm-body-of-water-during-daytime-lM75Q7tqULA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-06T15:07:08Z"
   }
 ]

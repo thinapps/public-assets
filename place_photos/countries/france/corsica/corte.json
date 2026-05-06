@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:corsica:corte",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1524643526752-983b1fcec35f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDb3J0ZSUyMENvcnNpY2F8ZW58MXwwfHx8MTc3ODA4MDAyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jametlene Reskp",
+    "photographer_url": "https://unsplash.com/@reskp?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/selective-focus-photography-of-brown-concrete-building-under-white-sky-v3yeK3tAJ5g?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-06T15:07:06Z"
   }
 ]

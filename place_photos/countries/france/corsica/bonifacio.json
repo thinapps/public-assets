@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:corsica:bonifacio",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1662666386732-986c055b02de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxCb25pZmFjaW8lMjBDb3JzaWNhfGVufDF8MHx8fDE3NzgwODAwMjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Bernd 📷 Dittrich",
+    "photographer_url": "https://unsplash.com/@hdbernd?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-city-on-a-hill-by-the-water-7L8mLma8zdE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-06T15:07:03Z"
   }
 ]
