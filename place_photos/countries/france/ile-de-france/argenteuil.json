@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:ile_de_france:argenteuil",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1668088623103-756a3478b5b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBcmdlbnRldWlsJTIwSWxlJTIwRGUlMjBGcmFuY2V8ZW58MXwwfHx8MTc3ODA5NzkzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Pascal Bernardon",
+    "photographer_url": "https://unsplash.com/@pbernardon?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/boats-on-the-water-uE4h6rz7Uf8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-06T20:05:30Z"
   }
 ]

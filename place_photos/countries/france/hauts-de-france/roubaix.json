@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:hauts_de_france:roubaix",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1722887355197-cca7df1376e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxSb3ViYWl4JTIwRnJhbmNlfGVufDF8MHx8fDE3NzgwOTc5MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Pierre Goiffon",
+    "photographer_url": "https://unsplash.com/@pir?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-room-filled-with-lots-of-statues-MhkvQ-R5Lzk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-06T20:05:26Z"
   }
 ]

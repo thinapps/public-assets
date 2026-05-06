@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:hauts_de_france:tourcoing",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1583217214659-8c2195525e25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxUb3VyY29pbmclMjBGcmFuY2V8ZW58MXwwfHx8MTc3ODA5NzkyOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "J C",
+    "photographer_url": "https://unsplash.com/@jerileecornelio?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/eiffel-tower-near-body-of-water-during-daytime-WoSlRyCHrzw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-06T20:05:28Z"
   }
 ]
