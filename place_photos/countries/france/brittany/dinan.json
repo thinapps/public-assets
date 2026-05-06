@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:brittany:dinan",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1654797589436-a4ffaa8384b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxEaW5hbiUyMEJyaXR0YW55fGVufDF8MHx8fDE3NzgwNDA3MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Desert Morocco Adventure",
+    "photographer_url": "https://unsplash.com/@dmadventure?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-town-with-a-river-running-through-it-fQtHRdK4BcE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-06T04:11:55Z"
   }
 ]
