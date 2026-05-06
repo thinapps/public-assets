@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:grand_est:metz",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1747653007371-c712c8a188bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNZXR6JTIwR3JhbmQlMjBFc3R8ZW58MXwwfHx8MTc3ODA4NjcwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Frédéric LO BRUTTO",
+    "photographer_url": "https://unsplash.com/@frederic_lobrutto?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-beautiful-church-shines-brightly-at-night-UAI1TzM0eqc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-06T16:58:25Z"
   }
 ]

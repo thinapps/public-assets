@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:grand_est:epernay",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1725187982121-8e2c01127e7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxFcGVybmF5JTIwR3JhbmQlMjBFc3R8ZW58MXwwfHx8MTc3ODA4NjcwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "quentin touvard",
+    "photographer_url": "https://unsplash.com/@qt_picture?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-building-with-a-gate-in-front-of-it-T-ky_kSnx9A?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-06T16:58:23Z"
   }
 ]

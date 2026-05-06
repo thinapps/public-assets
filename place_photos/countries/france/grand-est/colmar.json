@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:grand_est:colmar",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1700595337583-4f7708659969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDb2xtYXIlMjBHcmFuZCUyMEVzdHxlbnwxfDB8fHwxNzc4MDg2NzAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Snap Wander",
+    "photographer_url": "https://unsplash.com/@passimage?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-row-of-buildings-sitting-next-to-each-other-3-a0yUKb4m0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-06T16:58:22Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:grand_est:strasbourg",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1689616829248-5a47ad962a46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTdHJhc2JvdXJnJTIwR3JhbmQlMjBFc3R8ZW58MXwwfHx8MTc3ODA4NjcxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Richard Hedrick",
+    "photographer_url": "https://unsplash.com/@fortuitousfoto?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-river-running-through-a-small-town-under-a-cloudy-sky-2j5_5oUFNaE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-06T16:58:31Z"
   }
 ]

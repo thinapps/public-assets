@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:grand_est:mulhouse",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1682169589781-a204c265eca8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNdWxob3VzZSUyMEdyYW5kJTIwRXN0fGVufDF8MHx8fDE3NzgwODY3MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Juju_ a_la_bougeotte",
+    "photographer_url": "https://unsplash.com/@juju_a_la_bougeotte?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/the-sun-is-setting-over-a-city-with-tall-buildings-H88yG7zeHmc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-06T16:58:26Z"
   }
 ]
