@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:france:normandy",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1697371023937-37c3d5e4eb60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxOb3JtYW5keSUyMEZyYW5jZXxlbnwxfDB8fHwxNzc4MTA1NTkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Daniela Holzer",
+    "photographer_url": "https://unsplash.com/@matscha?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-rock-formation-in-the-middle-of-a-body-of-water-bgDj0oiknGo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-06T22:13:13Z"
   }
 ]
