@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:centre_val_de_loire:bourges",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1723298403233-9fd29886c3e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxCb3VyZ2VzJTIwQ2VudHJlJTIwVmFsJTIwRGUlMjBMb2lyZXxlbnwxfDB8fHwxNzc4MDY2NjgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Pascal Bernardon",
+    "photographer_url": "https://unsplash.com/@pbernardon?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-black-and-white-photo-of-a-town-square-2Rp6uwK526A?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-06T11:24:42Z"
   }
 ]

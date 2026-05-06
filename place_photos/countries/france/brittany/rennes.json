@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:brittany:rennes",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1654171953150-9cfa1b49d4cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxSZW5uZXMlMjBCcml0dGFueXxlbnwxfDB8fHwxNzc4MDY2NjczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Pascal Bernardon",
+    "photographer_url": "https://unsplash.com/@pbernardon?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-building-with-a-garden-in-front-of-it-DCzHqxno6yM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-06T11:24:33Z"
   }
 ]
