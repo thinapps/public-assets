@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:georgia:imereti:kutaisi",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1730662745025-c7e1b48512ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLdXRhaXNpJTIwSW1lcmV0aXxlbnwxfDB8fHwxNzc4MTc0MDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alex Batonisashvili",
+    "photographer_url": "https://unsplash.com/@alexandre13?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-dirt-road-surrounded-by-trees-and-flowers-0NTHKSGamoY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-07T17:14:00Z"
   }
 ]

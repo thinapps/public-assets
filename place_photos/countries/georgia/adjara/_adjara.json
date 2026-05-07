@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:georgia:adjara",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1624400578026-a260ca088716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxBZGphcmElMjBHZW9yZ2lhfGVufDF8MHx8fDE3NzgxNzQwMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Max",
+    "photographer_url": "https://unsplash.com/@baseddesigner?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-mountains-under-blue-sky-during-daytime-PYDL2z_D6hk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-07T17:13:55Z"
   }
 ]

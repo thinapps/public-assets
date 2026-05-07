@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:provence_alpes_cote_dazur:menton",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1725522485760-64f1312aa10e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNZW50b24lMjBGcmFuY2V8ZW58MXwwfHx8MTc3ODE3NDAyOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Simon Spring",
+    "photographer_url": "https://unsplash.com/@springsimon?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-yellow-building-with-a-clock-tower-on-top-of-it-3xve1tK2WjA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-07T17:13:48Z"
   }
 ]

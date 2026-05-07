@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:georgia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1563284223-333497472e88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxHZW9yZ2lhfGVufDF8MHx8fDE3NzgxNzQwMzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Iman Gozal",
+    "photographer_url": "https://unsplash.com/@imangm?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/gray-concrete-building-on-hill-5iQWgow3_S0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-07T17:13:53Z"
   }
 ]

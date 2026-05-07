@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:provence_alpes_cote_dazur:saint_tropez",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1506765654745-d3d03f4d2abe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTYWludCUyMFRyb3BleiUyMEZyYW5jZXxlbnwxfDB8fHwxNzc4MTc0MDMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Victoire Joncheray",
+    "photographer_url": "https://unsplash.com/@victoire_jonch?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-and-white-concrete-buildings-aVzd723JLTM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-07T17:13:50Z"
   }
 ]
