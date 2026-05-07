@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:germany:baden_wurttemberg:ulm",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1722641032942-ad4156a95bd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxVbG0lMjBCYWRlbiUyMFd1cnR0ZW1iZXJnfGVufDF8MHx8fDE3NzgxOTI0NDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Albert Teodorescu",
+    "photographer_url": "https://unsplash.com/@bertyber?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-river-running-through-a-city-next-to-a-bridge-sT8iKMcyWdI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-07T22:20:48Z"
   }
 ]
