@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:pays_de_la_loire:saint_nazaire",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1703668179350-a407c71db602?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTYWludCUyME5hemFpcmUlMjBGcmFuY2V8ZW58MXwwfHx8MTc3ODE2NjU1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Slim MARS",
+    "photographer_url": "https://unsplash.com/@slimmars13?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-scenic-view-of-a-river-surrounded-by-trees-8w8ZvKb61bc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-07T15:09:11Z"
   }
 ]

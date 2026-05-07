@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:pays_de_la_loire:saumur",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1679246393004-d9ba92b962c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTYXVtdXIlMjBQYXlzJTIwRGUlMjBMYSUyMExvaXJlfGVufDF8MHx8fDE3NzgxNjY1NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Snap Wander",
+    "photographer_url": "https://unsplash.com/@passimage?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-river-with-a-city-in-the-background-AMLnGLWEoPk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-07T15:09:12Z"
   }
 ]

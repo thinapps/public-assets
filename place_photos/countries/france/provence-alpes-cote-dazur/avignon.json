@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:provence_alpes_cote_dazur:avignon",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1598450894972-add5e4e11c8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBdmlnbm9uJTIwRnJhbmNlfGVufDF8MHx8fDE3NzgxNjY1NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Frédéric Barriol",
+    "photographer_url": "https://unsplash.com/@webmaster13870?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-and-white-concrete-houses-BxFZ1At43As?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-07T15:09:20Z"
   }
 ]
