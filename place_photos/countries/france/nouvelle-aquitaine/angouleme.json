@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:nouvelle_aquitaine:angouleme",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1602778166153-d7fa8cdb7467?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxBbmdvdWxlbWUlMjBOb3V2ZWxsZSUyMEFxdWl0YWluZXxlbnwxfDB8fHwxNzc4MTI3MDc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Pascal Bernardon",
+    "photographer_url": "https://unsplash.com/@pbernardon?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-brown-concrete-houses-near-river-during-daytime-hl3w92s16N0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-07T04:11:19Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:nouvelle_aquitaine:bayonne",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1663843194169-2104ab058b5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxCYXlvbm5lJTIwRnJhbmNlfGVufDF8MHx8fDE3NzgxMjcwODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Hans-Jürgen Weinhardt",
+    "photographer_url": "https://unsplash.com/@hansjuergen?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-row-of-buildings-next-to-a-body-of-water-qaoH3zQ8Ogw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-07T04:11:23Z"
   }
 ]
