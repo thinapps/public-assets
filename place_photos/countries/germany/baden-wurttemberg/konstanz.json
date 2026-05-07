@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:germany:baden_wurttemberg:konstanz",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1672782724134-98eb7cb0819e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxLb25zdGFueiUyMEJhZGVuJTIwV3VydHRlbWJlcmd8ZW58MXwwfHx8MTc3ODE4MzkzOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Corey Wen",
+    "photographer_url": "https://unsplash.com/@corey_wen?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-building-with-a-clock-on-the-top-of-it-pWcskO5JzOM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-07T19:58:59Z"
   }
 ]
