@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:nouvelle_aquitaine:bordeaux",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1716889748710-f33fdaf2f1e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCb3JkZWF1eCUyME5vdXZlbGxlJTIwQXF1aXRhaW5lfGVufDF8MHx8fDE3NzgxNDM4NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "pony",
+    "photographer_url": "https://unsplash.com/@getapony?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-woman-riding-a-bike-next-to-a-woman-in-a-white-shirt-qd2TckiIKh8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-07T08:51:14Z"
   }
 ]

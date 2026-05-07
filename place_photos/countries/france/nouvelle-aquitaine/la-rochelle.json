@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:nouvelle_aquitaine:la_rochelle",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1744709561340-c67e00eb73d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxMYSUyMFJvY2hlbGxlJTIwTm91dmVsbGUlMjBBcXVpdGFpbmV8ZW58MXwwfHx8MTc3ODE0Mzg3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Carnet de Voyage d'Alex",
+    "photographer_url": "https://unsplash.com/@alexisribeyrecarnetdevoyage?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/boats-fill-a-harbor-with-a-stone-building-6wzgH9hnHAI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-07T08:51:16Z"
   }
 ]

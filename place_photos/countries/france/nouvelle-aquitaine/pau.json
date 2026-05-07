@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:nouvelle_aquitaine:pau",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1691003773558-da409901b191?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQYXUlMjBGcmFuY2V8ZW58MXwwfHx8MTc3ODE0Mzg3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mathieu Odin",
+    "photographer_url": "https://unsplash.com/@mathieuodin?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-building-with-a-clock-on-top-of-it-covered-in-snow-0M_sPUX8I4w?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-07T08:51:19Z"
   }
 ]
