@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:occitanie:nimes",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1706233674922-febe573ad52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxOaW1lcyUyMEZyYW5jZXxlbnwxfDB8fHwxNzc4MTUzMDU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Hongbin",
+    "photographer_url": "https://unsplash.com/@hbsun2013?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-statue-of-a-man-in-front-of-an-old-building-7NbKNkKY2ys?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-07T11:24:19Z"
   }
 ]

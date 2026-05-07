@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:france:occitanie:perpignan",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1746881285454-84c6fa89ecb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQZXJwaWduYW4lMjBPY2NpdGFuaWV8ZW58MXwwfHx8MTc3ODE1MzA2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sue Winston",
+    "photographer_url": "https://unsplash.com/@winniepix?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-woman-walks-past-an-antique-shop-Z9iFWLk1He4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-07T11:24:21Z"
   }
 ]
