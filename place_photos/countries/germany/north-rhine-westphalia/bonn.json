@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:germany:north_rhine_westphalia:bonn",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1527074396023-4e44cd2298d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxCb25uJTIwR2VybWFueXxlbnwxfDB8fHwxNzc4MjUwMDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Julian Zett",
+    "photographer_url": "https://unsplash.com/@julian_zett?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/building-stair-N2k0rW0dG54?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-08T14:21:20Z"
   }
 ]
