@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:germany:lower_saxony:oldenburg",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1532101780307-8f873ece858f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxPbGRlbmJ1cmclMjBHZXJtYW55fGVufDF8MHx8fDE3NzgyMzc1NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "NEW DATA SERVICES",
+    "photographer_url": "https://unsplash.com/@new_data_services?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-paper-sticked-on-white-wall-bbXaYbKWnjw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-08T10:52:40Z"
   }
 ]

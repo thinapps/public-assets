@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:germany:lower_saxony:luneburg",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1730025443966-d7d46a0d3eed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxMdW5lYnVyZyUyMExvd2VyJTIwU2F4b255fGVufDF8MHx8fDE3NzgyMzc1NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Marvin Radke",
+    "photographer_url": "https://unsplash.com/@marvinradke?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-body-of-water-with-buildings-in-the-background-6eAHyaXw0jA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-08T10:52:38Z"
   }
 ]

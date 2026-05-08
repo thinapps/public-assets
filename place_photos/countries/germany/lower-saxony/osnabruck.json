@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:germany:lower_saxony:osnabruck",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1668360428028-a9bd84bcb65e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxPc25hYnJ1Y2slMjBHZXJtYW55fGVufDF8MHx8fDE3NzgyMzc1NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Manou Azadi",
+    "photographer_url": "https://unsplash.com/@manouazadi?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-building-with-a-large-front-d24gfCv490w?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-08T10:52:42Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:germany:lower_saxony:hanover",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1730150147866-5519d2b96064?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxIYW5vdmVyJTIwTG93ZXIlMjBTYXhvbnl8ZW58MXwwfHx8MTc3ODIzNzU1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Joshua Kettle",
+    "photographer_url": "https://unsplash.com/@joshuakettle?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-building-sitting-on-top-of-a-lake-next-to-a-forest-3GRJl3KlYHE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-08T10:52:37Z"
   }
 ]

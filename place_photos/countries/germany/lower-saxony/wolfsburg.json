@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:germany:lower_saxony:wolfsburg",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1665734996545-c7a70a54a5d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxXb2xmc2J1cmclMjBHZXJtYW55fGVufDF8MHx8fDE3NzgyMzc1NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Akhil Simha",
+    "photographer_url": "https://unsplash.com/@akhilsimha7?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-building-with-smokestacks-L_TKv-r5j8A?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-08T10:52:44Z"
   }
 ]
