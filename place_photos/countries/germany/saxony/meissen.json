@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:germany:saxony:meissen",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1669988023691-04afd11a7e90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNZWlzc2VuJTIwU2F4b255fGVufDF8MHx8fDE3NzgyNjk4MDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alexander Henke",
+    "photographer_url": "https://unsplash.com/@jonnydd?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-field-of-trees-with-a-castle-in-the-background-b_qhC1Zz9_w?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-08T19:50:03Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:germany:saxony",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1589046375888-e8d21e6cb1bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTYXhvbnklMjBHZXJtYW55fGVufDF8MHx8fDE3NzgyNjk3OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Kankan",
+    "photographer_url": "https://unsplash.com/@knnslens?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-on-brown-rocky-mountain-during-daytime-04oWUsJ1mKk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-08T19:49:56Z"
   }
 ]

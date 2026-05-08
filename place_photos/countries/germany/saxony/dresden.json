@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:germany:saxony:dresden",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1681825619995-c5795d743588?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxEcmVzZGVuJTIwU2F4b255fGVufDF8MHx8fDE3NzgyNjk3OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alex Kamyszew",
+    "photographer_url": "https://unsplash.com/@keen_eye?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-building-with-statues-on-the-balcony-of-it-_VLcb7iB6_0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-08T19:49:59Z"
   }
 ]

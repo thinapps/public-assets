@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:germany:saxony:chemnitz",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1536485255710-1bedfeea2d52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDaGVtbml0eiUyMEdlcm1hbnl8ZW58MXwwfHx8MTc3ODI2OTc5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "explorenation #",
+    "photographer_url": "https://unsplash.com/@explorenation?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/think-twice-graphic-art-LDMe_27JW1Q?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-08T19:49:58Z"
   }
 ]
