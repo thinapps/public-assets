@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:germany:lower_saxony:emden",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1608147027734-3aeb120d46b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxFbWRlbiUyMEdlcm1hbnl8ZW58MXwwfHx8MTc3ODIyNzM4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Gritte",
+    "photographer_url": "https://unsplash.com/@gritte?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/body-of-water-under-blue-sky-during-daytime-5iUjT9BfWfo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-08T08:03:06Z"
   }
 ]
