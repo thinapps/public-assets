@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:germany:brandenburg:frankfurt_oder",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1601674667039-5c8d4b3a4fde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxGcmFua2Z1cnQlMjBPZGVyJTIwR2VybWFueXxlbnwxfDB8fHwxNzc4MjEyNzE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Facundo Loza",
+    "photographer_url": "https://unsplash.com/@faloza?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-and-white-concrete-building-under-blue-sky-during-daytime-_2GcylkdLYM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-08T03:58:40Z"
   }
 ]

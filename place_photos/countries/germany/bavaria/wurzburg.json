@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:germany:bavaria:wurzburg",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1734535253449-4ca45098b3c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxXdXJ6YnVyZyUyMEJhdmFyaWF8ZW58MXwwfHx8MTc3ODIxMjcxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Hans-Joachim Kaiser",
+    "photographer_url": "https://unsplash.com/@zesa?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-river-with-a-bridge-in-the-background-TABJpqBwseI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-08T03:58:32Z"
   }
 ]
