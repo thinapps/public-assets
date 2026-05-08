@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:germany:saarland:saarbrucken",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1553778807-e6522a36695f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTYWFyYnJ1Y2tlbiUyMFNhYXJsYW5kfGVufDF8MHx8fDE3NzgyNTg5NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Kevin Mueller",
+    "photographer_url": "https://unsplash.com/@kevinmueller?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-flock-of-birds-flying-in-the-sky-at-sunset-mtWegPVdaH4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-08T16:49:15Z"
   }
 ]

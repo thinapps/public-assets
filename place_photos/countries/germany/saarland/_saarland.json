@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:germany:saarland",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1598193403332-2101393c88b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTYWFybGFuZCUyMEdlcm1hbnl8ZW58MXwwfHx8MTc3ODI1ODk1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Saleem Rishah",
+    "photographer_url": "https://unsplash.com/@saleemrisheh?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/red-and-brown-concrete-building-near-body-of-water-during-daytime-O9oBF-X9Bvs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-08T16:49:11Z"
   }
 ]

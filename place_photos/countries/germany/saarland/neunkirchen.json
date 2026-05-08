@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:germany:saarland:neunkirchen",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1653982198736-8b96e165e9da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxOZXVua2lyY2hlbiUyMEdlcm1hbnl8ZW58MXwwfHx8MTc3ODI1ODk1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Samuel Hagger",
+    "photographer_url": "https://unsplash.com/@samuel_hagger?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-tractor-driving-down-a-road-next-to-a-lush-green-hillside-4kgZdabz-1I?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-08T16:49:13Z"
   }
 ]
