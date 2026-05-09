@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:attica:korydallos",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1647990837483-4126e311d3f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLb3J5ZGFsbG9zJTIwR3JlZWNlfGVufDF8MHx8fDE3NzgzMTQ1NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Duncan McNab",
+    "photographer_url": "https://unsplash.com/@mcnabit?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-body-of-water-next-to-a-sandy-beach-uss-zbfFnGQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-09T08:15:46Z"
   }
 ]

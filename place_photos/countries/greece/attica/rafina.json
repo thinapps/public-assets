@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:attica:rafina",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1609507982938-a66846e8ea5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxSYWZpbmElMjBHcmVlY2V8ZW58MXwwfHx8MTc3ODMxNDU2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ilias Anagnostopoulos",
+    "photographer_url": "https://unsplash.com/@iliasa?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/yellow-and-black-boat-on-seashore-during-daytime-uM3Y9ydOuiI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-09T08:16:01Z"
   }
 ]
