@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:central_greece:arachova",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1603996056382-d929da6d56d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxBcmFjaG92YSUyMENlbnRyYWwlMjBHcmVlY2V8ZW58MXwwfHx8MTc3ODMyMjA0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dimitris Kiriakakis",
+    "photographer_url": "https://unsplash.com/@dimeloper?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-city-during-daytime-0wN1l7qycqc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-09T10:20:42Z"
   }
 ]

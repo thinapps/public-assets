@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:central_greece:lamia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1710012070666-43c9c9dd52f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMYW1pYSUyMENlbnRyYWwlMjBHcmVlY2V8ZW58MXwwfHx8MTc3ODMyMjA0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Stefanos Nt",
+    "photographer_url": "https://unsplash.com/@ribakos?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-city-with-a-mountain-in-the-background-IU2vO2GN5gA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-09T10:20:47Z"
   }
 ]
