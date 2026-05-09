@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:greece:epirus",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1712655333960-c2e7a8509b91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxFcGlydXMlMjBHcmVlY2V8ZW58MXwwfHx8MTc3ODM1NTUyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "George Katsikiotis",
+    "photographer_url": "https://unsplash.com/@g_katsi?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-black-and-white-photo-of-a-mountain-range-iTM0yod4NhM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-09T19:38:44Z"
   }
 ]

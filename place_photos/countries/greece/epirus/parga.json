@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:epirus:parga",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1754242713764-687f24766275?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxQYXJnYSUyMEVwaXJ1c3xlbnwxfDB8fHwxNzc4MzU1NTMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jack Coble",
+    "photographer_url": "https://unsplash.com/@jackcoble?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-beautiful-coastal-town-on-a-bright-sunny-day-XaKFoy4kS4g?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-09T19:38:51Z"
   }
 ]

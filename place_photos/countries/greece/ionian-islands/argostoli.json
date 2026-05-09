@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:ionian_islands:argostoli",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1664389088528-11b3107247bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBcmdvc3RvbGklMjBHcmVlY2V8ZW58MXwwfHx8MTc3ODM1NTUzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ollie Tulett",
+    "photographer_url": "https://unsplash.com/@ollietulett?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-body-of-water-with-trees-and-mountains-around-it-s8iHgqlSgnk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-09T19:38:57Z"
   }
 ]

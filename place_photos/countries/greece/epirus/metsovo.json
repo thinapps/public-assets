@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:epirus:metsovo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1603566252816-8a9cf319860c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNZXRzb3ZvJTIwRXBpcnVzfGVufDF8MHx8fDE3NzgzNTU1Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Constantinos Kollias",
+    "photographer_url": "https://unsplash.com/@ckollias?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-near-white-concrete-building-during-daytime-bP1IOf5br1w?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-09T19:38:49Z"
   }
 ]

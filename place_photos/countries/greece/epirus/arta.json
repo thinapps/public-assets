@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:epirus:arta",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1727088302474-0deda5b57ef6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxBcnRhJTIwR3JlZWNlfGVufDF8MHx8fDE3NzgzNTU1MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Christian Harb",
+    "photographer_url": "https://unsplash.com/@c7arb?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-mountain-range-in-the-distance-b28W-vQBEq0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-09T19:38:46Z"
   }
 ]
