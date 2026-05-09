@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:crete:matala",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1694006958435-35a315a0353e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNYXRhbGElMjBDcmV0ZXxlbnwxfDB8fHwxNzc4MzQzMjAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Antoine Kaelin",
+    "photographer_url": "https://unsplash.com/@antoinekaelin?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-boat-sitting-on-top-of-a-body-of-water-FPJ70GuiZ4Q?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-09T16:13:21Z"
   }
 ]

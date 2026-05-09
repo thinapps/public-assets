@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:crete:sitia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1602763501405-11212a2b87be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTaXRpYSUyMENyZXRlfGVufDF8MHx8fDE3NzgzNDMyMDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Espen Prenzyna",
+    "photographer_url": "https://unsplash.com/@espen_p?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-concrete-building-beside-sea-during-daytime-df9ma-rs6G8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-09T16:13:24Z"
   }
 ]
