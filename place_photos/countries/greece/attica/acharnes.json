@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:attica:acharnes",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1591089974150-c0238cabf09c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBY2hhcm5lcyUyMEdyZWVjZXxlbnwxfDB8fHwxNzc4Mjk5MzAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dimitris Pallas",
+    "photographer_url": "https://unsplash.com/@palz?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/gray-concrete-road-in-between-green-trees-during-daytime-cgstFumP3wU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-09T04:01:42Z"
   }
 ]
