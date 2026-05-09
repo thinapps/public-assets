@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:greece:peloponnese",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1636981019980-c149e000ab41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQZWxvcG9ubmVzZSUyMEdyZWVjZXxlbnwxfDB8fHwxNzc4MzY0NDE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alexander Van Steenberge",
+    "photographer_url": "https://unsplash.com/@lexerium?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-stone-wall-made-of-rocks-and-grass-_bD9u25om_g?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-09T22:06:56Z"
   }
 ]

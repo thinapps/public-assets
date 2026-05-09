@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:north_aegean:chios",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1645089014731-b123846bca49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDaGlvcyUyMEdyZWVjZXxlbnwxfDB8fHwxNzc4MzY0NDA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "George Diama",
+    "photographer_url": "https://unsplash.com/@georgediama_exe?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-small-island-in-the-middle-of-the-ocean-iytxupONCiw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-09T22:06:49Z"
   }
 ]

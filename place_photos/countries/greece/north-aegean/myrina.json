@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:north_aegean:myrina",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1754242713745-5ff04be8f1a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNeXJpbmElMjBHcmVlY2V8ZW58MXwwfHx8MTc3ODM2NDQxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jack Coble",
+    "photographer_url": "https://unsplash.com/@jackcoble?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/beautiful-island-scenery-with-vibrant-blue-water-cX086KViHS8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-09T22:06:51Z"
   }
 ]

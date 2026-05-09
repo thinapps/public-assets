@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:north_aegean:samos",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1662241947856-00c0fbe79c9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYW1vcyUyMEdyZWVjZXxlbnwxfDB8fHwxNzc4MzY0NDE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Makis Hristaras",
+    "photographer_url": "https://unsplash.com/@makis_hristaras?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-city-with-trees-and-mountains-in-the-background-AZZehinJxFM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-09T22:06:55Z"
   }
 ]
