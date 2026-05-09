@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:crete:agios_nikolaos",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1652298593356-3ab7730a9a3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBZ2lvcyUyME5pa29sYW9zJTIwQ3JldGV8ZW58MXwwfHx8MTc3ODMzNTA4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dmitrii Rogov",
+    "photographer_url": "https://unsplash.com/@rogovnroll?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-city-with-many-boats-in-it-9mvk257aLRc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-09T13:58:00Z"
   }
 ]

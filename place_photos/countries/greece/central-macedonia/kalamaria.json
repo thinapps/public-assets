@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:central_macedonia:kalamaria",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1677271145726-17270fc49787?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxLYWxhbWFyaWElMjBHcmVlY2V8ZW58MXwwfHx8MTc3ODMzNTA2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Manos Konstantinidis",
+    "photographer_url": "https://unsplash.com/@manosim?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-several-boats-docked-at-a-pier-Z2NGsOr2VE8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-09T13:57:44Z"
   }
 ]
