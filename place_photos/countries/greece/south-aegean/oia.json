@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:south_aegean:oia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1563789031959-4c02bcb41319?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxPaWElMjBHcmVlY2V8ZW58MXwwfHx8MTc3ODQwMTU1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dan",
+    "photographer_url": "https://unsplash.com/@dgw_unsplash?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-blue-painted-building-MdTtpxGlrz8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-10T08:25:56Z"
   }
 ]
