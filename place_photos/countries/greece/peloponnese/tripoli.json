@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:peloponnese:tripoli",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1696956143689-5bbf0c7b3fa0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUcmlwb2xpJTIwUGVsb3Bvbm5lc2V8ZW58MXwwfHx8MTc3ODM4Njg2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Yorgos Triantafyllou",
+    "photographer_url": "https://unsplash.com/@yorgostriantafyllou?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-close-up-of-a-train-on-a-train-track-3EFV4WUvYCY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-10T04:21:08Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:peloponnese:mystras",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1681118143199-53d8afa71b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNeXN0cmFzJTIwUGVsb3Bvbm5lc2V8ZW58MXwwfHx8MTc3ODM4Njg2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jeroen van Nierop",
+    "photographer_url": "https://unsplash.com/@yaroon?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-very-old-building-sitting-on-the-side-of-a-hill-eB8ZDKgKHUQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-10T04:21:02Z"
   }
 ]
