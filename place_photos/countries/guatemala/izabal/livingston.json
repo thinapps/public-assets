@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:guatemala:izabal:livingston",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1692460037903-25679e820099?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMaXZpbmdzdG9uJTIwR3VhdGVtYWxhfGVufDF8MHx8fDE3Nzg0NDE5MzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Richard von Pfeil",
+    "photographer_url": "https://unsplash.com/@frgvr?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-blue-boat-traveling-down-a-river-next-to-a-stone-wall-5ALU0EPdESE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-10T19:38:56Z"
   }
 ]

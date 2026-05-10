@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:guatemala:guatemala:guatemala_city",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1707050955615-926c3789f1be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxHdWF0ZW1hbGElMjBDaXR5JTIwR3VhdGVtYWxhfGVufDF8MHx8fDE3Nzg0NDE5MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sebastian Herrmann",
+    "photographer_url": "https://unsplash.com/@herrherrmann?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-street-with-a-sign-on-the-side-of-it-VWLBV523Iw4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-10T19:38:45Z"
   }
 ]
