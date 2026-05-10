@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:thessaly:volos",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1669671535431-61ca050fcded?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxWb2xvcyUyMEdyZWVjZXxlbnwxfDB8fHwxNzc4NDA5ODM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Niov1",
+    "photographer_url": "https://unsplash.com/@niovi_kal?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-tree-in-front-of-a-building-MIq6Z22NiCw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-10T10:43:56Z"
   }
 ]

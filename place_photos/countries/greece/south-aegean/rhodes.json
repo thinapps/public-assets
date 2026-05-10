@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:south_aegean:rhodes",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1588796503044-0a7c50edbd12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxSaG9kZXMlMjBHcmVlY2V8ZW58MXwwfHx8MTc3ODQwOTgxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Antonio Magrì",
+    "photographer_url": "https://unsplash.com/@antonio_m89?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-boat-on-blue-sea-near-brown-rocky-mountain-under-blue-sky-during-daytime-mAOTatwrE_o?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-10T10:43:32Z"
   }
 ]

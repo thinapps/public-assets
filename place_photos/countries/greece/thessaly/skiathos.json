@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:thessaly:skiathos",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1678610751965-c33c9e7db74a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTa2lhdGhvcyUyMEdyZWVjZXxlbnwxfDB8fHwxNzc4NDA5ODMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nick Karvounis",
+    "photographer_url": "https://unsplash.com/@nickkarvounis?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-sailboats-docked-in-a-harbor-X5j705TuFnA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-10T10:43:50Z"
   }
 ]

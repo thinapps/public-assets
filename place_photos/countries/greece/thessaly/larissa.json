@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:thessaly:larissa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1597846178657-bac514b3d25b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxMYXJpc3NhJTIwVGhlc3NhbHl8ZW58MXwwfHx8MTc3ODQwOTgyOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alonso Reyes",
+    "photographer_url": "https://unsplash.com/@alonsoreyes?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/woman-in-red-spaghetti-strap-top-smiling-4uJq2CZvdYs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-10T10:43:48Z"
   }
 ]

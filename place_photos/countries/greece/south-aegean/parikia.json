@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:south_aegean:parikia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1689327021557-bb0c3f908fd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQYXJpa2lhJTIwR3JlZWNlfGVufDF8MHx8fDE3Nzg0MDk4MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Janosch Diggelmann",
+    "photographer_url": "https://unsplash.com/@janoschphotos?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-person-doing-a-handstand-on-a-pole-at-sunset--FJ5psOJsBE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-10T10:43:30Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:thessaly:skopelos",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1630926517544-58f45c00804a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTa29wZWxvcyUyMEdyZWVjZXxlbnwxfDB8fHwxNzc4NDA5ODMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nikola Radojcic",
+    "photographer_url": "https://unsplash.com/@nikolor?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-city-buildings-near-body-of-water-during-daytime-w-t1J3DVrB8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-10T10:43:52Z"
   }
 ]

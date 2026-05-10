@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:thessaly:karditsa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1650734675730-204a5c5d269a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLYXJkaXRzYSUyMEdyZWVjZXxlbnwxfDB8fHwxNzc4NDA5ODI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nestoras Argiris",
+    "photographer_url": "https://unsplash.com/@nestora?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-body-of-water-with-a-mountain-in-the-background-jBiDxKimU-U?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-10T10:43:47Z"
   }
 ]
