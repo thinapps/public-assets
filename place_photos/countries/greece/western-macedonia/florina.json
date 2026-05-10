@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:western_macedonia:florina",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1475179377649-672d1c1c75ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxGbG9yaW5hJTIwR3JlZWNlfGVufDF8MHx8fDE3Nzg0MjE2Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Tamara Bellis",
+    "photographer_url": "https://unsplash.com/@tamarabellis?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/woman-wearing-teal-crochet-top-and-white-skirt-nbC4EyCxhb8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-10T14:00:29Z"
   }
 ]
