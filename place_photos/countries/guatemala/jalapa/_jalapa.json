@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:guatemala:jalapa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1733185267696-70edd41c1097?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxKYWxhcGElMjBHdWF0ZW1hbGF8ZW58MXwwfHx8MTc3ODQ1MDk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Pablo Hernández",
+    "photographer_url": "https://unsplash.com/@pablogt?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-woman-standing-next-to-a-fence-at-night-5CWgdUgznrw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-10T22:09:55Z"
   }
 ]

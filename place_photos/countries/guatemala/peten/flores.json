@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:guatemala:peten:flores",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1593051887785-84f08d209750?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxGbG9yZXMlMjBQZXRlbnxlbnwxfDB8fHwxNzc4NDUxMDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Anna Stampfli",
+    "photographer_url": "https://unsplash.com/@annastampfli?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/black-metal-fence-during-sunset-JOXBDZO-NvU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-10T22:10:02Z"
   }
 ]
