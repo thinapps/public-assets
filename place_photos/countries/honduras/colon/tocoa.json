@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:honduras:colon:tocoa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1766961980360-ceafe3af30df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUb2NvYSUyMEhvbmR1cmFzfGVufDF8MHx8fDE3Nzg1MTQyNjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Marcelo Cruz",
+    "photographer_url": "https://unsplash.com/@mcruzaxis?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/bare-tree-branches-against-a-twilight-sky-MQTi0uV8wi8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-11T15:44:21Z"
   }
 ]
