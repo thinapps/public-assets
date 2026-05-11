@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:honduras:atlantida:tela",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1732285619033-2e84605d536d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxUZWxhJTIwQXRsYW50aWRhfGVufDF8MHx8fDE3Nzg0OTM4OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Artists Eyes",
+    "photographer_url": "https://unsplash.com/@artistseyes?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-island-in-the-middle-of-a-body-of-water-D1KKXwbSvuc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-11T10:04:52Z"
   }
 ]
