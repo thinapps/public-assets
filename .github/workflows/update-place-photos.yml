@@ -46,7 +46,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      # mirror missing public photo placeholders from the private app place tree
+      # mirror current public photo placeholders from the private app place tree
       - name: Sync place photo tree
         env:
           SOURCE_PLACES_PATH: ${{ secrets.SOURCE_PLACES_PATH }}
@@ -58,7 +58,8 @@ jobs:
 
           python sync_place_photo_tree.py \
             --source-root "source-repository/${SOURCE_PLACES_PATH}" \
-            --photo-root "place_photos/countries"
+            --photo-root "place_photos/countries" \
+            --prune-stale
 
       # run the updater with only the two inputs we actually need
       - name: Generate place photos
