@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:honduras:yoro:yoro",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1651890382174-88c8c7e97dab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxZb3JvJTIwSG9uZHVyYXN8ZW58MXwwfHx8MTc3ODUzODg2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Pedro Luis Cabrera Acosta",
+    "photographer_url": "https://unsplash.com/@peis?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-a-neighborhood-K-NHEjG--9E?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-12T04:12:06Z"
   }
 ]

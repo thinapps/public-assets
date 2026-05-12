@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:hungary:bekes:gyula",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1645530711920-8d0c827c4553?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxHeXVsYSUyMEh1bmdhcnl8ZW58MXwwfHx8MTc3ODU1OTE0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Viola Kovács",
+    "photographer_url": "https://unsplash.com/@violatakesphotos?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-town-square-with-a-fountain-in-the-middle-of-it-z6CqD3SaPpo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-12T04:12:21Z"
   }
 ]

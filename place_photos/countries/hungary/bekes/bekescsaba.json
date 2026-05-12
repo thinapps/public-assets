@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:hungary:bekes:bekescsaba",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1731261061263-31a9daedbbe9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxCZWtlc2NzYWJhJTIwQmVrZXN8ZW58MXwwfHx8MTc3ODU1OTEzOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "noe fornells",
+    "photographer_url": "https://unsplash.com/@noe_kf?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-man-riding-a-skateboard-down-a-street-under-a-bridge-NYygfSjWmpw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-12T04:12:19Z"
   }
 ]
