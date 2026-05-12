@@ -92,5 +92,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "update place photos"
+          git commit -m "Update place photos"
           git push
