@@ -5,6 +5,14 @@ import json
 from pathlib import Path
 
 
+MAX_STALE_DELETE_RATIO = 0.10
+REQUIRED_PHOTO_FIELDS = [
+    "place_id",
+    "image_url",
+    "photographer_name",
+    "photographer_url",
+    "source_url",
+]
 PHOTO_FIELDS = [
     "image_url",
     "photographer_name",
@@ -48,7 +56,7 @@ def has_cached_photo(entry):
     if not isinstance(entry, dict):
         return False
 
-    for field in PHOTO_FIELDS:
+    for field in REQUIRED_PHOTO_FIELDS:
         value = entry.get(field, "")
         if not isinstance(value, str) or not value.strip():
             return False
@@ -176,6 +184,9 @@ def migrate_stale_photo(stale_file, canonical_file):
     migrated_entry = dict(canonical_entry)
 
     for field in PHOTO_FIELDS:
+        if field == "cached_at" and not str(stale_entry.get(field, "")).strip():
+            continue
+
         migrated_entry[field] = stale_entry.get(field, "")
 
     canonical_data[0] = migrated_entry
@@ -200,6 +211,27 @@ def prune_empty_directories(photo_root):
     return removed_directories
 
 
+def validate_prune_scope(photo_root, expected_files, stale_files):
+    current_files = sorted(photo_root.rglob("*.json"))
+
+    if not expected_files:
+        raise RuntimeError("refusing to prune stale photos because the source tree produced no expected files")
+
+    if not current_files:
+        raise RuntimeError("refusing to prune stale photos because the public photo tree has no json files")
+
+    max_deletions = int(len(current_files) * MAX_STALE_DELETE_RATIO)
+    if max_deletions < 1:
+        max_deletions = 1
+
+    if len(stale_files) > max_deletions:
+        raise RuntimeError(
+            "refusing to prune stale photos because "
+            f"{len(stale_files)} of {len(current_files)} files would be deleted, "
+            f"which exceeds the {MAX_STALE_DELETE_RATIO:.0%} safety limit"
+        )
+
+
 def prune_stale_photo_files(photo_root, expected_files):
     expected_paths = set()
     migrated_files = 0
@@ -209,10 +241,15 @@ def prune_stale_photo_files(photo_root, expected_files):
     for expected_file in expected_files:
         expected_paths.add(expected_file.resolve())
 
-    for stale_file in sorted(photo_root.rglob("*.json")):
-        if stale_file.resolve() in expected_paths:
-            continue
+    stale_files = [
+        file_path
+        for file_path in sorted(photo_root.rglob("*.json"))
+        if file_path.resolve() not in expected_paths
+    ]
 
+    validate_prune_scope(photo_root, expected_files, stale_files)
+
+    for stale_file in stale_files:
         relative_path = stale_file.relative_to(photo_root)
         parts = relative_path.parts
         key = (parts[0], stale_file.name) if len(parts) >= 3 else None
