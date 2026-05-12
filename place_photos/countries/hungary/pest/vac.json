@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:hungary:pest:vac",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1716843094443-3351198126a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxWYWMlMjBQZXN0fGVufDF8MHx8fDE3Nzg2MDY5NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Erik Karits",
+    "photographer_url": "https://unsplash.com/@erik_karits?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-bug-sitting-on-top-of-a-green-leaf-3loNBGJVL4M?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-12T17:29:13Z"
   }
 ]

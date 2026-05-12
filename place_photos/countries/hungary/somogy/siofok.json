@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:hungary:somogy:siofok",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1694544067796-8c2585758609?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTaW9mb2slMjBIdW5nYXJ5fGVufDF8MHx8fDE3Nzg2MDY5NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Marlene Haiberger",
+    "photographer_url": "https://unsplash.com/@marlene_haiberger?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-building-with-a-clock-tower-on-top-of-it-21W_7ScSmSA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-12T17:29:20Z"
   }
 ]
