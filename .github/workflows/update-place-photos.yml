@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: max entries to attempt this run 0 means no limit
+        description: Maximum entries to attempt this run, 0 means no limit
         required: false
         default: "10"
       overwrite:
-        description: replace existing image_url values too
+        description: Replace existing image_url values too
         required: false
         default: "false"
   schedule:
@@ -28,11 +28,11 @@ jobs:
 
     steps:
       # check out the public assets repo
-      - name: checkout repo
+      - name: Checkout public assets repo
         uses: actions/checkout@v6
 
       # check out the private source repo without exposing its name in this workflow
-      - name: checkout source repo
+      - name: Checkout source repo
         uses: actions/checkout@v6
         with:
           repository: ${{ secrets.SOURCE_REPOSITORY }}
@@ -41,13 +41,13 @@ jobs:
           persist-credentials: false
 
       # keep python pinned for stable behavior
-      - name: set up python
+      - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
       # mirror missing public photo placeholders from the private app place tree
-      - name: sync place photo tree
+      - name: Sync place photo tree
         env:
           SOURCE_PLACES_PATH: ${{ secrets.SOURCE_PLACES_PATH }}
         run: |
@@ -61,7 +61,7 @@ jobs:
             --photo-root "place_photos/countries"
 
       # run the updater with only the two inputs we actually need
-      - name: run updater
+      - name: Generate place photos
         env:
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         run: |
@@ -80,7 +80,7 @@ jobs:
             ${OVERWRITE_FLAG}
 
       # only commit if files actually changed
-      - name: commit changes
+      - name: Commit place photo changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
