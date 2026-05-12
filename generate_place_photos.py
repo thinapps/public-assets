@@ -333,7 +333,7 @@ def process_candidate(
     return (True, False)
 
 
-def update_manifest_file(root: Path, place_photos_dir: Path, dry_run: bool) -> None:
+def update_manifest_file(root: Path, place_photos_dir: Path, dry_run: bool) -> bool:
     # manifest is rebuilt from valid cached photo entries only
     manifest_path = root / "manifest.json"
     place_ids: List[str] = []
@@ -351,16 +351,21 @@ def update_manifest_file(root: Path, place_photos_dir: Path, dry_run: bool) -> N
         "place_ids": sorted(set(place_ids)),
     }
 
+    if manifest_path.exists() and load_json(manifest_path) == manifest_payload:
+        print(f"no manifest changes for {manifest_path}")
+        return False
+
     if dry_run:
         print(f"would update {manifest_path} with {len(manifest_payload['place_ids'])} place_ids")
-        return
+        return True
 
     save_json(manifest_path, manifest_payload)
     print(f"updated {manifest_path} with {len(manifest_payload['place_ids'])} place_ids")
+    return True
 
 
 def update_version_file(root: Path, dry_run: bool) -> None:
-    # only bump version when at least one photo entry changed
+    # bump version whenever the public photo payload changes
     version_path = root / "version.json"
     if not version_path.exists():
         return
@@ -428,15 +433,16 @@ def main() -> int:
         if DEFAULT_PAUSE_SECONDS > 0:
             time.sleep(DEFAULT_PAUSE_SECONDS)
 
-    update_manifest_file(root, place_photos_dir, dry_run=args.dry_run)
+    manifest_changed = update_manifest_file(root, place_photos_dir, dry_run=args.dry_run)
 
-    if changed_entries:
+    if changed_entries or manifest_changed:
         update_version_file(root, dry_run=args.dry_run)
 
     print(
         f"eligible_candidates={len(candidates)} "
         f"attempted_entries={attempted_entries} "
-        f"changed_entries={changed_entries}"
+        f"changed_entries={changed_entries} "
+        f"manifest_changed={manifest_changed}"
     )
 
     if stop_cleanly:
