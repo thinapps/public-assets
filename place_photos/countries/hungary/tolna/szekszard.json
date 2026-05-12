@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:hungary:tolna:szekszard",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1726484290327-6281dac01644?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTemVrc3phcmQlMjBUb2xuYXxlbnwxfDB8fHwxNzc4NjE2ODk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Biro Zoltan",
+    "photographer_url": "https://unsplash.com/@zoltanbiro1988?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-small-town-from-a-hill-MiFs5nqgzCM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-12T20:14:56Z"
   }
 ]

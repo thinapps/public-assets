@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:hungary:zala:heviz",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1769341312749-7040bc56a49b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxIZXZpeiUyMFphbGF8ZW58MXwwfHx8MTc3ODYxNjkxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Marija Zaric",
+    "photographer_url": "https://unsplash.com/@simplicity?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/graffiti-art-with-a-stylized-logo-on-a-wall-rn1kUokDBLk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-12T20:15:11Z"
   }
 ]
