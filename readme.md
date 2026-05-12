@@ -41,7 +41,7 @@ Blank values are valid placeholders. A photo is considered usable only when all 
 - `photographer_url`
 - `source_url`
 
-`cached_at` is stored when a photo record is written, but it is not required for manifest eligibility.
+`cached_at` is stored when a photo record is written, but it is not required for manifest eligibility or stale-photo migration.
 
 `place_photos/world.json` is the main exception to the one-object-per-file convention. It may contain multiple region-level photo records in the same JSON array.
 
@@ -89,13 +89,25 @@ When run with `--prune-stale`, the script also removes public photo files that n
 
 Before deleting a stale file, the script attempts a conservative photo migration:
 
-- the stale file must contain a complete cached photo record
+- the stale file must contain a complete cached photo record using the same required fields as `manifest.json`
 - exactly one current canonical file must match the same country and filename
 - the canonical file must not already have a complete cached photo record
 
-If those checks pass, the cached photo fields are copied into the canonical file before the stale file is deleted. If the match is ambiguous or the canonical file already has a photo, the stale file is deleted without migration.
+If those checks pass, the cached photo fields are copied into the canonical file before the stale file is deleted. `cached_at` is copied only when the stale record already has it. If the match is ambiguous or the canonical file already has a photo, the stale file is deleted without migration.
 
 Cleanup only targets stale JSON files under `place_photos/countries/`. It does not prune `place_photos/world.json`, scripts, workflows, `manifest.json`, or `version.json` directly.
+
+## Prune Safety Guards
+
+Stale cleanup fails fast instead of deleting files when the source or cleanup scope looks unsafe.
+
+The script refuses to prune when:
+
+- the source tree produces no expected JSON files
+- the public photo tree has no JSON files
+- more than 10% of current public photo JSON files under `place_photos/countries/` would be deleted in one run
+
+The 10% limit is intentionally conservative. It allows normal cleanup of small stale batches, but blocks accidental mass deletion caused by a wrong source path, broken checkout, or unexpected source tree problem.
 
 ## Update Workflow
 
