@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:hungary:heves:eger",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1744969966030-2b33c4c14b49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxFZ2VyJTIwSGV2ZXN8ZW58MXwwfHx8MTc3ODU4NTQ3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Haberdoedas",
+    "photographer_url": "https://unsplash.com/@haberdoedas?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/meyer-wines-bites-restaurant-naarden-vesting-TtGybuFXaSE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-12T15:15:24Z"
   }
 ]

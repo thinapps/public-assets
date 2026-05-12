@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:hungary:komarom_esztergom:tata",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1673127019784-1a1c4d363efb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxUYXRhJTIwSHVuZ2FyeXxlbnwxfDB8fHwxNzc4NTk4OTMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Roland Szabó",
+    "photographer_url": "https://unsplash.com/@szrpphotography?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-flock-of-birds-sitting-on-top-of-a-tree-branch-LjrLEvPNyzA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-12T15:15:33Z"
   }
 ]
