@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:clare:doolin",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1516206190481-66075a1fec2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxEb29saW4lMjBDbGFyZXxlbnwxfDB8fHwxNzc4NjY0Mjg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Markus Voetter",
+    "photographer_url": "https://unsplash.com/@markusvoetter?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/grayscale-photography-of-a-person-standing-on-cliff-near-the-ocean-kLlyj8uLKmc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-13T09:24:44Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:cork:cobh",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1592838609724-9eaaa18970f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxDb2JoJTIwQ29ya3xlbnwxfDB8fHwxNzc4NjY0Mjk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mark Lawson",
+    "photographer_url": "https://unsplash.com/@mark_lawson?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/yellow-and-green-boat-on-water-during-daytime-748O_NiIV1k?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-13T09:24:55Z"
   }
 ]

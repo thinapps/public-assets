@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:cork:mallow",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1625936467481-435aacf283e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNYWxsb3clMjBDb3JrfGVufDF8MHx8fDE3Nzg2NjQyOTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Eranjan",
+    "photographer_url": "https://unsplash.com/@eranjanak?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/black-and-white-wooden-signage-R2gXYORAdqM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-13T09:24:58Z"
   }
 ]

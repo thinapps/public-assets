@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:clare:lahinch",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1748351154698-f529972ab030?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMYWhpbmNoJTIwQ2xhcmV8ZW58MXwwfHx8MTc3ODY2NDI4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Andrew Hall",
+    "photographer_url": "https://unsplash.com/@andrew_hall?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/houses-line-a-shore-on-a-sunny-day-6H3ALRGhn4Y?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-13T09:24:49Z"
   }
 ]
