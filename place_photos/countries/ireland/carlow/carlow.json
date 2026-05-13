@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:carlow:carlow",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1604161060323-e3423809be8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDYXJsb3clMjBJcmVsYW5kfGVufDF8MHx8fDE3Nzg2NDU5NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "William C Watts",
+    "photographer_url": "https://unsplash.com/@wattsart?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-grass-field-near-green-trees-under-white-clouds-and-blue-sky-during-daytime-5zxEBm3yqkU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-13T04:19:22Z"
   }
 ]

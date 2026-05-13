@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:iceland:westfjords",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1660005503391-b273998fbaf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxXZXN0ZmpvcmRzJTIwSWNlbGFuZHxlbnwxfDB8fHwxNzc4NjQ1OTU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Frugal Flyer",
+    "photographer_url": "https://unsplash.com/@frugalflyer?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-small-church-in-a-field-2hR0acr1d30?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-13T04:19:15Z"
   }
 ]
