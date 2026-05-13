@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:kerry:dingle",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1684590442940-6806e693cde4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxEaW5nbGUlMjBLZXJyeXxlbnwxfDB8fHwxNzc4NzAzNDA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Daniel Polevoy",
+    "photographer_url": "https://unsplash.com/@dpolevoy?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-stone-tower-sitting-on-top-of-a-lush-green-hillside-tMSw42CRAMA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-13T20:16:47Z"
   }
 ]

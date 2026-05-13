@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:galway:tuam",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1591220167816-647a19555d72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxUdWFtJTIwR2Fsd2F5fGVufDF8MHx8fDE3Nzg3MDM0MDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Denis Oliveira",
+    "photographer_url": "https://unsplash.com/@denisolvr?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-brown-concrete-building-beside-body-of-water-under-blue-sky-during-daytime-8694E4jvOF4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-13T20:16:43Z"
   }
 ]

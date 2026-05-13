@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:dublin:howth",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1588858191058-a1600e8f79f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxIb3d0aCUyMER1YmxpbnxlbnwxfDB8fHwxNzc4NzAzMzkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Cristi Costantine",
+    "photographer_url": "https://unsplash.com/@crozyx?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-brown-concrete-building-near-body-of-water-during-daytime-7uzv02ws3JE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-13T20:16:33Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:galway:ballinasloe",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1660913382424-5a25eb7e9d17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCYWxsaW5hc2xvZSUyMEdhbHdheXxlbnwxfDB8fHwxNzc4NzAzMzk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Francesco Dondi",
+    "photographer_url": "https://unsplash.com/@cesconfra?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-row-of-houses-on-a-hill-by-a-body-of-water-iQkc4E91vIQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-13T20:16:38Z"
   }
 ]

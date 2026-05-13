@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:dublin:swords",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1767127297153-42bc7f98652a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTd29yZHMlMjBJcmVsYW5kfGVufDF8MHx8fDE3Nzg3MDMzOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Marina Nazina",
+    "photographer_url": "https://unsplash.com/@nazinamari?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/man-in-medieval-costume-leading-a-parade-4_aQhdwV2vs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-13T20:16:36Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:galway:oranmore",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1668010096286-34d4690a8116?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxPcmFubW9yZSUyMElyZWxhbmR8ZW58MXwwfHx8MTc3ODcwMzQwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Thomas Werneken",
+    "photographer_url": "https://unsplash.com/@thomaswerneken?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-castle-on-a-cliff-vA7ZSAgzxe4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-13T20:16:41Z"
   }
 ]

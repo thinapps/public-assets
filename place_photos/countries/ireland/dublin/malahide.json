@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:dublin:malahide",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1631125958868-eb3ac94558f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNYWxhaGlkZSUyMER1YmxpbnxlbnwxfDB8fHwxNzc4NzAzMzk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Taylor Floyd Mews",
+    "photographer_url": "https://unsplash.com/@tfloydmews?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-tree-on-green-grass-field-during-daytime-GWpW02RZ32E?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-13T20:16:34Z"
   }
 ]
