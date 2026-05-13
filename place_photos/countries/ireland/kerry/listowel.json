@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:kerry:listowel",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1503408082299-5866f75db593?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMaXN0b3dlbCUyMElyZWxhbmR8ZW58MXwwfHx8MTc3ODcxMjIwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Corey Hearne",
+    "photographer_url": "https://unsplash.com/@socialcorey?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/red-geranium-flowers-beside-window-overlooking-rainbows-8Acojsr1j4I?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-13T22:43:24Z"
   }
 ]

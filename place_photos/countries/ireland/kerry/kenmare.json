@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:kerry:kenmare",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1680720538791-194c7b8d83c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxLZW5tYXJlJTIwS2Vycnl8ZW58MXwwfHx8MTc3ODcxMjIwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Joseph Kelly",
+    "photographer_url": "https://unsplash.com/@joseph90rcg?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-castle-on-a-hill-overlooking-a-body-of-water-hBE4C4YU3mE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-13T22:43:21Z"
   }
 ]

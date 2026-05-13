@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:kildare:maynooth",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1677170652180-f5e1f009b803?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNYXlub290aCUyMElyZWxhbmR8ZW58MXwwfHx8MTc3ODcxMjIwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Elizabeth",
+    "photographer_url": "https://unsplash.com/@lizabeths?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-green-building-with-a-clock-on-its-face-9n30is-5hzw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-13T22:43:29Z"
   }
 ]

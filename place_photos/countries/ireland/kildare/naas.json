@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:kildare:naas",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1751210486116-fe1f42ae0bfc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxOYWFzJTIwS2lsZGFyZXxlbnwxfDB8fHwxNzc4NzEyMjExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Kevin Dowling",
+    "photographer_url": "https://unsplash.com/@kev1n?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-olive-green-car-is-parked-with-lowered-suspension-9v8LSdKyTOE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-13T22:43:31Z"
   }
 ]
