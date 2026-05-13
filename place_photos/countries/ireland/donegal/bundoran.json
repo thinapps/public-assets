@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:donegal:bundoran",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1662649300900-6f8fb33f8175?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxCdW5kb3JhbiUyMElyZWxhbmR8ZW58MXwwfHx8MTc3ODY4NTU5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Siovhinn Polizzi",
+    "photographer_url": "https://unsplash.com/@siovhinn?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-body-of-water-with-trees-around-it-CsKCQgiQWao?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-13T17:31:40Z"
   }
 ]
