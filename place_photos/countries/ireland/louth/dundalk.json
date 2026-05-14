@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:louth:dundalk",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1721070734612-a85cfe8152fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxEdW5kYWxrJTIwSXJlbGFuZHxlbnwxfDB8fHwxNzc4NzMyMzU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Martin Mullen",
+    "photographer_url": "https://unsplash.com/@marmulade?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-dirt-road-surrounded-by-trees-and-bushes-Txo6hDvALKE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-14T04:19:17Z"
   }
 ]
