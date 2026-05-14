@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:tipperary:nenagh",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1702304216404-71dde6cfb579?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxOZW5hZ2glMjBJcmVsYW5kfGVufDF8MHx8fDE3Nzg3NTc5ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Michael Starkie",
+    "photographer_url": "https://unsplash.com/@starkie_pics?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-black-and-white-photo-of-a-tower-g0odc6TDA8k?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-14T11:26:23Z"
   }
 ]

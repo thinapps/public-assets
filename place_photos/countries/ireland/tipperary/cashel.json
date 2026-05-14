@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:tipperary:cashel",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1650989533199-1e9f3a399e20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDYXNoZWwlMjBUaXBwZXJhcnl8ZW58MXwwfHx8MTc3ODc1Nzk3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ian Hutchinson",
+    "photographer_url": "https://unsplash.com/@ianhutchinson92?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-castle-with-people-standing-in-front-of-it-9azFRW3cc04?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-14T11:26:16Z"
   }
 ]
