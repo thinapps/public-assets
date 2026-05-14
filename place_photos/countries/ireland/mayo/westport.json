@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:mayo:westport",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1755471538677-d5f9ea17282c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxXZXN0cG9ydCUyMElyZWxhbmR8ZW58MXwwfHx8MTc3ODc1MDA2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Chris Kofoed",
+    "photographer_url": "https://unsplash.com/@kofoed66?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-row-of-beer-taps-at-a-bar-vaH8acXSCeU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-14T09:14:27Z"
   }
 ]
