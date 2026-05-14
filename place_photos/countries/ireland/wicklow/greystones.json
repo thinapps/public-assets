@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:wicklow:greystones",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1714063265220-388b89b96245?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxHcmV5c3RvbmVzJTIwV2lja2xvd3xlbnwxfDB8fHwxNzc4Nzc5MTExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Pietro Licit",
+    "photographer_url": "https://unsplash.com/@xef?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-body-of-water-with-a-boat-in-it-buwefRy3fTI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-14T17:18:31Z"
   }
 ]
