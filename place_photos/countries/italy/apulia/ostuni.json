@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:apulia:ostuni",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1634630209997-97647eca99a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxPc3R1bmklMjBBcHVsaWF8ZW58MXwwfHx8MTc3ODc4OTMyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Davide Zacchello",
+    "photographer_url": "https://unsplash.com/@zack_dee?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-black-and-white-photo-of-a-narrow-street-ytPsfG_SuGg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-14T20:08:45Z"
   }
 ]

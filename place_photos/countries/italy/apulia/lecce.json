@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:apulia:lecce",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1502405759858-0f2fc88e5605?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxMZWNjZSUyMEFwdWxpYXxlbnwxfDB8fHwxNzc4Nzg5MzIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Riccardo Orlando",
+    "photographer_url": "https://unsplash.com/@polloalcurry?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/black-dropside-autorickshaw-park-near-sidewalk-lWrgk0AlUCA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-14T20:08:43Z"
   }
 ]

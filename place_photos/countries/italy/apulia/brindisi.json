@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:apulia:brindisi",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1693653633188-a7a58122b00d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCcmluZGlzaSUyMEFwdWxpYXxlbnwxfDB8fHwxNzc4Nzg5MzIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Valerio Giannattasio",
+    "photographer_url": "https://unsplash.com/@valeographia?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-people-standing-in-front-of-a-building-xDbCzbT-76I?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-14T20:08:41Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:italy:basilicata",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1542506101-fd5cacf0c5b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCYXNpbGljYXRhJTIwSXRhbHl8ZW58MXwwfHx8MTc3ODc4OTMzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Vincenzo De Rosa",
+    "photographer_url": "https://unsplash.com/@vincenzoderosa?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/desert-during-daytime-bB-JtT4Do7c?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-14T20:08:50Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:apulia:alberobello",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1635357235157-f6e8e00be9ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBbGJlcm9iZWxsbyUyMEFwdWxpYXxlbnwxfDB8fHwxNzc4Nzg5MzE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Francesco Pinto",
+    "photographer_url": "https://unsplash.com/@pintoff?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-ladle-full-of-food-is-being-lifted-by-a-ladle-fLJx5TNdVCs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-14T20:08:37Z"
   }
 ]
