@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ireland:westmeath:athlone",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1589846189685-fc128c50ec12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBdGhsb25lJTIwV2VzdG1lYXRofGVufDF8MHx8fDE3Nzg3NzAxODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Craig Oliver",
+    "photographer_url": "https://unsplash.com/@ollythedj1?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/people-on-boat-on-river-near-green-trees-during-daytime-DaB21VRyHaE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-14T14:49:48Z"
   }
 ]
