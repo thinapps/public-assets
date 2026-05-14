@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:calabria:tropea",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1602582702823-f97fcb859164?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUcm9wZWElMjBDYWxhYnJpYXxlbnwxfDB8fHwxNzc4Nzk4MTg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nemanja Peric",
+    "photographer_url": "https://unsplash.com/@21nemi?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/people-on-beach-during-daytime-eLXMGW4Btp8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-14T22:36:25Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:campania:capri",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1658820753117-670de2b87593?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxDYXByaSUyMENhbXBhbmlhfGVufDF8MHx8fDE3Nzg3OTgxODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alexey Larionov",
+    "photographer_url": "https://unsplash.com/@alexart251?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-rocky-beach-with-a-body-of-water-in-the-background-Wu9_uM9Gm5U?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-14T22:36:28Z"
   }
 ]

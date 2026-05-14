@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:campania:caserta",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1704110867762-ec4c65ff41b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDYXNlcnRhJTIwQ2FtcGFuaWF8ZW58MXwwfHx8MTc3ODc5ODE5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Iwona Castiello d'Antonio",
+    "photographer_url": "https://unsplash.com/@aquadrata?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-city-from-a-mountain-top-f1aRR8tMnS4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-14T22:36:30Z"
   }
 ]

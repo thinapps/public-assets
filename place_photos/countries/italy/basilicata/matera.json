@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:basilicata:matera",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1536781910396-bb64dbe103e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNYXRlcmElMjBCYXNpbGljYXRhfGVufDF8MHx8fDE3Nzg3OTgxNzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Giulia Gasperini",
+    "photographer_url": "https://unsplash.com/@giuliagasp?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-photo-of-a-city-0vHwXA42NzU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-14T22:36:15Z"
   }
 ]

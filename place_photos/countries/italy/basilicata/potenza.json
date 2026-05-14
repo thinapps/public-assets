@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:basilicata:potenza",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1707232400083-7c2fe027fc02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQb3RlbnphJTIwQmFzaWxpY2F0YXxlbnwxfDB8fHwxNzc4Nzk4MTc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Luca",
+    "photographer_url": "https://unsplash.com/@luca1898_?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-small-village-nestled-on-a-mountain-side-xKJZu1d5ghs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-14T22:36:16Z"
   }
 ]
