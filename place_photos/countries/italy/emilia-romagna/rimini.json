@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:emilia_romagna:rimini",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1465841616713-3ae139ff106e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxSaW1pbmklMjBJdGFseXxlbnwxfDB8fHwxNzc4ODM3MzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Radek Grzybowski",
+    "photographer_url": "https://unsplash.com/@rgrzybowski?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-shed-under-black-sky-csazO2y-fWk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T14:42:19Z"
   }
 ]

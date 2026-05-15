@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:lazio:civitavecchia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1729677595733-f6b84dbd2884?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxDaXZpdGF2ZWNjaGlhJTIwSXRhbHl8ZW58MXwwfHx8MTc3ODgzNzM3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Eduards Žiborkins",
+    "photographer_url": "https://unsplash.com/@ziborkish?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-man-sitting-on-a-rock-fishing-on-the-ocean-pn7kS8Znm1o?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T14:42:27Z"
   }
 ]
