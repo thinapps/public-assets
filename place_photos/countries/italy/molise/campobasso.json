@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:molise:campobasso",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1721388468916-78b8878b7a92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDYW1wb2Jhc3NvJTIwTW9saXNlfGVufDF8MHx8fDE3Nzg4ODM0MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Gabriele Romano",
+    "photographer_url": "https://unsplash.com/@gabrieleromanoy?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-small-town-nestled-in-a-valley-surrounded-by-trees-f8IZxMcrTN8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T22:16:48Z"
   }
 ]

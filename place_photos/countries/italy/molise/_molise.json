@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:italy:molise",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1721388469330-3456a496c1a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxNb2xpc2UlMjBJdGFseXxlbnwxfDB8fHwxNzc4ODgzNDA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Gabriele Romano",
+    "photographer_url": "https://unsplash.com/@gabrieleromanoy?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-city-from-the-top-of-a-hill-kU6ZP3W_M4k?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T22:16:46Z"
   }
 ]
