@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:lombardy:brescia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1681218305289-ee85f049dfab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCcmVzY2lhJTIwTG9tYmFyZHl8ZW58MXwwfHx8MTc3ODg2NDc4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Asia Lascioli",
+    "photographer_url": "https://unsplash.com/@lascioliasia?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-narrow-street-with-buildings-and-a-balcony-Y6rwxtuA69Q?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T17:06:28Z"
   }
 ]

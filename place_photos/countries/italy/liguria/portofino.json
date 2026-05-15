@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:liguria:portofino",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1642869091884-74e9bce223d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQb3J0b2Zpbm8lMjBMaWd1cmlhfGVufDF8MHx8fDE3Nzg4NjQ3Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "domenico farone",
+    "photographer_url": "https://unsplash.com/@oreundici?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-boats-floating-on-top-of-a-body-of-water-H7bjCpxzfB8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T17:06:19Z"
   }
 ]

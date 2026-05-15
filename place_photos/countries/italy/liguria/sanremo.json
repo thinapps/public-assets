@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:liguria:sanremo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1535063406830-27dfae54262a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTYW5yZW1vJTIwSXRhbHl8ZW58MXwwfHx8MTc3ODg2NDc4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ananthan Loggi",
+    "photographer_url": "https://unsplash.com/@loggi30?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/cinque-terre-italy-tEpol6gVDmE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T17:06:23Z"
   }
 ]

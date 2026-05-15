@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:liguria:la_spezia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1725792927974-2e1a5ffa2f84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxMYSUyMFNwZXppYSUyMExpZ3VyaWF8ZW58MXwwfHx8MTc3ODg2NDc3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mitili Mitili",
+    "photographer_url": "https://unsplash.com/@mitiliemitili?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-black-and-white-photo-of-a-man-on-a-boat-3YU8ZeqAWSg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T17:06:16Z"
   }
 ]

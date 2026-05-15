@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:liguria:genoa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1642868912248-7485c66cb268?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxHZW5vYSUyMExpZ3VyaWF8ZW58MXwwfHx8MTc3ODg2NDc3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "domenico farone",
+    "photographer_url": "https://unsplash.com/@oreundici?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-the-ocean-from-a-cliff-pOY0BBj3vL0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T17:06:14Z"
   }
 ]
