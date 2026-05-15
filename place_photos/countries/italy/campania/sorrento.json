@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:campania:sorrento",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1506609181013-277d12a39cba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTb3JyZW50byUyMENhbXBhbmlhfGVufDF8MHx8fDE3Nzg4MTk2NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Damiano Baschiera",
+    "photographer_url": "https://unsplash.com/@damiano_baschiera?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-concrete-house-near-body-of-water-under-blue-sky-during-daytime-DkxLD6Nvbzg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T04:34:31Z"
   }
 ]

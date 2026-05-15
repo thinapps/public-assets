@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:italy:emilia_romagna",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1576177161161-ffe6045cf18f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxFbWlsaWElMjBSb21hZ25hJTIwSXRhbHl8ZW58MXwwfHx8MTc3ODgxOTY3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Stefano Zocca",
+    "photographer_url": "https://unsplash.com/@stefano_zocca?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-concrete-house-near-green-grass-field-FanAO4o_g1U?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T04:34:32Z"
   }
 ]

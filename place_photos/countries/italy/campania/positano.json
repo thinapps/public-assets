@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:campania:positano",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1597324772523-eeec3f9f8641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQb3NpdGFubyUyMENhbXBhbmlhfGVufDF8MHx8fDE3Nzg4MTk2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Antonio Sessa",
+    "photographer_url": "https://unsplash.com/@antony_sex?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-and-white-concrete-building-near-green-trees-during-daytime-s1IVy8F4roE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T04:34:28Z"
   }
 ]

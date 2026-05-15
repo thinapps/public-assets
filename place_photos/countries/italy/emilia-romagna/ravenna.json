@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:emilia_romagna:ravenna",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1643560697053-e753a89f70fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxSYXZlbm5hJTIwRW1pbGlhJTIwUm9tYWduYXxlbnwxfDB8fHwxNzc4ODE5NjgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Håkon Grimstad",
+    "photographer_url": "https://unsplash.com/@grimstad?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-foggy-day-on-a-country-road-near-a-body-of-water-b0n7UG_xG2M?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T04:34:40Z"
   }
 ]

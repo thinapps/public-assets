@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:campania:salerno",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1587901070703-2618fa05ea6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYWxlcm5vJTIwQ2FtcGFuaWF8ZW58MXwwfHx8MTc3ODgxOTY2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Antonio La Rocca",
+    "photographer_url": "https://unsplash.com/@alr_photos?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/woman-in-white-long-sleeve-shirt-standing-on-road-during-daytime-oYdgGjX5_m0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T04:34:29Z"
   }
 ]
