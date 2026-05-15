@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:lombardy:varese",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1573747701073-fdea51f6cef2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxWYXJlc2UlMjBMb21iYXJkeXxlbnwxfDB8fHwxNzc4ODc1MjEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Francesco Alberti",
+    "photographer_url": "https://unsplash.com/@frensisalberti?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-plane-is-flying-in-the-sky-at-sunset-4VbED0b9rLs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T20:00:10Z"
   }
 ]

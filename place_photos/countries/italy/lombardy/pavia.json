@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:lombardy:pavia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1704637556719-961ba599a59d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxQYXZpYSUyMExvbWJhcmR5fGVufDF8MHx8fDE3Nzg4NzUyMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Paolo Comai",
+    "photographer_url": "https://unsplash.com/@paolocomai?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-building-with-a-clock-tower-on-top-of-it-V0Yg2ov19sg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T20:00:09Z"
   }
 ]

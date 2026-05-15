@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:lombardy:mantua",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1661942459663-d15c0c59d857?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNYW50dWElMjBJdGFseXxlbnwxfDB8fHwxNzc4ODc1MjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Francesco Bonistalli",
+    "photographer_url": "https://unsplash.com/@franz01?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-city-at-night-GCsG5oomgjc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T20:00:07Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:lombardy:lecco",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1563292321-7d2e22ed5a4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMZWNjbyUyMExvbWJhcmR5fGVufDF8MHx8fDE3Nzg4NzUyMDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Luigi Pozzoli",
+    "photographer_url": "https://unsplash.com/@lu_pl_ph?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-mountain-xNkm0Re5UqM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T20:00:05Z"
   }
 ]

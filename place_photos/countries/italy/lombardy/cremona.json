@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:lombardy:cremona",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1677967062535-439052f9c295?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDcmVtb25hJTIwTG9tYmFyZHl8ZW58MXwwfHx8MTc3ODg3NTIwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Antonio Sessa",
+    "photographer_url": "https://unsplash.com/@antony_sex?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-painting-on-the-ceiling-of-a-building-2xyn2PfRYt4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T20:00:03Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:marche:urbino",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1642342391178-fdce22e53483?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxVcmJpbm8lMjBNYXJjaGV8ZW58MXwwfHx8MTc3ODg3NTIxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Marian Luzi",
+    "photographer_url": "https://unsplash.com/@marianluzi?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-couple-of-people-walking-down-a-snow-covered-street-_nPBnxtRJjs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T20:00:18Z"
   }
 ]

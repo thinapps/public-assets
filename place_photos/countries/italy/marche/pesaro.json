@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:marche:pesaro",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1672872363505-d47b31584f12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQZXNhcm8lMjBNYXJjaGV8ZW58MXwwfHx8MTc3ODg3NTIxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Paola F",
+    "photographer_url": "https://unsplash.com/@paolaeffe?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-sculpture-in-the-middle-of-a-park-near-the-ocean-qbr_J2IFbHw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-15T20:00:17Z"
   }
 ]
