@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:latvia:vidzeme",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1669904654513-4e37b66547a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxWaWR6ZW1lJTIwTGF0dmlhfGVufDF8MHx8fDE3Nzg5Njk0NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Tom Podmore",
+    "photographer_url": "https://unsplash.com/@tompodmore86?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-city-with-many-buildings-xoxx5PViEkE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T22:11:04Z"
   }
 ]

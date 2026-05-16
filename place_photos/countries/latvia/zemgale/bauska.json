@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:latvia:zemgale:bauska",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1714945609098-8295ce339675?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxCYXVza2ElMjBaZW1nYWxlfGVufDF8MHx8fDE3Nzg5Njk0NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Vitālijs Nosovs",
+    "photographer_url": "https://unsplash.com/@vnosovs?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-building-sitting-on-top-of-a-lush-green-hillside-KQKTJsE02gw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T22:11:14Z"
   }
 ]

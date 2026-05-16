@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:latvia:vidzeme:valmiera",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1727534228242-59043788ee3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxWYWxtaWVyYSUyMFZpZHplbWV8ZW58MXwwfHx8MTc3ODk2OTQ3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Yevhen Stienin",
+    "photographer_url": "https://unsplash.com/@yevhen_stienin?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-scenic-view-of-a-forest-with-a-small-village-in-the-distance-aGcoekElxTM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T22:11:10Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:latvia:zemgale:jekabpils",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1699184003245-143b32992619?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxKZWthYnBpbHMlMjBaZW1nYWxlfGVufDF8MHx8fDE3Nzg5Njk0NzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Wolfgang Hasselmann",
+    "photographer_url": "https://unsplash.com/@wolfgang_hasselmann?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-red-barns-sitting-on-top-of-a-grass-covered-hillside-KuiadagrKhA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T22:11:15Z"
   }
 ]
