@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:italy:umbria",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1682957802974-d4bf5c8e383f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxVbWJyaWElMjBJdGFseXxlbnwxfDB8fHwxNzc4OTI4MjAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Chris Williams",
+    "photographer_url": "https://unsplash.com/@cmphotos?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-woman-standing-in-an-archway-with-a-view-of-a-city-zF8yCG7fvKI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T10:43:23Z"
   }
 ]

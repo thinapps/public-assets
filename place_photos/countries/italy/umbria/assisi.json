@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:umbria:assisi",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1630247008567-9c3facb9276c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBc3Npc2klMjBVbWJyaWF8ZW58MXwwfHx8MTc3ODkyODIwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Achim Ruhnau",
+    "photographer_url": "https://unsplash.com/@achimr?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-brown-concrete-building-6Cv2_Y6E_5o?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T10:43:24Z"
   }
 ]

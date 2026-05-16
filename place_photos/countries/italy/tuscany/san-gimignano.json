@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:tuscany:san_gimignano",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1653228239729-f7cc50704951?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTYW4lMjBHaW1pZ25hbm8lMjBUdXNjYW55fGVufDF8MHx8fDE3Nzg5MjgxOTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Flo P",
+    "photographer_url": "https://unsplash.com/@nattyflo?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-village-on-a-hill-surrounded-by-trees-26s3FCtvQ7s?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T10:43:19Z"
   }
 ]

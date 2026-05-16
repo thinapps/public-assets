@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:tuscany:siena",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1531944213227-db53a6d0f3bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTaWVuYSUyMFR1c2Nhbnl8ZW58MXwwfHx8MTc3ODkyODIwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Matteo Kutufa",
+    "photographer_url": "https://unsplash.com/@matteokutufa?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/low-angle-photography-of-brown-gothic-building-interior-2YCyGrmFY4w?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T10:43:21Z"
   }
 ]
