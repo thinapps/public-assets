@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:latvia:riga:jurmala",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1723041349290-720af4a33560?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxKdXJtYWxhJTIwUmlnYXxlbnwxfDB8fHwxNzc4OTYwNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nikola Tasic",
+    "photographer_url": "https://unsplash.com/@tasae34?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-body-of-water-with-a-forest-in-the-background-6XdFW-MIn-A?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T19:40:10Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:latvia:latgale",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1691414025774-18ae9b88ab77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMYXRnYWxlJTIwTGF0dmlhfGVufDF8MHx8fDE3Nzg5NjA0MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Anna Kovaļova",
+    "photographer_url": "https://unsplash.com/@anna_kov?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-foggy-field-with-hay-bales-in-the-foreground-AYZHq1mqIkM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T19:40:00Z"
   }
 ]

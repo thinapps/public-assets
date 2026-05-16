@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:latvia:riga",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1683730796330-06e60e3438d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxSaWdhJTIwTGF0dmlhfGVufDF8MHx8fDE3Nzg5NjA0MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Martti Salmi",
+    "photographer_url": "https://unsplash.com/@marttisalmi?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-city-with-a-river-in-the-background-F68ny2ZSgEs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T19:40:08Z"
   }
 ]
