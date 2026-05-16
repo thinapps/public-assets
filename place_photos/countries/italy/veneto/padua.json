@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:veneto:padua",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1745351109848-6d15bd7026b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQYWR1YSUyMFZlbmV0b3xlbnwxfDB8fHwxNzc4OTQwMzQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Edoardo Bortoli",
+    "photographer_url": "https://unsplash.com/@edoa_rdo?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-long-pier-extends-into-the-water-WmXK9CJ841c?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T14:05:46Z"
   }
 ]

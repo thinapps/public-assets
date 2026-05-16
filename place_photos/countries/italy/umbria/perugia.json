@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:umbria:perugia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1632660820654-f609bf2e83e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQZXJ1Z2lhJTIwVW1icmlhfGVufDF8MHx8fDE3Nzg5NDAzMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Federico Di Dio photography",
+    "photographer_url": "https://unsplash.com/@didiofederico_photographer?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-man-is-using-a-pair-of-scissors-to-cut-a-piece-of-wood-m4arB1vofTM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T14:05:39Z"
   }
 ]
