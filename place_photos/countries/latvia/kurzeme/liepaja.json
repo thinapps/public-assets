@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:latvia:kurzeme:liepaja",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1621160478925-32dd621a90b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxMaWVwYWphJTIwS3VyemVtZXxlbnwxfDB8fHwxNzc4OTQ4MjExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Michael Kohlegger",
+    "photographer_url": "https://unsplash.com/@kohleggermichael?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-black-wooden-signage-dqoeRYOkP2c?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T16:16:51Z"
   }
 ]
