@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:trentino_alto_adige:bressanone",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1689737274834-d6e205bbccc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCcmVzc2Fub25lJTIwSXRhbHl8ZW58MXwwfHx8MTc3ODkxOTg3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Andreas Felske",
+    "photographer_url": "https://unsplash.com/@andreasfelske?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-green-field-in-front-of-a-mountain-range-O57yzqe4Q-4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T08:24:34Z"
   }
 ]

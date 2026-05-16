@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:italy:tuscany",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1632660967293-ec569f27dfd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxUdXNjYW55JTIwSXRhbHl8ZW58MXwwfHx8MTc3ODkxOTg4MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Federico Di Dio photography",
+    "photographer_url": "https://unsplash.com/@didiofederico_photographer?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-narrow-alley-way-with-potted-plants-on-either-side-imDFBYDnqI0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T08:24:41Z"
   }
 ]
