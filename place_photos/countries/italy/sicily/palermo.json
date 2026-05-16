@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:sicily:palermo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1600552075974-3554ccabf596?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxQYWxlcm1vJTIwU2ljaWx5fGVufDF8MHx8fDE3Nzg5MDQ1NzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Roaming Pictures",
+    "photographer_url": "https://unsplash.com/@roamingpictures?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-brown-concrete-buildings-under-blue-sky-during-daytime-rDQhm-8WV5g?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T04:09:35Z"
   }
 ]

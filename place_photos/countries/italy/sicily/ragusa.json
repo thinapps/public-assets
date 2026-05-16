@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:sicily:ragusa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1698042873732-86c0bb1ad73c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxSYWd1c2ElMjBTaWNpbHl8ZW58MXwwfHx8MTc3ODkwNDU3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Letian Zhang",
+    "photographer_url": "https://unsplash.com/@clippit?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-town-with-a-hill-in-the-background-uD3qaSrGZWU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T04:09:37Z"
   }
 ]

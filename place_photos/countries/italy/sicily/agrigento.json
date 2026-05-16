@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:sicily:agrigento",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1671086634776-d3a38519cfdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBZ3JpZ2VudG8lMjBTaWNpbHl8ZW58MXwwfHx8MTc3ODkwNDU2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Marcus Ferguson",
+    "photographer_url": "https://unsplash.com/@mafergu16?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-man-standing-on-top-of-a-mountain-next-to-a-lush-green-valley-cj0wWT0Nu6M?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T04:09:29Z"
   }
 ]

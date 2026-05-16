@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:sardinia:olbia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1700571994449-1da928fb7ded?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxPbGJpYSUyMFNhcmRpbmlhfGVufDF8MHx8fDE3Nzg5MDQ1NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Christopher Politano",
+    "photographer_url": "https://unsplash.com/@poli_graphy?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-cruise-ship-docked-in-a-harbor-with-a-city-in-the-background-nsUGplM5nUM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T04:09:24Z"
   }
 ]

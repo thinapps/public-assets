@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:sicily:messina",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1524942434100-2b3f200f5b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNZXNzaW5hJTIwU2ljaWx5fGVufDF8MHx8fDE3Nzg5MDQ1NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jacek Dylag",
+    "photographer_url": "https://unsplash.com/@dylu?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-photography-of-brown-town-near-ocean-tR54rO5JwsA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T04:09:34Z"
   }
 ]

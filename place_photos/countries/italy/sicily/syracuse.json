@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:sicily:syracuse",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1682197290084-7444ce922c59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTeXJhY3VzZSUyMFNpY2lseXxlbnwxfDB8fHwxNzc4OTA0NTc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Monika Guzikowska",
+    "photographer_url": "https://unsplash.com/@monik_guzik?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-city-by-the-ocean-with-buildings-on-the-shore-7bWpqOFHyxc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T04:09:38Z"
   }
 ]

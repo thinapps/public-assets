@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:sicily:catania",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1641286894787-4a2a97a1e34a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDYXRhbmlhJTIwU2ljaWx5fGVufDF8MHx8fDE3Nzg5MDQ1NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Samir Kharrat",
+    "photographer_url": "https://unsplash.com/@samirkharrat?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-city-with-a-mountain-in-the-background-XLHOHmKj7g8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-16T04:09:30Z"
   }
 ]
