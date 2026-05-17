@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:luxembourg:redange:redange",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1543930379-9c68a7de2be8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxSZWRhbmdlJTIwTHV4ZW1ib3VyZ3xlbnwxfDB8fHwxNzc5MDU2MDY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Polina Sushko",
+    "photographer_url": "https://unsplash.com/@plnsushko?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/people-gathered-by-buildings-during-daytime-Ekc4CNLX7aA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-17T22:14:28Z"
   }
 ]
