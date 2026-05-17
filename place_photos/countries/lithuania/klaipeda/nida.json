@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:lithuania:klaipeda:nida",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1600110306971-6e13c9d52341?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxOaWRhJTIwS2xhaXBlZGF8ZW58MXwwfHx8MTc3OTAxNDcyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Arvydas Venckus",
+    "photographer_url": "https://unsplash.com/@arvydasv?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/red-and-white-houses-near-body-of-water-during-daytime-P-hRe4b8b9g?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-17T10:45:21Z"
   }
 ]
