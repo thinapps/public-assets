@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:luxembourg:diekirch:ettelbruck",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1587233915087-739a042399a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxFdHRlbGJydWNrJTIwTHV4ZW1ib3VyZ3xlbnwxfDB8fHwxNzc5MDM0NzUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Charles Büchler",
+    "photographer_url": "https://unsplash.com/@cbuchler?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/woman-in-blue-shirt-with-red-lipstick-NRm5BxM-AyQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-17T16:19:10Z"
   }
 ]

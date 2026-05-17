@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:luxembourg:clervaux:clervaux",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1588879016247-30f750ae02e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDbGVydmF1eCUyMEx1eGVtYm91cmd8ZW58MXwwfHx8MTc3OTAzNDc0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Charles Büchler",
+    "photographer_url": "https://unsplash.com/@cbuchler?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/grey-and-brown-concrete-castle-surrounded-by-green-trees-during-daytime-uSlKceHusyE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-17T16:19:03Z"
   }
 ]
