@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:moldova",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1629045951640-fb182dba0a33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxNb2xkb3ZhfGVufDF8MHx8fDE3NzkxNjU2NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dorin Seremet",
+    "photographer_url": "https://unsplash.com/@sometimesiedit?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-green-dome-building-under-blue-sky-during-daytime-Qhy0SX5vv8w?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-19T15:57:06Z"
   }
 ]
