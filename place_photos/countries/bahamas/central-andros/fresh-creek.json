@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:bahamas:central_andros:fresh_creek",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1690682388420-c7d698f34629?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxGcmVzaCUyMENyZWVrJTIwQmFoYW1hc3xlbnwxfDB8fHwxNzc5NDgwODQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nick Rickert",
+    "photographer_url": "https://unsplash.com/@nick_rickert?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-body-of-water-that-is-blue-and-white-E4GugYLkioc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-22T20:14:01Z"
   }
 ]
