@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:bahamas:exuma",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1690682085866-535cb67a4c7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxFeHVtYSUyMEJhaGFtYXN8ZW58MXwwfHx8MTc3OTQ4ODI4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nick Rickert",
+    "photographer_url": "https://unsplash.com/@nick_rickert?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-pink-umbrella-is-in-the-middle-of-a-blue-lagoon-UiAGvC0IjT4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-22T22:18:04Z"
   }
 ]

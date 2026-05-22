@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:bahamas:exuma:george_town",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1641958066599-87c44862060d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxHZW9yZ2UlMjBUb3duJTIwRXh1bWF8ZW58MXwwfHx8MTc3OTQ4ODI4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Duskfall Crew",
+    "photographer_url": "https://unsplash.com/@duskfallcrew?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-city-street-filled-with-lots-of-traffic-qNc7-0ADts8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-22T22:18:06Z"
   }
 ]

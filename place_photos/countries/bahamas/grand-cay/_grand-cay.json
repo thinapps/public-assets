@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:bahamas:grand_cay",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1754272900570-09847f6bbeb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxHcmFuZCUyMENheSUyMEJhaGFtYXN8ZW58MXwwfHx8MTc3OTQ4ODI4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Satchymo Photos",
+    "photographer_url": "https://unsplash.com/@satchymo?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/boats-dot-a-beautiful-beach-with-turquoise-waters-L14gsWPS5Eo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-22T22:18:08Z"
   }
 ]
