@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:bahamas:hope_town:hope_town",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1642032794420-eb09635f7df0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxIb3BlJTIwVG93biUyMEJhaGFtYXN8ZW58MXwwfHx8MTc3OTUwOTQ1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mark von Werder",
+    "photographer_url": "https://unsplash.com/@mvonwerder?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-beach-that-has-some-rocks-on-it-RLENFfQRLCs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-23T04:10:54Z"
   }
 ]
