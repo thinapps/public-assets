@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:bolivia:tarija",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1571422657325-63704f9273ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxUYXJpamElMjBCb2xpdmlhfGVufDF8MHx8fDE3Nzk1NDUxNzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Guille Álvarez",
+    "photographer_url": "https://unsplash.com/@guillealvarez?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/flock-of-birds-on-body-of-water-during-daytime-RHd1D38KvN0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-23T14:06:13Z"
   }
 ]

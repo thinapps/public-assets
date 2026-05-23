@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:bolivia:santa_cruz",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1672676935367-68dde281958d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYW50YSUyMENydXolMjBCb2xpdmlhfGVufDF8MHx8fDE3Nzk1NDUxNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Adriano",
+    "photographer_url": "https://unsplash.com/@adi_ru?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-street-lined-with-white-buildings-and-palm-trees-RZt9HIu1vi8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-23T14:06:09Z"
   }
 ]
