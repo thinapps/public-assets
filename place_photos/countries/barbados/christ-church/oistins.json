@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:barbados:christ_church:oistins",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1508985307703-52d13b2b06b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxPaXN0aW5zJTIwQ2hyaXN0JTIwQ2h1cmNofGVufDF8MHx8fDE3Nzk1MjUxODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "John Cafazza",
+    "photographer_url": "https://unsplash.com/@john_cafazza?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/church-surrounded-by-grass-AeABkasP-24?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-23T08:33:09Z"
   }
 ]

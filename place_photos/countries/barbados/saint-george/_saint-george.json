@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:barbados:saint_george",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1579167149678-76415f24b197?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYWludCUyMEdlb3JnZSUyMEJhcmJhZG9zfGVufDF8MHx8fDE3Nzk1MjUxOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "George Apodaca",
+    "photographer_url": "https://unsplash.com/@iplaytheairguitar?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-photography-of-island-DoPuczr3Rw8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-23T08:33:15Z"
   }
 ]
