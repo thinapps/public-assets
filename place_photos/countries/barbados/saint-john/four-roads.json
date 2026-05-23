@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:barbados:saint_john:four_roads",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1633847017295-9950528cd45c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxGb3VyJTIwUm9hZHMlMjBCYXJiYWRvc3xlbnwxfDB8fHwxNzc5NTMzMTc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Tom Jur",
+    "photographer_url": "https://unsplash.com/@tomjur?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-woman-walking-down-a-street-next-to-the-ocean-RK_TNdBfk6M?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-23T10:46:14Z"
   }
 ]
