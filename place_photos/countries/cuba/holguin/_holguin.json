@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:cuba:holguin",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1662855901066-e67e19a40c37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxIb2xndWluJTIwQ3ViYXxlbnwxfDB8fHwxNzc5NjE5OTYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jas Ochoa",
+    "photographer_url": "https://unsplash.com/@jastkit?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-field-with-palm-trees-and-a-body-of-water-in-the-background-xbmVLIpvLHo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-24T10:52:42Z"
   }
 ]
