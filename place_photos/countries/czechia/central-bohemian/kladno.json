@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:czechia:central_bohemian:kladno",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1634842543077-4ff83edb7d9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxLbGFkbm8lMjBDemVjaGlhfGVufDF8MHx8fDE3Nzk2MzE1NjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nick Night",
+    "photographer_url": "https://unsplash.com/@nicknight?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-city-from-a-hill-xzGgJ7AJvZw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-24T14:06:01Z"
   }
 ]
