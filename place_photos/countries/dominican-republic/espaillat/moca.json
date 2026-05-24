@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:dominican_republic:espaillat:moca",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1684980461524-6eed0f9e30b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNb2NhJTIwRG9taW5pY2FuJTIwUmVwdWJsaWN8ZW58MXwwfHx8MTc3OTY1MTg5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Carlos Cruz",
+    "photographer_url": "https://unsplash.com/@carloscruzph?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-statue-of-a-man-holding-a-flag-in-front-of-a-building-gEBB6hfQ3B4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-24T19:44:52Z"
   }
 ]
