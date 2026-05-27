@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ecuador:bolivar:guaranda",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1688933212405-6ddf0bb773d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxHdWFyYW5kYSUyMEVjdWFkb3J8ZW58MXwwfHx8MTc3OTg1NzY1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Diego Verdezoto",
+    "photographer_url": "https://unsplash.com/@diegov?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-bird-flying-in-the-sky-over-a-mountain-range-1_PyTM7WtBs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-27T04:54:17Z"
   }
 ]

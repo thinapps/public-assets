@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ecuador:chimborazo:riobamba",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1670348060135-d4c6662b4138?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxSaW9iYW1iYSUyMENoaW1ib3Jhem98ZW58MXwwfHx8MTc3OTg1NzY2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Andres Gavino",
+    "photographer_url": "https://unsplash.com/@andresgavinbelson?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-room-with-tables-and-chairs-9Dp1rwEQzOs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-27T04:54:27Z"
   }
 ]
