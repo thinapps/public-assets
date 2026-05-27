@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:ecuador:pastaza",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1649691729087-291da09a695f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQYXN0YXphJTIwRWN1YWRvcnxlbnwxfDB8fHwxNzc5ODk4NTgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Patricio Gaibor",
+    "photographer_url": "https://unsplash.com/@pgaibor?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-river-running-through-a-lush-green-forest-Ew_MK-_5ASY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-27T16:16:23Z"
   }
 ]

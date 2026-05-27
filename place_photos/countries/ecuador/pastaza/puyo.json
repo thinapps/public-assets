@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ecuador:pastaza:puyo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1681557732648-b05b197ed049?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQdXlvJTIwUGFzdGF6YXxlbnwxfDB8fHwxNzc5ODk4NTg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "frogses production",
+    "photographer_url": "https://unsplash.com/@frogses?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-wooden-cutting-board-topped-with-lots-of-pasta-8RFw9AD3LYI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-27T16:16:25Z"
   }
 ]

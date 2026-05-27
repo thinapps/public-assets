@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ecuador:manabi:portoviejo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1603854688975-d31c5b667c7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQb3J0b3ZpZWpvJTIwRWN1YWRvcnxlbnwxfDB8fHwxNzc5ODk4NTcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Andres Medina",
+    "photographer_url": "https://unsplash.com/@kiyoshi_jpg?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/man-in-black-jacket-standing-on-brown-wooden-stairs-M0R9vFwY0Jw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-27T16:16:11Z"
   }
 ]
