@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:ecuador:loja",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1610413341456-e283a1c6026f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMb2phJTIwRWN1YWRvcnxlbnwxfDB8fHwxNzc5ODc4MDk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Andres Medina",
+    "photographer_url": "https://unsplash.com/@kiyoshi_jpg?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/body-of-water-near-green-trees-under-blue-sky-and-white-clouds-during-daytime-JVUCzgbTjDE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-27T10:34:55Z"
   }
 ]

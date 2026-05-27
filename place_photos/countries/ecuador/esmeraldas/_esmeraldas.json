@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:ecuador:esmeraldas",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1593303079791-9d5e94a4d07b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxFc21lcmFsZGFzJTIwRWN1YWRvcnxlbnwxfDB8fHwxNzc5ODc4MDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Andres Medina",
+    "photographer_url": "https://unsplash.com/@kiyoshi_jpg?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/people-on-beach-during-sunset-QGMZlaO7J88?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-27T10:34:40Z"
   }
 ]
