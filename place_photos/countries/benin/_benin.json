@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:benin",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1600241005059-71de13374958?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCZW5pbnxlbnwxfDB8fHwxNzgwMDA4NDk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Yanick Folly",
+    "photographer_url": "https://unsplash.com/@yanick_folly_229?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-city-buildings-under-cloudy-sky-during-daytime-kWPNxQyAT6M?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-28T22:48:19Z"
   }
 ]
