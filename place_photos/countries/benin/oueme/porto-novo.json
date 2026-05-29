@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:benin:oueme:porto_novo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1688289631655-35a2aef21d1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQb3J0byUyME5vdm8lMjBPdWVtZXxlbnwxfDB8fHwxNzgwMDMwMDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Miguel Puig",
+    "photographer_url": "https://unsplash.com/@deck1187hw?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-row-of-buildings-on-the-side-of-a-street-6Tv72tqKxB0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-29T04:47:24Z"
   }
 ]
