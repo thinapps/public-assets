@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:botswana:chobe",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1560689139-ce8cc2f3f4e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxDaG9iZSUyMEJvdHN3YW5hfGVufDF8MHx8fDE3ODAwOTQ3NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alex",
+    "photographer_url": "https://unsplash.com/@_alex?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-grass-field-Ly_CVoMIInQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-29T22:46:14Z"
   }
 ]
