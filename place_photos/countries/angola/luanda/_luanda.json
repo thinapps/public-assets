@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:angola:luanda",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1743172140481-5c7044dd23d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMdWFuZGElMjBBbmdvbGF8ZW58MXwwfHx8MTc4MDA3MTAxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Shawn Clark",
+    "photographer_url": "https://unsplash.com/@shawnmclark?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-cityscape-is-under-a-cloudy-blue-sky-P84xh3q3ccE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-29T16:10:11Z"
   }
 ]
