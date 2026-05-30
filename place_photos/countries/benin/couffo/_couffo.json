@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:benin:couffo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1651715204787-5382b3823ffb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDb3VmZm8lMjBCZW5pbnxlbnwxfDB8fHwxNzgwMTU3OTQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Panos Katsigiannis",
+    "photographer_url": "https://unsplash.com/@panos_kats?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-stop-sign-on-a-tree-gEG1U64I2l8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-30T16:19:03Z"
   }
 ]

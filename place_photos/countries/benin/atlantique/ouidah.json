@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:benin:atlantique:ouidah",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1753818268804-662cabaa63de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxPdWlkYWglMjBCZW5pbnxlbnwxfDB8fHwxNzgwMTU3OTM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Greg Keelen",
+    "photographer_url": "https://unsplash.com/@greg_keelen?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/houses-sit-along-a-cement-structure-Tx2g4yOOmss?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-30T16:19:00Z"
   }
 ]

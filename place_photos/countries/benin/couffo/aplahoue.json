@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:benin:couffo:aplahoue",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1723985628978-15d501822f32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBcGxhaG91ZSUyMENvdWZmb3xlbnwxfDB8fHwxNzgwMTU3OTQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Amin Zabardast",
+    "photographer_url": "https://unsplash.com/@aminzabardast?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-white-building-with-a-clock-on-the-side-of-it-sc9evAGZQmk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-05-30T16:19:04Z"
   }
 ]
