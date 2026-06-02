@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:chad",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1690394432973-bc1d5d0e1964?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxDaGFkfGVufDF8MHx8fDE3ODA0MzU3Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "David Valentine",
+    "photographer_url": "https://unsplash.com/@thephotochad?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-close-up-of-an-orangutans-face-Y6ukNp03aYc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-02T21:29:28Z"
   }
 ]
