@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:chad:lac:bol",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1626303711019-e4b559721b01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCb2wlMjBDaGFkfGVufDF8MHx8fDE3ODA0ODYwOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Levi Meir Clancy",
+    "photographer_url": "https://unsplash.com/@levimeirclancy?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/group-of-soldiers-holding-flags-VT_k0aSG_Hw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-03T11:28:10Z"
   }
 ]
