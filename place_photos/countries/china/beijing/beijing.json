@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:china:beijing:beijing",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxCZWlqaW5nJTIwQ2hpbmF8ZW58MXwwfHx8MTc4MDYxMzU3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Hanson Lu",
+    "photographer_url": "https://unsplash.com/@hansonluu?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/great-wall-of-china-china-_8EFj6ISA08?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-04T22:52:52Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:chile:magallanes",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1679671386303-34ab7176c36e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxNYWdhbGxhbmVzJTIwQ2hpbGV8ZW58MXwwfHx8MTc4MDYxMzU2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rebecca Hausner",
+    "photographer_url": "https://unsplash.com/@rebecca_h?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-seagulls-on-a-beach-with-a-ship-in-the-background-oDCLGZBqyLs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-04T22:52:42Z"
   }
 ]

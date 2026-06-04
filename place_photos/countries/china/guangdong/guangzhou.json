@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:china:guangdong:guangzhou",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1630831241310-3984f1b3d711?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxHdWFuZ3pob3UlMjBHdWFuZ2Rvbmd8ZW58MXwwfHx8MTc4MDYxMzU3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Wally Yang",
+    "photographer_url": "https://unsplash.com/@wallygood?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/city-skyline-during-night-time-8HzjyDDgbJg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-04T22:52:56Z"
   }
 ]

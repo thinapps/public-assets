@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:china:guangdong",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1629864102381-1e048451f096?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxHdWFuZ2RvbmclMjBDaGluYXxlbnwxfDB8fHwxNzgwNjEzNTc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Matt Zhang",
+    "photographer_url": "https://unsplash.com/@mattyzzy?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/yellow-and-white-animal-plush-toy-wT-4G1sCxIA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-04T22:52:54Z"
   }
 ]
