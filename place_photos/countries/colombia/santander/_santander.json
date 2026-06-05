@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:colombia:santander",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1723408656152-4b140c5e2a06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTYW50YW5kZXIlMjBDb2xvbWJpYXxlbnwxfDB8fHwxNzgwNjU0OTYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Maria Camila Bermúdez",
+    "photographer_url": "https://unsplash.com/@camilabermudez?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-dirt-road-in-the-middle-of-a-forest-hd7KLspJrQs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-05T10:22:41Z"
   }
 ]
