@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:colombia:atlantico",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1643234874280-69fd18e21cc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxBdGxhbnRpY28lMjBDb2xvbWJpYXxlbnwxfDB8fHwxNzgwNjM1MjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Andrés Gómez",
+    "photographer_url": "https://unsplash.com/@andresloquesea?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-body-of-water-with-waves-coming-in-to-shore-EXxK4LNvS3Y?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-05T04:54:10Z"
   }
 ]

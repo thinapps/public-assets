@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:china:zhejiang",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1682224483807-f32138deaecf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxaaGVqaWFuZyUyMENoaW5hfGVufDF8MHx8fDE3ODA2MzUyNDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Emmet Liang",
+    "photographer_url": "https://unsplash.com/@emmetliang?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-city-with-lots-of-tall-buildings-lLaSAu8eHgU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-05T04:54:07Z"
   }
 ]

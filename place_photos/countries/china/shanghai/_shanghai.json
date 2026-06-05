@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:china:shanghai",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1627484986972-e544190b8abb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTaGFuZ2hhaSUyMENoaW5hfGVufDF8MHx8fDE3ODA2MzUyMzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Zhou Xian",
+    "photographer_url": "https://unsplash.com/@zhou_xian?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-city-buildings-during-night-time-7tFFO6Mq5L4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-05T04:53:57Z"
   }
 ]

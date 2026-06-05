@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:china:zhejiang:hangzhou",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1661109443131-61145a4a1bed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxIYW5nemhvdSUyMFpoZWppYW5nfGVufDF8MHx8fDE3ODA2MzUyNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Yilei (Jerry) Bao",
+    "photographer_url": "https://unsplash.com/@yileijerrybao?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-houses-surrounded-by-trees-iiIIpAqE2Ao?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-05T04:54:09Z"
   }
 ]
