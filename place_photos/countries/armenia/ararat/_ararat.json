@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:armenia:ararat",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1620693654464-7d33c7eac5a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBcmFyYXQlMjBBcm1lbmlhfGVufDF8MHx8fDE3ODA3NzUzNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ani Adigyozalyan",
+    "photographer_url": "https://unsplash.com/@aniadigyozalyan?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-grass-field-and-mountain-h5TdClJhDMc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-06T19:49:34Z"
   }
 ]

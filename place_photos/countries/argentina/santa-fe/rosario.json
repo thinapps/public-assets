@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:argentina:santa_fe:rosario",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1670667406522-f48023705afa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxSb3NhcmlvJTIwU2FudGElMjBGZXxlbnwxfDB8fHwxNzgwNzc1MzYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Vladimir Oprisko",
+    "photographer_url": "https://unsplash.com/@captoprisko?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-body-of-water-with-a-city-in-the-background-KvcU5yY28Og?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-06T19:49:21Z"
   }
 ]
