@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:afghanistan:helmand",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1616346796308-bd3e4207d222?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxIZWxtYW5kJTIwQWZnaGFuaXN0YW58ZW58MXwwfHx8MTc4MDc0MzYyOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "emran sayeed",
+    "photographer_url": "https://unsplash.com/@emransayeed?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-military-men-riding-on-the-back-of-a-truck-09l_WigbJZE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-06T11:00:29Z"
   }
 ]
