@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:argentina:entre_rios:parana",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1562170785-b237f507abed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQYXJhbmElMjBBcmdlbnRpbmF8ZW58MXwwfHx8MTc4MDcyMDI1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "mgfd",
+    "photographer_url": "https://unsplash.com/@mgfd?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/blue-calm-sea-during-sunrise-YycREXrVezs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-06T04:30:59Z"
   }
 ]
