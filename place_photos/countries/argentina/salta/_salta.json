@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:argentina:salta",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1546863340-7e4e97e46f42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTYWx0YSUyMEFyZ2VudGluYXxlbnwxfDB8fHwxNzgwNzYzNzg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nicolas Perez",
+    "photographer_url": "https://unsplash.com/@ni_coperez?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/purple-petaled-flowers-near-mountain-during-daytime-eNWcXCbE5fI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-06T16:36:24Z"
   }
 ]
