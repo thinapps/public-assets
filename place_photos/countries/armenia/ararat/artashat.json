@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:armenia:ararat:artashat",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1677864109159-34eb97228c65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBcnRhc2hhdCUyMEFyYXJhdHxlbnwxfDB8fHwxNzgwNzg1MTA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "SnapSaga",
+    "photographer_url": "https://unsplash.com/@catauggie?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-castle-on-a-hill-with-a-snow-covered-mountain-in-the-background-nPDimBfQo6g?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-06T22:31:47Z"
   }
 ]

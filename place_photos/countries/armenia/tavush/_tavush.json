@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:armenia:tavush",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1624736469692-a10e2cb9d4a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxUYXZ1c2glMjBBcm1lbmlhfGVufDF8MHx8fDE3ODA3ODUxMjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Robert Levonyan",
+    "photographer_url": "https://unsplash.com/@robertlevonyan?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-on-mountain-during-daytime-0iZMwu-fC4w?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-06T22:32:01Z"
   }
 ]

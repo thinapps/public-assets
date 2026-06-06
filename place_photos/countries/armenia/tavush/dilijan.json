@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:armenia:tavush:dilijan",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1624736468272-99492d11ec2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxEaWxpamFuJTIwVGF2dXNofGVufDF8MHx8fDE3ODA3ODUxMjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Robert Levonyan",
+    "photographer_url": "https://unsplash.com/@robertlevonyan?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/black-and-yellow-bee-on-purple-flower-BGbrX48HFgE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-06T22:32:03Z"
   }
 ]
