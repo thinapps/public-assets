@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:australia:victoria:warrnambool",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1623197258960-480a71198a85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxXYXJybmFtYm9vbCUyMFZpY3RvcmlhfGVufDF8MHx8fDE3ODA4NTA4MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Gilberto Olimpio",
+    "photographer_url": "https://unsplash.com/@golimpio?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime-2gXwe7Eupt4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-07T16:47:00Z"
   }
 ]

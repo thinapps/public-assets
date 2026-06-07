@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:australia:western_australia:broome",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1534099635511-8bb701f5f602?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCcm9vbWUlMjBXZXN0ZXJuJTIwQXVzdHJhbGlhfGVufDF8MHx8fDE3ODA4NTA4MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Michael Lammli",
+    "photographer_url": "https://unsplash.com/@michaellammli?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/shore-near-ocean-at-daytime-xo2aVH3itPA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-07T16:47:04Z"
   }
 ]
