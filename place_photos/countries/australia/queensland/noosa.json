@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:australia:queensland:noosa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1666145015281-cc5e863902c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxOb29zYSUyMFF1ZWVuc2xhbmR8ZW58MXwwfHx8MTc4MDgyNTMzNnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "MC Kontext",
+    "photographer_url": "https://unsplash.com/@kontext?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-beach-with-waves-crashing-on-it-nhkSDQhg7F0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-07T09:42:16Z"
   }
 ]

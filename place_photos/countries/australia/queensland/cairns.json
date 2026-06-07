@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:australia:queensland:cairns",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1679569425192-c4fa37b9f28d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxDYWlybnMlMjBRdWVlbnNsYW5kfGVufDF8MHx8fDE3ODA4MjUzMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Kathleen Banks",
+    "photographer_url": "https://unsplash.com/@kitkatlandscapes?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-beach-with-a-boat-in-the-water-QHb_k6l5_vY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-07T09:42:11Z"
   }
 ]

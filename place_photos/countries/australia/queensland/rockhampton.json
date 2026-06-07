@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:australia:queensland:rockhampton",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1636745922844-15b7235c58fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxSb2NraGFtcHRvbiUyMEF1c3RyYWxpYXxlbnwxfDB8fHwxNzgwODI1MzM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mila Mulder",
+    "photographer_url": "https://unsplash.com/@themila?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-white-bird-with-a-long-black-beak-WRAchAe1WcQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-07T09:42:18Z"
   }
 ]

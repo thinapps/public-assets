@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:australia:queensland:sunshine_coast",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1591404361309-7b6ea326ac33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTdW5zaGluZSUyMENvYXN0JTIwUXVlZW5zbGFuZHxlbnwxfDB8fHwxNzgwODI1MzQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Caleb",
+    "photographer_url": "https://unsplash.com/@calebrussell?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-on-mountain-near-body-of-water-during-daytime-2zkucU-Qwmw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-07T09:42:20Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:australia:queensland:bundaberg",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1639449918430-7d86256446b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCdW5kYWJlcmclMjBBdXN0cmFsaWF8ZW58MXwwfHx8MTc4MDgyNTMzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Lynnette Greenslade",
+    "photographer_url": "https://unsplash.com/@linnetfox?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-small-bird-perched-on-a-tree-branch-DbJp24eG5zg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-07T09:42:10Z"
   }
 ]
