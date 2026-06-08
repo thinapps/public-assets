@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:bangladesh:dhaka:faridpur",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1661107624425-3581cbd28e82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxGYXJpZHB1ciUyMEJhbmdsYWRlc2h8ZW58MXwwfHx8MTc4MDkxNzc4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Md Ibrahim khan",
+    "photographer_url": "https://unsplash.com/@ibrahim18?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-bird-sitting-on-a-stick-V7hLEfMbfso?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-08T11:23:05Z"
   }
 ]
