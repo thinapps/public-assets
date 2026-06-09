@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:brazil:sao_paulo:guarulhos",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1705926984536-cf641440fd18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxHdWFydWxob3MlMjBCcmF6aWx8ZW58MXwwfHx8MTc4MTA0NTc1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mahboba Rezayi",
+    "photographer_url": "https://unsplash.com/@mahboba?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-parking-garage-filled-with-lots-of-parked-cars-_S0ZoNnhhyQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-09T22:55:56Z"
   }
 ]

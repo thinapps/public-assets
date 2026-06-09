@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:brazil:santa_catarina",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1508096103415-2cda61a74118?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTYW50YSUyMENhdGFyaW5hJTIwQnJhemlsfGVufDF8MHx8fDE3ODEwNDU3NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Pedro Kümmel",
+    "photographer_url": "https://unsplash.com/@pedrokummel?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-on-seashore-near-body-of-water-under-cloudy-sky-at-daytime-ryGu_SPR1rs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-09T22:55:50Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:brazil:sao_paulo:santos",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1543059080-f9b1272213d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTYW50b3MlMjBTYW8lMjBQYXVsb3xlbnwxfDB8fHwxNzgxMDQ1NzU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Joao Tzanno",
+    "photographer_url": "https://unsplash.com/@jtzanno?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/city-scape-during-daytime-BxoaHOKCD_Q?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-09T22:55:58Z"
   }
 ]
