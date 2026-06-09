@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:brazil:maranhao:sao_luis",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1614824467812-c3c62c3fd005?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYW8lMjBMdWlzJTIwTWFyYW5oYW98ZW58MXwwfHx8MTc4MTAxOTEzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Samu Silva",
+    "photographer_url": "https://unsplash.com/@jsamuelsilva?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-sailboat-on-sea-under-white-sky-during-daytime-i6HYuZ6lp4k?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-09T15:32:13Z"
   }
 ]
