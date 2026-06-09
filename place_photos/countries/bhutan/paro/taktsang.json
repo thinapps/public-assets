@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:bhutan:paro:taktsang",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1638246439638-b37095b34879?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUYWt0c2FuZyUyMFBhcm98ZW58MXwwfHx8MTc4MDk1OTIzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ugyen Tenzin",
+    "photographer_url": "https://unsplash.com/@utenzy?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-cliff-with-a-building-on-top-of-it-Q0IkDV2i4S4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-09T04:40:56Z"
   }
 ]
