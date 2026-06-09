@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:brazil:ceara:fortaleza",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1664128901953-962539306582?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxGb3J0YWxlemElMjBDZWFyYXxlbnwxfDB8fHwxNzgwOTk5Njg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Kevin Ramos",
+    "photographer_url": "https://unsplash.com/@kjr_official?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-people-swimming-in-a-body-of-water-with-palm-trees-8Ao1m1nNUxU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-09T10:08:07Z"
   }
 ]

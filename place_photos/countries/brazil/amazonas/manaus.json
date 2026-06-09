@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:brazil:amazonas:manaus",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1574360307393-85c36b19d29e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxNYW5hdXMlMjBBbWF6b25hc3xlbnwxfDB8fHwxNzgwOTk5Njg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nayani Teixeira",
+    "photographer_url": "https://unsplash.com/@teixeiranay?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-black-and-white-photo-of-a-rope-on-a-wall-NUEoxYzlvjU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-09T10:08:04Z"
   }
 ]

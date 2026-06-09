@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:brazil:espirito_santo:vitoria",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1645716382580-23ff45e8f985?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxWaXRvcmlhJTIwRXNwaXJpdG8lMjBTYW50b3xlbnwxfDB8fHwxNzgwOTk5Njk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Fr. Barry Braum",
+    "photographer_url": "https://unsplash.com/@fr_barry?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-golden-cross-and-two-candles-in-front-of-a-window-3BBnUesFuaY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-09T10:08:14Z"
   }
 ]
