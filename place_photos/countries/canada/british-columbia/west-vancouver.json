@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:canada:british_columbia:west_vancouver",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1586931213005-7cd37c9f6253?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxXZXN0JTIwVmFuY291dmVyJTIwQnJpdGlzaCUyMENvbHVtYmlhfGVufDF8MHx8fDE3ODExNTQyOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Daniel Abadia",
+    "photographer_url": "https://unsplash.com/@pixeldan?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-near-body-of-water-during-daytime-dFvFUXTy_PI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-11T05:04:55Z"
   }
 ]
