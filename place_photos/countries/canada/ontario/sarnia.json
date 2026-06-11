@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:canada:ontario:sarnia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1575001535622-5bd41a28ab50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTYXJuaWElMjBPbnRhcmlvfGVufDF8MHx8fDE3ODEyMTkwMjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "George Rosema",
+    "photographer_url": "https://unsplash.com/@georgerosema?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-clouds-scenery-LN5st_UxRvU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-11T23:03:46Z"
   }
 ]
