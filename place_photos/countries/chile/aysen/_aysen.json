@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:chile:aysen",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1535479672101-8486af672be0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBeXNlbiUyMENoaWxlfGVufDF8MHx8fDE3ODEyNjExOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Juan Pablo Ahumada",
+    "photographer_url": "https://unsplash.com/@jpahca90?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-photo-of-city-Y9Wp5keJsn8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-12T15:48:18Z"
   }
 ]

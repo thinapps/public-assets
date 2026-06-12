@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:chile:atacama:copiapo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1618781425824-b95d2cfff3e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDb3BpYXBvJTIwQXRhY2FtYXxlbnwxfDB8fHwxNzgxMjYxMTkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nicolás Gutiérrez",
+    "photographer_url": "https://unsplash.com/@capitannikolai?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/red-and-brown-house-near-river-and-mountains-during-daytime-pgtuAI39ao8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-12T15:48:16Z"
   }
 ]

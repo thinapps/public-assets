@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:chile:maule:talca",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1666066446020-3aa533b6bedc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxUYWxjYSUyMENoaWxlfGVufDF8MHx8fDE3ODEyNzkzMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Emmanuel Hernandez",
+    "photographer_url": "https://unsplash.com/@emmanems19?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-river-running-through-a-valley-between-mountains-LTQi-anX3To?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-12T15:48:30Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:chile:los_lagos:puerto_montt",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1697951433809-234bcdcc7716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQdWVydG8lMjBNb250dCUyMENoaWxlfGVufDF8MHx8fDE3ODEyNjEyMDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Marcelo Bassi",
+    "photographer_url": "https://unsplash.com/@enfoco74?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-people-standing-on-the-side-of-a-river-b6kB1VSoXM8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-12T15:48:26Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:chile:nuble",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1640621459815-4d47ff9481fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxOdWJsZSUyMENoaWxlfGVufDF8MHx8fDE3ODEyNzkzMTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Danaus Mx",
+    "photographer_url": "https://unsplash.com/@danausmx?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-red-and-green-peppers-on-a-white-surface--kOs3t2SGtc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-12T15:48:31Z"
   }
 ]
