@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:china:fujian:xiamen",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1708687385666-d0813e2fe0e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxYaWFtZW4lMjBGdWppYW58ZW58MXwwfHx8MTc4MTMwNDg2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Michael Lee",
+    "photographer_url": "https://unsplash.com/@guoshiwushuang?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-couple-of-people-standing-on-top-of-a-roof-80DfXBjH9so?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-12T22:54:29Z"
   }
 ]

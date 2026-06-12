@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:china:guangdong:dongguan",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1743866760723-5c747b4fbbb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxEb25nZ3VhbiUyMENoaW5hfGVufDF8MHx8fDE3ODEzMDQ4NzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Zhen Yao",
+    "photographer_url": "https://unsplash.com/@zhenyao_photo?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-castle-and-bridge-are-reflected-in-the-water-HqxpkNtdFYc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-12T22:54:35Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:china:fujian:quanzhou",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1719919570408-365e3027e503?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxRdWFuemhvdSUyMEZ1amlhbnxlbnwxfDB8fHwxNzgxMzA0ODY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "CY",
+    "photographer_url": "https://unsplash.com/@bearcy?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-building-that-has-a-lot-of-lights-on-it--Jdk_Y4_ltE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-12T22:54:28Z"
   }
 ]
