@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:china:chongqing:chongqing",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1585958104134-6eda85d6239c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxDaG9uZ3FpbmclMjBDaGluYXxlbnwxfDB8fHwxNzgxMjk2NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Francesco Bruno",
+    "photographer_url": "https://unsplash.com/@guhe94?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/black-and-brown-concrete-building-on-mountain-21rKBviJkoU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-12T20:34:00Z"
   }
 ]

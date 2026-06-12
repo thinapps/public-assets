@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:chile:valparaiso:concon",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1578704443510-3f78a095612c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxDb25jb24lMjBWYWxwYXJhaXNvfGVufDF8MHx8fDE3ODEyOTY0MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Trevor Vannoy",
+    "photographer_url": "https://unsplash.com/@tvannoy?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/photography-of-high-rise-buildings-beside-seashore-during-daytime-iLguZu-aaRo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-12T20:33:53Z"
   }
 ]
