@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:china:henan:zhengzhou",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1665212776982-5c3f78071346?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxaaGVuZ3pob3UlMjBDaGluYXxlbnwxfDB8fHwxNzgxMzgwODU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Marko Sun",
+    "photographer_url": "https://unsplash.com/@amgras?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-walkway-between-two-brick-walls-9iGwBJyfvrU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-13T20:00:59Z"
   }
 ]
