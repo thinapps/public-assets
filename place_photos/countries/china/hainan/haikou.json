@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:china:hainan:haikou",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1703503199844-557863a45177?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxIYWlrb3UlMjBIYWluYW58ZW58MXwwfHx8MTc4MTM2OTc1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Letian Zhang",
+    "photographer_url": "https://unsplash.com/@clippit?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-bridge-spanning-over-a-large-body-of-water-M_d4idPsMn4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-13T16:55:50Z"
   }
 ]

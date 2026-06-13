@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:china:hainan",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1738593018396-6cec1cbaecd9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxIYWluYW4lMjBDaGluYXxlbnwxfDB8fHwxNzgxMzY5NzQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ralph XYZ",
+    "photographer_url": "https://unsplash.com/@ralxyz?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-people-standing-on-top-of-a-lush-green-field-IgY8KT3UEE0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-13T16:55:48Z"
   }
 ]
