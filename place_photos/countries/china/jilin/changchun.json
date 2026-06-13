@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:china:jilin:changchun",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1662797680495-3fbf35dc9cfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDaGFuZ2NodW4lMjBKaWxpbnxlbnwxfDB8fHwxNzgxMzkwMjQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Shinzan Murray",
+    "photographer_url": "https://unsplash.com/@shinzan?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-stone-pathway-in-a-forest-9KricCAGScY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-13T22:37:26Z"
   }
 ]

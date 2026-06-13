@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:china:jiangxi:nanchang",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1719412004975-eb75d542d2e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxOYW5jaGFuZyUyMENoaW5hfGVufDF8MHx8fDE3ODEzOTAyNDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Henry Chen",
+    "photographer_url": "https://unsplash.com/@misoto22?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-body-of-water-surrounded-by-tall-buildings-uTWN4z9n9wo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-13T22:37:23Z"
   }
 ]

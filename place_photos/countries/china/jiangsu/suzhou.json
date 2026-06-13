@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:china:jiangsu:suzhou",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1623822932291-32a9f7924838?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTdXpob3UlMjBKaWFuZ3N1fGVufDF8MHx8fDE3ODEzOTAyMzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "周 小苏",
+    "photographer_url": "https://unsplash.com/@icoookies?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-red-boat-on-river-during-daytime-YIvpejRZobs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-13T22:37:18Z"
   }
 ]
