@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:china:yunnan:dali",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1725378838771-254b56b82626?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxEYWxpJTIwWXVubmFufGVufDF8MHx8fDE3ODE0NTU5OTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Wanghao SANG",
+    "photographer_url": "https://unsplash.com/@starsang?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-birds-eye-view-of-a-city-with-a-river-running-through-it-qB7Q0DQrkxc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-14T16:53:17Z"
   }
 ]

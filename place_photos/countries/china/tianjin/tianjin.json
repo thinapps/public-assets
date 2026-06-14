@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:china:tianjin:tianjin",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1706498133899-f1cf5a6af53e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUaWFuamluJTIwQ2hpbmF8ZW58MXwwfHx8MTc4MTQzMTM2NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Julius Carmine",
+    "photographer_url": "https://unsplash.com/@juliuscarmine?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-city-at-night-with-a-bridge-in-the-foreground-o_fSNj4IAMI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-14T16:53:07Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:china:tibet:lhasa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1560389959-e4e81f5dca86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxMaGFzYSUyMFRpYmV0fGVufDF8MHx8fDE3ODE0NTU5OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Eugene Nelmin",
+    "photographer_url": "https://unsplash.com/@nelmin?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/red-and-brown-wooden-house-near-green-field-viewing-mountain-under-blue-and-gray-skies-MTcz2q0HlNY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-14T16:53:10Z"
   }
 ]

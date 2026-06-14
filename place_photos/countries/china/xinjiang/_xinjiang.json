@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:china:xinjiang",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1642129412847-ea049c5def2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxYaW5qaWFuZyUyMENoaW5hfGVufDF8MHx8fDE3ODE0NTU5OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Fantasy Shao",
+    "photographer_url": "https://unsplash.com/@fantasyshao?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-mountain-range-with-trees-in-the-foreground-8AsLWKmjksM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-14T16:53:14Z"
   }
 ]

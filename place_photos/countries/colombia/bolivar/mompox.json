@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:colombia:bolivar:mompox",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1671240434571-a21d691f713b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxNb21wb3glMjBDb2xvbWJpYXxlbnwxfDB8fHwxNzgxNDU2MDAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Gustavo Sánchez",
+    "photographer_url": "https://unsplash.com/@gustavo0351?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-colorful-bag-hanging-from-the-side-of-a-building-mETRnfE3yQw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-14T16:53:23Z"
   }
 ]
