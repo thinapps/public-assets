@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:colombia:meta:villavicencio",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1587490693792-52d6b2d9b191?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxWaWxsYXZpY2VuY2lvJTIwTWV0YXxlbnwxfDB8fHwxNzgxNDc2ODY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Felipe",
+    "photographer_url": "https://unsplash.com/@fecxst?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-and-black-rock-formation-near-body-of-water-during-daytime-UpJj3u1T-R8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-14T22:41:08Z"
   }
 ]
