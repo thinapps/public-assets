@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:colombia:caldas:manizales",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1579048355172-114e6809dea7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNYW5pemFsZXMlMjBDYWxkYXN8ZW58MXwwfHx8MTc4MTQ2NzU0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Daniel Pelaez Duque",
+    "photographer_url": "https://unsplash.com/@danielpelaezduque?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/bird-on-tree-stomp-RPU3Rsqk2Y0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-14T20:05:40Z"
   }
 ]

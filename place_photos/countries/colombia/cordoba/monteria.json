@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:colombia:cordoba:monteria",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1518243376550-2f05f03cb58e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNb250ZXJpYSUyMENvbG9tYmlhfGVufDF8MHx8fDE3ODE0Njc1NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "juan jaramillo",
+    "photographer_url": "https://unsplash.com/@onepablojar?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-monkey-climbing-on-tree-noKgHVw3-Ss?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-14T20:05:47Z"
   }
 ]

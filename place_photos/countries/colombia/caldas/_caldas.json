@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:colombia:caldas",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1568489711036-9c94a7d5aea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxDYWxkYXMlMjBDb2xvbWJpYXxlbnwxfDB8fHwxNzgxNDY3NTM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jan Kronies",
+    "photographer_url": "https://unsplash.com/@jankronies?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-mountain-during-daytime-kxuXtPeV01Y?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-14T20:05:38Z"
   }
 ]
