@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:china:shandong:qingdao",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1706506127286-3cde46c2d87e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxRaW5nZGFvJTIwU2hhbmRvbmd8ZW58MXwwfHx8MTc4MTQzMTM1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "拍照铺 pjoup",
+    "photographer_url": "https://unsplash.com/@ak687686?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-city-with-tall-buildings-9PiP4TllKgk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-14T10:02:39Z"
   }
 ]
