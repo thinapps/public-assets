@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:congo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1627041025700-63dce5cb092b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDb25nb3xlbnwxfDB8fHwxNzgxNjQ1MjQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jay Monty",
+    "photographer_url": "https://unsplash.com/@montachilles?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-near-lake-and-mountain-during-daytime-uv4-5hmMglQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-16T21:27:21Z"
   }
 ]
