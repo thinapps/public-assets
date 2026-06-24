@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:costa_rica:heredia:barva",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1536709017021-ce8f99c17e38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCYXJ2YSUyMENvc3RhJTIwUmljYXxlbnwxfDB8fHwxNzgyMzIyMDA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Atanas Malamov",
+    "photographer_url": "https://unsplash.com/@atanasmalamov?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-beside-blue-sea-xGhaXZtQb1s?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-24T17:26:45Z"
   }
 ]
