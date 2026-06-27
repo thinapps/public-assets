@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:dominica:saint_george:roseau",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1614166465430-bb5e57f503d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxSb3NlYXUlMjBEb21pbmljYXxlbnwxfDB8fHwxNzgyNTY5NzE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ray Harrington",
+    "photographer_url": "https://unsplash.com/@raymondo600?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/whale-tail-in-the-middle-of-the-sea-e1hBJy4GqMw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-27T16:40:18Z"
   }
 ]
