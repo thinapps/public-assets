@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:ecuador:pichincha",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1597080074304-664bd6048445?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxQaWNoaW5jaGElMjBFY3VhZG9yfGVufDF8MHx8fDE3ODI2MjI5Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Kody Dahl",
+    "photographer_url": "https://unsplash.com/@kodieodie?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-brown-house-on-green-grass-field-0wlTTvDwcPM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-28T05:02:17Z"
   }
 ]

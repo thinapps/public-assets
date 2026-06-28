@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ecuador:manabi:manta",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1604294069613-a76c24206361?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNYW50YSUyME1hbmFiaXxlbnwxfDB8fHwxNzgyNTk5MTE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Andre Kaim",
+    "photographer_url": "https://unsplash.com/@andrekaimk?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/black-and-white-whale-in-water-ICeHqzruwCQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-28T05:02:11Z"
   }
 ]

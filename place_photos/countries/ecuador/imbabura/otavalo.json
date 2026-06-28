@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ecuador:imbabura:otavalo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1628985841493-3a01731d35d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxPdGF2YWxvJTIwSW1iYWJ1cmF8ZW58MXwwfHx8MTc4MjU5OTExNHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Julio Sandoval",
+    "photographer_url": "https://unsplash.com/@jsandovalcom?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-grass-near-lake-and-mountains-during-night-time-t5OCEGl-wjE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-28T05:02:08Z"
   }
 ]
