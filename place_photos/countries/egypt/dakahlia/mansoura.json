@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:egypt:dakahlia:mansoura",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1703919438547-58f72551c799?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNYW5zb3VyYSUyMEVneXB0fGVufDF8MHx8fDE3ODI2NzY1MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sayed Abdelsalam",
+    "photographer_url": "https://unsplash.com/@sayed454?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-plane-flying-in-the-sky-with-the-moon-in-the-background-gFeokKzHYdk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-28T19:55:33Z"
   }
 ]
