@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:egypt:minya:minya",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1663596680812-0df611df4fe0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNaW55YSUyMEVneXB0fGVufDF8MHx8fDE3ODI2ODU0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ahmad Ajmi",
+    "photographer_url": "https://unsplash.com/@ahmadajmi?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-boat-on-the-water-dQID16T0Umw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-28T22:24:01Z"
   }
 ]

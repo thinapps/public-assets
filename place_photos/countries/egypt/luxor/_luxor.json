@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:egypt:luxor",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1632944398987-494eebe663be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMdXhvciUyMEVneXB0fGVufDF8MHx8fDE3ODI2ODU0MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dmitrii Zhodzishskii",
+    "photographer_url": "https://unsplash.com/@dmitrii_zhodzishskii?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-long-hallway-with-paintings-on-the-walls-5aEHOQrb2Qk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-28T22:23:54Z"
   }
 ]
