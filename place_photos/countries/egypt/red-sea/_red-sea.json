@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:egypt:red_sea",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1738935457539-936fdb320c51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxSZWQlMjBTZWElMjBFZ3lwdHxlbnwxfDB8fHwxNzgyODUxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jametlene Reskp",
+    "photographer_url": "https://unsplash.com/@reskp?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-boat-traveling-down-a-river-next-to-a-beach-ohWRAy2qv2c?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-06-30T20:28:32Z"
   }
 ]
