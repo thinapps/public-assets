@@ -242,12 +242,17 @@ def build_candidates(place_photos_dir: Path, overwrite: bool) -> List[Dict[str, 
             else:
                 blank_candidates.append(candidate)
 
-    blank_candidates.sort(key=lambda item: (item["file_path"].as_posix(), str(item["index"])))
+    blank_candidates.sort(
+        key=lambda item: (
+            item["file_path"].as_posix(),
+            -1 if item["index"] is None else item["index"],
+        )
+    )
     filled_candidates.sort(
         key=lambda item: (
             parse_cached_at(item["cached_at"]),
             item["file_path"].as_posix(),
-            str(item["index"]),
+            -1 if item["index"] is None else item["index"],
         )
     )
 
