@@ -57,6 +57,6 @@ See [`docs/sync-and-cleanup.md`](docs/sync-and-cleanup.md) for synchronization b
 
 ## Generated data policy
 
-Files under `place_photos/countries/`, along with `manifest.json` and `version.json`, are managed by the scripts and workflow.
+Files under `place_photos/`, along with `manifest.json` and `version.json`, are managed by the scripts and workflow.
 
 Normal place additions, removals, renames, and path changes should be made in the private source place tree first. Manual edits to generated public files should be limited to deliberate repairs.
