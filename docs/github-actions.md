@@ -4,7 +4,7 @@
 
 The `Update Place Photos` workflow is defined in `.github/workflows/update-place-photos.yml`.
 
-It keeps the public place photo tree synchronized with the private source place tree, searches Unsplash for missing photos, rebuilds the public manifest, bumps `version.json` when the public payload changes, and commits any resulting updates.
+It keeps the public place photo tree synchronized with the private source place tree, searches Unsplash for missing photos, rebuilds the public manifest, bumps `version.json` when cached photo metadata or the rebuilt manifest changes, and commits any resulting updates.
 
 ## Schedule and manual runs
 
@@ -43,7 +43,7 @@ Missing or invalid configuration is treated as a real failure.
 5. Migrate usable cached photos when a place path changes and safely prune stale files.
 6. Attempt Unsplash searches for eligible places.
 7. Rebuild `manifest.json` from complete cached photo records.
-8. Bump `version.json` when photo data or the manifest changes.
+8. Bump `version.json` when cached photo metadata or the rebuilt manifest changes.
 9. Commit and push only when tracked public assets changed.
 
 ## Normal successful outcomes
@@ -87,7 +87,7 @@ If larger manual batches are needed, increase `limit` carefully. Each city can g
 - `generate_place_photos.py`: Selects candidates, searches Unsplash, writes photo records, rebuilds the manifest, and updates the version.
 - `photo_queries.py`: Builds deterministic search queries from place IDs and paths.
 - `manifest.json`: Lists place IDs with complete usable photo records.
-- `version.json`: Public payload version incremented when generated output changes.
+- `version.json`: Public payload version incremented when cached photo metadata or the rebuilt manifest changes.
 
 ## Related documentation
 
