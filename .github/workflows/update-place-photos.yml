@@ -94,4 +94,20 @@ jobs:
           fi
 
           git commit -m "Update place photos"
-          git push
+
+          for attempt in 1 2 3; do
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}"
+
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+
+            if [[ "${attempt}" -eq 3 ]]; then
+              echo "failed to push after 3 attempts"
+              exit 1
+            fi
+
+            echo "remote changed during push; retrying"
+            sleep 2
+          done
