@@ -12,11 +12,13 @@ Country, subdivision, and city photo paths are generated from a private source p
 
 ## Automation
 
-The scheduled and manual workflow synchronizes country, subdivision, and city photo paths, searches Unsplash for eligible photo entries, rebuilds the manifest, updates the version when required, and commits resulting public asset changes.
+The scheduled and manual workflow synchronizes country, subdivision, and city photo paths, searches Unsplash for eligible photo entries, rebuilds the manifest, updates the version when public photo data changes, and commits resulting updates.
+
+Normal scheduled runs use a bounded attempt count and resume through the blank-entry queue with `photo_cursor.json`. This keeps run time predictable, avoids repeatedly blocking on the same no-result entries, and allows cursor-only progress without an unnecessary public version bump.
 
 ## Documentation
 
 - [`docs/photo-data.md`](docs/photo-data.md): Schema, paths, placeholders, manifest, versioning, attribution, and generated-data policy.
-- [`docs/photo-selection.md`](docs/photo-selection.md): Candidate ordering, queries, Unsplash settings, selection, retries, and rate-limit behavior.
+- [`docs/photo-selection.md`](docs/photo-selection.md): Candidate ordering, attempt limits, cursor progress, queries, selection, retries, and rate-limit behavior.
 - [`docs/sync-and-cleanup.md`](docs/sync-and-cleanup.md): Source synchronization, cached-photo migration, pruning, and deletion safeguards.
-- [`docs/github-actions.md`](docs/github-actions.md): Schedule, inputs, secrets, concurrency, failures, timeout, and workflow operation.
+- [`docs/github-actions.md`](docs/github-actions.md): Schedule, inputs, reliability design, result summaries, secrets, concurrency, failures, timeout, and workflow operation.
