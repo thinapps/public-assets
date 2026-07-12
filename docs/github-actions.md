@@ -53,12 +53,12 @@ The following conditions are normal and must complete successfully:
 - No eligible photo entries remain.
 - The attempted places return no Unsplash results.
 - The configured attempt limit is reached without finding a photo.
-- Unsplash returns HTTP 429 because the API quota is exhausted.
+- Unsplash reports exhausted API quota through HTTP 429 or its recognized HTTP 403 rate-limit response.
 - The workflow produces no repository changes.
 
 In all of these cases the scripts exit successfully. If no tracked public assets changed, the commit step reports `no changes to commit`; otherwise it commits the resulting synchronization or generated-data changes.
 
-Handled HTTP 429 responses are logged as warnings because they use the clean-stop path. Other unexpected HTTP responses are logged as errors and fail the run.
+Recognized quota-exhaustion responses are logged as warnings because they use the clean-stop path. Ordinary HTTP 403 responses and other unexpected HTTP responses are logged as errors and fail the run.
 
 ## Real failures
 
@@ -71,7 +71,7 @@ The workflow should remain red for problems that require attention, including:
 - Unsafe stale-file pruning beyond the configured safety threshold.
 - A missing `version.json` when photo metadata or manifest changes require a version bump.
 - Malformed public photo, manifest, or version JSON required by the generation step.
-- Unexpected Unsplash or network errors other than handled rate limiting.
+- Unexpected Unsplash or network errors other than recognized quota exhaustion.
 - A failed Git commit or push.
 
 Malformed source JSON is skipped by the synchronization script and does not fail the workflow by itself.
