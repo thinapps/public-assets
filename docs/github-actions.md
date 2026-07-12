@@ -4,7 +4,7 @@
 
 The `Update Place Photos` workflow is defined in `.github/workflows/update-place-photos.yml`.
 
-It keeps the public place photo tree synchronized with the private source place tree, searches Unsplash for missing photos, rebuilds the public manifest, bumps `version.json` when cached photo metadata or the rebuilt manifest changes, and commits any resulting updates.
+It keeps country, subdivision, and city photo paths synchronized with the private source place tree, searches Unsplash for eligible photos across the public photo tree, rebuilds the public manifest, bumps `version.json` when cached photo metadata or the rebuilt manifest changes, and commits any resulting updates. Region membership in `place_photos/world.json` is maintained separately.
 
 ## Schedule and manual runs
 
@@ -12,7 +12,7 @@ The workflow runs automatically every three hours at 17 minutes past the hour. I
 
 Manual runs support these inputs:
 
-- `limit`: Maximum number of eligible place entries to attempt. The default is `10`. A value of `0` removes the attempt limit.
+- `limit`: Maximum number of eligible place entries to attempt. The default is `10`. The value must be `0` or greater, and `0` removes the attempt limit.
 - `overwrite`: When `true`, refresh existing photos instead of filling only blank entries. Existing photos are processed from the oldest cached entry first.
 
 The limit counts attempted place entries, not successful photo matches. A place may use more than one Unsplash search query, but it still counts as one attempted entry.
@@ -39,7 +39,7 @@ Missing or invalid configuration is treated as a real failure.
 1. Check out this public repository.
 2. Check out the private source repository without persisting its credentials.
 3. Set up Python 3.11.
-4. Synchronize public photo placeholders with the current source place tree.
+4. Synchronize country, subdivision, and city photo placeholders with the current source place tree.
 5. Migrate usable cached photos when a place path changes and safely prune stale files.
 6. Attempt Unsplash searches for eligible places.
 7. Rebuild `manifest.json` from complete cached photo records.
@@ -56,7 +56,7 @@ The following conditions are normal and must complete successfully:
 - Unsplash returns HTTP 429 because the API quota is exhausted.
 - The workflow produces no repository changes.
 
-In these cases the scripts log what happened and exit with status `0`. The commit step then reports `no changes to commit` and also exits successfully.
+In all of these cases the scripts exit successfully. If no tracked public assets changed, the commit step reports `no changes to commit`; otherwise it commits the resulting synchronization or generated-data changes.
 
 ## Real failures
 
@@ -65,6 +65,7 @@ The workflow should remain red for problems that require attention, including:
 - Missing required secrets.
 - Failure to check out the source repository.
 - A missing or invalid source path.
+- An invalid attempt limit, including a negative value.
 - Unsafe stale-file pruning beyond the configured safety threshold.
 - Malformed public photo, manifest, or version JSON required by the generation step.
 - Unexpected Unsplash or network errors other than handled rate limiting.
@@ -78,7 +79,7 @@ Do not hide real failures by broadly ignoring command exit codes or increasing t
 
 The job timeout is 15 minutes. The normal default run attempts only 10 eligible entries, which prevents a long series of unsuccessful searches from running until GitHub cancels the job.
 
-If larger manual batches are needed, increase `limit` carefully. Each city can generate multiple Unsplash requests and the script pauses between attempted entries.
+If larger manual batches are needed, increase `limit` carefully while keeping it at `0` or greater. Each city can generate multiple Unsplash requests and the script pauses between attempted entries.
 
 ## Files involved
 
