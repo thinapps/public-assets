@@ -86,7 +86,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add manifest.json version.json place_photos
+          git add manifest.json version.json photo_cursor.json place_photos
 
           if git diff --cached --quiet; then
             echo "no changes to commit"
