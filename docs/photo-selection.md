@@ -45,7 +45,9 @@ Queries remain plain and deterministic:
 - city primary: `City Subdivision`
 - city fallback: `City Country`
 
-When a city name matches its subdivision name, only `City Country` is used to avoid a duplicated query such as `Singapore Singapore`.
+Queries are tried in order, and the first query that returns results wins. Results from multiple queries are not combined.
+
+When the city and subdivision labels are identical, the duplicated `City Subdivision` query is skipped and only `City Country` is used.
 
 Duplicate queries are removed case-insensitively while preserving their original order.
 
