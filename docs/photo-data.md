@@ -4,7 +4,7 @@
 
 This repository stores public photo metadata without storing image binaries. Photo records point to external image URLs and include photographer and source attribution links.
 
-The public photo data is generated from a private source place tree. Generated output should remain deterministic, compact, and safe for clients to cache.
+The public photo data is generated from a private source place tree. Generated structure and ordering should remain deterministic, compact, and safe for clients to cache.
 
 ## Public files
 
@@ -130,4 +130,5 @@ Manual changes should be limited to deliberate repairs. Normal place additions, 
 See also:
 
 - [`github-actions.md`](github-actions.md)
+- [`photo-selection.md`](photo-selection.md)
 - [`sync-and-cleanup.md`](sync-and-cleanup.md)
