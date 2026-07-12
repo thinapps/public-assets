@@ -119,7 +119,7 @@ The workflow should remain red for problems that require attention, including:
 - Unsafe stale-file pruning beyond the configured safety threshold.
 - A missing `version.json` when photo metadata or manifest changes require a version bump.
 - A missing or non-integer `version` field when a version bump is required.
-- Unreadable or syntactically malformed public photo, manifest, or version JSON.
+- Unreadable or syntactically malformed public photo or manifest JSON, or version JSON when a version bump is required.
 - Unreadable or syntactically malformed cursor JSON during normal blank-filling mode.
 - Unexpected Unsplash response shapes, HTTP responses, or network failures other than recognized quota exhaustion.
 - A failed Git commit or push.
