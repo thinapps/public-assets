@@ -58,6 +58,8 @@ The following conditions are normal and must complete successfully:
 
 In all of these cases the scripts exit successfully. If no tracked public assets changed, the commit step reports `no changes to commit`; otherwise it commits the resulting synchronization or generated-data changes.
 
+Handled HTTP 429 responses are logged as warnings because they use the clean-stop path. Other unexpected HTTP responses are logged as errors and fail the run.
+
 ## Real failures
 
 The workflow should remain red for problems that require attention, including:
