@@ -52,6 +52,10 @@ def get_place_id(entry):
     return ""
 
 
+def normalize_string(value):
+    return value if isinstance(value, str) else ""
+
+
 def has_cached_photo(entry):
     if not isinstance(entry, dict):
         return False
@@ -102,11 +106,11 @@ def normalize_existing_photo_file(target_file, expected_place_id):
 
     normalized_first_entry = {
         "place_id": expected_place_id,
-        "image_url": first_entry.get("image_url", ""),
-        "photographer_name": first_entry.get("photographer_name", ""),
-        "photographer_url": first_entry.get("photographer_url", ""),
-        "source_url": first_entry.get("source_url", ""),
-        "cached_at": first_entry.get("cached_at", ""),
+        "image_url": normalize_string(first_entry.get("image_url", "")),
+        "photographer_name": normalize_string(first_entry.get("photographer_name", "")),
+        "photographer_url": normalize_string(first_entry.get("photographer_url", "")),
+        "source_url": normalize_string(first_entry.get("source_url", "")),
+        "cached_at": normalize_string(first_entry.get("cached_at", "")),
     }
 
     if len(target_data) == 1 and first_entry == normalized_first_entry:
@@ -184,10 +188,11 @@ def migrate_stale_photo(stale_file, canonical_file):
     migrated_entry = dict(canonical_entry)
 
     for field in PHOTO_FIELDS:
-        if field == "cached_at" and not str(stale_entry.get(field, "")).strip():
+        value = stale_entry.get(field, "")
+        if field == "cached_at" and (not isinstance(value, str) or not value.strip()):
             continue
 
-        migrated_entry[field] = stale_entry.get(field, "")
+        migrated_entry[field] = value
 
     canonical_data[0] = migrated_entry
     write_json_file(canonical_file, canonical_data)
