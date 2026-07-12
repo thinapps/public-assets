@@ -74,7 +74,7 @@ The attempt limit and cursor solve different problems:
 
 Photo queries are built from both the stored `place_id` and the file path.
 
-The stored ID is preferred when it is a non-empty string, structurally valid, and agrees with the path. When the stored value is missing, not a string, structurally invalid, or conflicts with the path labels, the path is used as the safer fallback source of truth.
+A recognized non-empty string ID is preferred when it agrees with the normal file path. When the stored value is missing, not a string, too short for its place type, or conflicts with the path labels, the path is used as the safer fallback source of truth.
 
 `world.json` is a shared exception: its region records use their stored `region:*` IDs because the file path cannot identify an individual region.
 
