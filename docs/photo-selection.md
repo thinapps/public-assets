@@ -15,9 +15,30 @@ Eligible blank candidates include:
 - empty placeholder arrays whose place ID can be inferred from the file path
 - photo records with an empty `image_url`
 
-Blank candidates are processed in deterministic path order.
+Blank candidates use deterministic path order. Normal runs rotate that order through `photo_cursor.json` so repeated no-result entries cannot permanently block later candidates.
 
-When `--overwrite` is used, only entries that already have an `image_url` are eligible. Existing photos are processed from the oldest `cached_at` value first. Missing or invalid timestamps are treated as the oldest.
+When `--overwrite` is used, only entries that already have an `image_url` are eligible. Existing photos are processed from the oldest `cached_at` value first. Missing or invalid timestamps are treated as the oldest. Overwrite mode does not use or update the blank-entry cursor.
+
+## Cursor behavior
+
+`photo_cursor.json` stores:
+
+```json
+{
+  "last_attempted_place_id": "city:belize:toledo:barranco"
+}
+```
+
+For normal blank-filling runs:
+
+- processing resumes immediately after `last_attempted_place_id`
+- candidate order wraps to the beginning after reaching the end
+- the cursor advances after every attempted candidate, including no-result and recognized rate-limit attempts
+- cursor position is resolved against the full photo tree, so a successfully filled entry can still be used as the resume point even though it is no longer in the blank queue
+- if the saved place ID no longer exists, processing starts from the beginning and logs a warning
+- cursor-only changes are committed but do not bump `version.json`
+
+The cursor is operational workflow state. It is not included in `manifest.json` and does not change which photo records are considered complete.
 
 ## Attempt limit
 
@@ -87,25 +108,25 @@ Photographer and source links retain the configured Unsplash referral parameters
 When all queries for a place return no results:
 
 - no photo metadata is written
-- in normal mode, the blank entry remains blank and eligible for a future run
+- in normal mode, the blank entry remains blank and eligible for a future cycle
 - in overwrite mode, the existing photo record remains unchanged
 - the run continues to the next candidate
 
-No-result entries are normal and do not make the workflow fail.
+No-result entries are normal and do not make the workflow fail. The normal-mode cursor still advances so later candidates receive a chance before the queue wraps back.
 
 If the whole batch produces no photo or manifest changes, the script logs that outcome and exits successfully.
 
 ## Rate limits and failures
 
-Unsplash quota exhaustion is treated as a warning rather than an error. The clean-stop path recognizes HTTP 429 and Unsplash's HTTP 403 response when `X-Ratelimit-Remaining` is `0` and the response says `Rate Limit Exceeded`. The current candidate is left unchanged, processing stops cleanly, and the script exits successfully after rebuilding the manifest as needed.
+Unsplash quota exhaustion is treated as a warning rather than an error. The clean-stop path recognizes HTTP 429 and Unsplash's HTTP 403 response when `X-Ratelimit-Remaining` is `0` and the response says `Rate Limit Exceeded`. The current candidate is left unchanged, processing stops cleanly, and the normal-mode cursor records that attempted place before the script exits successfully.
 
-Other HTTP 403 responses and other unexpected HTTP errors, network errors, malformed required data, missing configuration, and invalid negative limits remain real failures. They should not be hidden by broadly ignoring exit codes.
+Other HTTP 403 responses and other unexpected HTTP errors, network errors, malformed required data, missing configuration, malformed cursor data, and invalid negative limits remain real failures. They should not be hidden by broadly ignoring exit codes.
 
 ## Relationship to generated data
 
 After candidate processing, `manifest.json` is rebuilt from complete usable photo records.
 
-`version.json` is bumped only when photo metadata or the manifest changes. Search attempts with no resulting public data changes do not bump the version.
+`version.json` is bumped only when photo metadata or the manifest changes. Search attempts and cursor-only updates do not bump the version.
 
 ## Related documentation
 
