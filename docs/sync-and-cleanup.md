@@ -34,7 +34,7 @@ A new placeholder uses this shape:
 ]
 ```
 
-Invalid source JSON, missing source objects, and missing IDs do not produce public files.
+Invalid source JSON, missing source objects, and missing IDs do not create or update a public placeholder for that source file. Any unrelated existing public file remains governed by the normal stale-file cleanup rules.
 
 ## Stale-file cleanup
 
@@ -134,4 +134,5 @@ Manual intervention is appropriate only for deliberate repairs that cannot be re
 See also:
 
 - [`photo-data.md`](photo-data.md)
+- [`photo-selection.md`](photo-selection.md)
 - [`github-actions.md`](github-actions.md)
