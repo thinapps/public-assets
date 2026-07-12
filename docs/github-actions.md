@@ -17,6 +17,12 @@ Manual runs support these inputs:
 
 The limit counts attempted place entries, not successful photo matches. A place may use more than one Unsplash search query, but it still counts as one attempted entry.
 
+## Concurrency
+
+All runs use the `update-place-photos` concurrency group, so only one update run executes at a time.
+
+`cancel-in-progress` is disabled. A newly triggered run does not cancel the run already in progress. With the default GitHub Actions queue behavior, at most one additional run remains pending; a newer pending run may replace an older pending run in the same concurrency group.
+
 ## Required secrets
 
 The workflow requires:
@@ -60,11 +66,13 @@ The workflow should remain red for problems that require attention, including:
 - Failure to check out the source repository.
 - A missing or invalid source path.
 - Unsafe stale-file pruning beyond the configured safety threshold.
-- Malformed required JSON data.
+- Malformed public photo, manifest, or version JSON required by the generation step.
 - Unexpected Unsplash or network errors other than handled rate limiting.
 - A failed Git commit or push.
 
-Do not hide these failures by broadly ignoring command exit codes or increasing the workflow timeout.
+Malformed source JSON is skipped by the synchronization script and does not fail the workflow by itself.
+
+Do not hide real failures by broadly ignoring command exit codes or increasing the workflow timeout.
 
 ## Timeout and attempt limits
 
