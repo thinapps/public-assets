@@ -17,7 +17,8 @@ For each valid source file, it:
 - creates a missing public placeholder file
 - normalizes the first public entry to the expected fields while preserving any additional entries
 - updates the public `place_id` to the current source value
-- preserves existing photo and attribution fields when the path remains current
+- preserves existing string photo and attribution fields when the path remains current
+- converts non-string public photo metadata values to empty strings so malformed values become clean incomplete placeholders instead of being treated as usable data
 
 A new placeholder uses this shape:
 
@@ -71,7 +72,7 @@ When these checks pass, the script copies these fields into the canonical record
 - `photographer_name`
 - `photographer_url`
 - `source_url`
-- `cached_at`, only when already present on the stale record
+- `cached_at`, only when it is already a non-empty string on the stale record
 
 The canonical `place_id` remains the one produced by the current source tree.
 
@@ -104,7 +105,7 @@ The sync script itself manages the file tree. `generate_place_photos.py` subsequ
 
 When cleanup changes the rebuilt manifest, `version.json` is bumped. Cleanup that leaves the manifest unchanged does not trigger a version bump by itself.
 
-Placeholder-only additions or path normalization can be committed without a version bump when usable photo metadata and the manifest remain unchanged.
+Placeholder-only additions, path normalization, or cleanup of invalid non-string metadata can be committed without a version bump when usable photo metadata and the manifest remain unchanged.
 
 ## Workflow behavior
 
@@ -115,7 +116,7 @@ This order ensures that:
 1. current valid source paths exist in the public tree
 2. safely migratable cached photos are preserved
 3. obsolete files are removed
-4. missing current entries become eligible for photo searches
+4. missing or malformed current entries become eligible for photo searches
 5. the manifest is rebuilt from the final tree and the version is bumped only when required
 
 A clean sync with no resulting repository changes is a successful workflow outcome.
