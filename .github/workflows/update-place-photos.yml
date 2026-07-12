@@ -27,9 +27,11 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      # check out the public assets repo
+      # check out the public assets repo with full history for safe rebases before push
       - name: Checkout public assets repo
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       # check out the private source repo without exposing its name in this workflow
       - name: Checkout source repo
@@ -96,7 +98,7 @@ jobs:
           git commit -m "Update place photos"
 
           for attempt in 1 2 3; do
-            git fetch origin "${GITHUB_REF_NAME}"
+            git fetch origin
             git rebase "origin/${GITHUB_REF_NAME}"
 
             if git push origin "HEAD:${GITHUB_REF_NAME}"; then
