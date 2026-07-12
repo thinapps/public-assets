@@ -8,7 +8,7 @@ The selection policy is intentionally simple. It favors predictable behavior, sm
 
 ## Candidate selection
 
-Normal runs process only entries that are missing photo metadata. Filled entries are not considered unless `--overwrite` is used.
+Normal runs process only entries whose `image_url` is empty. Other missing metadata does not make an entry eligible when `image_url` is already filled.
 
 Eligible blank candidates include:
 
@@ -85,8 +85,8 @@ Photographer and source links retain the configured Unsplash referral parameters
 When all queries for a place return no results:
 
 - no photo metadata is written
-- the placeholder remains blank
-- the entry remains eligible for a future run
+- in normal mode, the blank entry remains blank and eligible for a future run
+- in overwrite mode, the existing photo record remains unchanged
 - the run continues to the next candidate
 
 No-result entries are normal and do not make the workflow fail.
