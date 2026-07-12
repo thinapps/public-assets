@@ -56,9 +56,13 @@ def utc_now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
-def parse_cached_at(value: str) -> float:
-    # missing or invalid timestamps are treated as oldest
-    value = str(value or "").strip()
+def clean_string(value: Any) -> str:
+    return value.strip() if isinstance(value, str) else ""
+
+
+def parse_cached_at(value: Any) -> float:
+    # missing, non-string, or invalid timestamps are treated as oldest
+    value = clean_string(value)
     if not value:
         return 0.0
 
@@ -68,8 +72,9 @@ def parse_cached_at(value: str) -> float:
         return 0.0
 
 
-def append_referral(url: str) -> str:
+def append_referral(url: Any) -> str:
     # keep unsplash attribution links consistent
+    url = clean_string(url)
     if not url:
         return ""
 
@@ -108,11 +113,26 @@ def build_empty_photo_entry(place_id: str) -> Dict[str, Any]:
 
 def build_photo_entry(existing: Dict[str, Any], photo: Dict[str, Any]) -> Dict[str, Any]:
     # only stamp cached_at when a photo entry is actually written
+    urls = photo.get("urls", {})
+    user = photo.get("user", {})
+    links = photo.get("links", {})
+
+    if not isinstance(urls, dict):
+        urls = {}
+    if not isinstance(user, dict):
+        user = {}
+    if not isinstance(links, dict):
+        links = {}
+
+    user_links = user.get("links", {})
+    if not isinstance(user_links, dict):
+        user_links = {}
+
     updated = normalize_photo_entry(existing)
-    updated["image_url"] = photo.get("urls", {}).get("regular", "")
-    updated["photographer_name"] = photo.get("user", {}).get("name", "")
-    updated["photographer_url"] = append_referral(photo.get("user", {}).get("links", {}).get("html", ""))
-    updated["source_url"] = append_referral(photo.get("links", {}).get("html", ""))
+    updated["image_url"] = urls.get("regular", "")
+    updated["photographer_name"] = user.get("name", "")
+    updated["photographer_url"] = append_referral(user_links.get("html", ""))
+    updated["source_url"] = append_referral(links.get("html", ""))
     updated["cached_at"] = utc_now_iso()
     return updated
 
@@ -122,13 +142,14 @@ def is_valid_photo_entry(entry: Dict[str, Any]) -> bool:
     if not isinstance(entry, dict):
         return False
 
-    place_id = str(entry.get("place_id", "")).strip()
-    image_url = str(entry.get("image_url", "")).strip()
-    photographer_name = str(entry.get("photographer_name", "")).strip()
-    photographer_url = str(entry.get("photographer_url", "")).strip()
-    source_url = str(entry.get("source_url", "")).strip()
-
-    return bool(place_id and image_url and photographer_name and photographer_url and source_url)
+    required_fields = (
+        "place_id",
+        "image_url",
+        "photographer_name",
+        "photographer_url",
+        "source_url",
+    )
+    return all(clean_string(entry.get(field, "")) for field in required_fields)
 
 
 def iter_photo_files(place_photos_dir: Path) -> List[Path]:
@@ -201,7 +222,14 @@ def fetch_unsplash_results(access_key: str, query: str) -> List[Dict[str, Any]]:
             "content_filter": DEFAULT_CONTENT_FILTER,
         },
     )
-    return payload.get("results", [])
+    if not isinstance(payload, dict):
+        raise RuntimeError("Unsplash search response must contain a json object")
+
+    results = payload.get("results", [])
+    if not isinstance(results, list):
+        raise RuntimeError("Unsplash search response field 'results' must be a list")
+
+    return results
 
 
 def choose_best_photo(results: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
@@ -258,7 +286,6 @@ def build_candidates(
                         "file_path": file_path,
                         "index": None,
                         "place_id": place_id,
-                        "has_photo": False,
                         "cached_at": "",
                     })
             continue
@@ -268,7 +295,7 @@ def build_candidates(
                 continue
 
             normalized_entry = normalize_photo_entry(entry)
-            place_id = str(normalized_entry.get("place_id", "")).strip()
+            place_id = clean_string(normalized_entry.get("place_id", ""))
             if not place_id:
                 place_id = infer_place_id_from_path(place_photos_dir, file_path) or ""
             if not place_id:
@@ -276,13 +303,12 @@ def build_candidates(
 
             sort_key = candidate_sort_key(file_path, index)
             cursor_positions[place_id] = sort_key
-            image_url = str(normalized_entry.get("image_url", "")).strip()
+            image_url = clean_string(normalized_entry.get("image_url", ""))
             candidate = {
                 "file_path": file_path,
                 "index": index,
                 "place_id": place_id,
-                "has_photo": bool(image_url),
-                "cached_at": str(normalized_entry.get("cached_at", "")).strip(),
+                "cached_at": clean_string(normalized_entry.get("cached_at", "")),
             }
 
             if image_url:
@@ -367,12 +393,12 @@ def process_candidate(
             return (False, False)
 
         entry = normalize_photo_entry(payload[index])
-        place_id = str(entry.get("place_id", "")).strip()
+        place_id = clean_string(entry.get("place_id", ""))
         if not place_id:
             place_id = candidate["place_id"]
             entry["place_id"] = place_id
 
-    place_id = str(entry.get("place_id", "")).strip()
+    place_id = clean_string(entry.get("place_id", ""))
     if not place_id:
         print(f"[WARN] skip missing place_id: {rel} [{index}]")
         return (False, False)
@@ -445,7 +471,7 @@ def update_manifest_file(root: Path, place_photos_dir: Path, dry_run: bool) -> b
 
         for entry in payload:
             if is_valid_photo_entry(entry):
-                place_ids.append(entry["place_id"])
+                place_ids.append(clean_string(entry["place_id"]))
 
     manifest_payload = {
         "place_ids": sorted(set(place_ids)),
@@ -474,10 +500,8 @@ def update_version_file(root: Path, dry_run: bool) -> None:
     if not isinstance(payload, dict):
         raise RuntimeError("version.json must contain a json object")
 
-    current_version = payload.get("version", 0)
-    try:
-        current_version = int(current_version)
-    except (TypeError, ValueError):
+    current_version = payload.get("version")
+    if not isinstance(current_version, int) or isinstance(current_version, bool):
         raise RuntimeError("version.json field 'version' must be an integer")
 
     payload["version"] = current_version + 1
