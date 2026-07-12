@@ -112,7 +112,7 @@ The scheduled workflow runs synchronization with `--prune-stale` before attempti
 
 This order ensures that:
 
-1. current source paths exist in the public tree
+1. current valid source paths exist in the public tree
 2. safely migratable cached photos are preserved
 3. obsolete files are removed
 4. missing current entries become eligible for photo searches
