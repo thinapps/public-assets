@@ -19,7 +19,8 @@ PHOTO_CURSOR_FILENAME = "photo_cursor.json"
 
 # unsplash request defaults
 UNSPLASH_API_BASE = "https://api.unsplash.com"
-DEFAULT_PER_PAGE = 3
+DEFAULT_PER_PAGE = 10
+DEFAULT_SELECTION_POOL = 5
 DEFAULT_ORIENTATION = "landscape"
 DEFAULT_CONTENT_FILTER = "high"
 
@@ -232,20 +233,23 @@ def fetch_unsplash_results(access_key: str, query: str) -> List[Dict[str, Any]]:
     return results
 
 
+def photo_likes(photo: Dict[str, Any]) -> int:
+    likes = photo.get("likes", 0)
+    if not isinstance(likes, int) or isinstance(likes, bool):
+        return 0
+    return max(likes, 0)
+
+
 def choose_best_photo(results: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
-    # prefer larger images, then likes
-    if not results:
+    # keep Unsplash relevance meaningful, then prefer likes within the top results
+    candidates = [item for item in results[:DEFAULT_SELECTION_POOL] if isinstance(item, dict)]
+    if not candidates:
         return None
 
-    candidates = sorted(
-        results,
-        key=lambda item: (
-            int(item.get("width", 0) * item.get("height", 0)),
-            item.get("likes", 0),
-        ),
-        reverse=True,
-    )
-    return candidates[0]
+    return max(
+        enumerate(candidates),
+        key=lambda ranked: (photo_likes(ranked[1]), -ranked[0]),
+    )[1]
 
 
 def resolve_photo(access_key: str, queries: List[str]) -> Tuple[Optional[Dict[str, Any]], List[str]]:
