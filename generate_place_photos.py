@@ -34,7 +34,10 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--limit", type=int, default=DEFAULT_LIMIT)
     parser.add_argument("--overwrite", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
-    return parser.parse_args()
+    args = parser.parse_args()
+    if args.limit < 0:
+        parser.error("--limit must be 0 or greater")
+    return args
 
 
 def load_json(path: Path) -> Any:
