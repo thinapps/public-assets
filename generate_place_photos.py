@@ -317,6 +317,9 @@ def process_candidate(
         return (False, False)
 
     updated_entry = build_photo_entry(entry, photo)
+    if not is_valid_photo_entry(updated_entry):
+        raise RuntimeError(f"incomplete photo metadata returned for {place_id}")
+
     if updated_entry == entry:
         print(f"[INFO] no change for {place_id}")
         return (False, False)
