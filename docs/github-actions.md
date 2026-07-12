@@ -45,6 +45,8 @@ All runs use the `update-place-photos` concurrency group, so only one update run
 
 `cancel-in-progress` is disabled. A newly triggered run does not cancel the run already in progress. With the default GitHub Actions queue behavior, at most one additional run remains pending; a newer pending run may replace an older pending run in the same concurrency group.
 
+The concurrency group only coordinates this workflow. A separate manual or web commit can still reach the branch while a run is active. Before pushing, the workflow fetches the latest branch and rebases its generated commit. It retries a non-fast-forward push race up to three times. A real rebase conflict still fails rather than overwriting newer repository changes.
+
 ## Required secrets
 
 The workflow requires:
@@ -67,7 +69,7 @@ Missing or invalid configuration is treated as a real failure.
 7. Save the last attempted normal-mode place ID in `photo_cursor.json`.
 8. Rebuild `manifest.json` from complete cached photo records.
 9. Bump `version.json` when cached photo metadata or the rebuilt manifest changes.
-10. Commit and push when photo data, synchronized placeholders, the manifest, the version, or the cursor changed.
+10. Commit any resulting changes, rebase that commit onto the latest branch state, and push with a limited retry for non-fast-forward races.
 
 ## Normal successful outcomes
 
@@ -122,7 +124,7 @@ The workflow should remain red for problems that require attention, including:
 - Unreadable or syntactically malformed public photo or manifest JSON, or version JSON when a version bump is required.
 - Unreadable or syntactically malformed cursor JSON during normal blank-filling mode.
 - Unexpected Unsplash response shapes, HTTP responses, or network failures other than recognized quota exhaustion.
-- A failed Git commit or push.
+- A Git rebase conflict or a push that still fails after the limited retry.
 
 Valid JSON photo files with unsupported non-list payloads are skipped from candidate and manifest processing. Individual records whose required photo fields are missing, empty, or not strings are treated as incomplete rather than usable cached photos.
 
