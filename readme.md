@@ -27,7 +27,7 @@ The scheduled GitHub Actions workflow:
 3. safely migrates eligible cached photos and prunes stale files
 4. attempts Unsplash searches for missing photo metadata
 5. rebuilds `manifest.json`
-6. bumps `version.json` when public photo data or the manifest changes
+6. bumps `version.json` when cached photo metadata or the rebuilt manifest changes
 7. commits only when tracked public assets changed
 
 The default run attempts up to 10 eligible place entries. The limit counts attempted entries, not successful matches. No eligible entries, no search results, rate-limit exhaustion, and no repository changes are normal successful outcomes.
