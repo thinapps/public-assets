@@ -23,7 +23,7 @@ When `--overwrite` is used, only entries that already have an `image_url` are el
 
 The `--limit` value counts attempted place entries, not successful photo matches.
 
-The default limit is `10`. A value of `0` removes the attempt limit.
+The default limit is `10`. The value must be `0` or greater, and `0` removes the attempt limit. Negative values are rejected before any photo processing begins.
 
 One attempted place may generate more than one Unsplash request, but it still counts as one attempted entry.
 
@@ -99,7 +99,7 @@ If the whole batch produces no photo or manifest changes, the script logs that o
 
 Unsplash HTTP 429 is treated as quota exhaustion. The current candidate is left unchanged, processing stops cleanly, and the script exits successfully after rebuilding the manifest as needed.
 
-Other unexpected HTTP errors, network errors, malformed required data, and missing configuration remain real failures. They should not be hidden by broadly ignoring exit codes.
+Other unexpected HTTP errors, network errors, malformed required data, missing configuration, and invalid negative limits remain real failures. They should not be hidden by broadly ignoring exit codes.
 
 ## Relationship to generated data
 
