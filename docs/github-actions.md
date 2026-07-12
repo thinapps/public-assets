@@ -80,3 +80,8 @@ If larger manual batches are needed, increase `limit` carefully. Each city can g
 - `photo_queries.py`: Builds deterministic search queries from place IDs and paths.
 - `manifest.json`: Lists place IDs with complete usable photo records.
 - `version.json`: Public payload version incremented when generated output changes.
+
+## Related documentation
+
+- [`photo-data.md`](photo-data.md): Public schema, path conventions, manifest rules, version behavior, and attribution requirements.
+- [`sync-and-cleanup.md`](sync-and-cleanup.md): Source synchronization, cached-photo migration, stale cleanup, and deletion safeguards.
