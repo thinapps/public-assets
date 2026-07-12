@@ -31,7 +31,7 @@ Most place photo files contain a JSON array with one metadata object:
 ]
 ```
 
-Blank values are valid placeholders. A placeholder remains eligible for future photo searches.
+An entry with an empty `image_url` is a valid placeholder and remains eligible for future photo searches. Records missing other required fields are incomplete and excluded from `manifest.json`.
 
 A photo is complete and usable only when all of these fields contain non-empty strings:
 
@@ -82,7 +82,7 @@ city:costa_rica:guanacaste:tamarindo
 
 Paths use dashes while place IDs use underscores. The scripts convert between these forms when inferring IDs or search labels.
 
-When a stored `place_id` conflicts with the file path, photo query generation treats the path as the safer fallback source of truth.
+When a stored `place_id` conflicts with a normal country, subdivision, or city file path, photo query generation treats the path as the safer fallback source of truth. `world.json` is a shared exception: its region records use their stored `region:*` IDs because the file path cannot identify an individual region.
 
 ## Manifest
 
