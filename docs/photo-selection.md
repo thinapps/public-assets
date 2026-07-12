@@ -4,7 +4,7 @@
 
 `generate_place_photos.py` selects eligible place entries, builds deterministic Unsplash queries, chooses one result, and writes complete photo metadata back to the public photo tree.
 
-The selection policy is intentionally simple. It favors predictable behavior, small batches, and future retries instead of permanent failure markers or complex ranking rules.
+The selection policy is intentionally simple. It favors predictable behavior, bounded scheduled work, and future retries instead of permanent failure markers or complex ranking rules.
 
 ## Candidate selection
 
@@ -21,13 +21,15 @@ When `--overwrite` is used, only entries that already have an `image_url` are el
 
 ## Cursor behavior
 
-`photo_cursor.json` stores:
+`photo_cursor.json` has this shape:
 
 ```json
 {
-  "last_attempted_place_id": "city:belize:toledo:barranco"
+  "last_attempted_place_id": "city:belize:toledo:punta_gorda"
 }
 ```
+
+The value is operational state and changes as normal runs progress. The example above is illustrative rather than a permanent expected value.
 
 For normal blank-filling runs:
 
@@ -40,6 +42,12 @@ For normal blank-filling runs:
 
 The cursor is operational workflow state. It is not included in `manifest.json` and does not change which photo records are considered complete.
 
+### Why the cursor is necessary
+
+A small attempt limit keeps each scheduled run reliable, but without persistent position every run would begin with the same blank entries. Places that repeatedly return no results could consume the whole batch forever while later candidates are never attempted.
+
+The cursor preserves deterministic ordering while rotating the starting point. This gives the full queue a chance before earlier no-result entries are retried after wraparound.
+
 ## Attempt limit
 
 The `--limit` value counts attempted place entries, not successful photo matches.
@@ -47,6 +55,19 @@ The `--limit` value counts attempted place entries, not successful photo matches
 The default limit is `10`. The value must be `0` or greater, and `0` removes the attempt limit. Negative values are rejected before any photo processing begins.
 
 One attempted place may generate more than one Unsplash request, but it still counts as one attempted entry.
+
+### Why the limit counts attempts
+
+Counting successful matches would make run length depend on Unsplash search quality. When many queries return no results, a success-based limit can continue through a large part of the queue, consume the available API quota, or reach the workflow timeout without finding the requested number of photos.
+
+Counting attempts provides a predictable amount of work regardless of result quality. This is especially important for the automatic three-hour schedule, which uses the default limit of `10`.
+
+The attempt limit and cursor solve different problems:
+
+- the attempt limit bounds work within one run
+- the cursor carries queue progress across runs
+
+`limit=0` removes the attempt bound but does not remove the Unsplash quota or workflow timeout. It should be used deliberately for manual runs.
 
 ## Path and place ID behavior
 
@@ -86,6 +107,8 @@ Each search request uses:
 
 The workflow uses `UNSPLASH_ACCESS_KEY` for authentication.
 
+An attempted entry is not the same as an API request. A city may use both its primary and fallback query, so one attempt can consume two requests when the first query has no result.
+
 ## Result selection
 
 When Unsplash returns results, the script selects one photo by:
@@ -114,22 +137,36 @@ When all queries for a place return no results:
 
 No-result entries are normal and do not make the workflow fail. The normal-mode cursor still advances so later candidates receive a chance before the queue wraps back.
 
-If the whole batch produces no photo or manifest changes, the script logs that outcome and exits successfully.
+If the whole batch produces no photo or manifest changes, the script logs that outcome and exits successfully. A cursor-only commit is expected when normal-mode queue progress changed.
 
 ## Rate limits and failures
 
-Unsplash quota exhaustion is treated as a warning rather than an error. The clean-stop path recognizes HTTP 429 and Unsplash's HTTP 403 response when `X-Ratelimit-Remaining` is `0` and the response says `Rate Limit Exceeded`. The current candidate is left unchanged, processing stops cleanly, and the normal-mode cursor records that attempted place before the script exits successfully.
+Unsplash quota exhaustion is treated as a warning rather than an error. The clean-stop path recognizes:
 
-Other HTTP 403 responses and other unexpected HTTP errors, network errors, malformed required data, missing configuration, malformed cursor data, and invalid negative limits remain real failures. They should not be hidden by broadly ignoring exit codes.
+- HTTP 429
+- HTTP 403 only when `X-Ratelimit-Remaining` is `0` and the response body says `Rate Limit Exceeded`
+
+The current candidate is left unchanged, processing stops cleanly, and the normal-mode cursor records that attempted place before the script exits successfully.
+
+The narrow HTTP 403 check is intentional. Other 403 responses may indicate authentication, permission, or request problems and must remain real failures rather than being hidden as quota exhaustion.
+
+Other unexpected HTTP errors, network errors, malformed required data, missing configuration, malformed cursor data, and invalid negative limits remain real failures. They should not be hidden by broadly ignoring exit codes.
 
 ## Relationship to generated data
 
 After candidate processing, `manifest.json` is rebuilt from complete usable photo records.
 
-`version.json` is bumped only when photo metadata or the manifest changes. Search attempts and cursor-only updates do not bump the version.
+`version.json` is bumped only when photo metadata or the manifest changes. Search attempts and cursor-only updates do not bump the version because clients do not need to refresh public photo data for workflow-state-only changes.
+
+A successful workflow run can therefore have several valid outcomes:
+
+- photo or manifest changes with a version bump
+- cursor-only progress with a commit but no version bump
+- no tracked changes and no commit
+- a clean stop after recognized quota exhaustion
 
 ## Related documentation
 
 - [`photo-data.md`](photo-data.md): Public schema, path conventions, manifest rules, version behavior, and attribution requirements.
-- [`github-actions.md`](github-actions.md): Workflow inputs, secrets, graceful outcomes, and real failures.
+- [`github-actions.md`](github-actions.md): Workflow inputs, secrets, reliability design, result summaries, graceful outcomes, and real failures.
 - [`sync-and-cleanup.md`](sync-and-cleanup.md): Source synchronization, cached-photo migration, stale cleanup, and deletion safeguards.
