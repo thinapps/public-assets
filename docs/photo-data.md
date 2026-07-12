@@ -4,7 +4,7 @@
 
 This repository stores public photo metadata without storing image binaries. Photo records point to external image URLs and include photographer and source attribution links.
 
-The public photo data is generated from a private source place tree. Generated structure and ordering should remain deterministic, compact, and safe for clients to cache.
+Country, subdivision, and city photo paths are generated from a private source place tree. Region records in `place_photos/world.json` are maintained separately. Generated structure and ordering should remain deterministic, compact, and safe for clients to cache.
 
 ## Public files
 
@@ -125,7 +125,7 @@ Photographer and source links include the repository's configured referral param
 
 Files under `place_photos/`, along with `manifest.json` and `version.json`, are managed by the repository scripts and workflow.
 
-Manual changes should be limited to deliberate repairs. Normal place additions, removals, renames, and path changes should be made in the private source place tree first, then synchronized through the workflow.
+Normal country, subdivision, and city additions, removals, renames, and path changes should be made in the private source place tree first, then synchronized through the workflow. Region membership in `place_photos/world.json` is maintained separately. Manual changes should be limited to deliberate repairs.
 
 See also:
 
