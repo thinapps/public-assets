@@ -34,7 +34,7 @@ A new placeholder uses this shape:
 ]
 ```
 
-Invalid source JSON, missing source objects, and missing IDs do not create or update a public placeholder for that source file. Any unrelated existing public file remains governed by the normal stale-file cleanup rules.
+Invalid source JSON, missing source objects, and missing IDs do not create or update a public placeholder for that source file. The source path is still counted as expected, so an existing public file at that exact path is not treated as stale during the same sync run.
 
 ## Stale-file cleanup
 
@@ -54,6 +54,8 @@ After stale files are removed, empty directories are removed from the deepest le
 ## Cached-photo migration
 
 Before deleting a stale public file, the script attempts a conservative migration to a current canonical file.
+
+Automatic migration excludes leading-underscore country and subdivision self files. It normally applies only to city photo files that share the same country and filename after a path change.
 
 A migration occurs only when all of these conditions are true:
 
