@@ -137,6 +137,11 @@ def infer_query_parts(place_photos_dir: Path, place_id: str, file_path: Path) ->
     else:
         return path_parts
 
+    # world.json is a shared container for multiple region records, so its path
+    # cannot validate or override an individual region place_id.
+    if path_parts["place_type"] == "world" and labels["place_type"] == "region":
+        return labels
+
     if path_parts["place_type"] and labels["place_type"] != path_parts["place_type"]:
         return path_parts
 
