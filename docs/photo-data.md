@@ -123,7 +123,7 @@ Photographer and source links include the repository's configured referral param
 
 ## Generated data policy
 
-Files under `place_photos/countries/`, along with `manifest.json` and `version.json`, are managed by the repository scripts and workflow.
+Files under `place_photos/`, along with `manifest.json` and `version.json`, are managed by the repository scripts and workflow.
 
 Manual changes should be limited to deliberate repairs. Normal place additions, removals, renames, and path changes should be made in the private source place tree first, then synchronized through the workflow.
 
