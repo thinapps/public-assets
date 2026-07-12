@@ -33,9 +33,9 @@ Most place photo files contain a JSON array with one metadata object:
 ]
 ```
 
-An entry with an empty `image_url` is a valid placeholder and remains eligible for future photo searches. Records missing other required fields are incomplete and excluded from `manifest.json`.
+An entry with an empty string `image_url` is a valid placeholder and remains eligible for future photo searches. A missing or non-string `image_url` is incomplete and is treated as needing repair during normal candidate selection. Records missing other required fields remain incomplete and are excluded from `manifest.json`.
 
-A photo is complete and usable only when all of these fields contain non-empty strings:
+A photo is complete and usable only when all of these fields contain actual non-empty JSON strings:
 
 - `place_id`
 - `image_url`
@@ -43,7 +43,9 @@ A photo is complete and usable only when all of these fields contain non-empty s
 - `photographer_url`
 - `source_url`
 
-`cached_at` records when the cached photo metadata was written. It is optional for manifest eligibility and stale-photo migration.
+Values of other JSON types, including `null`, numbers, booleans, arrays, and objects, do not satisfy the schema even when converting them to text would produce a non-empty value.
+
+`cached_at` records when the cached photo metadata was written. It is optional for manifest eligibility and stale-photo migration. Missing, non-string, or invalid timestamps are treated as oldest when overwrite ordering is calculated.
 
 `place_photos/world.json` is the main exception to the one-object-per-file convention. It may contain multiple region-level records in one JSON array.
 
@@ -84,7 +86,7 @@ city:costa_rica:guanacaste:tamarindo
 
 Paths use dashes while place IDs use underscores. The scripts convert between these forms when inferring IDs or search labels.
 
-When a stored `place_id` conflicts with a normal country, subdivision, or city file path, photo query generation treats the path as the safer fallback source of truth. `world.json` is a shared exception: its region records use their stored `region:*` IDs because the file path cannot identify an individual region.
+When a stored `place_id` conflicts with a normal country, subdivision, or city file path, photo query generation treats the path as the safer fallback source of truth. A missing or non-string stored ID also falls back to the path when possible. `world.json` is a shared exception: its region records use their stored `region:*` IDs because the file path cannot identify an individual region.
 
 ## Manifest
 
@@ -94,6 +96,7 @@ It intentionally excludes:
 
 - blank placeholders
 - incomplete photo records
+- records whose required fields are not strings
 - files with invalid non-list payloads
 - `photo_cursor.json`
 
@@ -108,6 +111,8 @@ Clients can use the manifest to determine whether usable cached photo metadata e
 - newly cached photo metadata
 - refreshed photo metadata in overwrite mode
 - manifest changes caused by place additions, removals, or stale-file cleanup
+
+The file must contain a `version` field whose value is a JSON integer. Missing fields, numeric strings, floating-point values, booleans, and other JSON types are invalid and cause a required version bump to fail rather than silently resetting or coercing the counter.
 
 Placeholder-only synchronization may be committed without a version bump when it does not change usable photo metadata or the manifest.
 
