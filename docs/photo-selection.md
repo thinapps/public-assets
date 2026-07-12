@@ -8,7 +8,7 @@ The selection policy is intentionally simple. It favors predictable behavior, sm
 
 ## Candidate selection
 
-Normal runs fill missing photo metadata first.
+Normal runs process only entries that are missing photo metadata. Filled entries are not considered unless `--overwrite` is used.
 
 Eligible blank candidates include:
 
