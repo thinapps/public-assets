@@ -12,7 +12,7 @@ The data is generated from a private source place tree. Generated structure and 
 - `manifest.json` place IDs with complete usable photo metadata
 - `version.json` integer public payload version
 
-Most place files contain one photo metadata object inside a JSON array. Blank values are valid placeholders and are excluded from `manifest.json` until all required photo and attribution fields are populated.
+Most place files contain one photo metadata object inside a JSON array. An entry with an empty `image_url` is a valid placeholder and remains eligible for future searches. Records missing other required fields are incomplete and excluded from `manifest.json`.
 
 Folders and filenames use lowercase dashes. JSON `place_id` values use lowercase underscores and colon-separated place levels.
 
