@@ -14,6 +14,8 @@ Country, subdivision, and city photo paths are generated from a private source p
 - `manifest.json` lists place IDs with complete usable photo metadata.
 - `version.json` contains the integer public payload version.
 
+`photo_cursor.json` is separate operational workflow state. It helps normal photo generation resume through the blank-entry queue and is not part of the public photo payload or manifest.
+
 ## Photo file schema
 
 Most place photo files contain a JSON array with one metadata object:
@@ -93,6 +95,7 @@ It intentionally excludes:
 - blank placeholders
 - incomplete photo records
 - files with invalid non-list payloads
+- `photo_cursor.json`
 
 The manifest contains unique place IDs in deterministic sorted order.
 
@@ -108,7 +111,7 @@ Clients can use the manifest to determine whether usable cached photo metadata e
 
 Placeholder-only synchronization may be committed without a version bump when it does not change usable photo metadata or the manifest.
 
-No version bump occurs when a run attempts searches but produces no public data changes.
+No version bump occurs when a run attempts searches but produces no public data changes. Cursor-only changes also do not bump the version.
 
 If photo metadata or the manifest changes and `version.json` is missing, generation fails instead of silently skipping the required bump or creating a replacement counter.
 
@@ -125,7 +128,7 @@ Photographer and source links include the repository's configured referral param
 
 ## Generated data policy
 
-Files under `place_photos/`, along with `manifest.json` and `version.json`, are managed by the repository scripts and workflow.
+Files under `place_photos/`, along with `manifest.json`, `version.json`, and `photo_cursor.json`, are managed by the repository scripts and workflow.
 
 Normal country, subdivision, and city additions, removals, renames, and path changes should be made in the private source place tree first, then synchronized through the workflow. Region membership in `place_photos/world.json` is maintained separately. Manual changes should be limited to deliberate repairs.
 
