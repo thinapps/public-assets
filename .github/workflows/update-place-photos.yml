@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: Maximum entries to attempt this run, 0 means no limit
+        description: Maximum entries to attempt; 0 means no limit, negatives are invalid
         required: false
         default: "10"
       overwrite:
