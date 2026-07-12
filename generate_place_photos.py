@@ -405,6 +405,9 @@ def main() -> int:
     stop_cleanly = False
     candidates = build_candidates(place_photos_dir, overwrite=args.overwrite)
 
+    if not candidates:
+        print("[INFO] no eligible photo entries; nothing to do")
+
     for candidate in candidates:
         attempted_entries += 1
 
@@ -427,7 +430,7 @@ def main() -> int:
             stop_cleanly = True
             break
 
-        if args.limit and changed_entries >= args.limit:
+        if args.limit and attempted_entries >= args.limit:
             break
 
         if DEFAULT_PAUSE_SECONDS > 0:
@@ -446,7 +449,9 @@ def main() -> int:
     )
 
     if stop_cleanly:
-        return 0
+        print("[INFO] stopped cleanly after Unsplash rate limit")
+    elif changed_entries == 0 and not manifest_changed:
+        print("[INFO] no photo changes found; exiting successfully")
 
     return 0
 
