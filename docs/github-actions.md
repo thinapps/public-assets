@@ -67,6 +67,7 @@ The workflow should remain red for problems that require attention, including:
 - A missing or invalid source path.
 - An invalid attempt limit, including a negative value.
 - Unsafe stale-file pruning beyond the configured safety threshold.
+- A missing `version.json` when photo metadata or manifest changes require a version bump.
 - Malformed public photo, manifest, or version JSON required by the generation step.
 - Unexpected Unsplash or network errors other than handled rate limiting.
 - A failed Git commit or push.
