@@ -15,7 +15,7 @@ For each valid source file, it:
 - reads the first source object
 - accepts `place_id` or the legacy `id` field
 - creates a missing public placeholder file
-- normalizes an existing public file to the expected one-object array schema
+- normalizes the first public entry to the expected fields while preserving any additional entries
 - updates the public `place_id` to the current source value
 - preserves existing photo and attribution fields when the path remains current
 
@@ -102,7 +102,7 @@ Do not bypass this guard casually. Large intentional source-tree changes should 
 
 The sync script itself manages the file tree. `generate_place_photos.py` subsequently rebuilds `manifest.json` from complete usable photo records.
 
-If stale cleanup removes or migrates usable photo records, the rebuilt manifest may change and `version.json` is bumped.
+When cleanup changes the rebuilt manifest, `version.json` is bumped. Cleanup that leaves the manifest unchanged does not trigger a version bump by itself.
 
 Placeholder-only additions or path normalization can be committed without a version bump when usable photo metadata and the manifest remain unchanged.
 
