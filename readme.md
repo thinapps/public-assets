@@ -2,7 +2,7 @@
 
 This repository stores public photo metadata without storing image binaries. Photo records point to external image URLs and preserve the required photographer and source attribution links.
 
-The data is generated from a private source place tree. Generated output should remain deterministic, compact, and safe for clients to cache.
+The data is generated from a private source place tree. Generated structure and ordering should remain deterministic, compact, and safe for clients to cache.
 
 ## Public data
 
@@ -32,7 +32,7 @@ The scheduled GitHub Actions workflow:
 
 The default run attempts up to 10 eligible place entries. The limit counts attempted entries, not successful matches. No eligible entries, no search results, rate-limit exhaustion, and no repository changes are normal successful outcomes.
 
-See [`docs/github-actions.md`](docs/github-actions.md) for workflow inputs, required secrets, graceful outcomes, real failures, and timeout behavior.
+See [`docs/github-actions.md`](docs/github-actions.md) for workflow inputs, required secrets, graceful outcomes, real failures, and timeout behavior. See [`docs/photo-selection.md`](docs/photo-selection.md) for candidate ordering, query rules, Unsplash settings, and result selection.
 
 ## Sync and cleanup
 
@@ -52,6 +52,7 @@ See [`docs/sync-and-cleanup.md`](docs/sync-and-cleanup.md) for synchronization b
 - `photo_queries.py` builds deterministic search queries from place IDs and paths
 - `docs/github-actions.md` documents workflow operation and failure policy
 - `docs/photo-data.md` documents the public data contract
+- `docs/photo-selection.md` documents candidate, query, and result-selection policy
 - `docs/sync-and-cleanup.md` documents synchronization and stale cleanup
 
 ## Generated data policy
