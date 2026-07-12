@@ -15,6 +15,7 @@ from urllib import error, parse, request
 DEFAULT_ROOT = Path(__file__).resolve().parent
 DEFAULT_LIMIT = 10
 DEFAULT_PAUSE_SECONDS = 1.25
+PHOTO_CURSOR_FILENAME = "photo_cursor.json"
 
 # unsplash request defaults
 UNSPLASH_API_BASE = "https://api.unsplash.com"
@@ -137,6 +138,45 @@ def iter_photo_files(place_photos_dir: Path) -> List[Path]:
     return files
 
 
+def candidate_sort_key(file_path: Path, index: Optional[int]) -> Tuple[str, int]:
+    return (file_path.as_posix(), -1 if index is None else index)
+
+
+def load_photo_cursor(root: Path) -> str:
+    cursor_path = root / PHOTO_CURSOR_FILENAME
+    if not cursor_path.exists():
+        return ""
+
+    payload = load_json(cursor_path)
+    if not isinstance(payload, dict):
+        raise RuntimeError(f"{PHOTO_CURSOR_FILENAME} must contain a json object")
+
+    last_attempted_place_id = payload.get("last_attempted_place_id", "")
+    if not isinstance(last_attempted_place_id, str):
+        raise RuntimeError(f"{PHOTO_CURSOR_FILENAME} field 'last_attempted_place_id' must be a string")
+
+    return last_attempted_place_id.strip()
+
+
+def update_photo_cursor(root: Path, last_attempted_place_id: str, dry_run: bool) -> bool:
+    cursor_path = root / PHOTO_CURSOR_FILENAME
+    payload = {
+        "last_attempted_place_id": last_attempted_place_id,
+    }
+
+    if cursor_path.exists() and load_json(cursor_path) == payload:
+        print(f"no cursor changes for {cursor_path}")
+        return False
+
+    if dry_run:
+        print(f"would update {cursor_path} to {last_attempted_place_id}")
+        return True
+
+    save_json(cursor_path, payload)
+    print(f"updated {cursor_path} to {last_attempted_place_id}")
+    return True
+
+
 def unsplash_get(access_key: str, endpoint: str, params: Dict[str, Any]) -> Dict[str, Any]:
     query = parse.urlencode({key: value for key, value in params.items() if value not in (None, "")})
     url = f"{UNSPLASH_API_BASE}{endpoint}?{query}"
@@ -193,11 +233,15 @@ def resolve_photo(access_key: str, queries: List[str]) -> Tuple[Optional[Dict[st
     return (None, tried_queries)
 
 
-def build_candidates(place_photos_dir: Path, overwrite: bool) -> List[Dict[str, Any]]:
+def build_candidates(
+    place_photos_dir: Path,
+    overwrite: bool,
+) -> Tuple[List[Dict[str, Any]], Dict[str, Tuple[str, int]]]:
     # blank-first mode fills missing photos
     # overwrite mode refreshes the oldest cached photos first
     blank_candidates: List[Dict[str, Any]] = []
     filled_candidates: List[Dict[str, Any]] = []
+    cursor_positions: Dict[str, Tuple[str, int]] = {}
 
     for file_path in iter_photo_files(place_photos_dir):
         payload = load_json(file_path)
@@ -205,16 +249,18 @@ def build_candidates(place_photos_dir: Path, overwrite: bool) -> List[Dict[str, 
             continue
 
         # empty arrays are valid placeholders and should still be eligible
-        if not payload and not overwrite:
+        if not payload:
             place_id = infer_place_id_from_path(place_photos_dir, file_path)
             if place_id:
-                blank_candidates.append({
-                    "file_path": file_path,
-                    "index": None,
-                    "place_id": place_id,
-                    "has_photo": False,
-                    "cached_at": "",
-                })
+                cursor_positions[place_id] = candidate_sort_key(file_path, None)
+                if not overwrite:
+                    blank_candidates.append({
+                        "file_path": file_path,
+                        "index": None,
+                        "place_id": place_id,
+                        "has_photo": False,
+                        "cached_at": "",
+                    })
             continue
 
         for index, entry in enumerate(payload):
@@ -228,6 +274,8 @@ def build_candidates(place_photos_dir: Path, overwrite: bool) -> List[Dict[str, 
             if not place_id:
                 continue
 
+            sort_key = candidate_sort_key(file_path, index)
+            cursor_positions[place_id] = sort_key
             image_url = str(normalized_entry.get("image_url", "")).strip()
             candidate = {
                 "file_path": file_path,
@@ -243,23 +291,54 @@ def build_candidates(place_photos_dir: Path, overwrite: bool) -> List[Dict[str, 
                 blank_candidates.append(candidate)
 
     blank_candidates.sort(
-        key=lambda item: (
-            item["file_path"].as_posix(),
-            -1 if item["index"] is None else item["index"],
-        )
+        key=lambda item: candidate_sort_key(item["file_path"], item["index"])
     )
     filled_candidates.sort(
         key=lambda item: (
             parse_cached_at(item["cached_at"]),
-            item["file_path"].as_posix(),
-            -1 if item["index"] is None else item["index"],
+            *candidate_sort_key(item["file_path"], item["index"]),
         )
     )
 
     if overwrite:
-        return filled_candidates
+        return (filled_candidates, cursor_positions)
 
-    return blank_candidates
+    return (blank_candidates, cursor_positions)
+
+
+def rotate_candidates_after_cursor(
+    candidates: List[Dict[str, Any]],
+    cursor_positions: Dict[str, Tuple[str, int]],
+    last_attempted_place_id: str,
+) -> List[Dict[str, Any]]:
+    if not candidates or not last_attempted_place_id:
+        return candidates
+
+    cursor_key = cursor_positions.get(last_attempted_place_id)
+    if cursor_key is None:
+        print(
+            f"[WARN] cursor place not found: {last_attempted_place_id}; "
+            "starting from the beginning"
+        )
+        return candidates
+
+    after_cursor: List[Dict[str, Any]] = []
+    through_cursor: List[Dict[str, Any]] = []
+
+    for candidate in candidates:
+        key = candidate_sort_key(candidate["file_path"], candidate["index"])
+        if key > cursor_key:
+            after_cursor.append(candidate)
+        else:
+            through_cursor.append(candidate)
+
+    rotated = after_cursor + through_cursor
+    if rotated:
+        print(
+            f"[INFO] resume after {last_attempted_place_id} -> "
+            f"{rotated[0]['place_id']}"
+        )
+    return rotated
 
 
 def process_candidate(
@@ -424,7 +503,17 @@ def main() -> int:
     attempted_entries = 0
     changed_entries = 0
     stop_cleanly = False
-    candidates = build_candidates(place_photos_dir, overwrite=args.overwrite)
+    cursor_changed = False
+    last_attempted_place_id = ""
+    candidates, cursor_positions = build_candidates(place_photos_dir, overwrite=args.overwrite)
+
+    if not args.overwrite:
+        last_attempted_place_id = load_photo_cursor(root)
+        candidates = rotate_candidates_after_cursor(
+            candidates,
+            cursor_positions,
+            last_attempted_place_id,
+        )
 
     if not candidates:
         print("[INFO] no eligible photo entries; nothing to do")
@@ -444,6 +533,9 @@ def main() -> int:
             print(f"[ERROR] unexpected failure for {candidate['place_id']}: {exc}", file=sys.stderr)
             return 1
 
+        if not args.overwrite:
+            last_attempted_place_id = candidate["place_id"]
+
         if changed:
             changed_entries += 1
 
@@ -457,6 +549,13 @@ def main() -> int:
         if DEFAULT_PAUSE_SECONDS > 0:
             time.sleep(DEFAULT_PAUSE_SECONDS)
 
+    if not args.overwrite and attempted_entries:
+        cursor_changed = update_photo_cursor(
+            root,
+            last_attempted_place_id,
+            dry_run=args.dry_run,
+        )
+
     manifest_changed = update_manifest_file(root, place_photos_dir, dry_run=args.dry_run)
 
     if changed_entries or manifest_changed:
@@ -466,8 +565,12 @@ def main() -> int:
         f"eligible_candidates={len(candidates)} "
         f"attempted_entries={attempted_entries} "
         f"changed_entries={changed_entries} "
-        f"manifest_changed={manifest_changed}"
+        f"manifest_changed={manifest_changed} "
+        f"cursor_changed={cursor_changed}"
     )
+
+    if last_attempted_place_id and not args.overwrite:
+        print(f"last_attempted_place_id={last_attempted_place_id}")
 
     if stop_cleanly:
         print("[INFO] stopped cleanly after Unsplash rate limit")
