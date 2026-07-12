@@ -84,4 +84,5 @@ If larger manual batches are needed, increase `limit` carefully. Each city can g
 ## Related documentation
 
 - [`photo-data.md`](photo-data.md): Public schema, path conventions, manifest rules, version behavior, and attribution requirements.
+- [`photo-selection.md`](photo-selection.md): Candidate ordering, search queries, Unsplash settings, result selection, and retry behavior.
 - [`sync-and-cleanup.md`](sync-and-cleanup.md): Source synchronization, cached-photo migration, stale cleanup, and deletion safeguards.
