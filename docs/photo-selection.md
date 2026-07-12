@@ -102,22 +102,21 @@ Each search request uses:
 
 - endpoint: `/search/photos`
 - first result page only
-- `per_page=3`
+- `per_page=10`
 - `orientation=landscape`
 - `content_filter=high`
 
 The workflow uses `UNSPLASH_ACCESS_KEY` for authentication.
 
-An attempted entry is not the same as an API request. A city may use both its primary and fallback query, so one attempt can consume two requests when the first query has no result.
+An attempted entry is not the same as an API request. A city may use both its primary and fallback query, so one attempt can consume two requests when the first query has no result. Returning 10 results instead of 3 does not add another search request.
 
 The search response must be a JSON object whose `results` field is a list. Unexpected response shapes are treated as real failures rather than being silently interpreted as no results.
 
 ## Result selection
 
-When Unsplash returns results, the script selects one photo by:
+Unsplash returns search results in relevance order. The script keeps that ordering meaningful by considering only the first five results, then selects the photo with the highest valid like count within that group. When like counts are equal, the earlier and therefore more relevant result wins.
 
-1. largest image area, calculated from width multiplied by height
-2. highest like count when image areas are equal
+Image width, height, area, and file size are not used for ranking. The selected `regular` image URL already provides the standard display-sized image used by this repository.
 
 The chosen record stores:
 
