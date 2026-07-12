@@ -33,6 +33,8 @@ Photo queries are built from both the stored `place_id` and the file path.
 
 The stored ID is preferred when it is structurally valid and agrees with the path. When the place type or path labels conflict with the stored ID, the path is used as the safer fallback source of truth.
 
+`world.json` is a shared exception: its region records use their stored `region:*` IDs because the file path cannot identify an individual region.
+
 Path slugs use dashes while place IDs use underscores. Query labels convert both forms into readable title-cased words.
 
 ## Query rules
