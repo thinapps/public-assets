@@ -118,9 +118,13 @@ The workflow should remain red for problems that require attention, including:
 - An invalid attempt limit, including a negative value.
 - Unsafe stale-file pruning beyond the configured safety threshold.
 - A missing `version.json` when photo metadata or manifest changes require a version bump.
-- Malformed public photo, manifest, version, or cursor JSON required by the generation step.
-- Unexpected Unsplash or network errors other than recognized quota exhaustion.
+- A missing or non-integer `version` field when a version bump is required.
+- Unreadable or syntactically malformed public photo, manifest, or version JSON.
+- Unreadable or syntactically malformed cursor JSON during normal blank-filling mode.
+- Unexpected Unsplash response shapes, HTTP responses, or network failures other than recognized quota exhaustion.
 - A failed Git commit or push.
+
+Valid JSON photo files with unsupported non-list payloads are skipped from candidate and manifest processing. Individual records whose required photo fields are missing, empty, or not strings are treated as incomplete rather than usable cached photos.
 
 Malformed source JSON is skipped by the synchronization script and does not fail the workflow by itself.
 
