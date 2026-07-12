@@ -304,9 +304,10 @@ def process_candidate(
         photo, tried_queries = resolve_photo(access_key, queries)
     except error.HTTPError as exc:
         body = exc.read().decode("utf-8", errors="replace")
-        print(f"[ERROR] api failure for {place_id}: {exc.code} {body}", file=sys.stderr)
         if exc.code == 429:
+            print(f"[WARN] Unsplash rate limit reached for {place_id}; stopping cleanly")
             return (False, True)
+        print(f"[ERROR] api failure for {place_id}: {exc.code} {body}", file=sys.stderr)
         raise
     except error.URLError as exc:
         print(f"[ERROR] network failure for {place_id}: {exc}", file=sys.stderr)
