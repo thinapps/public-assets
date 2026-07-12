@@ -374,7 +374,7 @@ def update_version_file(root: Path, dry_run: bool) -> None:
     # bump version whenever the public photo payload changes
     version_path = root / "version.json"
     if not version_path.exists():
-        return
+        raise FileNotFoundError(f"required version file does not exist: {version_path}")
 
     payload = load_json(version_path)
     if not isinstance(payload, dict):
