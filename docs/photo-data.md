@@ -110,6 +110,8 @@ Placeholder-only synchronization may be committed without a version bump when it
 
 No version bump occurs when a run attempts searches but produces no public data changes.
 
+If photo metadata or the manifest changes and `version.json` is missing, generation fails instead of silently skipping the required bump or creating a replacement counter.
+
 ## Photo attribution
 
 Each usable photo record preserves:
