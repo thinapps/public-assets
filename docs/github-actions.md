@@ -17,7 +17,27 @@ Manual runs support these inputs:
 
 The limit counts attempted place entries, not successful photo matches. A place may use more than one Unsplash search query, but it still counts as one attempted entry.
 
+Automatic scheduled runs have no manual input values, so they use the default limit of `10` and normal blank-filling mode.
+
 Normal blank-filling runs resume after `photo_cursor.json` and wrap through the deterministic queue. Overwrite runs keep their separate oldest-photo-first order and do not change the cursor.
+
+## Reliability design
+
+The default run is intentionally bounded by attempted entries rather than successful photo matches.
+
+A success-based limit can run for a long time when many place queries return no results. It may keep scanning until the job timeout or Unsplash quota is reached while still finding few or no photos. An attempt-based limit gives scheduled runs predictable work even when search quality is poor.
+
+The cursor solves a separate problem. A small attempt limit alone would restart from the same first blank entries on every run. Saving the last attempted place lets later scheduled runs continue through the queue, while wrapping eventually gives earlier no-result entries another chance.
+
+Together, these rules provide:
+
+- bounded normal run time
+- lower risk of exhausting the Unsplash quota in one scheduled run
+- steady progress through the full blank-entry queue
+- successful no-change runs when nothing is wrong
+- real failures for configuration, data, network, and unexpected API problems
+
+The 15-minute job timeout remains a final safety backstop. It is not the normal mechanism for controlling batch size.
 
 ## Concurrency
 
@@ -62,7 +82,31 @@ The following conditions are normal and must complete successfully:
 
 In all of these cases the scripts exit successfully. If no tracked files changed, the commit step reports `no changes to commit`; otherwise it commits the resulting synchronization, generated-data, or cursor changes.
 
+A green run does not necessarily mean that a photo was added. It means the workflow completed without an actionable failure. Cursor-only commits are useful progress even when no public photo data changed.
+
 Recognized quota-exhaustion responses are logged as warnings because they use the clean-stop path. Ordinary HTTP 403 responses and other unexpected HTTP responses are logged as errors and fail the run.
+
+## Reading generation results
+
+The generator prints a final summary containing:
+
+- `eligible_candidates`: candidates available in the current mode after ordering and cursor rotation
+- `attempted_entries`: place entries processed during this run
+- `changed_entries`: photo records added or refreshed
+- `manifest_changed`: whether rebuilding `manifest.json` changed its contents
+- `cursor_changed`: whether normal-mode workflow progress moved forward
+
+Normal runs also print `last_attempted_place_id` when at least one place was attempted.
+
+Typical outcomes include:
+
+- `changed_entries>0`: one or more photo records changed, so `version.json` is bumped
+- `manifest_changed=True`: usable public photo availability changed, so `version.json` is bumped
+- only `cursor_changed=True`: the queue advanced and a cursor-only commit is expected, with no version bump
+- all change fields false: no tracked generated state changed, so `no changes to commit` is expected
+- a recognized quota warning: processing stopped cleanly at the current attempted place and normal-mode cursor progress is still saved
+
+One attempted entry may issue multiple Unsplash requests because city candidates can have a primary and fallback query. Therefore `attempted_entries` is not the API request count.
 
 ## Real failures
 
@@ -86,7 +130,9 @@ Do not hide real failures by broadly ignoring command exit codes or increasing t
 
 The job timeout is 15 minutes. The normal default run attempts only 10 eligible entries, which prevents a long series of unsuccessful searches from running until GitHub cancels the job.
 
-If larger manual batches are needed, increase `limit` carefully while keeping it at `0` or greater. Each city can generate multiple Unsplash requests and the script pauses between attempted entries.
+If larger manual batches are needed, increase `limit` carefully while keeping it at `0` or greater. Each place can generate multiple Unsplash requests and the script pauses between attempted entries.
+
+`limit=0` removes the attempt limit, but Unsplash quota and the job timeout still apply. It is best reserved for deliberate manual runs rather than normal scheduling.
 
 The cursor makes progress persistent between normal runs, so a small limit does not cause the same first entries to block the rest of the queue.
 
