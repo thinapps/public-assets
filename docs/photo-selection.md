@@ -97,9 +97,9 @@ If the whole batch produces no photo or manifest changes, the script logs that o
 
 ## Rate limits and failures
 
-Unsplash HTTP 429 is treated as quota exhaustion and logged as a warning rather than an error. The current candidate is left unchanged, processing stops cleanly, and the script exits successfully after rebuilding the manifest as needed.
+Unsplash quota exhaustion is treated as a warning rather than an error. The clean-stop path recognizes HTTP 429 and Unsplash's HTTP 403 response when `X-Ratelimit-Remaining` is `0` and the response says `Rate Limit Exceeded`. The current candidate is left unchanged, processing stops cleanly, and the script exits successfully after rebuilding the manifest as needed.
 
-Other unexpected HTTP errors, network errors, malformed required data, missing configuration, and invalid negative limits remain real failures. They should not be hidden by broadly ignoring exit codes.
+Other HTTP 403 responses and other unexpected HTTP errors, network errors, malformed required data, missing configuration, and invalid negative limits remain real failures. They should not be hidden by broadly ignoring exit codes.
 
 ## Relationship to generated data
 
