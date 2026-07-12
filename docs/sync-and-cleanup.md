@@ -116,7 +116,7 @@ This order ensures that:
 2. safely migratable cached photos are preserved
 3. obsolete files are removed
 4. missing current entries become eligible for photo searches
-5. the manifest and version are regenerated from the final tree
+5. the manifest is rebuilt from the final tree and the version is bumped only when required
 
 A clean sync with no resulting repository changes is a successful workflow outcome.
 
