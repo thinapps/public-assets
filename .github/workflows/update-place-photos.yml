@@ -6,7 +6,7 @@ on:
       limit:
         description: Maximum entries to attempt; 0 means no limit, negatives are invalid
         required: false
-        default: "10"
+        default: "20"
       overwrite:
         description: Replace existing image_url values too
         required: false
@@ -79,7 +79,7 @@ jobs:
           fi
 
           python generate_place_photos.py \
-            --limit "${{ github.event.inputs.limit || '10' }}" \
+            --limit "${{ github.event.inputs.limit || '20' }}" \
             ${OVERWRITE_FLAG}
 
       # only commit if files actually changed
