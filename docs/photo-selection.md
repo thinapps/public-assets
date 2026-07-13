@@ -53,7 +53,7 @@ The cursor preserves deterministic ordering while rotating the starting point. T
 
 The `--limit` value counts attempted place entries, not successful photo matches.
 
-The default limit is `10`. The value must be `0` or greater, and `0` removes the attempt limit. Negative values are rejected before any photo processing begins.
+The default limit is `20`. The value must be `0` or greater, and `0` removes the attempt limit. Negative values are rejected before any photo processing begins.
 
 One attempted place may generate more than one Unsplash request, but it still counts as one attempted entry.
 
@@ -61,7 +61,7 @@ One attempted place may generate more than one Unsplash request, but it still co
 
 Counting successful matches would make run length depend on Unsplash search quality. When many queries return no results, a success-based limit can continue through a large part of the queue, consume the available API quota, or reach the workflow timeout without finding the requested number of photos.
 
-Counting attempts provides a predictable amount of work regardless of result quality. This is especially important for the automatic three-hour schedule, which uses the default limit of `10`.
+Counting attempts provides a predictable amount of work regardless of result quality. This is especially important for the automatic three-hour schedule, which uses the default limit of `20`.
 
 The attempt limit and cursor solve different problems:
 
