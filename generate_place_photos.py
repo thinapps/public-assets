@@ -13,7 +13,7 @@ from urllib import error, parse, request
 
 # core paths and limits
 DEFAULT_ROOT = Path(__file__).resolve().parent
-DEFAULT_LIMIT = 10
+DEFAULT_LIMIT = 20
 DEFAULT_PAUSE_SECONDS = 1.25
 PHOTO_CURSOR_FILENAME = "photo_cursor.json"
 
