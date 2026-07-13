@@ -12,12 +12,12 @@ The workflow runs automatically every three hours at 17 minutes past the hour. I
 
 Manual runs support these inputs:
 
-- `limit`: Maximum number of eligible place entries to attempt. The default is `10`. The value must be `0` or greater, and `0` removes the attempt limit.
+- `limit`: Maximum number of eligible place entries to attempt. The default is `20`. The value must be `0` or greater, and `0` removes the attempt limit.
 - `overwrite`: When `true`, refresh existing photos instead of filling only blank entries. Existing photos are processed from the oldest cached entry first.
 
 The limit counts attempted place entries, not successful photo matches. A place may use more than one Unsplash search query, but it still counts as one attempted entry.
 
-Automatic scheduled runs have no manual input values, so they use the default limit of `10` and normal blank-filling mode.
+Automatic scheduled runs have no manual input values, so they use the default limit of `20` and normal blank-filling mode.
 
 Normal blank-filling runs resume after `photo_cursor.json` and wrap through the deterministic queue. Overwrite runs keep their separate oldest-photo-first order and do not change the cursor.
 
@@ -134,7 +134,7 @@ Do not hide real failures by broadly ignoring command exit codes or increasing t
 
 ## Timeout and attempt limits
 
-The job timeout is 15 minutes. The normal default run attempts only 10 eligible entries, which prevents a long series of unsuccessful searches from running until GitHub cancels the job.
+The job timeout is 15 minutes. The normal default run attempts only 20 eligible entries, which prevents a long series of unsuccessful searches from running until GitHub cancels the job.
 
 If larger manual batches are needed, increase `limit` carefully while keeping it at `0` or greater. Each place can generate multiple Unsplash requests and the script pauses between attempted entries.
 
