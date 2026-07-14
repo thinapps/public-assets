@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:el_salvador:la_union:pasaquina",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1570759121557-5e01b7d9544e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxQYXNhcXVpbmElMjBFbCUyMFNhbHZhZG9yfGVufDF8MHx8fDE3ODQwNDcyMjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rafael Cañenguez",
+    "photographer_url": "https://unsplash.com/@rcanenguez?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/empty-street-TyDwIQY1j7M?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-14T16:40:27Z"
   }
 ]
