@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:gambia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1448099940878-e0c48ea3a165?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxHYW1iaWF8ZW58MXwwfHx8MTc4NDEzMzk4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dan Roizer",
+    "photographer_url": "https://unsplash.com/@danroizer?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/landscape-photography-of-mountain-GygPFmXGD1o?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-15T16:46:25Z"
   }
 ]
