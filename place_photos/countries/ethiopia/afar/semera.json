@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ethiopia:afar:semera",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1656406274282-29a7c82f1458?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxTZW1lcmElMjBBZmFyfGVufDF8MHx8fDE3ODQxMDQ2NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Marissa Schwieger",
+    "photographer_url": "https://unsplash.com/@marissaschwieger?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-huts-in-a-desert-hWTaGblMXe8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-15T08:37:32Z"
   }
 ]
