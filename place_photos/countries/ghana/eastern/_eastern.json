@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:ghana:eastern",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1692729996655-b3676d34f598?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxFYXN0ZXJuJTIwR2hhbmF8ZW58MXwwfHx8MTc4NDE1Mzc3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ato Aikins",
+    "photographer_url": "https://unsplash.com/@ato_aikins?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-winding-road-in-the-middle-of-a-forest-_J58ttHZS5k?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-15T22:16:15Z"
   }
 ]

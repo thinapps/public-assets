@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:georgia:shida_kartli",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1577701122197-c9607038bd90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTaGlkYSUyMEthcnRsaSUyMEdlb3JnaWF8ZW58MXwwfHx8MTc4NDE1Mzc0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Patrick Schneider",
+    "photographer_url": "https://unsplash.com/@patrick_schneider?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-photography-of-mountain-ridge-8bPJ0vagphw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-15T22:15:49Z"
   }
 ]

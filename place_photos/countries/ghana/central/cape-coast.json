@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ghana:central:cape_coast",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1512073719574-a41eda1462e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxDYXBlJTIwQ29hc3QlMjBHaGFuYXxlbnwxfDB8fHwxNzg0MTUzNzcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jared Poledna",
+    "photographer_url": "https://unsplash.com/@metaphoricalparade?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/selective-focus-photography-of-shoreline-OOOLSgre3RE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-15T22:16:12Z"
   }
 ]
