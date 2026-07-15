@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:fiji:western:nadi",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1572811227797-5e08bd51e56c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxOYWRpJTIwRmlqaXxlbnwxfDB8fHwxNzg0MTEzMzg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Gary Runn",
+    "photographer_url": "https://unsplash.com/@garunn?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-beside-sea-during-daytime-HhHxc_Eo25w?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-15T11:03:07Z"
   }
 ]

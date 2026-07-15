@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:fiji:central:suva",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1449347206122-792f0e389512?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTdXZhJTIwRmlqaXxlbnwxfDB8fHwxNzg0MTEzMzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Chad McMillan",
+    "photographer_url": "https://unsplash.com/@chadmcmillan?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/sea-waves-during-day-time-photography-R4T9TI8EsJI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-15T11:02:57Z"
   }
 ]
