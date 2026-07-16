@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ghana:volta:ho",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1666350568405-ae1832e1e54f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxIbyUyMFZvbHRhfGVufDF8MHx8fDE3ODQxNzMzMjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Israel Mac",
+    "photographer_url": "https://unsplash.com/@israel02?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-row-of-houses-wD_wZJH7hgY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-16T03:42:05Z"
   }
 ]

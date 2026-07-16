@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ghana:savannah:damongo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1535940360221-641a69c43bac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxEYW1vbmdvJTIwU2F2YW5uYWh8ZW58MXwwfHx8MTc4NDE3MzMxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "David Clode",
+    "photographer_url": "https://unsplash.com/@davidclode?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-leaf-trees-92MgFhlWD-8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-16T03:41:54Z"
   }
 ]
