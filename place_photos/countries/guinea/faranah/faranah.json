@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:guinea:faranah:faranah",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1600891406749-c179609d8475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxGYXJhbmFoJTIwR3VpbmVhfGVufDF8MHx8fDE3ODQyMzA1NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Bob Brewer",
+    "photographer_url": "https://unsplash.com/@brewbottle?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/person-wearing-blue-red-and-yellow-knit-cap-GOIR5V_OH-k?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-16T19:35:55Z"
   }
 ]

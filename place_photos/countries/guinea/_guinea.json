@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:guinea",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxHdWluZWF8ZW58MXwwfHx8MTc4NDIzMDU0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Bonnie Kittle",
+    "photographer_url": "https://unsplash.com/@bonniekdesign?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/two-guinea-pigs-eating-carrot-MUcxe_wDurE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-16T19:35:43Z"
   }
 ]
