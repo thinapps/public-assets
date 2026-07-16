@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:grenada:saint_andrew:grenville",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1728059924814-3f6ed0799933?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxHcmVudmlsbGUlMjBTYWludCUyMEFuZHJld3xlbnwxfDB8fHwxNzg0MjAwNDA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "The Now Time",
+    "photographer_url": "https://unsplash.com/@thenowtime?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-sign-on-the-side-of-a-building-GRw1j0SZQkE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-16T11:13:29Z"
   }
 ]
