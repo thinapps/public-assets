@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:guatemala:izabal:morales",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1635044590504-f2bbc0b57500?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNb3JhbGVzJTIwSXphYmFsfGVufDF8MHx8fDE3ODQyMTE5NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Yuudai Sam",
+    "photographer_url": "https://unsplash.com/@yuudaisam?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-town-with-a-steeple-in-the-background-FEN66avKBpU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-16T14:26:02Z"
   }
 ]
