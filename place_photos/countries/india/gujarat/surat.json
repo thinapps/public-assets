@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:india:gujarat:surat",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1662528567271-a13ed534fbbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTdXJhdCUyMEd1amFyYXR8ZW58MXwwfHx8MTc4NDMxNjkxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "VD Photography",
+    "photographer_url": "https://unsplash.com/@vdphotography?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-man-and-a-boy-fishing-g9bIJSlfcvk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-17T19:35:13Z"
   }
 ]
