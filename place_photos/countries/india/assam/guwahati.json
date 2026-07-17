@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:india:assam:guwahati",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1562315921-ca0e98571219?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxHdXdhaGF0aSUyMEFzc2FtfGVufDF8MHx8fDE3ODQzMDYxMzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rohan Reddy",
+    "photographer_url": "https://unsplash.com/@rofotoqoto?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/man-standing-on-boat-f43rDFk1Ph4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-17T16:35:37Z"
   }
 ]

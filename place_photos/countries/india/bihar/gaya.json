@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:india:bihar:gaya",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1607893579544-c205660b5b79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxHYXlhJTIwQmloYXJ8ZW58MXwwfHx8MTc4NDMwNjE0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Raimond Klavins",
+    "photographer_url": "https://unsplash.com/@raimondklavins?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/gray-and-red-stone-fragment-A0xMkK4-qmA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-17T16:35:47Z"
   }
 ]
