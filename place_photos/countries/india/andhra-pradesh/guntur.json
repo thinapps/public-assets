@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:india:andhra_pradesh:guntur",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1705575468304-de4fb558a575?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxHdW50dXIlMjBBbmRocmElMjBQcmFkZXNofGVufDF8MHx8fDE3ODQyOTcxNTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Vizag Explore",
+    "photographer_url": "https://unsplash.com/@vizagexplore?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-bridge-spanning-over-a-large-body-of-water-frxffKShowI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-17T14:05:55Z"
   }
 ]
