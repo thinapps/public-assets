@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:haiti",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1527091736853-64ca6a9b64d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxIYWl0aXxlbnwxfDB8fHwxNzg0MjU5Njg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Bailey Torres",
+    "photographer_url": "https://unsplash.com/@bailstorres?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/man-playing-wind-instrument-9-Mt_kNlj9Y?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-17T03:41:24Z"
   }
 ]
