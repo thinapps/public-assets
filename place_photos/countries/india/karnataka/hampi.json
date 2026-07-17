@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:india:karnataka:hampi",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1696239115979-4784dd05bf62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxIYW1waSUyMEthcm5hdGFrYXxlbnwxfDB8fHwxNzg0MzI2MDk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "The Witch's House",
+    "photographer_url": "https://unsplash.com/@thehouseofthewitch?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-stone-structure-with-statues-on-it-Uh3b9Rc9pYU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-17T22:08:16Z"
   }
 ]

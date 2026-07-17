@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:india:kerala:kochi",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLb2NoaSUyMEtlcmFsYXxlbnwxfDB8fHwxNzg0MzI2MTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nature Photographer",
+    "photographer_url": "https://unsplash.com/@pavi_thra_?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-boat-on-body-of-water-near-green-trees-during-daytime-29ezCWtMtnM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-17T22:08:26Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:india:karnataka:mangaluru",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1643283162742-40c6f4751676?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNYW5nYWx1cnUlMjBLYXJuYXRha2F8ZW58MXwwfHx8MTc4NDMyNjA5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Vasanth Kedige",
+    "photographer_url": "https://unsplash.com/@kedige?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-people-that-are-standing-in-the-dirt-XS-Tw0YwPDQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-17T22:08:19Z"
   }
 ]
