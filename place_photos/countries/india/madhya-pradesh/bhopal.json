@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:india:madhya_pradesh:bhopal",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1710987760447-e1777b1de284?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxCaG9wYWwlMjBNYWRoeWElMjBQcmFkZXNofGVufDF8MHx8fDE3ODQzNDU3ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rishi Saxena",
+    "photographer_url": "https://unsplash.com/@rishiisaxena?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-bridge-over-a-large-body-of-water-Dr5CrhRgp6w?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-18T03:36:25Z"
   }
 ]
