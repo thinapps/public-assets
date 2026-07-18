@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:india:odisha:sambalpur",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1721164311027-9fd333509be4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYW1iYWxwdXIlMjBJbmRpYXxlbnwxfDB8fHwxNzg0MzYyMjc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Pic Shala",
+    "photographer_url": "https://unsplash.com/@picshala?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-city-from-the-top-of-a-hill-EBfx7Zt5TFM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-18T08:11:17Z"
   }
 ]
