@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:india:rajasthan:jodhpur",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1545321945-7edd9bf1331a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxKb2RocHVyJTIwUmFqYXN0aGFufGVufDF8MHx8fDE3ODQzNzEzNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jyotirmoy Gupta",
+    "photographer_url": "https://unsplash.com/@jyotirmoy?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/high-angle-photography-of-white-concrete-buildings-vdTq9zAbabw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-18T10:42:26Z"
   }
 ]
