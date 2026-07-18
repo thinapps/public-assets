@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:indonesia:lampung:metro",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1715659454466-20ec3b25eab6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNZXRybyUyMExhbXB1bmd8ZW58MXwwfHx8MTc4NDQxMjU2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ifran Nijhum",
+    "photographer_url": "https://unsplash.com/@ifram?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-subway-station-with-people-waiting-for-the-train-1Ed_ZRDowB4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-18T22:09:28Z"
   }
 ]
