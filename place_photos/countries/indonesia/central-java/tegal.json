@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:indonesia:central_java:tegal",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1629341280853-7c7873e628e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUZWdhbCUyMENlbnRyYWwlMjBKYXZhfGVufDF8MHx8fDE3ODQ0MDMyNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "photonblast",
+    "photographer_url": "https://unsplash.com/@photonblast?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/pile-of-brown-wooden-logs-jx_WXevgwK0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-18T19:34:39Z"
   }
 ]
