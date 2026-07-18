@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:indonesia:bali:uluwatu",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1664918706173-6349ca225dd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxVbHV3YXR1JTIwQmFsaXxlbnwxfDB8fHwxNzg0MzkxMTU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Tom Donders",
+    "photographer_url": "https://unsplash.com/@tomsnauticalmiles?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-cliff-with-flowers-and-a-body-of-water-below-QFSI5iUeZ-E?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-18T16:12:34Z"
   }
 ]

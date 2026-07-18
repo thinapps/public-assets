@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:india:west_bengal:durgapur",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1592414855836-ac7039bd6900?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxEdXJnYXB1ciUyMEluZGlhfGVufDF8MHx8fDE3ODQzOTExNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Aranyak Bhattacharjee",
+    "photographer_url": "https://unsplash.com/@aranyak?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/bridge-over-the-sea-during-sunset-mTFuDEI6Tco?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-18T16:12:21Z"
   }
 ]
