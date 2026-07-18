@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:india:uttar_pradesh:aligarh",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1688737723501-9f9f475e21b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBbGlnYXJoJTIwSW5kaWF8ZW58MXwwfHx8MTc4NDM4Mjc1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ahmad Attari",
+    "photographer_url": "https://unsplash.com/@ahmadattari192?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-building-with-a-clock-tower-on-top-of-it-g99z5pkJ-6o?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-18T13:52:35Z"
   }
 ]

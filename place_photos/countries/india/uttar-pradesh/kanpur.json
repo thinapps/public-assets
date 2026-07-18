@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:india:uttar_pradesh:kanpur",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1595877409109-41d41b128e1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLYW5wdXIlMjBVdHRhciUyMFByYWRlc2h8ZW58MXwwfHx8MTc4NDM4Mjc2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Varun Verma",
+    "photographer_url": "https://unsplash.com/@cavarun?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/man-in-black-jacket-riding-white-cow-during-daytime-kbBPQRnlVag?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-18T13:52:42Z"
   }
 ]

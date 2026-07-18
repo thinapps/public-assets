@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:india:uttar_pradesh:agra",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1715167886555-01552c3369c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxBZ3JhJTIwVXR0YXIlMjBQcmFkZXNofGVufDF8MHx8fDE3ODQzODI3NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Austin Curtis",
+    "photographer_url": "https://unsplash.com/@afcurtis?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-people-standing-around-a-food-cart-DGXi8Pbas5g?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-18T13:52:33Z"
   }
 ]

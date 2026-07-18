@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:india:tripura:agartala",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1652926212113-33825c149cc8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxBZ2FydGFsYSUyMFRyaXB1cmF8ZW58MXwwfHx8MTc4NDM4Mjc1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sourav Debnath",
+    "photographer_url": "https://unsplash.com/@souravdnath1?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-row-boat-sitting-on-top-of-a-lake-next-to-a-yellow-building-cQ-T3mPmYIs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-18T13:52:30Z"
   }
 ]

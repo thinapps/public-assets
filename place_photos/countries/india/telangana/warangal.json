@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:india:telangana:warangal",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1698937051291-356eaf4ca3f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxXYXJhbmdhbCUyMFRlbGFuZ2FuYXxlbnwxfDB8fHwxNzg0MzgyNzQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Vizag Explore",
+    "photographer_url": "https://unsplash.com/@vizagexplore?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-field-with-hay-bales-in-the-distance-IMoWA8Lu6o8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-18T13:52:26Z"
   }
 ]
