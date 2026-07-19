@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:iran:gilan:rasht",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1550586678-f7225f03c44b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxSYXNodCUyMEdpbGFufGVufDF8MHx8fDE3ODQ0NTc5MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Muhammad Khubaib Sarfraz",
+    "photographer_url": "https://unsplash.com/@khubaib_sarfraz?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-mountains-hkWB8PN_8MU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-19T10:45:31Z"
   }
 ]
