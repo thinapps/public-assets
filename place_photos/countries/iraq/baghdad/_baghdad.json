@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:iraq:baghdad",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1608925086961-dbcd276a0e71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCYWdoZGFkJTIwSXJhcXxlbnwxfDB8fHwxNzg0NDY5Mzc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Saad Salim",
+    "photographer_url": "https://unsplash.com/@saadx?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-city-buildings-during-daytime-8eJTLS3lIiw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-19T13:56:18Z"
   }
 ]
