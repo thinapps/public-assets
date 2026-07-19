@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:indonesia:west_java:garut",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1599586107217-711fea6b9a8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxHYXJ1dCUyMFdlc3QlMjBKYXZhfGVufDF8MHx8fDE3ODQ0NTAxNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Albert Luo",
+    "photographer_url": "https://unsplash.com/@loaalbert?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-and-gray-mountain-under-blue-sky-during-daytime-okBoGgYvRC8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-19T08:35:49Z"
   }
 ]

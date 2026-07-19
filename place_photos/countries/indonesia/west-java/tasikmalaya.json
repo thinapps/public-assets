@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:indonesia:west_java:tasikmalaya",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1640957575053-73f708fcdbf1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxUYXNpa21hbGF5YSUyMFdlc3QlMjBKYXZhfGVufDF8MHx8fDE3ODQ0NTAxNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Haidan",
+    "photographer_url": "https://unsplash.com/@hydngallery?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-row-of-buildings-on-a-street-corner-PDB-7s5aQgQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-19T08:35:52Z"
   }
 ]
