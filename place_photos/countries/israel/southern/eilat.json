@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:israel:southern:eilat",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1574513828672-99086f5385c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxFaWxhdCUyMElzcmFlbHxlbnwxfDB8fHwxNzg0NDg5NzIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Laura Siegal",
+    "photographer_url": "https://unsplash.com/@laurasiegal?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-hillside-with-trees-and-buildings-in-the-distance-_6d1KujNzug?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-19T19:35:21Z"
   }
 ]

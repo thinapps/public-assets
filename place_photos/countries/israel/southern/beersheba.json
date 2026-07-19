@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:israel:southern:beersheba",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1649176977483-ead43c763c1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCZWVyc2hlYmElMjBJc3JhZWx8ZW58MXwwfHx8MTc4NDQ4OTcxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Levi Meir Clancy",
+    "photographer_url": "https://unsplash.com/@levimeirclancy?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-city-with-tall-buildings-under-a-cloudy-sky-XceST4NheTw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-19T19:35:19Z"
   }
 ]

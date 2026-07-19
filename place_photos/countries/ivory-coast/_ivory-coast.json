@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:ivory_coast",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1508971607899-a238a095d417?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxJdm9yeSUyMENvYXN0fGVufDF8MHx8fDE3ODQ0ODk3MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rod Long",
+    "photographer_url": "https://unsplash.com/@rodlong?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-beach-with-mountains-4dcsLxQxSHY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-19T19:35:30Z"
   }
 ]

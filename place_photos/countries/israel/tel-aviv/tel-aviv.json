@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:israel:tel_aviv:tel_aviv",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1547483036-24bc77c79804?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxUZWwlMjBBdml2JTIwSXNyYWVsfGVufDF8MHx8fDE3ODQ0ODk3MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Shai Pal",
+    "photographer_url": "https://unsplash.com/@shaipal?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-photo-of-city-by-the-sea-lpQwaLWhw9Q?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-19T19:35:24Z"
   }
 ]
