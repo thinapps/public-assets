@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:israel",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1480342740034-d149f44bbeac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxJc3JhZWx8ZW58MXwwfHx8MTc4NDQ3NzYwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Eddie & Carolina Stigson",
+    "photographer_url": "https://unsplash.com/@stigson?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/birds-eye-photography-of-road-on-dessert-ecIZe6MdUH8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-19T16:13:23Z"
   }
 ]
