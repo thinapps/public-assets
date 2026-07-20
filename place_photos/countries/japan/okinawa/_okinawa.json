@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:japan:okinawa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1513649313539-232ea1cc5d5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxPa2luYXdhJTIwSmFwYW58ZW58MXwwfHx8MTc4NDU1ODEwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Julie Fader",
+    "photographer_url": "https://unsplash.com/@jlfader?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/crow-beside-coconut-trees-and-concrete-building-at-daytime-5KpG2n98JF8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-20T14:35:05Z"
   }
 ]

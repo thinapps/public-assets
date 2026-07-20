@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:japan:nara:nara",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxOYXJhJTIwSmFwYW58ZW58MXwwfHx8MTc4NDU1ODA5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sorasak",
+    "photographer_url": "https://unsplash.com/@boontohhgraphy?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/two-women-in-purple-and-pink-kimono-standing-on-street-_UIN-pFfJ7c?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-20T14:35:00Z"
   }
 ]

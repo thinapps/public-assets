@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:japan:okinawa:naha",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1513648670351-c18f5840ff65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxOYWhhJTIwT2tpbmF3YXxlbnwxfDB8fHwxNzg0NTU4MTA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Julie Fader",
+    "photographer_url": "https://unsplash.com/@jlfader?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/japanese-house-I4plBnRzJ94?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-20T14:35:07Z"
   }
 ]
