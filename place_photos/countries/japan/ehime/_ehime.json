@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:japan:ehime",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1757559758492-bb49b595fa8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxFaGltZSUyMEphcGFufGVufDF8MHx8fDE3ODQ1NDAyMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Tuan P.",
+    "photographer_url": "https://unsplash.com/@tuan_p?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-lone-figure-walks-down-a-narrow-street-ihSBDZz_CJk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-20T09:36:53Z"
   }
 ]

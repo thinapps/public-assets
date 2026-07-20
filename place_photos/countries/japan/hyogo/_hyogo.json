@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:japan:hyogo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1648130133487-4ca54e3f7bdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxIeW9nbyUyMEphcGFufGVufDF8MHx8fDE3ODQ1NDAyMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Roméo A.",
+    "photographer_url": "https://unsplash.com/@gronemo?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-person-standing-in-front-of-a-building-with-lanterns-hanging-from-the-ceiling-BKAHOqDKbyY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-20T09:37:08Z"
   }
 ]
