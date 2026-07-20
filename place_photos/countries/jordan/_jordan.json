@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:jordan",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1547234935-80c7145ec969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxKb3JkYW58ZW58MXwwfHx8MTc4NDU2NTkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Juli Kosolapova",
+    "photographer_url": "https://unsplash.com/@yuli_superson?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/mountains-under-white-clouds-at-daytime-pZ-XFIrJMtE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-20T16:45:23Z"
   }
 ]

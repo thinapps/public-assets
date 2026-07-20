@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:jordan:balqa:salt",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1589825709529-9cfde9c7cccd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYWx0JTIwSm9yZGFufGVufDF8MHx8fDE3ODQ1NjU5MzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ahmad Qaisieh",
+    "photographer_url": "https://unsplash.com/@aqaisieh?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-city-buildings-during-daytime-MUcgKByIj28?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-20T16:45:36Z"
   }
 ]
