@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:kuwait:capital",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1558634742-56096b49522b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDYXBpdGFsJTIwS3V3YWl0fGVufDF8MHx8fDE3ODQ2MjM3NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ahmad Mohammed",
+    "photographer_url": "https://unsplash.com/@amed10?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/concrete-high-rise-buildings-in-urban-area-during-daytime-6MafHMTYgxk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-21T08:49:04Z"
   }
 ]
