@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:lebanon",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1501960645408-12c9bcfca49f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxMZWJhbm9ufGVufDF8MHx8fDE3ODQ2NjM3MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Kassem Mahfouz",
+    "photographer_url": "https://unsplash.com/@studiomahfouz?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-wooden-desk-mBcY97cXOTs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-21T19:55:09Z"
   }
 ]
