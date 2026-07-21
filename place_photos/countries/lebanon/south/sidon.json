@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:lebanon:south:sidon",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1571659012764-f2d962e2ffe7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTaWRvbiUyMExlYmFub258ZW58MXwwfHx8MTc4NDY3MjAyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nabih El Boustani",
+    "photographer_url": "https://unsplash.com/@nounouis?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-man-standing-on-a-stone-bridge-next-to-a-body-of-water-QlUNzKFUXTg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-21T22:13:41Z"
   }
 ]

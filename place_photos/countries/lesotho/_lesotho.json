@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:lesotho",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1531395512293-e110f53f63dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxMZXNvdGhvfGVufDF8MHx8fDE3ODQ2NzIwMjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Angelo Moleele",
+    "photographer_url": "https://unsplash.com/@angelokarabo053?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/man-holding-beige-horse-URroWgc_x2w?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-21T22:13:44Z"
   }
 ]

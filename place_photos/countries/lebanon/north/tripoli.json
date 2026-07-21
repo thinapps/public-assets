@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:lebanon:north:tripoli",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1518389764648-36d768899cbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxUcmlwb2xpJTIwTGViYW5vbnxlbnwxfDB8fHwxNzg0NjcyMDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ahmad Ossayli",
+    "photographer_url": "https://unsplash.com/@ahmadossayli?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/person-about-to-drawing-human-eye-6-cxfA4MKpk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-21T22:13:33Z"
   }
 ]
