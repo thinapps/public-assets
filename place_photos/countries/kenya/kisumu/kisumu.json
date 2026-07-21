@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:kenya:kisumu:kisumu",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1595881003170-b085677f2d62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxLaXN1bXUlMjBLZW55YXxlbnwxfDB8fHwxNzg0NjA1Nzk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Gracie Nyambura",
+    "photographer_url": "https://unsplash.com/@gee_nyambura1?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/sun-setting-over-the-sea-YGXsBmOjNNY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-21T03:50:00Z"
   }
 ]

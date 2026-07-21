@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:kiribati",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1545986508-99508351cb07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxLaXJpYmF0aXxlbnwxfDB8fHwxNzg0NjA1ODA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Damon Hall",
+    "photographer_url": "https://unsplash.com/@damodigital?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-island-resort-fqstZjB-ma8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-21T03:50:09Z"
   }
 ]
