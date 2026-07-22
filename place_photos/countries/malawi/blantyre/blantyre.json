@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:malawi:blantyre:blantyre",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1692403012049-44d10205dad6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxCbGFudHlyZSUyME1hbGF3aXxlbnwxfDB8fHwxNzg0NzU4Njk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Craig Manners",
+    "photographer_url": "https://unsplash.com/@craigmanners_com?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-small-bird-sitting-on-a-branch-of-a-tree-xRlP_2JvJ54?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-22T22:18:19Z"
   }
 ]

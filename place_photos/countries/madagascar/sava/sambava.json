@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:madagascar:sava:sambava",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1637244018403-785e7fa8707a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTYW1iYXZhJTIwU2F2YXxlbnwxfDB8fHwxNzg0NzU4NjgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Edouard TAMBA",
+    "photographer_url": "https://unsplash.com/@tamba?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-town-with-a-body-of-water-in-the-background-f6ruhwz9MFc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-22T22:18:01Z"
   }
 ]
