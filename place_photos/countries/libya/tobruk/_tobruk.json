@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:libya:tobruk",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1695372040448-613b873dc3a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxUb2JydWslMjBMaWJ5YXxlbnwxfDB8fHwxNzg0NzE5MzA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "The Australian War Memorial",
+    "photographer_url": "https://unsplash.com/@australianwarmemorial?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-black-and-white-photo-of-a-man-looking-through-a-telescope-e5S1rel7AnQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-22T11:21:46Z"
   }
 ]

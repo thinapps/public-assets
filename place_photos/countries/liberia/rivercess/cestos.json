@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:liberia:rivercess:cestos",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1734280397372-a0e9a1032fcf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDZXN0b3MlMjBMaWJlcmlhfGVufDF8MHx8fDE3ODQ3MTkyODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Roberto Brambilla",
+    "photographer_url": "https://unsplash.com/@argogia_7?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-row-of-trees-in-a-field-with-blue-sky-in-the-background-3pzq1siYMHE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-22T11:21:21Z"
   }
 ]
