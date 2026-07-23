@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:malawi:phalombe",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1715948887930-5ebd9875295e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQaGFsb21iZSUyME1hbGF3aXxlbnwxfDB8fHwxNzg0Nzk2Mzg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Omar Hakeem",
+    "photographer_url": "https://unsplash.com/@omarhakeem?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-mountain-with-trees-below-gUzkqvWvbhU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-23T08:46:24Z"
   }
 ]
