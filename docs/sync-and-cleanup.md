@@ -4,7 +4,7 @@
 
 The private source place tree is the authority for active country, subdivision, and city paths.
 
-`sync_place_photo_tree.py` mirrors that structure into `place_photos/countries/`. The public repository stores photo metadata for the current source tree but does not define the canonical place hierarchy itself.
+`scripts/sync_place_photo_tree.py` mirrors that structure into `place_photos/countries/`. The public repository stores photo metadata for the current source tree but does not define the canonical place hierarchy itself.
 
 ## Normal synchronization
 
@@ -101,7 +101,7 @@ Do not bypass this guard casually. Large intentional source-tree changes should 
 
 ## Relationship to manifest and version
 
-The sync script itself manages the file tree. `generate_place_photos.py` subsequently rebuilds `manifest.json` from complete usable photo records.
+The sync script itself manages the file tree. `scripts/generate_place_photos.py` subsequently rebuilds `manifest.json` from complete usable photo records.
 
 When cleanup changes the rebuilt manifest, `version.json` is bumped. Cleanup that leaves the manifest unchanged does not trigger a version bump by itself.
 
