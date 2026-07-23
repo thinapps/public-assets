@@ -23,21 +23,17 @@ Normal blank-filling runs resume after `photo_cursor.json` and wrap through the 
 
 ## Reliability design
 
-The default run is intentionally bounded by attempted entries rather than successful photo matches.
-
-A success-based limit can run for a long time when many place queries return no results. It may keep scanning until the job timeout or Unsplash quota is reached while still finding few or no photos. An attempt-based limit gives scheduled runs predictable work even when search quality is poor.
-
-The cursor solves a separate problem. A small attempt limit alone would restart from the same first blank entries on every run. Saving the last attempted place lets later scheduled runs continue through the queue, while wrapping eventually gives earlier no-result entries another chance.
+Scheduled runs combine an attempt-based limit with a persistent cursor. The limit bounds work within each run, while the cursor lets later runs resume after the last attempted place so repeated no-result entries do not permanently block the queue.
 
 Together, these rules provide:
 
-- bounded normal run time
-- lower risk of exhausting the Unsplash quota in one scheduled run
-- steady progress through the full blank-entry queue
-- successful no-change runs when nothing is wrong
+- predictable normal run time
+- lower risk of exhausting the Unsplash quota in one run
+- steady progress through the blank-entry queue
+- successful no-change outcomes when nothing is wrong
 - real failures for configuration, data, network, and unexpected API problems
 
-The 15-minute job timeout remains a final safety backstop. It is not the normal mechanism for controlling batch size.
+The 15-minute job timeout remains a final safety backstop rather than the normal batch-control mechanism. See [`photo-selection.md`](photo-selection.md) for the detailed attempt-limit and cursor rationale.
 
 ## Concurrency
 
@@ -132,22 +128,18 @@ Malformed source JSON is skipped by the synchronization script and does not fail
 
 Do not hide real failures by broadly ignoring command exit codes or increasing the workflow timeout.
 
-## Timeout and attempt limits
+## Timeout and manual batch sizing
 
-The job timeout is 15 minutes. The normal default run attempts only 20 eligible entries, which prevents a long series of unsuccessful searches from running until GitHub cancels the job.
+The job timeout is 15 minutes. The default attempt limit of `20` is the normal control on scheduled work; the timeout is only the final backstop.
 
-If larger manual batches are needed, increase `limit` carefully while keeping it at `0` or greater. Each place can generate multiple Unsplash requests and the script pauses between attempted entries.
-
-`limit=0` removes the attempt limit, but Unsplash quota and the job timeout still apply. It is best reserved for deliberate manual runs rather than normal scheduling.
-
-The cursor makes progress persistent between normal runs, so a small limit does not cause the same first entries to block the rest of the queue.
+For larger manual batches, increase `limit` carefully. Each place can generate multiple Unsplash requests, and the script pauses between attempted entries. `limit=0` removes the attempt bound, but Unsplash quota and the job timeout still apply, so it should be reserved for deliberate manual runs.
 
 ## Files involved
 
 - `.github/workflows/update-place-photos.yml`: Workflow definition.
-- `sync_place_photo_tree.py`: Synchronizes placeholders and prunes stale files safely.
-- `generate_place_photos.py`: Selects candidates, rotates normal runs through the cursor, searches Unsplash, writes photo records, rebuilds the manifest, and updates the version.
-- `photo_queries.py`: Builds deterministic search queries from place IDs and paths.
+- `scripts/sync_place_photo_tree.py`: Synchronizes placeholders and prunes stale files safely.
+- `scripts/generate_place_photos.py`: Selects candidates, rotates normal runs through the cursor, searches Unsplash, writes photo records, rebuilds the manifest, and updates the version.
+- `scripts/photo_queries.py`: Builds deterministic search queries from place IDs and paths.
 - `photo_cursor.json`: Stores the last attempted place ID for normal blank-filling runs.
 - `manifest.json`: Lists place IDs with complete usable photo records.
 - `version.json`: Public payload version incremented when cached photo metadata or the rebuilt manifest changes.
@@ -155,5 +147,5 @@ The cursor makes progress persistent between normal runs, so a small limit does 
 ## Related documentation
 
 - [`photo-data.md`](photo-data.md): Public schema, path conventions, manifest rules, version behavior, and attribution requirements.
-- [`photo-selection.md`](photo-selection.md): Candidate ordering, cursor behavior, search queries, Unsplash settings, result selection, and retry behavior.
+- [`photo-selection.md`](photo-selection.md): Candidate ordering, cursor behavior, search queries, Unsplash settings, result selection, no-result, rate-limit, and failure behavior.
 - [`sync-and-cleanup.md`](sync-and-cleanup.md): Source synchronization, cached-photo migration, stale cleanup, and deletion safeguards.
