@@ -2,9 +2,9 @@
 
 ## Purpose
 
-`generate_place_photos.py` selects eligible place entries, builds deterministic Unsplash queries, chooses one result, and writes complete photo metadata back to the public photo tree.
+`scripts/generate_place_photos.py` selects eligible place entries, builds deterministic Unsplash queries, chooses one result, and writes complete photo metadata back to the public photo tree.
 
-The selection policy is intentionally simple. It favors predictable behavior, bounded scheduled work, and future retries instead of permanent failure markers or complex ranking rules.
+The selection policy is intentionally simple. It favors predictable behavior, bounded scheduled work, and future queue cycles instead of permanent failure markers or complex ranking rules.
 
 ## Candidate selection
 
