@@ -104,6 +104,54 @@ The manifest contains unique place IDs in deterministic sorted order.
 
 Clients can use the manifest to determine whether usable cached photo metadata exists before requesting a place file.
 
+## Manifest growth and scaling
+
+The current single-file manifest should remain the default while its download size and parse time are comfortably small. A large line count in GitHub is not by itself a reason to split it. Pretty-printed JSON makes the file look larger than its operational cost, and one request is usually simpler and cheaper than several smaller requests.
+
+Clients should avoid downloading the manifest on every use. The expected pattern is to check `version.json`, download `manifest.json` only when the public payload version changes or no cached copy exists, cache it locally, and parse the place IDs into a set for fast membership checks. This keeps the current design efficient even as the number of IDs grows.
+
+Before introducing multiple files, consider these lower-cost options:
+
+- keep the manifest cached and version-gated
+- measure actual download and parse time rather than judging by line count
+- write compact JSON if transfer size becomes meaningful
+- consider a manifest-specific version or content hash if unrelated public payload changes cause unnecessary manifest downloads
+
+Sharding should be considered only when the single manifest becomes a measurable network, memory, or parsing problem. A practical warning point is when it approaches roughly 1–2 MB, but observed client performance should decide the change rather than a fixed size alone.
+
+JSON does not define a universal manifest-index format. If sharding becomes necessary, this repository must define and document its own stable schema. The usual pattern is a small root manifest that points to child manifests, similar in concept to an XML sitemap index:
+
+```text
+manifest.json
+manifests/
+├── regions.json
+├── countries.json
+├── cities-africa.json
+├── cities-asia.json
+├── cities-europe.json
+└── cities-other.json
+```
+
+For example:
+
+```json
+{
+  "schema_version": 2,
+  "shards": [
+    "manifests/regions.json",
+    "manifests/countries.json",
+    "manifests/cities-africa.json",
+    "manifests/cities-asia.json",
+    "manifests/cities-europe.json",
+    "manifests/cities-other.json"
+  ]
+}
+```
+
+Shards should use deterministic names and stable boundaries, such as place type and geographic region. Each shard should preserve unique sorted IDs and the same eligibility rules as the current manifest.
+
+Sharding is useful only when clients can load the necessary shards selectively or cache unchanged shards independently. If every client must download every child manifest to rebuild the same global set, sharding adds requests and implementation complexity without reducing the total data transferred. Any future migration must therefore update repository generation, versioning, client fetching, caching, failure handling, and backward compatibility together.
+
 ## Version
 
 `version.json` is bumped when generated public output changes in a way clients should notice. This includes:
