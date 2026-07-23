@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:malaysia:selangor:rawang",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1634616195757-66d5e402058d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxSYXdhbmclMjBNYWxheXNpYXxlbnwxfDB8fHwxNzg0ODI1MzU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Benson Low",
+    "photographer_url": "https://unsplash.com/@ckbenson?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-highway-going-over-a-bridge-in-the-middle-of-a-forest-gRjNN53AxmY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-23T16:49:15Z"
   }
 ]
