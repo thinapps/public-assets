@@ -19,6 +19,6 @@ Normal scheduled runs use a bounded attempt count and resume through the blank-e
 ## Documentation
 
 - [`docs/photo-data.md`](docs/photo-data.md): Schema, paths, placeholders, manifest, versioning, attribution, and generated-data policy.
-- [`docs/photo-selection.md`](docs/photo-selection.md): Candidate ordering, attempt limits, cursor progress, queries, selection, retries, and rate-limit behavior.
+- [`docs/photo-selection.md`](docs/photo-selection.md): Candidate ordering, attempt limits, cursor progress, queries, selection, no-result, rate-limit, and failure behavior.
 - [`docs/sync-and-cleanup.md`](docs/sync-and-cleanup.md): Source synchronization, cached-photo migration, pruning, and deletion safeguards.
 - [`docs/github-actions.md`](docs/github-actions.md): Schedule, inputs, reliability design, result summaries, secrets, concurrency, failures, timeout, and workflow operation.
