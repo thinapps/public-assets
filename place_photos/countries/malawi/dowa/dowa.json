@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:malawi:dowa:dowa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1542038391945-92adb9b34787?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxEb3dhJTIwTWFsYXdpfGVufDF8MHx8fDE3ODQ3Nzg0OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Daniel Mtombosola",
+    "photographer_url": "https://unsplash.com/@mtombosola?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-chicken-near-the-rocks-rqeZc5oDRCM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-23T03:48:19Z"
   }
 ]
