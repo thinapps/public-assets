@@ -58,7 +58,7 @@ jobs:
             exit 1
           fi
 
-          python sync_place_photo_tree.py \
+          python scripts/sync_place_photo_tree.py \
             --source-root "source-repository/${SOURCE_PLACES_PATH}" \
             --photo-root "place_photos/countries" \
             --prune-stale
@@ -78,7 +78,7 @@ jobs:
             OVERWRITE_FLAG="--overwrite"
           fi
 
-          python generate_place_photos.py \
+          python scripts/generate_place_photos.py \
             --limit "${{ github.event.inputs.limit || '20' }}" \
             ${OVERWRITE_FLAG}
 
