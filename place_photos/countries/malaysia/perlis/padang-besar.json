@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:malaysia:perlis:padang_besar",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1669812849320-283db1bf8216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQYWRhbmclMjBCZXNhciUyME1hbGF5c2lhfGVufDF8MHx8fDE3ODQ4MTczNjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Simon Wiedensohler",
+    "photographer_url": "https://unsplash.com/@simonwiedensohler?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-bird-on-a-power-line-with-langkawi-in-the-background-M_JGvTZUFTY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-23T14:36:03Z"
   }
 ]
