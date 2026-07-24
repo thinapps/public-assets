@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:micronesia:pohnpei",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1577067059252-d0d5e7ce9190?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQb2hucGVpJTIwTWljcm9uZXNpYXxlbnwxfDB8fHwxNzg0OTEyMzM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Adrian Smith",
+    "photographer_url": "https://unsplash.com/@asmith360?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/sailing-white-fishing-boat-3VKUsQSRjRM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-24T16:58:57Z"
   }
 ]

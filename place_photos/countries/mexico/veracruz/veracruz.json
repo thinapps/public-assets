@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:mexico:veracruz:veracruz",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1576700292963-b4ae101c5b62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxWZXJhY3J1eiUyME1leGljb3xlbnwxfDB8fHwxNzg0OTEyMzIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Germán  Rodríguez",
+    "photographer_url": "https://unsplash.com/@axger?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/man-riding-bicycle-2-_tGD0iTcI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-24T16:58:42Z"
   }
 ]
