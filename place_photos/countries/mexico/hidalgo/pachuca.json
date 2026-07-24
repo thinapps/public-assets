@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:mexico:hidalgo:pachuca",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1656569104104-dd8effd51306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQYWNodWNhJTIwSGlkYWxnb3xlbnwxfDB8fHwxNzg0ODkxNjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Uriel Miskas",
+    "photographer_url": "https://unsplash.com/@miskas_98?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-close-up-of-a-bee-_7H4P8GPSYw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-24T11:14:10Z"
   }
 ]

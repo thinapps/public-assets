@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:mexico:guerrero:zihuatanejo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1580582759873-2e54d408d70f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxaaWh1YXRhbmVqbyUyMEd1ZXJyZXJvfGVufDF8MHx8fDE3ODQ4OTE2NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sam Goodgame",
+    "photographer_url": "https://unsplash.com/@sgoodgame?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/time-lapse-photography-of-lights-on-city-during-night-time-LU6qi__R2aE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-24T11:14:07Z"
   }
 ]

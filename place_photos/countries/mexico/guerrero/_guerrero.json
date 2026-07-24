@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:mexico:guerrero",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1674216436530-aece5b5cd468?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxHdWVycmVybyUyME1leGljb3xlbnwxfDB8fHwxNzg0ODkxNjQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Armands Brants",
+    "photographer_url": "https://unsplash.com/@armandsbrants?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-building-with-a-clock-tower-in-the-background-8TOrKMI9WKE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-24T11:14:04Z"
   }
 ]

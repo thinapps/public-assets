@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:mexico:coahuila:saltillo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1571416967121-466f71e7f1c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYWx0aWxsbyUyMENvYWh1aWxhfGVufDF8MHx8fDE3ODQ4OTE2MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ricardo Braham",
+    "photographer_url": "https://unsplash.com/@ricardo_braham?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/woman-jumping-wearing-blue-sleeveless-dress-during-daytime-yXaaCdBFKYo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-24T11:13:52Z"
   }
 ]
