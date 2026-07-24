@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:mauritania:tagant",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUYWdhbnQlMjBNYXVyaXRhbmlhfGVufDF8MHx8fDE3ODQ4NjQ4NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sergey Pesterev",
+    "photographer_url": "https://unsplash.com/@sickle?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/concrete-houses-surrounded-by-trees-i-P1lmY_e1w?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-24T03:47:25Z"
   }
 ]
