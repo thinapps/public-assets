@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:mexico:tlaxcala:tlaxcala",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1601668852633-a2960a073158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxUbGF4Y2FsYSUyME1leGljb3xlbnwxfDB8fHwxNzg0OTAyNTcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "José Domínguez",
+    "photographer_url": "https://unsplash.com/@pplpw?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/purple-flowers-in-clear-glass-vase-ZfxHAmPWewM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-24T14:16:12Z"
   }
 ]

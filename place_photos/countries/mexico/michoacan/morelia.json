@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:mexico:michoacan:morelia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1564163627590-b633e46c3b73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxNb3JlbGlhJTIwTWljaG9hY2FufGVufDF8MHx8fDE3ODQ5MDI1NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Barbara Zandoval",
+    "photographer_url": "https://unsplash.com/@barbarazandoval?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/vehicles-on-road-under-white-sky-at-daytime-JClyJLTzb-E?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-24T14:15:40Z"
   }
 ]
