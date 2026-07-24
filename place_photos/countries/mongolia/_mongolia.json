@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:mongolia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1535219241072-7d3c28a49a5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxNb25nb2xpYXxlbnwxfDB8fHwxNzg0OTMyMTYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Patrick Schneider",
+    "photographer_url": "https://unsplash.com/@patrick_schneider?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/person-standing-beside-tent-mdtYgoLsfNk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-24T22:29:22Z"
   }
 ]
