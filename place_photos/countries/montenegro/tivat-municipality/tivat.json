@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:montenegro:tivat_municipality:tivat",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1634902252038-532bdbb280a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxUaXZhdCUyME1vbnRlbmVncm98ZW58MXwwfHx8MTc4NDk5NTk5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alex Chernenko",
+    "photographer_url": "https://unsplash.com/@achernenko?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-boat-docked-at-a-pier-with-palm-trees-in-the-foreground-CJpnV8JjqvY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-25T16:13:10Z"
   }
 ]
