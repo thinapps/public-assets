@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:montenegro",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1586515779592-d94f096e4c41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxNb250ZW5lZ3JvfGVufDF8MHx8fDE3ODQ5Njc5ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dragisa Braunovic",
+    "photographer_url": "https://unsplash.com/@bato8?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-and-mountains-during-daytime-vAiCza4PuGk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-25T08:26:23Z"
   }
 ]
