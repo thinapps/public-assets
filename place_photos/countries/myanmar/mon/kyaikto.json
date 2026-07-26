@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:myanmar:mon:kyaikto",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1556805662-8f4b4d92a17d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxLeWFpa3RvJTIwTW9ufGVufDF8MHx8fDE3ODUwNTUyMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Arseny Togulev",
+    "photographer_url": "https://unsplash.com/@tetrakiss?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-concrete-building-with-russian-texts-ltwfQX_bOjk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-26T08:40:36Z"
   }
 ]
