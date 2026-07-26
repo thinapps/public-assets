@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:namibia:omusati:outapi",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1506710507565-203b9f24669b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxPdXRhcGklMjBOYW1pYmlhfGVufDF8MHx8fDE3ODUwNzQ1NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Joe McDaniel",
+    "photographer_url": "https://unsplash.com/@bookcrafters?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-brown-animal-with-antler-on-brown-sand-ZdWhZTpd_Uw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-26T14:02:23Z"
   }
 ]
