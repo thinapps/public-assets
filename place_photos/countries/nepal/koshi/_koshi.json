@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:nepal:koshi",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1580424917967-a8867a6e676e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxLb3NoaSUyME5lcGFsfGVufDF8MHx8fDE3ODUwOTQ2ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Avel Chuklanov",
+    "photographer_url": "https://unsplash.com/@chuklanov?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-and-mountains-under-blue-sky-during-daytime-8__IZFB9AD8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-26T19:38:03Z"
   }
 ]
