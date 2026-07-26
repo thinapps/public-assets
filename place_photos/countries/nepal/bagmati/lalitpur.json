@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:nepal:bagmati:lalitpur",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1585597800810-07a63ea8e983?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMYWxpdHB1ciUyME5lcGFsfGVufDF8MHx8fDE3ODUwODI1NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Tobias Federle",
+    "photographer_url": "https://unsplash.com/@tobias_federle?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/people-walking-on-street-near-brown-and-white-concrete-building-during-daytime-wTM4j6_9DR4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-26T16:16:04Z"
   }
 ]

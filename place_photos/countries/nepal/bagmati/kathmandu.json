@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:nepal:bagmati:kathmandu",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1755010585956-d32a7036ea87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLYXRobWFuZHUlMjBCYWdtYXRpfGVufDF8MHx8fDE3ODUwODI1NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sushanta Rokka",
+    "photographer_url": "https://unsplash.com/@sanoyatra?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/traditional-buildings-with-a-pagoda-roof-at-pashupatinath-6sEncajzmX4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-26T16:16:02Z"
   }
 ]
