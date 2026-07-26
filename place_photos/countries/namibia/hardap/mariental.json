@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:namibia:hardap:mariental",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1705218543098-09e4e3614591?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNYXJpZW50YWwlMjBOYW1pYmlhfGVufDF8MHx8fDE3ODUwNjMyOTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Andreas Vonlanthen",
+    "photographer_url": "https://unsplash.com/@vole73?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-cheetah-running-in-the-desert-with-its-mouth-open-m3p7qfX0C6Y?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-26T10:54:58Z"
   }
 ]

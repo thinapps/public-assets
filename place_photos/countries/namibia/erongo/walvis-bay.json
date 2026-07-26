@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:namibia:erongo:walvis_bay",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1705065277882-b0604ec13dca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxXYWx2aXMlMjBCYXklMjBOYW1pYmlhfGVufDF8MHx8fDE3ODUwNjMyOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Colin Watts",
+    "photographer_url": "https://unsplash.com/@colinwatts?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-bird-flying-over-a-body-of-water-ZbbRcGS-1jc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-26T10:54:54Z"
   }
 ]
