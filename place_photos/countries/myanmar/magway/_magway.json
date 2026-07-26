@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:myanmar:magway",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1580835246682-71506a0c3654?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNYWd3YXklMjBNeWFubWFyfGVufDF8MHx8fDE3ODUwMzgzNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Maung Pauk",
+    "photographer_url": "https://unsplash.com/@maungpauk?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/the-sun-is-setting-over-a-field-of-crops-M62Ga4WTdXk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-26T03:59:22Z"
   }
 ]
