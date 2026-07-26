@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:netherlands:groningen:groningen",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1622236048721-fc4ba81e1dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxHcm9uaW5nZW4lMjBOZXRoZXJsYW5kc3xlbnwxfDB8fHwxNzg1MTA0MTIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alexei Maridashvili",
+    "photographer_url": "https://unsplash.com/@lexoge?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-boat-on-river-near-buildings-during-daytime-cT8nCT71Zr0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-26T22:15:25Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:netherlands:gelderland:ede",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1559149534-e2f6917fd187?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxFZGUlMjBHZWxkZXJsYW5kfGVufDF8MHx8fDE3ODUxMDQxMTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Niels Bosman",
+    "photographer_url": "https://unsplash.com/@niels_to?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/boats-and-yachts-on-dock-TN9i4bxNdUQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-26T22:15:19Z"
   }
 ]

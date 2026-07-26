@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:netherlands:gelderland",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1522250890633-3d08a528046e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxHZWxkZXJsYW5kJTIwTmV0aGVybGFuZHN8ZW58MXwwfHx8MTc4NTEwNDExNHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Wim van 't Einde",
+    "photographer_url": "https://unsplash.com/@wimvanteinde?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-house-SkbkMQnOr04?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-26T22:15:14Z"
   }
 ]

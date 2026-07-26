@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:netherlands:groningen:delfzijl",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1713254947093-08a4f505cc63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxEZWxmemlqbCUyMEdyb25pbmdlbnxlbnwxfDB8fHwxNzg1MTA0MTI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alain ROUILLER",
+    "photographer_url": "https://unsplash.com/@alainr?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-blue-sign-sitting-on-the-side-of-a-road-9zSINchyEyI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-26T22:15:24Z"
   }
 ]
