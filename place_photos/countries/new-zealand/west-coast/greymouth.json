@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:new_zealand:west_coast:greymouth",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1573496397305-6db3dd44f57d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxHcmV5bW91dGglMjBOZXclMjBaZWFsYW5kfGVufDF8MHx8fDE3ODUxODIyOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Arphy",
+    "photographer_url": "https://unsplash.com/@ar__?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-photo-of-houses-and-trees-BKCXBlhImnQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-27T19:58:10Z"
   }
 ]

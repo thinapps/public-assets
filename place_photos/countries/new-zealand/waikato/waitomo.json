@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:new_zealand:waikato:waitomo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1679345795849-06e8f9f4e298?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxXYWl0b21vJTIwV2Fpa2F0b3xlbnwxfDB8fHwxNzg1MTgyMjc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Petra Reid",
+    "photographer_url": "https://unsplash.com/@createinme_nz?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-people-standing-around-a-hot-air-balloon-rpJrIP9CvVo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-27T19:57:57Z"
   }
 ]

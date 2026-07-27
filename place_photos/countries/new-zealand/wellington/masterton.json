@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:new_zealand:wellington:masterton",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1569697368367-61c04e14a553?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxNYXN0ZXJ0b24lMjBOZXclMjBaZWFsYW5kfGVufDF8MHx8fDE3ODUxODIyODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Liam Shaw",
+    "photographer_url": "https://unsplash.com/@churrbroskii?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-leafed-plant-WDpyCUoyrYM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-27T19:58:03Z"
   }
 ]
