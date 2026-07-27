@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:netherlands:north_holland:texel",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1544785645-78acf6ee96b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxUZXhlbCUyME5ldGhlcmxhbmRzfGVufDF8MHx8fDE3ODUxMjUxODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Koen van Engelen",
+    "photographer_url": "https://unsplash.com/@koenie?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/house-on-farm-cCrs7TPgCaI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-27T04:06:29Z"
   }
 ]

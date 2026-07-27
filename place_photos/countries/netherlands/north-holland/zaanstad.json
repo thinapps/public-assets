@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:netherlands:north_holland:zaanstad",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1547750341-26482cf3a2ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxaYWFuc3RhZCUyME5vcnRoJTIwSG9sbGFuZHxlbnwxfDB8fHwxNzg1MTI1MTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Bart Ros",
+    "photographer_url": "https://unsplash.com/@bartros?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/lighted-buildings-across-placid-lake-MaNZajl-IFY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-27T04:06:34Z"
   }
 ]

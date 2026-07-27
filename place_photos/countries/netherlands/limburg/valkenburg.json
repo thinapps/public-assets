@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:netherlands:limburg:valkenburg",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1601566382269-5e1bdbd05985?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxWYWxrZW5idXJnJTIwTGltYnVyZ3xlbnwxfDB8fHwxNzg1MTI1MTY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Falco Negenman",
+    "photographer_url": "https://unsplash.com/@f9lco?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-and-white-concrete-building-e-qoI-4YicQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-27T04:06:04Z"
   }
 ]

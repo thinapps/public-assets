@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:netherlands:north_brabant:breda",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1569496453553-f35768ed0e36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCcmVkYSUyME5ldGhlcmxhbmRzfGVufDF8MHx8fDE3ODUxMjUxNzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Frans Koning",
+    "photographer_url": "https://unsplash.com/@fransuns?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-painted-building-near-calm-body-of-water-EH09gjZUv1s?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-27T04:06:12Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:netherlands:limburg:maastricht",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1632084698617-56777eac8eed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxNYWFzdHJpY2h0JTIwTmV0aGVybGFuZHN8ZW58MXwwfHx8MTc4NTEyNTE2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Lien Van Win",
+    "photographer_url": "https://unsplash.com/@lienvanwin?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-row-of-tables-and-chairs-sitting-next-to-a-stone-wall-C7DPwa8XkPw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-27T04:06:00Z"
   }
 ]
