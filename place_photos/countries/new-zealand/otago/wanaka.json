@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:new_zealand:otago:wanaka",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1610081206317-a2e77a48954a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxXYW5ha2ElMjBPdGFnb3xlbnwxfDB8fHwxNzg1MTcyNDI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Koon Chakhatrakan",
+    "photographer_url": "https://unsplash.com/@koonspace?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/blue-sea-near-brown-mountain-under-blue-sky-during-daytime-vwXH8SzZQbk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-27T17:13:47Z"
   }
 ]

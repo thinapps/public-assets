@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:new_zealand:otago:queenstown",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1628748971583-72abdc44d708?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxRdWVlbnN0b3duJTIwT3RhZ298ZW58MXwwfHx8MTc4NTE3MjQyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Eddie Mark Blair",
+    "photographer_url": "https://unsplash.com/@blaireddieau?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/body-of-water-near-green-trees-and-mountain-under-blue-sky-during-daytime-JNBFTB9vlGQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-27T17:13:46Z"
   }
 ]

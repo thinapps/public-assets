@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:new_zealand:northland:whangarei",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxXaGFuZ2FyZWklMjBOZXclMjBaZWFsYW5kfGVufDF8MHx8fDE3ODUxNzI0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Tim Swaan",
+    "photographer_url": "https://unsplash.com/@timswaanphotography?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/blue-and-brown-steel-bridge-eOpewngf68w?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-27T17:13:38Z"
   }
 ]

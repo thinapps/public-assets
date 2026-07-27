@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:new_zealand:otago",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1556878516-61356c874f03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxPdGFnbyUyME5ldyUyMFplYWxhbmR8ZW58MXwwfHx8MTc4NTE3MjQyMHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Andreas Sjövall",
+    "photographer_url": "https://unsplash.com/@andreassjovall?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/landscape-photo-of-mountains-near-body-of-water-during-daytime-ZZUPu8ARD8U?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-27T17:13:40Z"
   }
 ]
