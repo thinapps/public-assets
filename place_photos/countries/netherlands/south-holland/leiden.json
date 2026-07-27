@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:netherlands:south_holland:leiden",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxMZWlkZW4lMjBOZXRoZXJsYW5kc3xlbnwxfDB8fHwxNzg1MTQ3MDY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Adrien Olichon",
+    "photographer_url": "https://unsplash.com/@adrienolichon?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/body-of-water-under-white-sky-QRtym77B6xk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-27T10:11:08Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:netherlands:zeeland:vlissingen",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1729279264420-8a1d937e9fa1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxWbGlzc2luZ2VuJTIwWmVlbGFuZHxlbnwxfDB8fHwxNzg1MTQ3MDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Julia Taubitz",
+    "photographer_url": "https://unsplash.com/@justmejuliee?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-the-ocean-from-a-beach-MD-38K04vSM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-27T10:11:20Z"
   }
 ]

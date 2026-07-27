@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:netherlands:zeeland:goes",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1745419763630-c2a05922a319?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxHb2VzJTIwWmVlbGFuZHxlbnwxfDB8fHwxNzg1MTQ3MDc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Chris Weiher",
+    "photographer_url": "https://unsplash.com/@chrisvomradio?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-pathway-leads-to-a-serene-beach-and-ocean-p5KrrZ9pARE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-27T10:11:17Z"
   }
 ]

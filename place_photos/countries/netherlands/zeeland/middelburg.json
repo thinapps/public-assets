@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:netherlands:zeeland:middelburg",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1627484839566-1a0ee52f47c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxNaWRkZWxidXJnJTIwWmVlbGFuZHxlbnwxfDB8fHwxNzg1MTQ3MDc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Marc Kleen",
+    "photographer_url": "https://unsplash.com/@marckleen?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-wheat-field-during-daytime-WAYfwX0hlHc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-27T10:11:19Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:new_zealand:auckland:manukau",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1543385431-aa93ff13f098?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNYW51a2F1JTIwTmV3JTIwWmVhbGFuZHxlbnwxfDB8fHwxNzg1MTQ3MDg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sandy Millar",
+    "photographer_url": "https://unsplash.com/@sandym10?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-gray-ceramic-house-miniature-OmJRDkzHF50?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-27T10:11:25Z"
   }
 ]

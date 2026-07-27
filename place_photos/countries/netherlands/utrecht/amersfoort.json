@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:netherlands:utrecht:amersfoort",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1558855358-0984bf9e51c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxBbWVyc2Zvb3J0JTIwVXRyZWNodHxlbnwxfDB8fHwxNzg1MTQ3MDcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "micheile henderson",
+    "photographer_url": "https://unsplash.com/@micheile?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/house-near-trees-8T6UfFc6MVY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-27T10:11:12Z"
   }
 ]
