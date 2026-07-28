@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:nigeria",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1585540083814-ea6ee8af9e4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxOaWdlcmlhfGVufDF8MHx8fDE3ODUyNDk3MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Omotayo Tajudeen",
+    "photographer_url": "https://unsplash.com/@omotayo_ty?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/man-in-white-long-sleeve-shirt-and-white-hat-standing-in-front-of-fruit-stand-ME416b6sp2I?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-28T14:42:01Z"
   }
 ]
