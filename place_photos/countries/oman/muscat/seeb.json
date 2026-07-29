@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:oman:muscat:seeb",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1778011835329-23f40bd46cbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTZWViJTIwTXVzY2F0fGVufDF8MHx8fDE3ODUzNjMzMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Daan Oosters",
+    "photographer_url": "https://unsplash.com/@daanoosters?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/grand-palace-facade-with-ornate-details-and-flag-wyw4v7t9fsI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-29T22:15:28Z"
   }
 ]
