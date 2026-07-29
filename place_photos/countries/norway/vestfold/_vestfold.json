@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:norway:vestfold",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1635941830012-aa4e2f9187ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxWZXN0Zm9sZCUyME5vcndheXxlbnwxfDB8fHwxNzg1MzQzMjAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Emil Dosen",
+    "photographer_url": "https://unsplash.com/@emildsn?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-city-and-a-body-of-water-gJ7fiSx_9_Y?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-29T16:40:02Z"
   }
 ]
