@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:norway:jan_mayen",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1601644562729-fb96f193aaeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxKYW4lMjBNYXllbiUyME5vcndheXxlbnwxfDB8fHwxNzg1MzI0OTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "S Bjune",
+    "photographer_url": "https://unsplash.com/@bjune?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/red-and-black-house-near-mountain-EZhtKaxA8pk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-29T11:35:23Z"
   }
 ]

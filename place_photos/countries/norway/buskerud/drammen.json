@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:norway:buskerud:drammen",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1697056856943-494dd0eca243?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxEcmFtbWVuJTIwTm9yd2F5fGVufDF8MHx8fDE3ODUzMjQ5MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Magne Roed",
+    "photographer_url": "https://unsplash.com/@roemag?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-body-of-water-with-buildings-in-the-background-td-C2EqrTmU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-29T11:35:15Z"
   }
 ]

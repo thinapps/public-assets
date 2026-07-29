@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:norway:buskerud",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1736705292747-8acdfc0b3f4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCdXNrZXJ1ZCUyME5vcndheXxlbnwxfDB8fHwxNzg1MzI0OTEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Barnabas Davoti",
+    "photographer_url": "https://unsplash.com/@davotibarna?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-snow-covered-road-with-a-mountain-in-the-background-eMb4xM7Bi3Y?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-29T11:35:12Z"
   }
 ]
