@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:norway:akershus:lillestrom",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1669841357420-428d47e13784?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMaWxsZXN0cm9tJTIwTm9yd2F5fGVufDF8MHx8fDE3ODUzMTYzOTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Barnabas Davoti",
+    "photographer_url": "https://unsplash.com/@davotibarna?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-town-qDMMbDPW3zI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-29T09:13:11Z"
   }
 ]
