@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:panama:colon",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1632505702897-cc41b0ba3b64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDb2xvbiUyMFBhbmFtYXxlbnwxfDB8fHwxNzg1NDIyMTU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Luis Aleman",
+    "photographer_url": "https://unsplash.com/@luisalemanmx?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-body-of-water-with-a-city-in-the-background-JBjd0IBIAl8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-30T14:35:58Z"
   }
 ]

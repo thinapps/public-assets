@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:panama:cocle:penonome",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1641706531674-de807bf34bfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxQZW5vbm9tZSUyMENvY2xlfGVufDF8MHx8fDE3ODU0MjIxNTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alex Shute",
+    "photographer_url": "https://unsplash.com/@faithgiant?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-scrabble-block-spelling-the-word-reconcilie-next-to-a-bouquet-RqsnJ_bBcqU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-30T14:35:55Z"
   }
 ]

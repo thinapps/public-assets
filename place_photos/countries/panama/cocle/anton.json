@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:panama:cocle:anton",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1586471223333-2a4e967c1b74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxBbnRvbiUyMENvY2xlfGVufDF8MHx8fDE3ODU0MjIxNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mert Kahveci",
+    "photographer_url": "https://unsplash.com/@mertkahveci?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/blue-and-white-concrete-building-under-blue-sky-during-daytime-kP8L5rpfVB8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-30T14:35:44Z"
   }
 ]
