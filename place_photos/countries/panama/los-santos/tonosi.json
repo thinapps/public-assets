@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:panama:los_santos:tonosi",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1590858460797-41d79455c978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUb25vc2klMjBQYW5hbWF8ZW58MXwwfHx8MTc4NTQzMDMxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Roger González",
+    "photographer_url": "https://unsplash.com/@codeine00?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/silhouette-of-woman-running-on-beach-during-sunset-BDF0xi-0sO0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-30T16:51:55Z"
   }
 ]
