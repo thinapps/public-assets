@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:palestine:west_bank:ramallah",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1511715282680-fbf93a50e721?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxSYW1hbGxhaCUyMFdlc3QlMjBCYW5rfGVufDF8MHx8fDE3ODU0MTA1NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ahmad Odeh",
+    "photographer_url": "https://unsplash.com/@aoddeh?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/dancing-woman-on-concrete-pavement-JhqhGfX_Wd8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-30T11:22:53Z"
   }
 ]
