@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:pakistan:sindh:karachi",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1644027954946-518af274149f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLYXJhY2hpJTIwU2luZGh8ZW58MXwwfHx8MTc4NTQwMjM3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mohammad Idrees",
+    "photographer_url": "https://unsplash.com/@midrees4242?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-city-with-tall-buildings-Lym3aYbqqHs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-30T09:06:10Z"
   }
 ]

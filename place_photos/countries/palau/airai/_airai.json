@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:palau:airai",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1585944285854-d06c019aaca3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxBaXJhaSUyMFBhbGF1fGVufDF8MHx8fDE3ODU0MDIzODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Marloes Hilckmann",
+    "photographer_url": "https://unsplash.com/@marloeshilckmann?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-city-street-with-a-bunch-of-people-walking-down-it-EUzxLX8p8IA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-30T09:06:25Z"
   }
 ]
