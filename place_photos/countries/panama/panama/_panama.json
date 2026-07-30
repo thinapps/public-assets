@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:panama:panama",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1587759301533-ae42d7065a80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxQYW5hbWElMjBQYW5hbWF8ZW58MXwwfHx8MTc4NTQ0MTI5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Fabrice Parchet",
+    "photographer_url": "https://unsplash.com/@fabriceusa?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/city-skyline-during-day-time-KWEllBjrSVM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-30T19:54:56Z"
   }
 ]

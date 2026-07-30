@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:panama:panama_oeste:chame",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1641176912780-3fa33fd20a15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDaGFtZSUyMFBhbmFtYXxlbnwxfDB8fHwxNzg1NDQxMjkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rikin Katyal",
+    "photographer_url": "https://unsplash.com/@sirvar?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-sign-that-says-panama-with-a-tree-in-the-background-wTqTEzZ5EtM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-30T19:54:50Z"
   }
 ]

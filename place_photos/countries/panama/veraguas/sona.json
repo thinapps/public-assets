@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:panama:veraguas:sona",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1649616551392-14131bd9ceac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTb25hJTIwUGFuYW1hfGVufDF8MHx8fDE3ODU0NDEzMTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dimitry B",
+    "photographer_url": "https://unsplash.com/@dimitry_b?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-woman-wearing-a-straw-hat-in-a-field-Fb9MsGS4rHU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-30T19:55:16Z"
   }
 ]

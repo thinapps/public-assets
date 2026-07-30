@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:panama:veraguas:santiago",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1643549360872-7d93744a50fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYW50aWFnbyUyMFBhbmFtYXxlbnwxfDB8fHwxNzg1NDQxMzE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "shin1",
+    "photographer_url": "https://unsplash.com/@shin1_de?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-red-metal-structure-with-pink-flowers-on-it-PGi1NEax2gc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-30T19:55:14Z"
   }
 ]
