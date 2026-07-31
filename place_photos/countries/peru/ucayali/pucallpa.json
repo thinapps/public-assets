@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:peru:ucayali:pucallpa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1533604656744-7fdcb88b6ec0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQdWNhbGxwYSUyMFBlcnV8ZW58MXwwfHx8MTc4NTUxNzEzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Eduardo Flores",
+    "photographer_url": "https://unsplash.com/@eduardoflorespe?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/mother-mary-mosaic-glass-window-cathedral-interior-SR0GWtHwZEc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-31T16:58:50Z"
   }
 ]

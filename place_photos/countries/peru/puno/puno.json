@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:peru:puno:puno",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1544144554-41d909fadcf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxQdW5vJTIwUGVydXxlbnwxfDB8fHwxNzg1NTE3MTE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sandro Ayalo",
+    "photographer_url": "https://unsplash.com/@sandro9tr?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/houses-between-body-of-water-2qdze9vwtl0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-31T16:58:40Z"
   }
 ]
