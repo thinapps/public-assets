@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:paraguay:central:luque",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1593449044719-ea9688bb8706?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMdXF1ZSUyMENlbnRyYWx8ZW58MXwwfHx8MTc4NTQ3MDAzOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Cedric Letsch",
+    "photographer_url": "https://unsplash.com/@cedricletsch?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-blue-building-under-white-clouds-during-daytime-DqHa4YO9mjc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-31T03:53:59Z"
   }
 ]

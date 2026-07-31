@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:paraguay:concepcion",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1585318822320-300abf39f65d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDb25jZXBjaW9uJTIwUGFyYWd1YXl8ZW58MXwwfHx8MTc4NTQ3MDA0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "David Ress",
+    "photographer_url": "https://unsplash.com/@ohdavid?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-black-church-surrounded-by-green-trees-during-daytime-5zqhGcQTMQU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-31T03:54:03Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:paraguay:central:lambare",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1473876988266-ca0860a443b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxMYW1iYXJlJTIwUGFyYWd1YXl8ZW58MXwwfHx8MTc4NTQ3MDAzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Kyle Peyton",
+    "photographer_url": "https://unsplash.com/@kylepyt?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/girl-in-pink-crew-neck-shirt-C0H05P-t3g4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-31T03:53:57Z"
   }
 ]
