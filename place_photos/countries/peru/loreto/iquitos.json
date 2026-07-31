@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:peru:loreto:iquitos",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1585989933313-e96cd4751c83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxJcXVpdG9zJTIwUGVydXxlbnwxfDB8fHwxNzg1NTA4Nzg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Deb Dowd",
+    "photographer_url": "https://unsplash.com/@fin777?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-and-white-monkey-on-tree-branch-during-daytime-Tw8yUiNvwnc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-31T14:39:47Z"
   }
 ]

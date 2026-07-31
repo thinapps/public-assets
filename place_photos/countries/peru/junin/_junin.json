@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:peru:junin",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1519074598089-6436475c7f8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxKdW5pbiUyMFBlcnV8ZW58MXwwfHx8MTc4NTUwODc3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ben Ostrower",
+    "photographer_url": "https://unsplash.com/@benostrower?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/boy-in-traditional-costume-in-shallow-focus-photography-HkrirTHELjE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-31T14:39:31Z"
   }
 ]

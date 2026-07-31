@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:peru:ica:paracas",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1547818818-36fbc87a3913?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQYXJhY2FzJTIwSWNhfGVufDF8MHx8fDE3ODU1MDg3Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Matthijs Idema",
+    "photographer_url": "https://unsplash.com/@matthijsidema?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/ocean-near-mountains-landscape-photo-C87mknr0YAs?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-31T14:39:29Z"
   }
 ]

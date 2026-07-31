@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:peru:ica",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1531065208531-4036c0dba3ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxJY2ElMjBQZXJ1fGVufDF8MHx8fDE3ODU1MDg3NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sebastian Tapia Huerta",
+    "photographer_url": "https://unsplash.com/@sebastiantapiahuerta?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/maccu-pichu-peru-5qba-p9ahTE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-07-31T14:39:26Z"
   }
 ]
