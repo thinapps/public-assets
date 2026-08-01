@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:castelo_branco:covilha",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1657267577371-23565e6357a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxDb3ZpbGhhJTIwQ2FzdGVsbyUyMEJyYW5jb3xlbnwxfDB8fHwxNzg1NjIyNDE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Armando Brenlha",
+    "photographer_url": "https://unsplash.com/@abrenlha?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-stone-building-with-a-tree-in-front-of-it--NLJ_oW8FuM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-01T22:13:34Z"
   }
 ]

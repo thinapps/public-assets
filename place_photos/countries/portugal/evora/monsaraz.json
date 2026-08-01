@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:evora:monsaraz",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1707261476742-c9a37b7bd1c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNb25zYXJheiUyMEV2b3JhfGVufDF8MHx8fDE3ODU2MjI0Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Eddie Pipocas",
+    "photographer_url": "https://unsplash.com/@eddiepipocas?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-couple-of-red-and-blue-mail-boxes-next-to-each-other-PsWHd3ot1jo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-01T22:13:47Z"
   }
 ]

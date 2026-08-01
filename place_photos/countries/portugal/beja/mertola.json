@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:beja:mertola",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1568472795323-838ec9c66f3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNZXJ0b2xhJTIwUG9ydHVnYWx8ZW58MXwwfHx8MTc4NTYyMjM5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Michael Fleczoreck",
+    "photographer_url": "https://unsplash.com/@m1968?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-hill-with-a-castle-on-top-of-it-Hx67MGIrDg8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-01T22:13:15Z"
   }
 ]

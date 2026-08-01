@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:evora:evora",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1693750034188-0ce3b87b17fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxFdm9yYSUyMFBvcnR1Z2FsfGVufDF8MHx8fDE3ODU2MjI0MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Filipe Nobre",
+    "photographer_url": "https://unsplash.com/@filipenobre?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-building-with-columns-and-a-clock-tower-phPqiTqeu6Y?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-01T22:13:46Z"
   }
 ]

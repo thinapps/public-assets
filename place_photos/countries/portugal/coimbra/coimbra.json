@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:coimbra:coimbra",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1501422955948-a75c84b11ecf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxDb2ltYnJhJTIwUG9ydHVnYWx8ZW58MXwwfHx8MTc4NTYyMjQxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Uriel Soberanes",
+    "photographer_url": "https://unsplash.com/@soberanes?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-city-from-across-the-water-1Jl9BDZODEc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-01T22:13:37Z"
   }
 ]
