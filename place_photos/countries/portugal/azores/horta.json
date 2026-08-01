@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:azores:horta",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1774268921391-4e04347a1722?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxIb3J0YSUyMEF6b3Jlc3xlbnwxfDB8fHwxNzg1NjEzMDM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Joshua Kettle",
+    "photographer_url": "https://unsplash.com/@joshuakettle?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/colorful-buildings-line-the-coast-viewed-from-a-window-H_ObsOs4DuY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-01T19:37:14Z"
   }
 ]

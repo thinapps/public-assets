@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:poland:swietokrzyskie:kielce",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1714074160564-e7840237e835?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLaWVsY2UlMjBQb2xhbmR8ZW58MXwwfHx8MTc4NTYxMzAwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Daniel Silva",
+    "photographer_url": "https://unsplash.com/@thesilvafocus?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-man-in-camouflage-holding-a-machine-gun-1XLmqTK2O3A?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-01T19:36:45Z"
   }
 ]
