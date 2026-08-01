@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:philippines:mimaropa:coron",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1542533382-b42a59d8bd39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDb3JvbiUyMFBoaWxpcHBpbmVzfGVufDF8MHx8fDE3ODU1NzMzMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "John Hernandez",
+    "photographer_url": "https://unsplash.com/@johnwolf3?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-photo-of-clear-blue-sea-surrounded-by-mountains-IL-fBBnF-GU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-01T08:35:09Z"
   }
 ]
