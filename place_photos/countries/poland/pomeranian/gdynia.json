@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:poland:pomeranian:gdynia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1521616210349-dbec8efd13b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxHZHluaWElMjBQb2xhbmR8ZW58MXwwfHx8MTc4NTYwMDk1Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Cezary Kukowka",
+    "photographer_url": "https://unsplash.com/@czarotg?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-galleon-ship-on-deck-MIpS1kkW-oA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-01T16:15:52Z"
   }
 ]

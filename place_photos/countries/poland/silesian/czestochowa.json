@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:poland:silesian:czestochowa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1592127428918-305eec207902?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxDemVzdG9jaG93YSUyMFBvbGFuZHxlbnwxfDB8fHwxNzg1NjAwOTYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mateusz Stępień",
+    "photographer_url": "https://unsplash.com/@m_stepien?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-under-blue-sky-during-daytime-Jt0TwLYYizM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-01T16:16:00Z"
   }
 ]
