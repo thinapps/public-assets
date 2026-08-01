@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:poland:lesser_poland:krakow",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1519922639192-e73293ca430e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxLcmFrb3clMjBQb2xhbmR8ZW58MXwwfHx8MTc4NTU5MjczNHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jacek Dylag",
+    "photographer_url": "https://unsplash.com/@dylu?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/people-walking-on-street-near-concrete-buildings-SPpsFbCaN2A?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-01T13:58:54Z"
   }
 ]

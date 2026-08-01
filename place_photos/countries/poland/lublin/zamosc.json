@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:poland:lublin:zamosc",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1699644624288-0a81a63d3f2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxaYW1vc2MlMjBQb2xhbmR8ZW58MXwwfHx8MTc4NTU5Mjc1OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Tomasz Zielonka",
+    "photographer_url": "https://unsplash.com/@tzielonka?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-white-building-with-a-red-roof-It0UlcR5rlQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-01T13:59:18Z"
   }
 ]
