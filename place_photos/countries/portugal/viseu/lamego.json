@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:viseu:lamego",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1661290190181-b870aca95893?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMYW1lZ28lMjBWaXNldXxlbnwxfDB8fHwxNzg1NjY3OTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rui Alves",
+    "photographer_url": "https://unsplash.com/@asfotosde1enorme?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-landscape-with-trees-and-hills-N7jJVcqzznY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T10:52:01Z"
   }
 ]
