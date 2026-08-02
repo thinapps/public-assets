@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:romania:cluj_county:cluj_napoca",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1581975259026-0bf39982c26f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxDbHVqJTIwTmFwb2NhJTIwQ2x1aiUyMENvdW50eXxlbnwxfDB8fHwxNzg1Njk5NDM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Victor Serban",
+    "photographer_url": "https://unsplash.com/@victorserban?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-cat-on-black-concrete-floor-WkdKWt198gQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T19:37:16Z"
   }
 ]

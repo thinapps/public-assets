@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:romania:cluj_county",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1635367135559-9ceaeae66114?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxDbHVqJTIwQ291bnR5JTIwUm9tYW5pYXxlbnwxfDB8fHwxNzg1Njk5NDM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "M. X.",
+    "photographer_url": "https://unsplash.com/@custom_project?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-person-standing-in-a-field-next-to-two-wooden-buildings-WEAAbl-_a3o?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T19:37:14Z"
   }
 ]
