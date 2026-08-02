@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:romania:arad_county:arad",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1716750831443-05dda249dd56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBcmFkJTIwQXJhZCUyMENvdW50eXxlbnwxfDB8fHwxNzg1Njg3MjkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Bogdan Vlad",
+    "photographer_url": "https://unsplash.com/@bogdanvlad?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-scenic-view-of-a-hill-with-a-castle-on-top-EjYNgrNiEnE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T16:14:52Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:romania:bacau_county:bacau",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1503967574802-ca3918ba876c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxCYWNhdSUyMFJvbWFuaWF8ZW58MXwwfHx8MTc4NTY4NzMwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "The Phope",
+    "photographer_url": "https://unsplash.com/@the_phope?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/silhouette-photo-of-man-and-woman-uAGBTz29Cvk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T16:15:00Z"
   }
 ]

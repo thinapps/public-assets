@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:romania:buzau_county:buzau",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1609767243293-ff0bd72a0c99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxCdXphdSUyMFJvbWFuaWF8ZW58MXwwfHx8MTc4NTY4NzMyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Daniel Tanase",
+    "photographer_url": "https://unsplash.com/@danielvtanase?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-brown-concrete-building-with-lights-turned-on-during-night-time-o3a9Vg5RP8A?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T16:15:26Z"
   }
 ]

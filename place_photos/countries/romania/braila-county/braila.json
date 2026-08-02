@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:romania:braila_county:braila",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1682084811746-c06d572dde44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCcmFpbGElMjBSb21hbmlhfGVufDF8MHx8fDE3ODU2ODczMTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Magda Zatari",
+    "photographer_url": "https://unsplash.com/@magdazatari?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-close-up-of-a-plant-with-green-leaves-Hsa9j_SqvOk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T16:15:16Z"
   }
 ]
