@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:romania:alba_county:alba_iulia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1573738525627-47e3b8bde9a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxBbGJhJTIwSXVsaWElMjBSb21hbmlhfGVufDF8MHx8fDE3ODU2NzkyNDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Marian Strinoiu",
+    "photographer_url": "https://unsplash.com/@strinoiumarian?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/men-marching-near-castle-nT9nq8m5khY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T14:00:45Z"
   }
 ]
