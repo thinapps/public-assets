@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:porto:matosinhos",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1508756547450-1e4781f6740a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxNYXRvc2luaG9zJTIwUG9ydG98ZW58MXwwfHx8MTc4NTY1OTkwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Diogo Palhais",
+    "photographer_url": "https://unsplash.com/@diogopalhais?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/teal-van-on-gray-asphalt-road-FXzjYoDYoGg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T08:38:28Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:setubal:sesimbra",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1704556197702-07fe8c7dae92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTZXNpbWJyYSUyMFNldHViYWx8ZW58MXwwfHx8MTc4NTY1OTkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Bodega",
+    "photographer_url": "https://unsplash.com/@bodegasupply?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-beach-with-a-rock-formation-in-the-water-4Xxm62thDXk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T08:38:43Z"
   }
 ]

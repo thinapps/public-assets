@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:madeira:machico",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1651584620671-5968032c4418?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxNYWNoaWNvJTIwTWFkZWlyYXxlbnwxfDB8fHwxNzg1NjU5ODk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Reinaldo Photography",
+    "photographer_url": "https://unsplash.com/@reinaldogaranito?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-people-standing-next-to-a-tree-wzRpjKJuj18?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T08:38:14Z"
   }
 ]

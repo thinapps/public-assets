@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:setubal:setubal",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1639515606199-ce3e4828d525?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTZXR1YmFsJTIwUG9ydHVnYWx8ZW58MXwwfHx8MTc4NTY1OTkyMHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alexandre Contador",
+    "photographer_url": "https://unsplash.com/@growthwithalex?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-road-next-to-a-body-of-water-touRA4DeDPc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T08:38:45Z"
   }
 ]

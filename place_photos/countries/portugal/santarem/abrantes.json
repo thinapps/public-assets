@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:santarem:abrantes",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1600952518832-4ac6bea5aafa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBYnJhbnRlcyUyMFBvcnR1Z2FsfGVufDF8MHx8fDE3ODU2NTk5MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Miguel Tomás",
+    "photographer_url": "https://unsplash.com/@miguelavtomas?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/person-holding-white-ceramic-teacup-v2jqvmNuxJE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T08:38:35Z"
   }
 ]

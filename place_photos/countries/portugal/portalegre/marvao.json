@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:portalegre:marvao",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1638665934027-a5dc0adb51e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNYXJ2YW8lMjBQb3J0dWdhbHxlbnwxfDB8fHwxNzg1NjU5OTAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rach Sam",
+    "photographer_url": "https://unsplash.com/@rachsamphotos?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-castle-sitting-on-top-of-a-hill-next-to-a-forest-lMqFQ4mBI7s?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T08:38:21Z"
   }
 ]
