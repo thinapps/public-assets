@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:lisbon:sintra",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1564243195228-84892e11edbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxTaW50cmElMjBMaXNib258ZW58MXwwfHx8MTc4NTY0MzAzOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alejandro Martin",
+    "photographer_url": "https://unsplash.com/@am77?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/whiite-flag-on-pole--j400R6mIqU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T03:57:19Z"
   }
 ]

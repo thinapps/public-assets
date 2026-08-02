@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:leiria:peniche",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1652013368397-eccd8c96dee0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxQZW5pY2hlJTIwTGVpcmlhfGVufDF8MHx8fDE3ODU2NDMwMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mathias Reding",
+    "photographer_url": "https://unsplash.com/@matreding?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-boat-docked-at-a-pier-fURGC1T-w9o?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T03:57:10Z"
   }
 ]

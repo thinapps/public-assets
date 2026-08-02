@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:portugal:madeira",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1510739628590-0c601822e0a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNYWRlaXJhJTIwUG9ydHVnYWx8ZW58MXwwfHx8MTc4NTY0MzA0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Justas Samalius",
+    "photographer_url": "https://unsplash.com/@samalius?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/houses-on-mountain-hBwX3_GX-VU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T03:57:21Z"
   }
 ]

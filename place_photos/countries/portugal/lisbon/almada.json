@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:lisbon:almada",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1639515922883-9c419a10fd3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBbG1hZGElMjBMaXNib258ZW58MXwwfHx8MTc4NTY0MzAzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alexandre Contador",
+    "photographer_url": "https://unsplash.com/@growthwithalex?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-city-and-a-body-of-water-1C-hnRXiF_8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T03:57:12Z"
   }
 ]

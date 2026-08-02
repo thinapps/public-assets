@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:faro:sagres",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1688943874077-cce9a3d0315d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYWdyZXMlMjBGYXJvfGVufDF8MHx8fDE3ODU2NDMwMTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Manos Konstantinidis",
+    "photographer_url": "https://unsplash.com/@manosim?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-body-of-water-with-a-small-island-in-the-middle-of-it-fLXK8xveaWw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T03:56:51Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:faro:loule",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1704556201247-d9d0675945c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMb3VsZSUyMEZhcm98ZW58MXwwfHx8MTc4NTY0MzAwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Bodega",
+    "photographer_url": "https://unsplash.com/@bodegasupply?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-city-with-a-lake-in-the-background-YyM0RGuN8y8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T03:56:46Z"
   }
 ]

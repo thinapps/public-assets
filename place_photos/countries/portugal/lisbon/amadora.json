@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:portugal:lisbon:amadora",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1643962109232-dc56c829c0da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxBbWFkb3JhJTIwTGlzYm9ufGVufDF8MHx8fDE3ODU2NDMwMzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dima Pima",
+    "photographer_url": "https://unsplash.com/@dima_pima?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-city-street-with-cars-parked-on-the-side-of-it-zlTQ8nAb7L8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-02T03:57:14Z"
   }
 ]
