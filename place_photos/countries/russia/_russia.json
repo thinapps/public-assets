@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:russia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1547448415-e9f5b28e570d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxSdXNzaWF8ZW58MXwwfHx8MTc4NTc1MTY3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Michael Parulava",
+    "photographer_url": "https://unsplash.com/@parulava?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-and-gray-concrete-building-during-daytime-L4jrg4c7928?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-03T10:07:56Z"
   }
 ]

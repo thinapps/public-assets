@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:russia:sverdlovsk:yekaterinburg",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1664433883969-b782b24a1025?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxZZWthdGVyaW5idXJnJTIwUnVzc2lhfGVufDF8MHx8fDE3ODU3NTE2ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dmitry Ant",
+    "photographer_url": "https://unsplash.com/@ant746?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-city-skyline-with-a-body-of-water-in-the-foreground-8cGVSWrkLtI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-03T10:08:09Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:russia:tatarstan:kazan",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1521543944615-2e0d4f5b0498?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLYXphbiUyMFRhdGFyc3RhbnxlbnwxfDB8fHwxNzg1NzUxNjkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ilnur Kalimullin",
+    "photographer_url": "https://unsplash.com/@kalimullin?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-photography-of-cityscape-at-sunset-XVUucY5j2ak?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-03T10:08:12Z"
   }
 ]
