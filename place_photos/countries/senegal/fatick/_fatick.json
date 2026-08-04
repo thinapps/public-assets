@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:senegal:fatick",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1603646681390-bb763559f730?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxGYXRpY2slMjBTZW5lZ2FsfGVufDF8MHx8fDE3ODU4NDMzMDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Catherine Avak",
+    "photographer_url": "https://unsplash.com/@catherine_avak?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/woman-in-white-dress-walking-on-street-during-daytime-QHyzaDIHqz0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-04T11:35:02Z"
   }
 ]
