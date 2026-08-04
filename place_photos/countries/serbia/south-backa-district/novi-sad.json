@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:serbia:south_backa_district:novi_sad",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1608816747977-4d303f476571?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxOb3ZpJTIwU2FkJTIwU2VyYmlhfGVufDF8MHx8fDE3ODU4NzM2MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nikola Cirkovic",
+    "photographer_url": "https://unsplash.com/@cirkanye?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-city-buildings-during-daytime-t0sXKOz9qtk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-04T20:00:11Z"
   }
 ]
