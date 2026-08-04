@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:serbia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1613601740367-410ae03b2ec7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTZXJiaWF8ZW58MXwwfHx8MTc4NTg1NDUzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ljubomir Žarković",
+    "photographer_url": "https://unsplash.com/@ljubazarkovic?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/city-buildings-near-body-of-water-during-daytime-xHnomVS0SiU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-04T14:42:11Z"
   }
 ]
