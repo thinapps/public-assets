@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:sierra_leone",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1471771450139-6bfdb4b2609a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTaWVycmElMjBMZW9uZXxlbnwxfDB8fHwxNzg1OTIwOTc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Annie Spratt",
+    "photographer_url": "https://unsplash.com/@anniespratt?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/womens-white-t-shirt-wtk4VH8EU20?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-05T09:09:37Z"
   }
 ]
