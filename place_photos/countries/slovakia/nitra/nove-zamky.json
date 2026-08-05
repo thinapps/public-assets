@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:slovakia:nitra:nove_zamky",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1635445922146-c0f31ae7e808?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxOb3ZlJTIwWmFta3klMjBOaXRyYXxlbnwxfDB8fHwxNzg1OTQwNTg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nick Night",
+    "photographer_url": "https://unsplash.com/@nicknight?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-city-with-mountains-in-the-background-qswnJPenY6k?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-05T14:36:26Z"
   }
 ]

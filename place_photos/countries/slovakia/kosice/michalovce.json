@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:slovakia:kosice:michalovce",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1738686001611-39b03de57797?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNaWNoYWxvdmNlJTIwS29zaWNlfGVufDF8MHx8fDE3ODU5NDA1NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Biro Zoltan",
+    "photographer_url": "https://unsplash.com/@zoltanbiro1988?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-city-street-with-a-church-steeple-in-the-background-n0j85WyI0CA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-05T14:36:16Z"
   }
 ]

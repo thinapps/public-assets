@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:slovakia:nitra:nitra",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1531854214539-95cd1264e7d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxOaXRyYSUyMFNsb3Zha2lhfGVufDF8MHx8fDE3ODU5NDA1ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Peter Dlhy",
+    "photographer_url": "https://unsplash.com/@peterdlhy?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/man-walking-in-green-grass-Ty9uAw5Tl3g?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-05T14:36:24Z"
   }
 ]

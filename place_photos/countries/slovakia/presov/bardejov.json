@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:slovakia:presov:bardejov",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1511649016217-9540404ba982?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxCYXJkZWpvdiUyMFNsb3Zha2lhfGVufDF8MHx8fDE3ODU5NDA1OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Tomáš Gal",
+    "photographer_url": "https://unsplash.com/@tomasgal?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/pink-flower-with-green-leaves-J04AFE_nsng?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-05T14:36:30Z"
   }
 ]
