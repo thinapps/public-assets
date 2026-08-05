@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:slovenia:upper_carniola:bled",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1505159940484-eb2b9f2588e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxCbGVkJTIwU2xvdmVuaWF8ZW58MXwwfHx8MTc4NTk1OTg4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Artem Sapegin",
+    "photographer_url": "https://unsplash.com/@sapegin?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-wooden-boat-floating-on-body-of-water-XGDBdSQ70O0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-05T19:58:08Z"
   }
 ]
