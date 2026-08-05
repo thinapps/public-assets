@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:slovakia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1470043201067-764120126eb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTbG92YWtpYXxlbnwxfDB8fHwxNzg1OTI5NDk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Marek Levák",
+    "photographer_url": "https://unsplash.com/@designmesk?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-covered-mountains-RErhr8r1q6s?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-05T11:31:39Z"
   }
 ]

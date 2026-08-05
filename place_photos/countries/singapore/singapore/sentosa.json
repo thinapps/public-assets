@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:singapore:singapore:sentosa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1595290429614-88ba93221dba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTZW50b3NhJTIwU2luZ2Fwb3JlfGVufDF8MHx8fDE3ODU5Mjk0OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mark Stoop",
+    "photographer_url": "https://unsplash.com/@markstoop?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-city-buildings-near-body-of-water-during-daytime-As_WAg_6BPg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-05T11:31:34Z"
   }
 ]

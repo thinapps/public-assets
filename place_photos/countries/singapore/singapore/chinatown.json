@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:singapore:singapore:chinatown",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1536163713675-42cf53cbd4f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDaGluYXRvd24lMjBTaW5nYXBvcmV8ZW58MXwwfHx8MTc4NTkyOTQ5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Adrian Jakob",
+    "photographer_url": "https://unsplash.com/@aj_photo?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/china-town-and-high-rise-buildings-A9vyPB9iCVQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-05T11:31:30Z"
   }
 ]
