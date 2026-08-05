@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:slovenia:central_slovenia:ljubljana",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1587188759746-6e1ed630b5d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxManVibGphbmElMjBDZW50cmFsJTIwU2xvdmVuaWF8ZW58MXwwfHx8MTc4NTk0ODg5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Simon Kovše",
+    "photographer_url": "https://unsplash.com/@simetk?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-and-white-concrete-houses-near-green-trees-under-blue-sky-during-daytime-S7zWhOlxM4s?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-05T16:54:55Z"
   }
 ]
