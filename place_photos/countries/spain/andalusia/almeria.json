@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:andalusia:almeria",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1781288913280-3e13ce76cac4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBbG1lcmlhJTIwQW5kYWx1c2lhfGVufDF8MHx8fDE3ODYwNjE4Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Baptiste Riethmann",
+    "photographer_url": "https://unsplash.com/@du_sable_et_du_vent?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/cityscape-with-a-port-ocean-and-hilly-coastline-8n5vE2oXG2I?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T00:17:57Z"
   }
 ]
