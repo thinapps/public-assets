@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:asturias:oviedo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1691087701995-6325b3023aca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxPdmllZG8lMjBBc3R1cmlhc3xlbnwxfDB8fHwxNzg2MDc5MTI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Hayffield L",
+    "photographer_url": "https://unsplash.com/@hayffield?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-row-of-buildings-on-a-city-street-eGr3IUKoWz8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T05:05:24Z"
   }
 ]

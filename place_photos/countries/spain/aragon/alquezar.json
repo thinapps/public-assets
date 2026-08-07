@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:aragon:alquezar",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1557224143-70f1ba2aa221?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxBbHF1ZXphciUyMEFyYWdvbnxlbnwxfDB8fHwxNzg2MDc5MTEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mike Kotsch",
+    "photographer_url": "https://unsplash.com/@mike?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/woman-wearing-black-cardigan-walking-on-the-rocky-field-3i6euUmqKds?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T05:05:10Z"
   }
 ]
