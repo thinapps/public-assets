@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:navarra:pamplona",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1636217424464-e717e1849855?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQYW1wbG9uYSUyME5hdmFycmF8ZW58MXwwfHx8MTc4NjEzMDI5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "David Vives",
+    "photographer_url": "https://unsplash.com/@davidvives?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-people-standing-around-a-fountain-b87x69Td--k?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T19:18:17Z"
   }
 ]

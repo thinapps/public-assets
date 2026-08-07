@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:valencia:benidorm",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1508233620467-f79f1e317a05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCZW5pZG9ybSUyMFZhbGVuY2lhfGVufDF8MHx8fDE3ODYxMzAzMDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jack Anstey",
+    "photographer_url": "https://unsplash.com/@jack_anstey?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-photography-of-road-zS4lUqLEiNA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T19:18:24Z"
   }
 ]

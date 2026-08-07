@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:valencia:peniscola",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1494886633707-ca344c87e4e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxQZW5pc2NvbGElMjBTcGFpbnxlbnwxfDB8fHwxNzg2MTMwMzExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Cyril Campoli",
+    "photographer_url": "https://unsplash.com/@cyrilcampoli?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/sea-during-daytime-zMksCt_qxYQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T19:18:31Z"
   }
 ]

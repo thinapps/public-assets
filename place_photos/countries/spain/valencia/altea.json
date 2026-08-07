@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:valencia:altea",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1686953377385-c26161ce0971?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxBbHRlYSUyMFNwYWlufGVufDF8MHx8fDE3ODYxMzAzMDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alejandro Hikari",
+    "photographer_url": "https://unsplash.com/@kareraisu?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-balcony-with-a-view-of-the-ocean-YWF9sR7b5dE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T19:18:22Z"
   }
 ]

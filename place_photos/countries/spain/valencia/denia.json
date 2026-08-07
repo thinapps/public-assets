@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:valencia:denia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1517605957483-771fd59fe981?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxEZW5pYSUyMFZhbGVuY2lhfGVufDF8MHx8fDE3ODYxMzAzMDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Cecilia Rodríguez Suárez",
+    "photographer_url": "https://unsplash.com/@elemento_fe?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/stone-fragment-near-seashore-njWqZQOf6R4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T19:18:27Z"
   }
 ]

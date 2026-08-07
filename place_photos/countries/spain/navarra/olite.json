@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:navarra:olite",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1672569107558-ac8307c5245c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxPbGl0ZSUyME5hdmFycmF8ZW58MXwwfHx8MTc4NjEzMDI5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Des Mc Carthy",
+    "photographer_url": "https://unsplash.com/@cellartours?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-castle-with-a-clock-tower-on-the-top-of-it-IR78BFYKnTU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T19:18:15Z"
   }
 ]
