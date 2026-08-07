@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:spain:la_rioja",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1660815312825-ce72440ecaf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxMYSUyMFJpb2phJTIwU3BhaW58ZW58MXwwfHx8MTc4NjExOTA0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mario La Pergola",
+    "photographer_url": "https://unsplash.com/@mlapergolaphoto?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-colorful-bars-gLdILBiyqH8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T16:10:46Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:la_rioja:haro",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1660815312835-7fedfcd472b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxIYXJvJTIwTGElMjBSaW9qYXxlbnwxfDB8fHwxNzg2MTE5MDQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mario La Pergola",
+    "photographer_url": "https://unsplash.com/@mlapergolaphoto?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-room-with-wooden-walls-DSY0fSH97kk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T16:10:47Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:murcia:mazarron",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1615395096664-0faf9b7f4c40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNYXphcnJvbiUyMFNwYWlufGVufDF8MHx8fDE3ODYxMTkwNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "david hall",
+    "photographer_url": "https://unsplash.com/@pompeo21?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-near-body-of-water-during-daytime-Un5iv2ga0qQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T16:11:16Z"
   }
 ]

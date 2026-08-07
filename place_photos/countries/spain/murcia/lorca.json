@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:murcia:lorca",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1609252374372-e671459f587b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxMb3JjYSUyMFNwYWlufGVufDF8MHx8fDE3ODYxMTkwNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "David Martínez",
+    "photographer_url": "https://unsplash.com/@botdv?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-on-mountain-under-blue-sky-during-daytime-H6Z3zRgrnqM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T16:11:14Z"
   }
 ]

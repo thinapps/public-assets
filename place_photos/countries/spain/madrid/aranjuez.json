@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:madrid:aranjuez",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxBcmFuanVleiUyME1hZHJpZHxlbnwxfDB8fHwxNzg2MTE5MDU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Florian Wehde",
+    "photographer_url": "https://unsplash.com/@florianwehde?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-photography-of-vehicles-passing-between-high-rise-buildings-WBGjg0DsO_g?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T16:10:55Z"
   }
 ]

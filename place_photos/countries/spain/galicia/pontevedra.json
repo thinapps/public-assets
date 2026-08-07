@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:galicia:pontevedra",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1569352304334-6e422cd70ecd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxQb250ZXZlZHJhJTIwR2FsaWNpYXxlbnwxfDB8fHwxNzg2MTE5MDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Arturo Rey",
+    "photographer_url": "https://unsplash.com/@arturorey?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/grilled-ribs-on-brown-wooden-tray-4DFFRT9v8EY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T16:10:41Z"
   }
 ]
