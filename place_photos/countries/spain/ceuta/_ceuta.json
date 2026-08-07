@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:spain:ceuta",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1571278103921-ca18155162e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxDZXV0YSUyMFNwYWlufGVufDF8MHx8fDE3ODYxMTAxMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jorge Salvador",
+    "photographer_url": "https://unsplash.com/@jsshotz?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-boat-lot-on-sea-beside-mountain-Napez4iXwrU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T13:41:58Z"
   }
 ]

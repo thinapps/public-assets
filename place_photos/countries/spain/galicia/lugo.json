@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:galicia:lugo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1580287170929-b317ac19d57d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxMdWdvJTIwR2FsaWNpYXxlbnwxfDB8fHwxNzg2MTEwMTM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Juan Gomez",
+    "photographer_url": "https://unsplash.com/@nosoylasonia?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-horse-on-green-grass-field-during-daytime-EdJyDCMOQI8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T13:42:19Z"
   }
 ]

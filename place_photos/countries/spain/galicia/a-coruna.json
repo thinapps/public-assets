@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:galicia:a_coruna",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1531890820402-2a683fbfd30c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBJTIwQ29ydW5hJTIwR2FsaWNpYXxlbnwxfDB8fHwxNzg2MTEwMTMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Elle Hughes",
+    "photographer_url": "https://unsplash.com/@ohforkyes?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/grilled-octopus-dishes--7ZtWjzo-68?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T13:42:13Z"
   }
 ]

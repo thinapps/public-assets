@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:galicia:ferrol",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1679932347309-7beb937d5aff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxGZXJyb2wlMjBHYWxpY2lhfGVufDF8MHx8fDE3ODYxMTAxMzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Valeriano G",
+    "photographer_url": "https://unsplash.com/@valeriano78?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-beach-through-a-hole-in-a-rock-SpqnYhuTiHg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T13:42:17Z"
   }
 ]

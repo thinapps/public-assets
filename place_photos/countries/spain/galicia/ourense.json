@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:galicia:ourense",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1617633009599-6d09409f75b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxPdXJlbnNlJTIwR2FsaWNpYXxlbnwxfDB8fHwxNzg2MTEwMTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alejandro Piñero Amerio",
+    "photographer_url": "https://unsplash.com/@vjgalaxy?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-and-brown-mountains-beside-river-under-blue-sky-during-daytime-zOb-vaMMgrQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T13:42:20Z"
   }
 ]
