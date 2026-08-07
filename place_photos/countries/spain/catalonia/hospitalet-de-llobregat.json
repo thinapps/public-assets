@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:catalonia:hospitalet_de_llobregat",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1611415298957-df2e373cfef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxIb3NwaXRhbGV0JTIwRGUlMjBMbG9icmVnYXQlMjBDYXRhbG9uaWF8ZW58MXwwfHx8MTc4NjA5NzYxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Pere Jurado",
+    "photographer_url": "https://unsplash.com/@perejp?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/people-walking-inside-a-building-zZJgyBZGYns?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T10:13:34Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:catalonia:figueres",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1703268122518-2c5eee8cff3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxGaWd1ZXJlcyUyMENhdGFsb25pYXxlbnwxfDB8fHwxNzg2MDk3NjExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "flickch",
+    "photographer_url": "https://unsplash.com/@flickch?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-red-building-with-a-lot-of-trees-in-front-of-it-jdnth4PXTCI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T10:13:31Z"
   }
 ]
