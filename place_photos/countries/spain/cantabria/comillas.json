@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:spain:cantabria:comillas",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1657318918707-0c4f4cf730c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxDb21pbGxhcyUyMENhbnRhYnJpYXxlbnwxfDB8fHwxNzg2MDg4NzEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Angel Luciano",
+    "photographer_url": "https://unsplash.com/@roaming_angel?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-room-with-a-large-arched-ceiling-li-cx3o2XU8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-07T07:45:10Z"
   }
 ]
