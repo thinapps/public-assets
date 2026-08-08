@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:switzerland:valais:brig",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1678303469151-e4149d6c521f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCcmlnJTIwVmFsYWlzfGVufDF8MHx8fDE3ODYyMjU3MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Daniel R.",
+    "photographer_url": "https://unsplash.com/@misterjackdaniel?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-city-with-lots-of-houses-zSclFUhx0_U?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T21:48:54Z"
   }
 ]

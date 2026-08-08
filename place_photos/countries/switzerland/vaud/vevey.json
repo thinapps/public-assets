@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:switzerland:vaud:vevey",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1619427263383-5b78227f5eb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxWZXZleSUyMFZhdWR8ZW58MXwwfHx8MTc4NjIyNTc1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Biniam Shawul",
+    "photographer_url": "https://unsplash.com/@biniamsh?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-and-white-concrete-building-near-body-of-water-during-daytime-jfwTftahHJo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T21:49:10Z"
   }
 ]

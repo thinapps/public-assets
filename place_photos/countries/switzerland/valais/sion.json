@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:switzerland:valais:sion",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1724670023752-00b12ad5c208?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTaW9uJTIwVmFsYWlzfGVufDF8MHx8fDE3ODYyMjU3MzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alain ROUILLER",
+    "photographer_url": "https://unsplash.com/@alainr?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-people-walking-down-a-street-next-to-tall-buildings-V4Gi5lNOL2o?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T21:48:56Z"
   }
 ]

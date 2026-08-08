@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:switzerland:vaud:morges",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1515135385067-5516a1e38bbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNb3JnZXMlMjBWYXVkfGVufDF8MHx8fDE3ODYyMjU3NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Vitalis Hirschmann",
+    "photographer_url": "https://unsplash.com/@hirschmann_photography?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/worms-eye-view-of-pathway-between-houses-mG5jTwsXcEI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T21:49:06Z"
   }
 ]
