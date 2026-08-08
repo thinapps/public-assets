@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:switzerland:graubunden:st_moritz",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1735597693189-9ba81b5bbc83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxTdCUyME1vcml0eiUyMFN3aXR6ZXJsYW5kfGVufDF8MHx8fDE3ODYyMDQxMzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Philipp Düsel",
+    "photographer_url": "https://unsplash.com/@philipp_dice?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-lake-surrounded-by-mountains-and-trees-vNVwg35VZrg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T15:48:57Z"
   }
 ]

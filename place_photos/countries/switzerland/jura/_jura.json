@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:switzerland:jura",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1515518050565-03147771949a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxKdXJhJTIwU3dpdHplcmxhbmR8ZW58MXwwfHx8MTc4NjIwNDEzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Vitalis Hirschmann",
+    "photographer_url": "https://unsplash.com/@hirschmann_photography?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/bare-trees-covered-by-snow-gWHEk4n2rto?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T15:48:58Z"
   }
 ]

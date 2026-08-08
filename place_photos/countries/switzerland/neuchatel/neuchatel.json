@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:switzerland:neuchatel:neuchatel",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1533933435364-39de4b82001d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxOZXVjaGF0ZWwlMjBTd2l0emVybGFuZHxlbnwxfDB8fHwxNzg2MjA0MTQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nathan Queloz",
+    "photographer_url": "https://unsplash.com/@nathan030997?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/birds-eye-view-of-concrete-road-surrounded-by-body-of-water-3bnxkqovX_w?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T15:49:12Z"
   }
 ]

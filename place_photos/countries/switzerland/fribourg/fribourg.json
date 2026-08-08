@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:switzerland:fribourg:fribourg",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1490622070083-7147847ab898?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxGcmlib3VyZyUyMFN3aXR6ZXJsYW5kfGVufDF8MHx8fDE3ODYyMDQxMjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Federico Respini",
+    "photographer_url": "https://unsplash.com/@federicorespini?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/hot-air-balloon-flying-over-mountain-near-houses-under-blue-sky-uSuBELZwEDU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T15:48:42Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:switzerland:graubunden:davos",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1561491431-71b89da6056a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxEYXZvcyUyMFN3aXR6ZXJsYW5kfGVufDF8MHx8fDE3ODYyMDQxMzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Evangeline Shaw",
+    "photographer_url": "https://unsplash.com/@evangelineshaw?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/annual-meeting-2019-ysbTWw4hrG4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T15:48:53Z"
   }
 ]

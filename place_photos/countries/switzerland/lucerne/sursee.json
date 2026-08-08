@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:switzerland:lucerne:sursee",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1477271706509-fecda7438b68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxTdXJzZWUlMjBMdWNlcm5lfGVufDF8MHx8fDE3ODYyMDQxNDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Lin Mei",
+    "photographer_url": "https://unsplash.com/@mytinyatlas?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/body-of-water-near-concrete-buildings-under-white-and-gray-sky-at-daytime-xpw5IOgLjuw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T15:49:07Z"
   }
 ]

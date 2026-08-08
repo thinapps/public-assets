@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:switzerland:glarus",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1592126418000-2ae547adfdfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxHbGFydXMlMjBTd2l0emVybGFuZHxlbnwxfDB8fHwxNzg2MjA0MTI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Steffen Lemmerzahl",
+    "photographer_url": "https://unsplash.com/@steffen_l?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-on-green-grass-field-near-mountain-during-daytime-fD1heNp_wvE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T15:48:46Z"
   }
 ]
