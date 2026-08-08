@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:suriname",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1506857170102-783e03df14ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxTdXJpbmFtZXxlbnwxfDB8fHwxNzg2MTU1ODMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Vincent van Zalinge",
+    "photographer_url": "https://unsplash.com/@vincentvanzalinge?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/three-flying-flamingos-ZRsX3uoQxNY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T02:23:53Z"
   }
 ]
