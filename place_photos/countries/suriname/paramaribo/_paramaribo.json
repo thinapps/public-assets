@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:suriname:paramaribo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1447015549774-472fbc691c72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQYXJhbWFyaWJvJTIwU3VyaW5hbWV8ZW58MXwwfHx8MTc4NjE2MzQ2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Vincent van Zalinge",
+    "photographer_url": "https://unsplash.com/@vincentvanzalinge?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/selective-focus-photography-of-orange-butterfly-perched-on-yellow-petaled-flower-a92n-yQtbJc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T04:31:01Z"
   }
 ]

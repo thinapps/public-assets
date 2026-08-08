@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:suriname:nickerie:wageningen",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1664540696510-f7690d3f8479?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxXYWdlbmluZ2VuJTIwTmlja2VyaWV8ZW58MXwwfHx8MTc4NjE2MzQ1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Elise van Tilborg",
+    "photographer_url": "https://unsplash.com/@elisevtilborg?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-field-with-rows-of-crops-2RB7AgPRP3M?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T04:30:56Z"
   }
 ]

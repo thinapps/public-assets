@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:suriname:nickerie:nieuw_nickerie",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1654860281856-5c3258441a80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxOaWV1dyUyME5pY2tlcmllJTIwTmlja2VyaWV8ZW58MXwwfHx8MTc4NjE2MzQ1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Europeana",
+    "photographer_url": "https://unsplash.com/@europeana?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-painting-of-a-person-QgIwAyLd7_M?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T04:30:54Z"
   }
 ]
