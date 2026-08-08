@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:sweden:norrbotten_county:lulea",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1633430300352-bcb3420c0ed5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMdWxlYSUyME5vcnJib3R0ZW4lMjBDb3VudHl8ZW58MXwwfHx8MTc4NjE4Mjk2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Peter van der Meulen",
+    "photographer_url": "https://unsplash.com/@hendrikpeter?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-lake-surrounded-by-trees-EqtvTJ-ufnM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T09:56:02Z"
   }
 ]

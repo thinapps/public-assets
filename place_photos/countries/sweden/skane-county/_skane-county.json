@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:sweden:skane_county",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1599497745712-b1d158184cde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTa2FuZSUyMENvdW50eSUyMFN3ZWRlbnxlbnwxfDB8fHwxNzg2MTgyOTcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jesper Ericsson",
+    "photographer_url": "https://unsplash.com/@jolt?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-and-river-during-daytime-5Phcet4RX0Q?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T09:56:11Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:sweden:ostergotland_county:linkoping",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1497217968520-7d8d60b7bc25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxMaW5rb3BpbmclMjBTd2VkZW58ZW58MXwwfHx8MTc4NjE4Mjk2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jon Flobrant",
+    "photographer_url": "https://unsplash.com/@jonflobrant?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/rover-near-road-and-buildings-GRIEUEaCr5w?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T09:56:09Z"
   }
 ]

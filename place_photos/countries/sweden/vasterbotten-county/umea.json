@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:sweden:vasterbotten_county:umea",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1508189860359-777d945909ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxVbWVhJTIwU3dlZGVufGVufDF8MHx8fDE3ODYxODI5OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jon Flobrant",
+    "photographer_url": "https://unsplash.com/@jonflobrant?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/scenery-of-a-body-of-water-beside-a-city-jxfe3orC4G8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T09:56:32Z"
   }
 ]

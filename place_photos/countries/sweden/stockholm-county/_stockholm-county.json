@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:sweden:stockholm_county",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTdG9ja2hvbG0lMjBDb3VudHklMjBTd2VkZW58ZW58MXwwfHx8MTc4NjE4Mjk3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Raphael Andres",
+    "photographer_url": "https://unsplash.com/@raphaeldas?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/photo-of-brown-high-rise-building-3cwvFD-YPtk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T09:56:19Z"
   }
 ]

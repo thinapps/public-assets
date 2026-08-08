@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:sweden:varmland_county:karlstad",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1653554985010-54d4095bcbc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLYXJsc3RhZCUyMFN3ZWRlbnxlbnwxfDB8fHwxNzg2MTgyOTg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Gustaf Karlsson",
+    "photographer_url": "https://unsplash.com/@mrzack?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-body-of-water-surrounded-by-trees-and-buildings-Omw047PYgj4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T09:56:28Z"
   }
 ]
