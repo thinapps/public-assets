@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:sweden:jamtland_county:ostersund",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1663428520845-056989f8a664?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxPc3RlcnN1bmQlMjBKYW10bGFuZCUyMENvdW50eXxlbnwxfDB8fHwxNzg2MTczNDc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Benoît Deschasaux",
+    "photographer_url": "https://unsplash.com/@benowa?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-houses-by-a-body-of-water-with-mountains-in-the-background-with-lofoten-in-the-background-ut7XZMquCoU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T07:17:56Z"
   }
 ]

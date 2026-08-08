@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:sweden:kalmar_county:kalmar",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1696337735885-37e7c0f7473a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxLYWxtYXIlMjBTd2VkZW58ZW58MXwwfHx8MTc4NjE3MzQ4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Serge Taeymans",
+    "photographer_url": "https://unsplash.com/@poseidonx?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-lawn-chair-sitting-in-the-shade-of-a-tree-byQi0A7X3eM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T07:18:03Z"
   }
 ]

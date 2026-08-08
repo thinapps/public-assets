@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:sweden:halland_county:halmstad",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1532182480668-d0ef2f5fc1d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxIYWxtc3RhZCUyMFN3ZWRlbnxlbnwxfDB8fHwxNzg2MTczNDcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Steven Erixon",
+    "photographer_url": "https://unsplash.com/@stevenerixon?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-grass-field-under-gray-sky-IvYRvR8KfGk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T07:17:52Z"
   }
 ]
