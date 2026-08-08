@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:switzerland:aargau:lenzburg",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1613944159973-c4f7dfb6f1f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxMZW56YnVyZyUyMEFhcmdhdXxlbnwxfDB8fHwxNzg2MTk0OTA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "ClauDiO Thürlemann",
+    "photographer_url": "https://unsplash.com/@diomio?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-city-buildings-near-river-during-daytime-EKnJZL_I3FY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T13:15:04Z"
   }
 ]

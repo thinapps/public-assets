@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:switzerland:basel_stadt",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1607585011081-241d2bacb7de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCYXNlbCUyMFN0YWR0JTIwU3dpdHplcmxhbmR8ZW58MXwwfHx8MTc4NjE5NDkxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Yura Lytkin",
+    "photographer_url": "https://unsplash.com/@yuralytkin?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-and-white-houses-on-green-mountain-under-blue-sky-during-daytime-qZBZb-G0eEU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T13:15:17Z"
   }
 ]

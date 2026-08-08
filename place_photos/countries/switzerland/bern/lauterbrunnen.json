@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:switzerland:bern:lauterbrunnen",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1565182242096-16033e7f1260?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxMYXV0ZXJicnVubmVuJTIwQmVybnxlbnwxfDB8fHwxNzg2MTk0OTI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Geertje Caliguire",
+    "photographer_url": "https://unsplash.com/@geertjecaliguire?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-brown-lighthouse-on-water-6D9fpCXb20E?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T13:15:26Z"
   }
 ]

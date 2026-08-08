@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:switzerland:bern:thun",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1594093880970-7b4295e8b6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxUaHVuJTIwQmVybnxlbnwxfDB8fHwxNzg2MTk0OTI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Omar M.",
+    "photographer_url": "https://unsplash.com/@omareightysix?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-city-buildings-and-green-trees-during-daytime-jF7U3wadbd0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T13:15:28Z"
   }
 ]
