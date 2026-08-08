@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:switzerland:nidwalden:stans",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1644077381726-5f7ccb19ac87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTdGFucyUyME5pZHdhbGRlbnxlbnwxfDB8fHwxNzg2MjE1NzEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Artem Shuba",
+    "photographer_url": "https://unsplash.com/@ashuba?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-white-bike-parked-next-to-a-wooden-fence-VgA34VbN01I?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T19:01:50Z"
   }
 ]

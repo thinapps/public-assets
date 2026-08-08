@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:switzerland:st_gallen:st_gallen",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1549472448-5d67daf7c8b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxTdCUyMEdhbGxlbiUyMFN3aXR6ZXJsYW5kfGVufDF8MHx8fDE3ODYyMTU3MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ivan Louis",
+    "photographer_url": "https://unsplash.com/@ivanlouis?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-photography-of-trees-at-daytime-zwcm5fIzXcE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T19:02:11Z"
   }
 ]

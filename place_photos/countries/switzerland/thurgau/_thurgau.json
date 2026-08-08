@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:switzerland:thurgau",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1524420615473-e7b777a7345a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxUaHVyZ2F1JTIwU3dpdHplcmxhbmR8ZW58MXwwfHx8MTc4NjIxNTczNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Pascal Debrunner",
+    "photographer_url": "https://unsplash.com/@debrupas?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/the-sun-is-shining-through-the-trees-in-the-orchard-80Sg-Iae340?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T19:02:15Z"
   }
 ]

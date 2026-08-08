@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:switzerland:solothurn",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1649016185641-f751328a6ec8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTb2xvdGh1cm4lMjBTd2l0emVybGFuZHxlbnwxfDB8fHwxNzg2MjE1NzI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nemanja Peric",
+    "photographer_url": "https://unsplash.com/@21nemi?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-river-running-through-a-city-next-to-tall-buildings-ZDncpR-kOQw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T19:02:05Z"
   }
 ]

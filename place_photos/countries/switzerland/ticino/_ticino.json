@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:switzerland:ticino",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUaWNpbm8lMjBTd2l0emVybGFuZHxlbnwxfDB8fHwxNzg2MjE1NzQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Tim Trad",
+    "photographer_url": "https://unsplash.com/@timtrad?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/houses-near-valley-with-trees-BYPMtjYMEyk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T19:02:23Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:switzerland:schwyz:einsiedeln",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1530878902700-5ad4f9e4c318?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxFaW5zaWVkZWxuJTIwU2Nod3l6fGVufDF8MHx8fDE3ODYyMTU3MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sven",
+    "photographer_url": "https://unsplash.com/@sphotos_00?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/photo-of-house-at-meadow-V7WkmXntA8M?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-08T19:02:02Z"
   }
 ]
