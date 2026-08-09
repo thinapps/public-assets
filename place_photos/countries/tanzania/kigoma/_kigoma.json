@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:tanzania:kigoma",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1729541067828-506ab12a37cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLaWdvbWElMjBUYW56YW5pYXxlbnwxfDB8fHwxNzg2MjY5NTYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Frank Thomas",
+    "photographer_url": "https://unsplash.com/@engfrankthomas?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-train-traveling-through-a-rural-country-side-geozv3pRRes?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-09T09:59:21Z"
   }
 ]
