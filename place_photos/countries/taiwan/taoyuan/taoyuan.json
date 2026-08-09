@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:taiwan:taoyuan:taoyuan",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1572715381359-002b1eabd56b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUYW95dWFuJTIwVGFpd2FufGVufDF8MHx8fDE3ODYyNjAzMjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Lisanto 李奕良",
+    "photographer_url": "https://unsplash.com/@lisanto_?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-buildings-during-daytime-deCvIgBnPwo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-09T07:25:27Z"
   }
 ]
