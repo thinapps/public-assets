@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:taiwan:pingtung:pingtung",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1583395145517-1e3177037600?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQaW5ndHVuZyUyMFRhaXdhbnxlbnwxfDB8fHwxNzg2MjUwMzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sam Chang",
+    "photographer_url": "https://unsplash.com/@answer603?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-grass-field-near-mountain-under-white-sky-during-daytime-L6xHmv2R3G4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-09T04:39:47Z"
   }
 ]

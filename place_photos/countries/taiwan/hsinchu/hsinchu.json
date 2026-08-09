@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:taiwan:hsinchu:hsinchu",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1599578705716-8d3d9246f53b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxIc2luY2h1JTIwVGFpd2FufGVufDF8MHx8fDE3ODYyNTAzNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ethan Lin",
+    "photographer_url": "https://unsplash.com/@ethan90212?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/city-skyline-during-night-time-AEKdzZn_bBI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-09T04:39:29Z"
   }
 ]

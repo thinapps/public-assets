@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:syria:tartus",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1589697720874-6a9818dc809d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUYXJ0dXMlMjBTeXJpYXxlbnwxfDB8fHwxNzg2MjUwMzU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ahmad Wassouf",
+    "photographer_url": "https://unsplash.com/@ahmadwassouf?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/red-and-white-ship-on-sea-near-green-palm-trees-during-daytime-_m6B2IqTp1s?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-09T04:39:18Z"
   }
 ]
