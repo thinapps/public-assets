@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:switzerland:zurich:winterthur",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1517353334933-3365be5c8ec3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxXaW50ZXJ0aHVyJTIwU3dpdHplcmxhbmR8ZW58MXwwfHx8MTc4NjI0MjY4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jonas Zürcher",
+    "photographer_url": "https://unsplash.com/@tsueri?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/persons-hand-on-black-audio-mixer-fvLNFnnLPIk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-09T02:31:20Z"
   }
 ]
