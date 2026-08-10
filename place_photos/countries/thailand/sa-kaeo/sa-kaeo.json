@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:thailand:sa_kaeo:sa_kaeo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1558685203-2c1f7ee563c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxTYSUyMEthZW8lMjBUaGFpbGFuZHxlbnwxfDB8fHwxNzg2MzY5Njg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Kelvin Han",
+    "photographer_url": "https://unsplash.com/@kelvinhan?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/people-and-cars-on-road-WIJtYRCbW_8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-10T13:48:06Z"
   }
 ]
