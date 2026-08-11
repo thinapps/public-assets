@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:turkey:mugla:bodrum",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1600194795031-e8c60926db4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxCb2RydW0lMjBNdWdsYXxlbnwxfDB8fHwxNzg2NDc2NDgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Kaan Kosemen",
+    "photographer_url": "https://unsplash.com/@kaankosemen?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-body-of-water-during-daytime-RR9Hb83E_fw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-11T19:28:02Z"
   }
 ]

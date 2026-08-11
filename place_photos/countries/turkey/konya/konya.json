@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:turkey:konya:konya",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1658801201736-35aecd9996dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxLb255YSUyMFR1cmtleXxlbnwxfDB8fHwxNzg2NDc2NDcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mega Caesaria",
+    "photographer_url": "https://unsplash.com/@megacaesaria?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-white-car-parked-on-the-side-of-a-road-iH5-mltLqVM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-11T19:27:52Z"
   }
 ]
