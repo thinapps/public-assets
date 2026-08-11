@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:tunisia:bizerte",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1757147107400-5d87898f75aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxCaXplcnRlJTIwVHVuaXNpYXxlbnwxfDB8fHwxNzg2NDM0MDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Wietse Jongsma",
+    "photographer_url": "https://unsplash.com/@wietsej?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/arched-alleyway-in-an-old-european-town-JGKvL9F9Snk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-11T07:40:40Z"
   }
 ]
