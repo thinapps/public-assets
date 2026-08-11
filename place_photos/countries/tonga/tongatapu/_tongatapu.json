@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:tonga:tongatapu",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1542007861864-933e1cb58376?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxUb25nYXRhcHUlMjBUb25nYXxlbnwxfDB8fHwxNzg2NDIzMzcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dominic Kitter",
+    "photographer_url": "https://unsplash.com/@kittstone?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/women-carrying-woods-while-holding-sticks-during-daytime-4y2FhYRZMkc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-11T04:42:52Z"
   }
 ]
