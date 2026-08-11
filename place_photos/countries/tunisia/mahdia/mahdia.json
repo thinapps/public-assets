@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:tunisia:mahdia:mahdia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1520698864443-3d2347209b13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxNYWhkaWElMjBUdW5pc2lhfGVufDF8MHx8fDE3ODY0NDMyMjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mohamed Ben Zineb",
+    "photographer_url": "https://unsplash.com/@mohamedbenzineb?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/man-wearing-black-shorts-while-swim-TryO4lZfGCA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-11T10:13:45Z"
   }
 ]
