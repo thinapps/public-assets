@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:united_states:washington:everett",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1580932942074-21460a952f08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxFdmVyZXR0JTIwV2FzaGluZ3RvbnxlbnwxfDB8fHwxNzg2NTYyOTc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Shannon Kunkle",
+    "photographer_url": "https://unsplash.com/@photoskunk?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/silhouette-of-bird-on-wooden-post-during-sunset-2gbtL-Qu4Ts?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T19:29:35Z"
   }
 ]

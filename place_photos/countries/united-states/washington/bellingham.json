@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:united_states:washington:bellingham",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1597339045126-4d2d392cfb5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxCZWxsaW5naGFtJTIwV2FzaGluZ3RvbnxlbnwxfDB8fHwxNzg2NTYyOTczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Pavł Polø",
+    "photographer_url": "https://unsplash.com/@pavlpolo_official?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-red-boat-on-water-near-brown-wooden-dock-during-daytime-gCHfScq3VJc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T19:29:34Z"
   }
 ]

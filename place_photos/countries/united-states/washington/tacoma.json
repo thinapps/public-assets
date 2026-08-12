@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:united_states:washington:tacoma",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1599551528722-6b6d968512a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUYWNvbWElMjBXYXNoaW5ndG9ufGVufDF8MHx8fDE3ODY1NjI5ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Caleb Riston",
+    "photographer_url": "https://unsplash.com/@calebriston?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/snow-covered-mountain-during-daytime-TXiBwX0kg-Q?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T19:29:50Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:united_states:washington:vancouver",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1559511260-66a654ae982a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxWYW5jb3V2ZXIlMjBXYXNoaW5ndG9ufGVufDF8MHx8fDE3ODY1NjI5OTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mike Benna",
+    "photographer_url": "https://unsplash.com/@mbenna?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/buildings-and-body-of-water-WHHY-iBp3aI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T19:29:51Z"
   }
 ]

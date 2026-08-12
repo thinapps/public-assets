@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:united_states:washington:olympia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1620450903160-5b28feaafe0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxPbHltcGlhJTIwV2FzaGluZ3RvbnxlbnwxfDB8fHwxNzg2NTYyOTgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jael Coon",
+    "photographer_url": "https://unsplash.com/@jaelphotos?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-people-standing-on-a-beach-next-to-a-forest-KhDLE_MvkHg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T19:29:42Z"
   }
 ]

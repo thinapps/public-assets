@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:united_states:washington:kennewick",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1500047989561-8165c980defe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxLZW5uZXdpY2slMjBXYXNoaW5ndG9ufGVufDF8MHx8fDE3ODY1NjI5Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Gabriel Sanchez",
+    "photographer_url": "https://unsplash.com/@gabrielsanchez?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/bridge-covered-with-thick-fog-during-daytime-t4S0F5FXkt4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T19:29:39Z"
   }
 ]

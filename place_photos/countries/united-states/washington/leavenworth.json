@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:united_states:washington:leavenworth",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1607465625838-e77ac63e31c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMZWF2ZW53b3J0aCUyMFdhc2hpbmd0b258ZW58MXwwfHx8MTc4NjU2Mjk4MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rosalie Barley",
+    "photographer_url": "https://unsplash.com/@rosiebarley?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-and-white-concrete-house-near-mountain-during-daytime-VfQa0QbH-5Y?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T19:29:41Z"
   }
 ]

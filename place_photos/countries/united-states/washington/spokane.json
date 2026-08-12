@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:united_states:washington:spokane",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1558971696-284b78e3015d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTcG9rYW5lJTIwV2FzaGluZ3RvbnxlbnwxfDB8fHwxNzg2NTYyOTg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Chris Johnson",
+    "photographer_url": "https://unsplash.com/@chrisj4307?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/city-buildings-during-daytime-0qNDaCqKXNo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T19:29:48Z"
   }
 ]

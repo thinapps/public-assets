@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:united_states:washington:walla_walla",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1572972520867-b87dc7707b3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxXYWxsYSUyMFdhbGxhJTIwV2FzaGluZ3RvbnxlbnwxfDB8fHwxNzg2NTYyOTkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "The New York Public Library",
+    "photographer_url": "https://unsplash.com/@nypl?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/men-leaning-and-sitting-on-metal-railing-elCOtZkqMW8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T19:29:53Z"
   }
 ]
