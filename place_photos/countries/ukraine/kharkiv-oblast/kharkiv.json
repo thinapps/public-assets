@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ukraine:kharkiv_oblast:kharkiv",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1588524117795-e5fd2a1f2e15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxLaGFya2l2JTIwS2hhcmtpdiUyME9ibGFzdHxlbnwxfDB8fHwxNzg2NTIxMjkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Max Nayman",
+    "photographer_url": "https://unsplash.com/@maxniceman?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-ice-cream-with-yellow-and-black-sprinkles-zEeJ99bLwH0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T07:54:52Z"
   }
 ]

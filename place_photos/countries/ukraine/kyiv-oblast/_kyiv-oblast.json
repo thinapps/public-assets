@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:ukraine:kyiv_oblast",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1575470568895-7096f4ffbbee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxLeWl2JTIwT2JsYXN0JTIwVWtyYWluZXxlbnwxfDB8fHwxNzg2NTIxMzA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Peter Lam CH",
+    "photographer_url": "https://unsplash.com/@peterlamch?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-stairs-inside-building-9cg6kHv4d8Q?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T07:55:08Z"
   }
 ]
