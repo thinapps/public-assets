@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:ukraine:poltava_oblast",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1696148608170-860940f8a02f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxQb2x0YXZhJTIwT2JsYXN0JTIwVWtyYWluZXxlbnwxfDB8fHwxNzg2NTMwNTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ivan Antonenko",
+    "photographer_url": "https://unsplash.com/@ivan_antonenko?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-white-car-parked-on-the-side-of-a-road-next-to-a-body-of-water--etmuIpLo10?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T10:28:41Z"
   }
 ]

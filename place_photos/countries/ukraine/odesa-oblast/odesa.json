@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ukraine:odesa_oblast:odesa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1568495248636-6432b97bd949?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxPZGVzYSUyME9kZXNhJTIwT2JsYXN0fGVufDF8MHx8fDE3ODY1MzA1MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Olexandr Ignatov",
+    "photographer_url": "https://unsplash.com/@olexandrignatov?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/gray-bedsprea-w72a24brINI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T10:28:39Z"
   }
 ]
