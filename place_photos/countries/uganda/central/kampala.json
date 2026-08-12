@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:uganda:central:kampala",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1621367296494-e64fd2a2d890?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLYW1wYWxhJTIwVWdhbmRhfGVufDF8MHx8fDE3ODY1MDI4Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Robin Kutesa",
+    "photographer_url": "https://unsplash.com/@kutesir?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/silhouette-of-people-riding-boat-on-sea-during-daytime-j9kIRsK8jqU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T02:47:48Z"
   }
 ]

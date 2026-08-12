@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:tuvalu:funafuti",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1733714090803-28af18de0512?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxGdW5hZnV0aSUyMFR1dmFsdXxlbnwxfDB8fHwxNzg2NTAyODU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Winston Chen",
+    "photographer_url": "https://unsplash.com/@winstonchen?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-woman-with-a-flower-in-her-hair-E_pENQJ1K_M?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T02:47:35Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:tuvalu",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1650509010045-70888b02ffa8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUdXZhbHV8ZW58MXwwfHx8MTc4NjUwMjg1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ernests Vaga",
+    "photographer_url": "https://unsplash.com/@ernests?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-an-island-in-the-middle-of-the-ocean-EJ62n3DuijA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T02:47:33Z"
   }
 ]
