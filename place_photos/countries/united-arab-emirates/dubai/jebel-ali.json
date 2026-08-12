@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:united_arab_emirates:dubai:jebel_ali",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1489516408517-0c0a15662682?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxKZWJlbCUyMEFsaSUyMER1YmFpfGVufDF8MHx8fDE3ODY1NDI2NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Christoph Schulz",
+    "photographer_url": "https://unsplash.com/@christoph?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-photography-of-concrete-buildings-on-the-middle-of-the-sea-wJ6xyh1YMxU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T13:50:57Z"
   }
 ]
