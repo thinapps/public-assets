@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:ukraine:donetsk_oblast:donetsk",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1658232861721-8172a8d0a40f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxEb25ldHNrJTIwRG9uZXRzayUyME9ibGFzdHxlbnwxfDB8fHwxNzg2NTExMjUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Oleksandr Brovko",
+    "photographer_url": "https://unsplash.com/@alex_brov?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/close-up-of-a-plant-FcJUxsN4YNI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T05:07:33Z"
   }
 ]
