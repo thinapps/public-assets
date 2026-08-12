@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:united_states:oregon:salem",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1563251478-37462b112536?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYWxlbSUyME9yZWdvbnxlbnwxfDB8fHwxNzg2NTUxMTE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dan Meyers",
+    "photographer_url": "https://unsplash.com/@dmey503?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/gold-colored-statue-during-daytime-WGfhyaORzh0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T16:11:55Z"
   }
 ]

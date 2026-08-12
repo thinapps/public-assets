@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:united_states:oregon:portland",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1436505743955-a98c0d3eb1a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxQb3J0bGFuZCUyME9yZWdvbnxlbnwxfDB8fHwxNzg2NTUxMTEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Zack Spear",
+    "photographer_url": "https://unsplash.com/@zackspear?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/portland-oregon-old-town-neon-signage-during-night-time-ZB_Ns0hVZNk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T16:11:53Z"
   }
 ]

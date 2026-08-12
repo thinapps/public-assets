@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:united_states:oregon:newport",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1567738879028-b460a0151035?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxOZXdwb3J0JTIwT3JlZ29ufGVufDF8MHx8fDE3ODY1NTExMTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Andy Li",
+    "photographer_url": "https://unsplash.com/@andylid0?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-black-lighthouse-7R-UOPU9I2Y?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T16:11:51Z"
   }
 ]
