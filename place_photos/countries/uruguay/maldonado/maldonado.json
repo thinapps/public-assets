@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:uruguay:maldonado:maldonado",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1653918488348-17d2a707012f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNYWxkb25hZG8lMjBVcnVndWF5fGVufDF8MHx8fDE3ODY1NzIzNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Leandro Hernández",
+    "photographer_url": "https://unsplash.com/@untropero?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/the-sun-is-setting-over-a-city-by-the-ocean-jHz2WyDBVyo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T22:05:54Z"
   }
 ]

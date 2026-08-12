@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:uruguay:florida",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1717292827657-89a92a29199a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxGbG9yaWRhJTIwVXJ1Z3VheXxlbnwxfDB8fHwxNzg2NTcyMzQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Carlos Marcelo Martinez",
+    "photographer_url": "https://unsplash.com/@carlosm3011?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-large-field-with-trees-and-a-cloudy-sky-LO6rVrZcau4?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T22:05:45Z"
   }
 ]

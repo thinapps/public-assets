@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:uruguay:cerro_largo:melo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1591933733584-bf9577821973?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNZWxvJTIwQ2Vycm8lMjBMYXJnb3xlbnwxfDB8fHwxNzg2NTcyMzMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Gabriel Tovar",
+    "photographer_url": "https://unsplash.com/@gabrielrana?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-brown-concrete-buildings-near-green-mountain-under-blue-sky-during-daytime-RZ_EIT0IXbg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-12T22:05:31Z"
   }
 ]
