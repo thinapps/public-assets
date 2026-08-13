@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:uruguay:rio_negro:young",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1623204155260-704053798cbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxZb3VuZyUyMFJpbyUyME5lZ3JvfGVufDF8MHx8fDE3ODY1OTAxMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "William Mazur",
+    "photographer_url": "https://unsplash.com/@wilmazur?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/the-entrance-to-the-city-of-rio-negro-pantana-cesmQLAYoRE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-13T03:01:40Z"
   }
 ]

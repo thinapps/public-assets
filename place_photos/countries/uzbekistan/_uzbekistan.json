@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:uzbekistan",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1673446840855-1c82bafdb67d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxVemJla2lzdGFufGVufDF8MHx8fDE3ODY1OTAxMjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Evgeny Matveev",
+    "photographer_url": "https://unsplash.com/@eugene_rus?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-man-standing-in-front-of-a-building-with-lots-of-clothes-e2uaQCdKOFw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-13T03:02:05Z"
   }
 ]
