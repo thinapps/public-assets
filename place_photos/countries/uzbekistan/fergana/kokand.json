@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:uzbekistan:fergana:kokand",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1557841621-d9f6673405ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxLb2thbmQlMjBVemJla2lzdGFufGVufDF8MHx8fDE3ODY1OTc4MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Snowscat",
+    "photographer_url": "https://unsplash.com/@snowscat?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-house-2O8sAwInqT8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-13T05:10:23Z"
   }
 ]
