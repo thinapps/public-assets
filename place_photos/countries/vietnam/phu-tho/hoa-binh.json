@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:vietnam:phu_tho:hoa_binh",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1686766219304-5e2fb0df9d2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxIb2ElMjBCaW5oJTIwUGh1JTIwVGhvfGVufDF8MHx8fDE3ODY2NTg3NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Fernando Strabuli",
+    "photographer_url": "https://unsplash.com/@fernandostrabuli456?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-river-running-through-a-lush-green-valley-wl_3yExsNsg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-13T22:05:42Z"
   }
 ]
