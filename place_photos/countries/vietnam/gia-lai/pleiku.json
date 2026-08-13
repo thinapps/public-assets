@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:vietnam:gia_lai:pleiku",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1652380213638-767abb828429?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQbGVpa3UlMjBHaWElMjBMYWl8ZW58MXwwfHx8MTc4NjYzNzUxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Asso Myron",
+    "photographer_url": "https://unsplash.com/@assomyron?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-city-with-many-buildings-jbYthMUFyYE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-13T16:11:59Z"
   }
 ]

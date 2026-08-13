@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:vietnam:dong_thap:my_tho",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1552058184-1b8793a09435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNeSUyMFRobyUyMERvbmclMjBUaGFwfGVufDF8MHx8fDE3ODY2Mzc1MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Pascal Müller",
+    "photographer_url": "https://unsplash.com/@millerthachiller?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-coconut-tree-VAQ6427pBA0?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-13T16:11:55Z"
   }
 ]
