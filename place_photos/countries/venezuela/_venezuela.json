@@ -1,10 +1,10 @@
 [
   {
     "place_id": "country:venezuela",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1539186247735-4fa949e90b00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxWZW5lenVlbGF8ZW58MXwwfHx8MTc4NjYxNzAwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Manolo Gomes",
+    "photographer_url": "https://unsplash.com/@jos1?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/three-yellow-and-blue-macaw-birds-perched-on-brown-branch-kQt5KVwt4rM?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-13T10:30:01Z"
   }
 ]

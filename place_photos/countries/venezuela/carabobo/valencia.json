@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:venezuela:carabobo:valencia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1521898461100-618454f89314?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxWYWxlbmNpYSUyMFZlbmV6dWVsYXxlbnwxfDB8fHwxNzg2NjE3MDIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jose Francisco Morales",
+    "photographer_url": "https://unsplash.com/@franciscomorales?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/jigsaw-riding-bicycle-ibYF02aYEbE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-13T10:30:22Z"
   }
 ]

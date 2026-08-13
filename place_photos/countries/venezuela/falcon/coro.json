@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:venezuela:falcon:coro",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1567880335125-00089ebf508f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxDb3JvJTIwRmFsY29ufGVufDF8MHx8fDE3ODY2MTcwMjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "David White",
+    "photographer_url": "https://unsplash.com/@davidwhite50?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-bird-perch-in-humans-hand-8SO3BUh1qAA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-13T10:30:26Z"
   }
 ]

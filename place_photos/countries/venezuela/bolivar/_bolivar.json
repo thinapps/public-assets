@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:venezuela:bolivar",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1533739095279-9e34b82d441a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxCb2xpdmFyJTIwVmVuZXp1ZWxhfGVufDF8MHx8fDE3ODY2MTcwMTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jose Prieto",
+    "photographer_url": "https://unsplash.com/@joseaprieto68?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/coconut-trees-bn873zF3ekc?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-13T10:30:11Z"
   }
 ]

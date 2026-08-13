@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:venezuela:bolivar:canaima",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1687892564936-2afe81e0ac93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDYW5haW1hJTIwVmVuZXp1ZWxhfGVufDF8MHx8fDE3ODY2MTcwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Navid Moazzez",
+    "photographer_url": "https://unsplash.com/@navidm?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-man-standing-next-to-a-boat-on-a-lake-CwV784XjrEw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-13T10:30:13Z"
   }
 ]
