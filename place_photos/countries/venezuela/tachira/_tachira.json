@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:venezuela:tachira",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1590802810354-a785c3c50dcf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxUYWNoaXJhJTIwVmVuZXp1ZWxhfGVufDF8MHx8fDE3ODY2MjkwNzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Fernando Gago",
+    "photographer_url": "https://unsplash.com/@fernandoegv?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/person-in-blue-jacket-standing-on-top-of-mountain-during-daytime-022AH0CZE7c?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-13T13:51:13Z"
   }
 ]
