@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:vietnam:gia_lai:quy_nhon",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1560569588-fe52d930d1c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxRdXklMjBOaG9uJTIwVmlldG5hbXxlbnwxfDB8fHwxNzg2NjQ5MjgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Tuan Nguyen",
+    "photographer_url": "https://unsplash.com/@tuannguyen728?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-photography-of-boats-sailing-on-sea-at-daytime-HJpS_vj1VWo?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-13T19:28:01Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:vietnam:lao_cai",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1504457047772-27faf1c00561?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxMYW8lMjBDYWklMjBWaWV0bmFtfGVufDF8MHx8fDE3ODY2NDkzMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ruslan Bardash",
+    "photographer_url": "https://unsplash.com/@ruslanbardash?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-house-between-two-cliffs-8MhejqEghLk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-13T19:28:33Z"
   }
 ]

@@ -4058,10 +4058,18 @@
     "city:vietnam:dong_thap:cao_lanh",
     "city:vietnam:dong_thap:my_tho",
     "city:vietnam:gia_lai:pleiku",
+    "city:vietnam:gia_lai:quy_nhon",
     "city:vietnam:hai_phong:hai_phong",
     "city:vietnam:hanoi:hanoi",
     "city:vietnam:ho_chi_minh_city:ho_chi_minh_city",
+    "city:vietnam:ho_chi_minh_city:thu_dau_mot",
+    "city:vietnam:ho_chi_minh_city:vung_tau",
+    "city:vietnam:hue:hue",
+    "city:vietnam:hung_yen:thai_binh",
     "city:vietnam:khanh_hoa:nha_trang",
+    "city:vietnam:khanh_hoa:phan_rang",
+    "city:vietnam:lam_dong:da_lat",
+    "city:vietnam:lam_dong:phan_thiet",
     "country:afghanistan",
     "country:albania",
     "country:algeria",
@@ -6126,6 +6134,9 @@
     "subdivision:vietnam:hai_phong",
     "subdivision:vietnam:hanoi",
     "subdivision:vietnam:ho_chi_minh_city",
-    "subdivision:vietnam:khanh_hoa"
+    "subdivision:vietnam:hue",
+    "subdivision:vietnam:khanh_hoa",
+    "subdivision:vietnam:lam_dong",
+    "subdivision:vietnam:lao_cai"
   ]
 }
