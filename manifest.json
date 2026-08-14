@@ -4104,6 +4104,16 @@
     "city:zambia:central:kabwe",
     "city:zambia:copperbelt:ndola",
     "city:zambia:eastern:chipata",
+    "city:zambia:luapula:mansa",
+    "city:zambia:lusaka:lusaka",
+    "city:zambia:muchinga:chinsali",
+    "city:zambia:north_western:solwezi",
+    "city:zambia:northern:kasama",
+    "city:zambia:southern:choma",
+    "city:zambia:southern:livingstone",
+    "city:zambia:western:mongu",
+    "city:zimbabwe:bulawayo:bulawayo",
+    "city:zimbabwe:harare:harare",
     "country:afghanistan",
     "country:albania",
     "country:algeria",
@@ -4301,6 +4311,7 @@
     "country:vietnam",
     "country:yemen",
     "country:zambia",
+    "country:zimbabwe",
     "subdivision:afghanistan:badakhshan",
     "subdivision:afghanistan:badghis",
     "subdivision:afghanistan:baghlan",
@@ -6193,6 +6204,12 @@
     "subdivision:yemen:sanaa",
     "subdivision:yemen:taiz",
     "subdivision:zambia:central",
-    "subdivision:zambia:eastern"
+    "subdivision:zambia:eastern",
+    "subdivision:zambia:lusaka",
+    "subdivision:zambia:northern",
+    "subdivision:zambia:southern",
+    "subdivision:zimbabwe:bulawayo",
+    "subdivision:zimbabwe:harare",
+    "subdivision:zimbabwe:manicaland"
   ]
 }

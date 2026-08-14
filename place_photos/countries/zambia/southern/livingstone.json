@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:zambia:southern:livingstone",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1591769075936-53120d8282a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxMaXZpbmdzdG9uZSUyMFNvdXRoZXJufGVufDF8MHx8fDE3ODY2OTQwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Joshua Hoehne",
+    "photographer_url": "https://unsplash.com/@joshua_hoehne?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-and-gray-brick-wall-u7H5JBeSUdU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-14T07:53:33Z"
   }
 ]
