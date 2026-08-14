@@ -41,58 +41,58 @@
   },
   {
     "place_id": "region:middle_east",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxNaWRkbGUlMjBFYXN0fGVufDF8MHx8fDE3ODY3MTUyMTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Kyle Glenn",
+    "photographer_url": "https://unsplash.com/@kylejglenn?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/desk-globe-on-table-nXt5HtLmlgE?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-14T13:46:54Z"
   },
   {
     "place_id": "region:south_asia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1559489110-40a90ee4e70a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMEFzaWF8ZW58MXwwfHx8MTc4NjcxNTIxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "David Baker",
+    "photographer_url": "https://unsplash.com/@dave301?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/abandoned-building-surround-with-trees-HyrGrZBZNQw?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-14T13:46:56Z"
   },
   {
     "place_id": "region:central_asia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1595496358672-2d175fcdd01a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxDZW50cmFsJTIwQXNpYXxlbnwxfDB8fHwxNzg2NzE1MjE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Amir Asake",
+    "photographer_url": "https://unsplash.com/@amirasake?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-grass-field-near-mountain-under-blue-sky-during-daytime-1y6xSXuiVHU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-14T13:46:57Z"
   },
   {
     "place_id": "region:southeast_asia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTb3V0aGVhc3QlMjBBc2lhfGVufDF8MHx8fDE3ODY3MTUyMTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Z",
+    "photographer_url": "https://unsplash.com/@dead____artist?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/world-map-with-pins-TrhLCn1abMU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-14T13:46:59Z"
   },
   {
     "place_id": "region:east_asia",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxFYXN0JTIwQXNpYXxlbnwxfDB8fHwxNzg2NzE1MjIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Z",
+    "photographer_url": "https://unsplash.com/@dead____artist?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/world-map-with-pins-TrhLCn1abMU?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-14T13:47:01Z"
   },
   {
     "place_id": "region:oceania",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1575998256921-f3ef8ebdabef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxPY2VhbmlhfGVufDF8MHx8fDE3ODY3MTUyMjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Denise Jans",
+    "photographer_url": "https://unsplash.com/@dmjdenise?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/round-gold-and-black-compass-and-map-chart-J7mkFHkahj8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-14T13:47:02Z"
   },
   {
     "place_id": "region:africa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxBZnJpY2F8ZW58MXwwfHx8MTc4NjcxNTIyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Hu Chen",
+    "photographer_url": "https://unsplash.com/@huchenme?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-tree-on-surrounded-by-brown-grass-during-golden-hour-60XLoOgwkfA?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-14T13:47:04Z"
   }
 ]
