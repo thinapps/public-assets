@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:chad:guera:mongo",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1600178533452-c590af8c052f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxNb25nbyUyMEd1ZXJhfGVufDF8MHx8fDE3ODY4MTk3OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ilse Orsel",
+    "photographer_url": "https://unsplash.com/@lgtts?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/horses-eating-grass-on-field-during-daytime-iidVP3ApkJI?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-15T18:49:50Z"
   }
 ]
