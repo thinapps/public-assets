@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:attica:peristeri",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1555993539-1732b0258235?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxQZXJpc3RlcmklMjBHcmVlY2V8ZW58MXwwfHx8MTc4NjkxNjIwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Spencer Davis",
+    "photographer_url": "https://unsplash.com/@spencerdavis?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/view-of-brown-ruin-during-daytime-ilQmlVIMN4c?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-16T21:36:44Z"
   }
 ]
