@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:kyrgyzstan:chuy:kant",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1551189496-17e968f1d52a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLYW50JTIwS3lyZ3l6c3RhbnxlbnwxfDB8fHwxNzg2OTkzMjQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Vladimir Ivanov",
+    "photographer_url": "https://unsplash.com/@astat?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/landscape-photography-of-mountain-8TUCgXlrVmY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-17T19:00:40Z"
   }
 ]
