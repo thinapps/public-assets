@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:italy:piedmont:asti",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1565788185831-1756634385fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxBc3RpJTIwUGllZG1vbnR8ZW58MXwwfHx8MTc4Njk3MjE2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Matej Drha",
+    "photographer_url": "https://unsplash.com/@m_d_adventures?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/concrete-buildings-at-daytime-n4pfsoYo8lk?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-17T13:09:23Z"
   }
 ]
