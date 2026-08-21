@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:vietnam:dong_nai:dong_xoai",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1521060722990-50641f4bf465?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxEb25nJTIwWG9haSUyMFZpZXRuYW18ZW58MXwwfHx8MTc4NzMzODc5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Matthew Nolan",
+    "photographer_url": "https://unsplash.com/@mdnolan?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/group-of-people-riding-a-motorcycle-a_89Onshm3I?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-08-21T18:59:55Z"
   }
 ]
