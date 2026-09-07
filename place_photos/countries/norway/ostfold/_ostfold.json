@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:norway:ostfold",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1544085311-11a028465b03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxPc3Rmb2xkJTIwTm9yd2F5fGVufDF8MHx8fDE3ODg4MDgzOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Michael Fousert",
+    "photographer_url": "https://unsplash.com/@michaelfousert?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/colorful-wooden-houses-in-bergen-lE5-z4nTCTQ?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-09-07T19:13:16Z"
   }
 ]
