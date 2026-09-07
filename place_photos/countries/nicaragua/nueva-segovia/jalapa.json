@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:nicaragua:nueva_segovia:jalapa",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1590856343214-a9f41a96d04d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxKYWxhcGElMjBOaWNhcmFndWF8ZW58MXwwfHx8MTc4ODc1NjYzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Tobias Tullius",
+    "photographer_url": "https://unsplash.com/@tobiastu?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/cars-parked-on-side-of-road-during-daytime-nrMOWhyZ4cY?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-09-07T04:50:38Z"
   }
 ]
