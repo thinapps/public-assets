@@ -17,6 +17,27 @@ Country, subdivision, and city photo paths are generated from a private source p
 
 `photo_cursor.json` is separate operational workflow state. It helps normal photo generation resume through the blank-entry queue and is not part of the public photo payload or manifest.
 
+## Why the bulk lookup lives here
+
+`photos.json` is intentionally generated in this repository even though Freebase.top is currently its main bulk consumer.
+
+The lookup is not required for the Android app and is not a new source of truth. It is a generic derived export of photo metadata already owned by this repository.
+
+Keeping the export beside the canonical photo tree has several advantages:
+
+- one producer owns normalization and eligibility rules
+- every consumer sees the same complete photo metadata for a `place_id`
+- bulk consumers can make one small request instead of downloading and scanning the entire repository archive
+- consumers do not need to understand the internal `place_photos/` directory layout
+- future consumers can reuse the same lookup instead of independently rebuilding it
+- the existing photo workflow can regenerate the lookup atomically with the underlying metadata
+
+The alternative would be for Freebase.top and any future bulk consumer to download the whole repository ZIP and derive an equivalent mapping on every build. That works and remains useful as a fallback, but it transfers more data, performs more parsing, couples consumers to this repository's internal file layout, and duplicates lookup-generation logic outside the repository that owns the data.
+
+For those reasons, `photos.json` is the preferred normal interface for bulk consumers. Archive scanning is a resilience/bootstrap mechanism, not the primary architecture.
+
+This repository should still remain presentation-agnostic. It owns photo metadata and generic derived exports only. Website HTML, CSS, image placement, SEO markup, and other Freebase.top-specific behavior belong in `thinapps/freebase.top`.
+
 ## Photo file schema
 
 Most place photo files contain a JSON array with one metadata object:
@@ -122,9 +143,24 @@ The root object is keyed by canonical `place_id`. Each value contains only the f
 }
 ```
 
-`cached_at` is intentionally omitted because website rendering does not need it. Keys are written in deterministic sorted order. If the source tree contains conflicting usable metadata for the same `place_id`, generation fails instead of choosing one record silently.
+`cached_at` is intentionally omitted because bulk rendering does not need it. Keys are written in deterministic sorted order. If the source tree contains conflicting usable metadata for the same `place_id`, generation fails instead of choosing one record silently.
 
-The lookup exists to prevent bulk clients from fetching thousands of individual metadata files. Per-place clients such as the Android app can continue using `manifest.json` plus the existing individual photo paths.
+The lookup exists to prevent bulk clients from fetching thousands of individual metadata files or parsing the repository archive during normal operation. Per-place clients such as the Android app can continue using `manifest.json` plus the existing individual photo paths.
+
+The lookup must be treated as generated output. Do not edit `photos.json` manually to repair a photo. Repair the canonical record under `place_photos/` and let the workflow rebuild the lookup.
+
+## Consumer responsibilities
+
+Bulk consumers should:
+
+- treat `photos.json` as a read-only derived export
+- match records by canonical `place_id`
+- preserve `image_url`, photographer attribution, photographer URL, and source URL together
+- validate the lookup before publishing output based on it
+- tolerate a place having no photo
+- avoid turning this repository into a presentation layer
+
+Freebase.top additionally has a repository-ZIP fallback for bootstrap/resilience. That fallback deliberately reconstructs the same mapping from canonical `place_photos/` records and does not become a second source of truth.
 
 ## Manifest growth and scaling
 
@@ -173,6 +209,8 @@ For example:
 Shards should use deterministic names and stable boundaries, such as place type and geographic region. Each shard should preserve unique sorted IDs and the same eligibility rules as the current manifest.
 
 Sharding is useful only when clients can load the necessary shards selectively or cache unchanged shards independently. If every client must download every child manifest to rebuild the same global set, sharding adds requests and implementation complexity without reducing the total data transferred. Any future migration must therefore update repository generation, versioning, client fetching, caching, failure handling, and backward compatibility together.
+
+The same principle applies to `photos.json`: keep the single lookup while its actual transfer and parse cost remains reasonable. Shard only when measurement shows a real problem and consumers can benefit from selective loading.
 
 ## Version
 
