@@ -8,17 +8,18 @@ The selection policy is intentionally simple. It favors predictable behavior, bo
 
 ## Candidate selection
 
-Normal runs process entries whose `image_url` is not an actual non-empty string. This includes ordinary empty-string placeholders as well as missing, `null`, or otherwise non-string values that need repair. Other missing metadata does not make an entry eligible when `image_url` is already a valid non-empty string.
+Normal runs process any photo record that is not complete and usable according to the same required-field rules used by the manifest and bulk lookup.
 
-Eligible blank candidates include:
+Normal candidates fall into two groups:
 
-- empty placeholder arrays whose place ID can be inferred from the file path
-- photo records with an empty `image_url`
-- photo records whose `image_url` is missing or not a string
+- repair candidates: records that already have a non-empty `image_url` but are missing or have invalid required metadata such as `place_id`, `photographer_name`, `photographer_url`, or `source_url`
+- blank candidates: empty placeholder arrays or records whose `image_url` is missing, empty, or not a string
 
-Blank candidates use deterministic path order. Normal runs rotate that order through `photo_cursor.json` so repeated no-result entries cannot permanently block later candidates.
+Repair candidates are placed ahead of ordinary blank candidates before cursor rotation. Each group uses deterministic path order, while the existing cursor and wraparound behavior still allows later candidates to make progress when earlier repairs repeatedly return no results.
 
-When `--overwrite` is used, only entries that already have an actual non-empty string `image_url` are eligible. Existing photos are processed from the oldest `cached_at` value first. Missing, non-string, or invalid timestamps are treated as the oldest. Overwrite mode does not use or update the blank-entry cursor.
+A repair does not attempt to reconstruct attribution from an existing image URL. The generator searches the place again and, when it finds a usable result, replaces the incomplete assignment with a complete API-derived record and performs the normal Unsplash download-location tracking for that newly persisted selection.
+
+When `--overwrite` is used, only complete usable photo records are eligible. Existing photos are processed from the oldest `cached_at` value first. Missing, non-string, or invalid timestamps are treated as the oldest. Incomplete records remain normal-mode repair candidates instead of entering the overwrite queue. Overwrite mode does not use or update the normal-mode cursor.
 
 ## Cursor behavior
 
@@ -32,12 +33,12 @@ When `--overwrite` is used, only entries that already have an actual non-empty s
 
 The value is operational state and changes as normal runs progress. The example above is illustrative rather than a permanent expected value.
 
-For normal blank-filling runs:
+For normal repair-and-fill runs:
 
 - processing resumes immediately after `last_attempted_place_id`
 - candidate order wraps to the beginning after reaching the end
-- the cursor advances after every attempted candidate, including no-result and recognized rate-limit attempts
-- cursor position is resolved against the full photo tree, so a successfully filled entry can still be used as the resume point even though it is no longer in the blank queue
+- the cursor advances after every attempted candidate, including repair candidates, blank candidates, no-result attempts, and recognized rate-limit attempts
+- cursor position is resolved against the full photo tree, so a successfully repaired or filled entry can still be used as the resume point even though it is no longer in the normal candidate queue
 - if the saved place ID no longer exists, processing starts from the beginning and logs a warning
 - cursor-only changes are committed but do not bump `version.json`
 
@@ -45,9 +46,9 @@ The cursor is operational workflow state. It is not included in `manifest.json` 
 
 ### Why the cursor is necessary
 
-A small attempt limit keeps each scheduled run reliable, but without persistent position every run would begin with the same blank entries. Places that repeatedly return no results could consume the whole batch forever while later candidates are never attempted.
+A small attempt limit keeps each scheduled run reliable, but without persistent position every run would begin with the same incomplete entries. Places that repeatedly return no results could consume the whole batch forever while later candidates are never attempted.
 
-The cursor preserves deterministic ordering while rotating the starting point. This gives the full queue a chance before earlier no-result entries are retried after wraparound.
+The cursor preserves deterministic ordering while rotating the starting point. This gives the full repair-and-fill queue a chance before earlier no-result entries are retried after wraparound.
 
 ## Attempt limit
 
@@ -135,8 +136,9 @@ The generated record is written only when `place_id`, `image_url`, `photographer
 When all queries for a place return no results:
 
 - no photo metadata is written
-- in normal mode, the blank entry remains blank and eligible for a future cycle
-- in overwrite mode, the existing photo record remains unchanged
+- in normal mode, an incomplete existing record remains unchanged and eligible for a future repair cycle
+- in normal mode, a blank entry remains blank and eligible for a future fill cycle
+- in overwrite mode, the existing complete photo record remains unchanged
 - the run continues to the next candidate
 
 No-result entries are normal and do not make the workflow fail. The normal-mode cursor still advances so later candidates receive a chance before the queue wraps back.
@@ -164,7 +166,8 @@ During generation, `version.json` is bumped when photo metadata or the rebuilt m
 
 A successful workflow run can therefore have several valid outcomes:
 
-- photo or manifest changes with a version bump
+- a repaired incomplete record or newly filled blank with a version bump
+- other photo or manifest changes with a version bump
 - a lookup-only `photos.json` change with one workflow version bump
 - cursor-only progress with a commit but no version bump
 - no tracked changes and no commit
