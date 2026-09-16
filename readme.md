@@ -18,6 +18,8 @@ Normal scheduled runs use a bounded attempt count and resume through the blank-e
 
 ## Documentation
 
+Detailed documentation covers the public photo data model, selection workflow, synchronization and cleanup behavior, automation, and Unsplash API compliance requirements.
+
 | Document | Description |
 | --- | --- |
 | [`docs/photo-data.md`](docs/photo-data.md) | Defines the public photo-data schema, directory structure, placeholders, manifest and version behavior, attribution fields, and generated-data maintenance policy. |
