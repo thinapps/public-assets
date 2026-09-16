@@ -81,11 +81,11 @@ Never:
 
 The Unsplash API is used only to find place imagery. The resulting experience is a place-information use case rather than an Unsplash clone, stock-photo browser, or general photo-download service.
 
-The current generator searches for a specific known place, considers a limited set of relevant results, and chooses one photo for that place. The workflow may run on a schedule so that missing place imagery can be filled gradually and existing assignments can be refreshed in bounded batches.
+The current generator searches for a specific known place, considers a limited set of relevant results, and chooses one photo for that place. API-backed generation is currently manual-only through `workflow_dispatch` so each run is deliberate and bounded.
 
-Unsplash currently describes its API as intended for non-automated, high-quality, authentic experiences. The scheduled workflow is therefore a point that should continue to be monitored when reviewing policy changes.
+Historically, the workflow also ran automatically every three hours at 17 minutes past the hour using the cron expression `17 */3 * * *`. That schedule was removed while preparing for Unsplash production API access because Unsplash currently describes its API as intended for non-automated, high-quality, authentic experiences. The previous schedule may be restored later if Unsplash confirms that this specific bounded automated photo-selection workflow is acceptable.
 
-Our current interpretation is that this workflow remains compliant because the automation is narrow and product-specific rather than spammy or extractive:
+The pipeline remains intentionally narrow and product-specific:
 
 - it enriches an existing place-information use case instead of creating a photo-search or photo-download product;
 - it searches only for known places rather than crawling the Unsplash catalog generally;
@@ -96,9 +96,7 @@ Our current interpretation is that this workflow remains compliant because the a
 - it triggers Unsplash download-location tracking when a selected image is actually persisted;
 - it is not used for spam, advertising inventory, AI training, or bulk resale of Unsplash content.
 
-This is a project compliance position, not a guarantee that Unsplash will interpret every future version of its policy the same way. If Unsplash asks for the scheduled behavior to change, or materially tightens its automation guidance, the schedule should be revisited promptly. The simplest fallback is to retain the same generator but run it only through manual `workflow_dispatch` executions.
-
-Do not assume that an existing schedule or historical implementation is permanently permitted simply because the technical API call succeeds.
+Do not re-enable scheduled API runs merely because the technical API call succeeds. Review the current Unsplash guidance first and, when possible, get confirmation that this automation pattern is permitted before restoring the historical cron schedule.
 
 ## Stored data and caching
 
@@ -130,5 +128,5 @@ Before changing the Unsplash integration, verify that:
 - `links.download_location` is still triggered once for each newly persisted selection;
 - dry runs and unchanged records do not create false download events;
 - the API key remains secret and server-side;
-- the scheduled workflow is still reasonably defensible as bounded product enrichment rather than spammy, extractive, or catalog-harvesting behavior;
+- API-backed workflow execution remains manual-only unless current Unsplash guidance or direct confirmation supports restoring automation;
 - current Unsplash API guidelines have been reviewed for changes affecting automation, attribution, caching, or tracking.
