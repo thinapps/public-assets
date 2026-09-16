@@ -160,11 +160,12 @@ Other unexpected HTTP errors, network errors, malformed required data, unexpecte
 
 After candidate processing, `manifest.json` is rebuilt from complete usable photo records whose required fields are actual non-empty strings.
 
-`version.json` is bumped only when photo metadata or the manifest changes. Search attempts and cursor-only updates do not bump the version because clients do not need to refresh public photo data for workflow-state-only changes.
+During generation, `version.json` is bumped when photo metadata or the rebuilt manifest changes. The workflow then rebuilds `photos.json`; if that lookup changes without an earlier version change in the same run, the workflow bumps `version.json` once for the lookup-only public payload change. Search attempts and cursor-only updates do not bump the version because they do not change public photo output.
 
 A successful workflow run can therefore have several valid outcomes:
 
 - photo or manifest changes with a version bump
+- a lookup-only `photos.json` change with one workflow version bump
 - cursor-only progress with a commit but no version bump
 - no tracked changes and no commit
 - a clean stop after recognized quota exhaustion
