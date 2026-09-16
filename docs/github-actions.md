@@ -31,6 +31,7 @@ Together, these rules provide:
 - lower risk of exhausting the Unsplash quota in one run
 - steady progress through the repair-and-fill queue
 - automatic repair of incomplete records that would otherwise remain unusable
+- structural recovery for syntactically valid country-tree photo JSON that no longer matches the canonical array/object shape
 - successful no-change outcomes when nothing is wrong
 - real failures for configuration, data, network, and unexpected API problems
 
@@ -60,7 +61,7 @@ Missing or invalid configuration is treated as a real failure.
 1. Check out this public repository.
 2. Check out the private source repository without persisting its credentials.
 3. Set up Python 3.11.
-4. Synchronize country, subdivision, and city photo placeholders with the current source place tree.
+4. Synchronize country, subdivision, and city photo placeholders with the current source place tree and normalize recoverable valid-JSON structural problems into canonical public records.
 5. Migrate usable cached photos when a place path changes and safely prune stale files.
 6. Resume after the stored normal-mode cursor and attempt Unsplash searches for incomplete repair candidates and blank fill candidates, unless overwrite mode is active.
 7. Save the last attempted normal-mode place ID in `photo_cursor.json`.
@@ -128,9 +129,11 @@ The workflow should remain red for problems that require attention, including:
 - Unexpected Unsplash response shapes, HTTP responses, or network failures other than recognized quota exhaustion.
 - A Git rebase conflict or a push that still fails after the limited retry.
 
-Valid JSON photo files with unsupported non-list payloads are skipped from candidate and manifest processing. Individual records whose required photo fields are missing, empty, or not strings are treated as incomplete and become normal repair or fill candidates rather than usable cached photos.
+For current country, subdivision, and city paths, syntactically valid but structurally unsupported public JSON is normalized by the synchronization step before candidate generation. Recoverable object payloads preserve their string photo metadata; unusable scalar or non-object first-entry structures are reset to a canonical blank first record. Files outside the synchronization scope, such as `place_photos/world.json`, retain the generator's normal validation behavior and unsupported non-list payloads are skipped.
 
-Malformed source JSON is skipped by the synchronization script and does not fail the workflow by itself.
+Individual records whose required photo fields are missing, empty, or not strings are treated as incomplete and become normal repair or fill candidates rather than usable cached photos.
+
+Malformed source JSON is skipped by the synchronization script and does not fail the workflow by itself. A valid legacy `id` is used when `place_id` is missing, empty, or not a string.
 
 Do not hide real failures by broadly ignoring command exit codes or increasing the workflow timeout.
 
@@ -148,12 +151,12 @@ For local diagnostics, `scripts/generate_place_photos.py` supports `--dry-run`. 
 
 Run `python scripts/build_photo_lookup.py` only to regenerate `photos.json` from already-correct canonical records under `place_photos/`. Repair canonical records rather than editing `photos.json` directly. If a local manual rebuild changes `photos.json`, ensure the corresponding public payload version is also bumped before publishing the change; the automatic lookup-only safeguard lives in the workflow.
 
-Manual synchronization or stale pruning should use the documented source tree and existing safety guards. Review migration and deletion output carefully, and do not bypass the 10% stale-delete protection merely to complete a run.
+Manual synchronization or stale pruning should use the documented source tree and existing safety guards. Review normalization, migration, and deletion output carefully, and do not bypass the 10% stale-delete protection merely to complete a run.
 
 ## Files involved
 
 - `.github/workflows/update-place-photos.yml`: Workflow definition.
-- `scripts/sync_place_photo_tree.py`: Synchronizes placeholders and prunes stale files safely.
+- `scripts/sync_place_photo_tree.py`: Synchronizes placeholders, normalizes recoverable public record structure, and prunes stale files safely.
 - `scripts/generate_place_photos.py`: Selects repair, fill, or overwrite candidates, rotates normal runs through the cursor, searches Unsplash, writes complete photo records, rebuilds the manifest, and updates the version.
 - `scripts/photo_queries.py`: Builds deterministic search queries from place IDs and paths.
 - `scripts/build_photo_lookup.py`: Rebuilds the bulk `photos.json` lookup from complete canonical photo records.
