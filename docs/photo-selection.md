@@ -174,3 +174,4 @@ A successful workflow run can therefore have several valid outcomes:
 - [`photo-data.md`](photo-data.md): Public schema, path conventions, manifest rules, version behavior, and attribution requirements.
 - [`github-actions.md`](github-actions.md): Workflow inputs, secrets, reliability design, result summaries, graceful outcomes, and real failures.
 - [`sync-and-cleanup.md`](sync-and-cleanup.md): Source synchronization, cached-photo migration, stale cleanup, and deletion safeguards.
+- [`unsplash-compliance.md`](unsplash-compliance.md): Unsplash hotlinking, attribution, tracking, API-key, and scheduled-workflow compliance requirements.
