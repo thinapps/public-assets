@@ -295,8 +295,8 @@ def sync_place_photo_tree(source_root, photo_root, prune_stale):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="sync public place photo placeholders from app place data")
-    parser.add_argument("--source-root", required=True, help="source countries directory from the app repo")
+    parser = argparse.ArgumentParser(description="sync public place photo placeholders from source place data")
+    parser.add_argument("--source-root", required=True, help="source countries directory from the source repository")
     parser.add_argument("--photo-root", required=True, help="public-assets place photo countries directory")
     parser.add_argument("--prune-stale", action="store_true", help="delete photo files no longer present in the source tree")
 
