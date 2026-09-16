@@ -15,7 +15,7 @@ Country, subdivision, and city photo paths are generated from a private source p
 - `photos.json` is a generated place-ID lookup containing complete usable photo metadata for bulk consumers.
 - `version.json` contains the integer public payload version.
 
-`photo_cursor.json` is separate operational workflow state. It helps normal photo generation resume through the blank-entry queue and is not part of the public photo payload or manifest.
+`photo_cursor.json` is separate operational workflow state. It helps normal photo generation resume through the repair-and-fill queue and is not part of the public photo payload or manifest.
 
 ## Why the bulk lookup lives here
 
@@ -55,7 +55,9 @@ Most place photo files contain a JSON array with one metadata object:
 ]
 ```
 
-An entry with an empty string `image_url` is a valid placeholder and remains eligible for future photo searches. A missing or non-string `image_url` is incomplete and is treated as needing repair during normal candidate selection. Records missing other required fields remain incomplete and are excluded from `manifest.json` and `photos.json`.
+An entry with an empty string `image_url` is a valid placeholder and remains eligible for future photo searches. A photo record is incomplete whenever any required field is missing, empty, or not a string. This includes records that already have a non-empty `image_url` but are missing valid place or attribution metadata.
+
+Incomplete records are excluded from `manifest.json` and `photos.json` and remain eligible for normal repair. When an incomplete record already contains an image URL, the generator searches the place again and replaces the incomplete assignment with a complete API-derived record instead of attempting to reconstruct attribution from the existing URL.
 
 A photo is complete and usable only when all of these fields contain actual non-empty JSON strings:
 
@@ -217,6 +219,7 @@ The same principle applies to `photos.json`: keep the single lookup while its ac
 `version.json` is bumped when generated public output changes in a way clients should notice. This includes:
 
 - newly cached photo metadata
+- repaired incomplete photo metadata
 - refreshed photo metadata in overwrite mode
 - manifest changes caused by place additions, removals, or stale-file cleanup
 - lookup-only `photos.json` changes produced by the workflow
@@ -238,7 +241,7 @@ Each usable photo record preserves:
 - a photographer profile URL
 - the original photo source URL
 
-Photographer and source links include the repository's configured referral parameters. Removing attribution fields makes the record incomplete and removes it from the generated manifest and lookup.
+Photographer and source links include the repository's configured referral parameters. Removing attribution fields makes the record incomplete, removes it from the generated manifest and lookup, and makes it eligible for normal repair.
 
 ## Generated data policy
 
