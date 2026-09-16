@@ -6,10 +6,12 @@ Country, subdivision, and city photo paths are generated from a private source p
 
 ## Public data
 
-- `place_photos/` photo metadata tree
+- `place_photos/` canonical per-place photo metadata tree
 - `manifest.json` place IDs with complete usable photo metadata
-- `photos.json` generated place-ID lookup for bulk consumers
-- `version.json` public payload version
+- `photos.json` generated bulk photo lookup keyed by place ID
+- `version.json` integer version for public payload changes
+
+`photo_cursor.json` is operational workflow state and is not part of the public data payload.
 
 ## Documentation
 
