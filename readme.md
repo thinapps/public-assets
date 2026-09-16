@@ -22,8 +22,8 @@ Detailed documentation covers the public photo data model, selection workflow, s
 
 | Document | Description |
 | --- | --- |
-| [`docs/photo-data.md`](docs/photo-data.md) | Defines the public photo-data schema, directory structure, placeholders, manifest and version behavior, attribution fields, and generated-data maintenance policy. |
-| [`docs/photo-selection.md`](docs/photo-selection.md) | Explains candidate ordering, attempt limits, cursor progress, Unsplash search queries, photo selection rules, and handling for no-result, rate-limit, and failure cases. |
-| [`docs/sync-and-cleanup.md`](docs/sync-and-cleanup.md) | Covers synchronization from the source place tree, cached-photo migration, stale-path pruning, cleanup behavior, and safeguards that prevent accidental data loss. |
-| [`docs/github-actions.md`](docs/github-actions.md) | Documents workflow scheduling and manual inputs, secrets, concurrency, reliability design, timeout and failure behavior, result summaries, and operational details. |
-| [`docs/unsplash-compliance.md`](docs/unsplash-compliance.md) | Records the Unsplash API compliance model, including hotlinking, attribution and referral parameters, API-key handling, download-location tracking, automation rationale, and maintenance checks. |
+| [Photo Data](docs/photo-data.md) | Defines the public photo-data schema, directory structure, placeholders, manifest and version behavior, attribution fields, and generated-data maintenance policy. |
+| [Photo Selection](docs/photo-selection.md) | Explains candidate ordering, attempt limits, cursor progress, Unsplash search queries, photo selection rules, and handling for no-result, rate-limit, and failure cases. |
+| [Sync and Cleanup](docs/sync-and-cleanup.md) | Covers synchronization from the source place tree, cached-photo migration, stale-path pruning, cleanup behavior, and safeguards that prevent accidental data loss. |
+| [GitHub Actions](docs/github-actions.md) | Documents workflow scheduling and manual inputs, secrets, concurrency, reliability design, timeout and failure behavior, result summaries, and operational details. |
+| [Unsplash Compliance](docs/unsplash-compliance.md) | Records the Unsplash API compliance model, including hotlinking, attribution and referral parameters, API-key handling, download-location tracking, automation rationale, and maintenance checks. |
