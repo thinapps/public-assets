@@ -11,8 +11,6 @@ on:
         description: Refresh complete existing photo records
         required: false
         default: "false"
-  schedule:
-    - cron: "17 */3 * * *"
 
 permissions:
   contents: write
