@@ -287,8 +287,9 @@ def build_candidates(
     place_photos_dir: Path,
     overwrite: bool,
 ) -> Tuple[List[Dict[str, Any]], Dict[str, Tuple[str, int]]]:
-    # blank-first mode fills missing photos
-    # overwrite mode refreshes the oldest cached photos first
+    # normal mode repairs incomplete records before filling blank placeholders
+    # overwrite mode refreshes the oldest complete cached photos first
+    repair_candidates: List[Dict[str, Any]] = []
     blank_candidates: List[Dict[str, Any]] = []
     filled_candidates: List[Dict[str, Any]] = []
     cursor_positions: Dict[str, Tuple[str, int]] = {}
@@ -333,11 +334,16 @@ def build_candidates(
                 "cached_at": clean_string(normalized_entry.get("cached_at", "")),
             }
 
-            if image_url:
+            if is_valid_photo_entry(normalized_entry):
                 filled_candidates.append(candidate)
+            elif image_url:
+                repair_candidates.append(candidate)
             else:
                 blank_candidates.append(candidate)
 
+    repair_candidates.sort(
+        key=lambda item: candidate_sort_key(item["file_path"], item["index"])
+    )
     blank_candidates.sort(
         key=lambda item: candidate_sort_key(item["file_path"], item["index"])
     )
@@ -351,7 +357,7 @@ def build_candidates(
     if overwrite:
         return (filled_candidates, cursor_positions)
 
-    return (blank_candidates, cursor_positions)
+    return (repair_candidates + blank_candidates, cursor_positions)
 
 
 def rotate_candidates_after_cursor(
