@@ -41,9 +41,10 @@ Preserve this repository as a focused public photo-metadata and synchronization 
 - Do not store Unsplash image binaries in this repository.
 - Do not replace Unsplash CDN image URLs with locally hosted or mirrored copies.
 - Preserve required photo metadata, attribution fields, and valid place IDs.
+- Treat records missing any required usable-photo field as incomplete, even when `image_url` is already populated; normal generation should repair those records by selecting a complete API-derived assignment rather than reconstructing attribution from the existing image URL.
 - Do not manually bulk-edit generated photo records without understanding the synchronization, migration, manifest, version, and cursor rules.
 - Do not bypass stale-file pruning safeguards or deletion thresholds merely to make a run succeed.
-- Do not reset or rewrite `photo_cursor.json` casually; it is persistent operational state for normal blank-filling runs.
+- Do not reset or rewrite `photo_cursor.json` casually; it is persistent operational state for normal repair-and-fill runs.
 - Do not bump `version.json` for cursor-only progress when public photo availability has not changed.
 - Preserve existing path and place-ID conventions unless a coordinated migration is explicitly approved.
 
