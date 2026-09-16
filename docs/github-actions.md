@@ -8,7 +8,9 @@ It keeps country, subdivision, and city photo paths synchronized with the privat
 
 ## Schedule and manual runs
 
-The workflow runs automatically every three hours at 17 minutes past the hour. It can also be started manually from the GitHub Actions tab.
+The workflow is currently manual-only and is started from the GitHub Actions tab with `workflow_dispatch`.
+
+Historically, it also ran automatically every three hours at 17 minutes past the hour using the cron expression `17 */3 * * *`. That schedule was removed while preparing for Unsplash production API access so automated API usage is not assumed to be acceptable. The same schedule may be restored later if Unsplash confirms that this kind of bounded automated photo-selection workflow is permitted.
 
 Manual runs support these inputs:
 
@@ -17,13 +19,11 @@ Manual runs support these inputs:
 
 The limit counts attempted place entries, not successful photo matches. A place may use more than one Unsplash search query, but it still counts as one attempted entry.
 
-Automatic scheduled runs have no manual input values, so they use the default limit of `20` and normal repair-and-fill mode.
-
 Normal runs resume after `photo_cursor.json` and wrap through the deterministic repair-and-fill queue. Repair candidates with an existing image but incomplete required metadata are prioritized ahead of ordinary blank candidates before cursor rotation. Overwrite runs keep their separate oldest-photo-first order and do not change the cursor.
 
 ## Reliability design
 
-Scheduled runs combine an attempt-based limit with a persistent cursor. The limit bounds work within each run, while the cursor lets later runs resume after the last attempted place so repeated no-result entries do not permanently block the queue.
+Normal runs combine an attempt-based limit with a persistent cursor. The limit bounds work within each run, while the cursor lets later runs resume after the last attempted place so repeated no-result entries do not permanently block the queue.
 
 Together, these rules provide:
 
@@ -139,13 +139,13 @@ Do not hide real failures by broadly ignoring command exit codes or increasing t
 
 ## Timeout and manual batch sizing
 
-The job timeout is 15 minutes. The default attempt limit of `20` is the normal control on scheduled work; the timeout is only the final backstop.
+The job timeout is 15 minutes. The default attempt limit of `20` is the normal control on a manual run; the timeout is only the final backstop.
 
 For larger manual batches, increase `limit` carefully. Each place can generate multiple Unsplash requests, and the script pauses between attempted entries. `limit=0` removes the attempt bound, but Unsplash quota and the job timeout still apply, so it should be reserved for deliberate manual runs.
 
 ## Manual maintenance
 
-Prefer a manual `workflow_dispatch` run for normal operational maintenance because it preserves the same synchronization, generation, lookup, versioning, and commit sequence used by scheduled runs.
+Use a manual `workflow_dispatch` run for normal operational maintenance. It preserves the full synchronization, generation, lookup, versioning, and commit sequence in one controlled run.
 
 For local diagnostics, `scripts/generate_place_photos.py` supports `--dry-run`. A dry run may still perform Unsplash searches, including repair searches for incomplete records, but it does not persist selected photo metadata or trigger download-location tracking. Keep diagnostic limits small and review the output before running without `--dry-run`.
 
@@ -170,4 +170,4 @@ Manual synchronization or stale pruning should use the documented source tree an
 - [`photo-data.md`](photo-data.md): Public schema, path conventions, manifest rules, version behavior, and attribution requirements.
 - [`photo-selection.md`](photo-selection.md): Candidate ordering, cursor behavior, search queries, Unsplash settings, result selection, no-result, rate-limit, and failure behavior.
 - [`sync-and-cleanup.md`](sync-and-cleanup.md): Source synchronization, cached-photo migration, stale cleanup, and deletion safeguards.
-- [`unsplash-compliance.md`](unsplash-compliance.md): Unsplash hotlinking, attribution, tracking, API-key, and scheduled-workflow compliance requirements.
+- [`unsplash-compliance.md`](unsplash-compliance.md): Unsplash hotlinking, attribution, tracking, API-key, and workflow compliance requirements.
