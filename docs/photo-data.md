@@ -250,3 +250,4 @@ See also:
 - [`github-actions.md`](github-actions.md)
 - [`photo-selection.md`](photo-selection.md)
 - [`sync-and-cleanup.md`](sync-and-cleanup.md)
+- [`unsplash-compliance.md`](unsplash-compliance.md)
