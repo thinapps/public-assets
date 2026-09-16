@@ -48,7 +48,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      # mirror current public photo placeholders from the private app place tree
+      # mirror current public photo placeholders from the private source place tree
       - name: Sync place photo tree
         env:
           SOURCE_PLACES_PATH: ${{ secrets.SOURCE_PLACES_PATH }}
@@ -82,9 +82,42 @@ jobs:
             --limit "${{ github.event.inputs.limit || '20' }}" \
             ${OVERWRITE_FLAG}
 
-      # rebuild the single-file lookup consumed by static website builds
+      # rebuild the single-file lookup consumed by bulk clients
       - name: Build photo lookup
         run: python scripts/build_photo_lookup.py
+
+      # cover lookup-only payload changes without double-bumping normal updates
+      - name: Version lookup-only changes
+        run: |
+          if git diff --quiet -- photos.json; then
+            exit 0
+          fi
+
+          if ! git diff --quiet -- version.json; then
+            echo "version already bumped by photo generation"
+            exit 0
+          fi
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("version.json")
+          if not path.exists():
+              raise FileNotFoundError("required version file does not exist: version.json")
+
+          payload = json.loads(path.read_text(encoding="utf-8"))
+          if not isinstance(payload, dict):
+              raise RuntimeError("version.json must contain a json object")
+
+          current_version = payload.get("version")
+          if not isinstance(current_version, int) or isinstance(current_version, bool):
+              raise RuntimeError("version.json field 'version' must be an integer")
+
+          payload["version"] = current_version + 1
+          path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8", newline="\n")
+          print(f"bumped version.json to version={payload['version']} for photos.json change")
+          PY
 
       # only commit if files actually changed
       - name: Commit place photo changes
