@@ -219,14 +219,15 @@ The same principle applies to `photos.json`: keep the single lookup while its ac
 - newly cached photo metadata
 - refreshed photo metadata in overwrite mode
 - manifest changes caused by place additions, removals, or stale-file cleanup
+- lookup-only `photos.json` changes produced by the workflow
 
 The file must contain a `version` field whose value is a JSON integer. Missing fields, numeric strings, floating-point values, booleans, and other JSON types are invalid and cause a required version bump to fail rather than silently resetting or coercing the counter.
 
-Placeholder-only synchronization may be committed without a version bump when it does not change usable photo metadata or the manifest.
+Normal photo generation bumps the version when photo metadata or the rebuilt manifest changes. After `photos.json` is rebuilt, the workflow performs a safeguard check: if the lookup changed but `version.json` did not already change during photo generation, the workflow bumps the version once for that lookup-only public payload change. This avoids both missing version bumps and double bumps during ordinary photo updates.
 
-No version bump occurs when a run attempts searches but produces no public data changes. Cursor-only changes also do not bump the version.
+Placeholder-only synchronization may be committed without a version bump when it does not change usable public photo output. Search attempts and cursor-only updates also do not bump the version.
 
-If photo metadata or the manifest changes and `version.json` is missing, generation fails instead of silently skipping the required bump or creating a replacement counter.
+If public photo metadata, the manifest, or a rebuilt lookup requires a version bump and `version.json` is missing or invalid, the workflow fails instead of silently skipping or recreating the required version state.
 
 ## Photo attribution
 
