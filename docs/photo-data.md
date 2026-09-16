@@ -27,7 +27,7 @@ Keeping the export beside the canonical photo tree has several advantages:
 
 - one producer owns normalization and eligibility rules
 - every consumer sees the same complete photo metadata for a `place_id`
-- bulk consumers can make one small request instead of downloading and scanning the entire repository archive
+- bulk consumers can make one request instead of downloading and scanning the entire repository archive
 - consumers do not need to understand the internal `place_photos/` directory layout
 - future consumers can reuse the same lookup instead of independently rebuilding it
 - the existing photo workflow can regenerate the lookup atomically with the underlying metadata
