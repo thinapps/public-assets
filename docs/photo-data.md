@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This repository stores public photo metadata without storing image binaries. Photo records point to external image URLs and include photographer and source attribution links.
+This repository stores public photo metadata without storing image binaries. Photo records reference external image URLs and include photographer and source attribution links.
 
 Country, subdivision, and city photo paths are generated from a private source place tree. Region records in `place_photos/world.json` are maintained separately. Generated structure and ordering should remain deterministic, compact, and safe for clients to cache.
 
@@ -12,16 +12,16 @@ Country, subdivision, and city photo paths are generated from a private source p
 - `place_photos/world.json` contains region-level photo records.
 - `place_photos/countries/` contains country, subdivision, and city photo records.
 - `manifest.json` lists place IDs with complete usable photo metadata.
-- `photos.json` is a generated place-ID lookup containing complete usable photo metadata for bulk consumers such as Freebase.top static builds.
+- `photos.json` is a generated place-ID lookup containing complete usable photo metadata for bulk consumers.
 - `version.json` contains the integer public payload version.
 
 `photo_cursor.json` is separate operational workflow state. It helps normal photo generation resume through the blank-entry queue and is not part of the public photo payload or manifest.
 
 ## Why the bulk lookup lives here
 
-`photos.json` is intentionally generated in this repository even though Freebase.top is currently its main bulk consumer.
+`photos.json` is intentionally generated in this repository as a generic bulk-consumer export of canonical photo metadata.
 
-The lookup is not required for the Android app and is not a new source of truth. It is a generic derived export of photo metadata already owned by this repository.
+The lookup is not a new source of truth. It is a derived export of photo metadata already owned by this repository.
 
 Keeping the export beside the canonical photo tree has several advantages:
 
@@ -32,11 +32,11 @@ Keeping the export beside the canonical photo tree has several advantages:
 - future consumers can reuse the same lookup instead of independently rebuilding it
 - the existing photo workflow can regenerate the lookup atomically with the underlying metadata
 
-The alternative would be for Freebase.top and any future bulk consumer to download the whole repository ZIP and derive an equivalent mapping on every build. That works and remains useful as a fallback, but it transfers more data, performs more parsing, couples consumers to this repository's internal file layout, and duplicates lookup-generation logic outside the repository that owns the data.
+A bulk consumer could instead download the whole repository ZIP and derive an equivalent mapping on every build. That works and remains useful as a fallback, but it transfers more data, performs more parsing, couples consumers to this repository's internal file layout, and duplicates lookup-generation logic outside the repository that owns the data.
 
 For those reasons, `photos.json` is the preferred normal interface for bulk consumers. Archive scanning is a resilience/bootstrap mechanism, not the primary architecture.
 
-This repository should still remain presentation-agnostic. It owns photo metadata and generic derived exports only. Website HTML, CSS, image placement, SEO markup, and other Freebase.top-specific behavior belong in `thinapps/freebase.top`.
+This repository should still remain presentation-agnostic. It owns photo metadata and generic derived exports only. Consumer-specific HTML, CSS, image placement, SEO markup, and other presentation behavior belong in consuming applications and websites.
 
 ## Photo file schema
 
@@ -145,7 +145,7 @@ The root object is keyed by canonical `place_id`. Each value contains only the f
 
 `cached_at` is intentionally omitted because bulk rendering does not need it. Keys are written in deterministic sorted order. If the source tree contains conflicting usable metadata for the same `place_id`, generation fails instead of choosing one record silently.
 
-The lookup exists to prevent bulk clients from fetching thousands of individual metadata files or parsing the repository archive during normal operation. Per-place clients such as the Android app can continue using `manifest.json` plus the existing individual photo paths.
+The lookup exists to prevent bulk clients from fetching thousands of individual metadata files or parsing the repository archive during normal operation. Per-place clients can continue using `manifest.json` plus the existing individual photo paths.
 
 The lookup must be treated as generated output. Do not edit `photos.json` manually to repair a photo. Repair the canonical record under `place_photos/` and let the workflow rebuild the lookup.
 
@@ -160,7 +160,7 @@ Bulk consumers should:
 - tolerate a place having no photo
 - avoid turning this repository into a presentation layer
 
-Freebase.top additionally has a repository-ZIP fallback for bootstrap/resilience. That fallback deliberately reconstructs the same mapping from canonical `place_photos/` records and does not become a second source of truth.
+Consumers may additionally implement a repository-ZIP fallback for bootstrap or resilience. Such a fallback should reconstruct the same mapping from canonical `place_photos/` records and must not become a second source of truth.
 
 ## Manifest growth and scaling
 
