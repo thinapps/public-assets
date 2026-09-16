@@ -4,7 +4,7 @@
 
 The `Update Place Photos` workflow is defined in `.github/workflows/update-place-photos.yml`.
 
-It keeps country, subdivision, and city photo paths synchronized with the private source place tree, searches Unsplash for eligible photos across the public photo tree, advances the normal blank-entry cursor, rebuilds the public manifest, bumps `version.json` when cached photo metadata or the rebuilt manifest changes, and commits any resulting updates. Region membership in `place_photos/world.json` is maintained separately.
+It keeps country, subdivision, and city photo paths synchronized with the private source place tree, searches Unsplash for eligible photos across the public photo tree, advances the normal blank-entry cursor, rebuilds the public manifest and bulk photo lookup, bumps `version.json` when cached photo metadata or the rebuilt manifest changes, and commits any resulting updates. Region membership in `place_photos/world.json` is maintained separately.
 
 ## Schedule and manual runs
 
@@ -65,7 +65,8 @@ Missing or invalid configuration is treated as a real failure.
 7. Save the last attempted normal-mode place ID in `photo_cursor.json`.
 8. Rebuild `manifest.json` from complete cached photo records.
 9. Bump `version.json` when cached photo metadata or the rebuilt manifest changes.
-10. Commit any resulting changes, rebase that commit onto the latest branch state, and push with a limited retry for non-fast-forward races.
+10. Rebuild `photos.json` from complete canonical records for bulk consumers.
+11. Commit any resulting changes, rebase that commit onto the latest branch state, and push with a limited retry for non-fast-forward races.
 
 ## Normal successful outcomes
 
@@ -134,14 +135,26 @@ The job timeout is 15 minutes. The default attempt limit of `20` is the normal c
 
 For larger manual batches, increase `limit` carefully. Each place can generate multiple Unsplash requests, and the script pauses between attempted entries. `limit=0` removes the attempt bound, but Unsplash quota and the job timeout still apply, so it should be reserved for deliberate manual runs.
 
+## Manual maintenance
+
+Prefer a manual `workflow_dispatch` run for normal operational maintenance because it preserves the same synchronization, generation, lookup, versioning, and commit sequence used by scheduled runs.
+
+For local diagnostics, `scripts/generate_place_photos.py` supports `--dry-run`. A dry run may still perform Unsplash searches, but it does not persist selected photo metadata or trigger download-location tracking. Keep diagnostic limits small and review the output before running without `--dry-run`.
+
+Run `python scripts/build_photo_lookup.py` only to regenerate `photos.json` from already-correct canonical records under `place_photos/`. Repair canonical records rather than editing `photos.json` directly.
+
+Manual synchronization or stale pruning should use the documented source tree and existing safety guards. Review migration and deletion output carefully, and do not bypass the 10% stale-delete protection merely to complete a run.
+
 ## Files involved
 
 - `.github/workflows/update-place-photos.yml`: Workflow definition.
 - `scripts/sync_place_photo_tree.py`: Synchronizes placeholders and prunes stale files safely.
 - `scripts/generate_place_photos.py`: Selects candidates, rotates normal runs through the cursor, searches Unsplash, writes photo records, rebuilds the manifest, and updates the version.
 - `scripts/photo_queries.py`: Builds deterministic search queries from place IDs and paths.
+- `scripts/build_photo_lookup.py`: Rebuilds the bulk `photos.json` lookup from complete canonical photo records.
 - `photo_cursor.json`: Stores the last attempted place ID for normal blank-filling runs.
 - `manifest.json`: Lists place IDs with complete usable photo records.
+- `photos.json`: Generated place-ID lookup used by bulk consumers.
 - `version.json`: Public payload version incremented when cached photo metadata or the rebuilt manifest changes.
 
 ## Related documentation
@@ -149,3 +162,4 @@ For larger manual batches, increase `limit` carefully. Each place can generate m
 - [`photo-data.md`](photo-data.md): Public schema, path conventions, manifest rules, version behavior, and attribution requirements.
 - [`photo-selection.md`](photo-selection.md): Candidate ordering, cursor behavior, search queries, Unsplash settings, result selection, no-result, rate-limit, and failure behavior.
 - [`sync-and-cleanup.md`](sync-and-cleanup.md): Source synchronization, cached-photo migration, stale cleanup, and deletion safeguards.
+- [`unsplash-compliance.md`](unsplash-compliance.md): Unsplash hotlinking, attribution, tracking, API-key, and scheduled-workflow compliance requirements.
