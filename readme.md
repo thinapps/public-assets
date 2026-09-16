@@ -18,7 +18,10 @@ Normal scheduled runs use a bounded attempt count and resume through the blank-e
 
 ## Documentation
 
-- [`docs/photo-data.md`](docs/photo-data.md): Schema, paths, placeholders, manifest, versioning, attribution, and generated-data policy.
-- [`docs/photo-selection.md`](docs/photo-selection.md): Candidate ordering, attempt limits, cursor progress, queries, selection, no-result, rate-limit, and failure behavior.
-- [`docs/sync-and-cleanup.md`](docs/sync-and-cleanup.md): Source synchronization, cached-photo migration, pruning, and deletion safeguards.
-- [`docs/github-actions.md`](docs/github-actions.md): Schedule, inputs, reliability design, result summaries, secrets, concurrency, failures, timeout, and workflow operation.
+| Document | Description |
+| --- | --- |
+| [`docs/photo-data.md`](docs/photo-data.md) | Defines the public photo-data schema, directory structure, placeholders, manifest and version behavior, attribution fields, and generated-data maintenance policy. |
+| [`docs/photo-selection.md`](docs/photo-selection.md) | Explains candidate ordering, attempt limits, cursor progress, Unsplash search queries, photo selection rules, and handling for no-result, rate-limit, and failure cases. |
+| [`docs/sync-and-cleanup.md`](docs/sync-and-cleanup.md) | Covers synchronization from the source place tree, cached-photo migration, stale-path pruning, cleanup behavior, and safeguards that prevent accidental data loss. |
+| [`docs/github-actions.md`](docs/github-actions.md) | Documents workflow scheduling and manual inputs, secrets, concurrency, reliability design, timeout and failure behavior, result summaries, and operational details. |
+| [`docs/unsplash-compliance.md`](docs/unsplash-compliance.md) | Records the Unsplash API compliance model, including hotlinking, attribution and referral parameters, API-key handling, download-location tracking, automation rationale, and maintenance checks. |
