@@ -16,6 +16,7 @@ Detailed documentation covers the public photo data model, selection workflow, s
 
 | Document | Description |
 | --- | --- |
+| [Agents](agents.md) | Defines persistent repository instructions for AI agents and coding assistants, including required reading, data and workflow guardrails, Unsplash requirements, Git policy, and change-review expectations. |
 | [Photo Data](docs/photo-data.md) | Defines the public photo-data schema, directory structure, placeholders, manifest and version behavior, attribution fields, and generated-data maintenance policy. |
 | [Photo Selection](docs/photo-selection.md) | Explains candidate ordering, attempt limits, cursor progress, Unsplash search queries, photo selection rules, and handling for no-result, rate-limit, and failure cases. |
 | [Sync and Cleanup](docs/sync-and-cleanup.md) | Covers synchronization from the source place tree, cached-photo migration, stale-path pruning, cleanup behavior, and safeguards that prevent accidental data loss. |
