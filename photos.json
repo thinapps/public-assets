@@ -31367,6 +31367,12 @@
     "photographer_url": "https://unsplash.com/@bayusyaits?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/trees-near-river-zrg0W-oFuHQ?utm_source=freebase&utm_medium=referral"
   },
+  "subdivision:indonesia:west_kalimantan": {
+    "image_url": "https://images.unsplash.com/photo-1783774809098-a96b3a72bba1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxXZXN0JTIwS2FsaW1hbnRhbiUyMEluZG9uZXNpYXxlbnwxfDB8fHwxNzg5NTM0NTIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Naufal Hilmy",
+    "photographer_url": "https://unsplash.com/@naufalhilmyp?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/ornate-east-asian-temple-with-orange-roof-and-white-stairs-9QeScCLV1vo?utm_source=freebase&utm_medium=referral"
+  },
   "subdivision:indonesia:west_nusa_tenggara": {
     "image_url": "https://images.unsplash.com/photo-1720059777516-97a4f858f778?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxXZXN0JTIwTnVzYSUyMFRlbmdnYXJhJTIwSW5kb25lc2lhfGVufDF8MHx8fDE3ODQ0NTAxNTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
     "photographer_name": "Dhiemas Afif Febriyan",
