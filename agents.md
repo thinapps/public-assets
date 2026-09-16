@@ -84,7 +84,7 @@ Because scheduled runs can occur independently of repository edits, fetch the la
 
 - Work directly on the default `master` branch.
 - Fetch the latest target file immediately before every write.
-- Use exactly one changed file per commit.
+- Use exactly one changed file per commit for manual repository edits.
 - Keep all approved related edits to one file together in that file's single commit.
 - Commit separate documentation, scripts, workflow files, and generated-data files separately.
 - Do not create temporary branches or pull requests.
@@ -92,6 +92,8 @@ Because scheduled runs can occur independently of repository edits, fetch the la
 - Do not create or modify workflow triggers unless explicitly requested.
 - Avoid unrelated formatting, cleanup, renaming, or refactoring.
 - After each repository change, report the commit SHA, commit message, and exact file changed.
+
+The one-file-per-commit rule applies to manual repository edits. The existing photo-update workflow may commit multiple generated output files together when they represent one coherent pipeline result; do not split or rewrite those workflow-generated commits merely to satisfy the manual-edit rule.
 
 If a requested change requires multiple files, make separate direct commits while preserving a valid intermediate repository state. If one-file commits would temporarily create a broken or unsafe state, stop and explain the dependency rather than violating the one-file rule.
 
