@@ -99,13 +99,13 @@ The 10% threshold is intentionally conservative. It permits normal small cleanup
 
 Do not bypass this guard casually. Large intentional source-tree changes should be reviewed and migrated in smaller controlled stages or accompanied by a deliberate code and policy change.
 
-## Relationship to manifest and version
+## Relationship to manifest, lookup, and version
 
-The sync script itself manages the file tree. `scripts/generate_place_photos.py` subsequently rebuilds `manifest.json` from complete usable photo records.
+The sync script itself manages the file tree. `scripts/generate_place_photos.py` subsequently rebuilds `manifest.json` from complete usable photo records, and the workflow then rebuilds `photos.json` from the same canonical tree.
 
-When cleanup changes the rebuilt manifest, `version.json` is bumped. Cleanup that leaves the manifest unchanged does not trigger a version bump by itself.
+When synchronization or cleanup changes usable public photo output, the corresponding public version must change. Photo or manifest changes are handled during generation. If rebuilding `photos.json` produces a lookup-only change and `version.json` did not already change in the same run, the workflow bumps the version once after the lookup rebuild.
 
-Placeholder-only additions, path normalization, or cleanup of invalid non-string metadata can be committed without a version bump when usable photo metadata and the manifest remain unchanged.
+Placeholder-only additions, path normalization, or cleanup of invalid non-string metadata can be committed without a version bump when they do not change usable public photo output. Cursor-only workflow progress also does not bump the version.
 
 ## Workflow behavior
 
@@ -117,7 +117,9 @@ This order ensures that:
 2. safely migratable cached photos are preserved
 3. obsolete files are removed
 4. missing or malformed current entries become eligible for photo searches
-5. the manifest is rebuilt from the final tree and the version is bumped only when required
+5. the manifest is rebuilt from the final tree
+6. the bulk lookup is rebuilt from the same canonical records
+7. `version.json` is bumped when public photo output changes, including lookup-only changes not already covered during generation
 
 A clean sync with no resulting repository changes is a successful workflow outcome.
 
@@ -130,7 +132,7 @@ For ordinary changes:
 1. update the private source place tree
 2. run or wait for the workflow
 3. review any migration and deletion logs
-4. let the scripts rebuild the manifest and version as needed
+4. let the workflow rebuild the manifest, lookup, and version as needed
 
 Manual intervention is appropriate only for deliberate repairs that cannot be represented safely through the source tree and existing migration rules.
 
