@@ -4,7 +4,7 @@
 
 The `Update Place Photos` workflow is defined in `.github/workflows/update-place-photos.yml`.
 
-It keeps country, subdivision, and city photo paths synchronized with the private source place tree, searches Unsplash for eligible photos across the public photo tree, advances the normal blank-entry cursor, rebuilds the public manifest and bulk photo lookup, bumps `version.json` when public photo output changes, and commits any resulting updates. Region membership in `place_photos/world.json` is maintained separately.
+It keeps country, subdivision, and city photo paths synchronized with the private source place tree, searches Unsplash for eligible photos across the public photo tree, advances the normal repair-and-fill cursor, rebuilds the public manifest and bulk photo lookup, bumps `version.json` when public photo output changes, and commits any resulting updates. Region membership in `place_photos/world.json` is maintained separately.
 
 ## Schedule and manual runs
 
@@ -13,13 +13,13 @@ The workflow runs automatically every three hours at 17 minutes past the hour. I
 Manual runs support these inputs:
 
 - `limit`: Maximum number of eligible place entries to attempt. The default is `20`. The value must be `0` or greater, and `0` removes the attempt limit.
-- `overwrite`: When `true`, refresh existing photos instead of filling only blank entries. Existing photos are processed from the oldest cached entry first.
+- `overwrite`: When `true`, refresh complete existing photos instead of running the normal repair-and-fill queue. Existing complete photos are processed from the oldest cached entry first. Incomplete records remain normal-mode repair candidates.
 
 The limit counts attempted place entries, not successful photo matches. A place may use more than one Unsplash search query, but it still counts as one attempted entry.
 
-Automatic scheduled runs have no manual input values, so they use the default limit of `20` and normal blank-filling mode.
+Automatic scheduled runs have no manual input values, so they use the default limit of `20` and normal repair-and-fill mode.
 
-Normal blank-filling runs resume after `photo_cursor.json` and wrap through the deterministic queue. Overwrite runs keep their separate oldest-photo-first order and do not change the cursor.
+Normal runs resume after `photo_cursor.json` and wrap through the deterministic repair-and-fill queue. Repair candidates with an existing image but incomplete required metadata are prioritized ahead of ordinary blank candidates before cursor rotation. Overwrite runs keep their separate oldest-photo-first order and do not change the cursor.
 
 ## Reliability design
 
@@ -29,7 +29,8 @@ Together, these rules provide:
 
 - predictable normal run time
 - lower risk of exhausting the Unsplash quota in one run
-- steady progress through the blank-entry queue
+- steady progress through the repair-and-fill queue
+- automatic repair of incomplete records that would otherwise remain unusable
 - successful no-change outcomes when nothing is wrong
 - real failures for configuration, data, network, and unexpected API problems
 
@@ -61,7 +62,7 @@ Missing or invalid configuration is treated as a real failure.
 3. Set up Python 3.11.
 4. Synchronize country, subdivision, and city photo placeholders with the current source place tree.
 5. Migrate usable cached photos when a place path changes and safely prune stale files.
-6. Resume after the stored blank-entry cursor and attempt Unsplash searches for eligible places, unless overwrite mode is active.
+6. Resume after the stored normal-mode cursor and attempt Unsplash searches for incomplete repair candidates and blank fill candidates, unless overwrite mode is active.
 7. Save the last attempted normal-mode place ID in `photo_cursor.json`.
 8. Rebuild `manifest.json` from complete cached photo records.
 9. Bump `version.json` when cached photo metadata or the rebuilt manifest changes.
@@ -76,7 +77,7 @@ The lookup safeguard prevents a generated `photos.json` change from being publis
 The following conditions are normal and must complete successfully:
 
 - No eligible photo entries remain.
-- The attempted places return no Unsplash results.
+- The attempted repair or fill candidates return no Unsplash results.
 - The configured attempt limit is reached without finding a photo.
 - Unsplash reports exhausted API quota through HTTP 429 or its recognized HTTP 403 rate-limit response.
 - Only `photo_cursor.json` changes.
@@ -84,7 +85,7 @@ The following conditions are normal and must complete successfully:
 
 In all of these cases the scripts exit successfully. If no tracked files changed, the commit step reports `no changes to commit`; otherwise it commits the resulting synchronization, generated-data, or cursor changes.
 
-A green run does not necessarily mean that a photo was added. It means the workflow completed without an actionable failure. Cursor-only commits are useful progress even when no public photo data changed.
+A green run does not necessarily mean that a photo was added or repaired. It means the workflow completed without an actionable failure. Cursor-only commits are useful progress even when no public photo data changed.
 
 Recognized quota-exhaustion responses are logged as warnings because they use the clean-stop path. Ordinary HTTP 403 responses and other unexpected HTTP responses are logged as errors and fail the run.
 
@@ -94,7 +95,7 @@ The generator prints a final summary containing:
 
 - `eligible_candidates`: candidates available in the current mode after ordering and cursor rotation
 - `attempted_entries`: place entries processed during this run
-- `changed_entries`: photo records added or refreshed
+- `changed_entries`: photo records added, repaired, or refreshed
 - `manifest_changed`: whether rebuilding `manifest.json` changed its contents
 - `cursor_changed`: whether normal-mode workflow progress moved forward
 
@@ -102,7 +103,7 @@ Normal runs also print `last_attempted_place_id` when at least one place was att
 
 Typical outcomes include:
 
-- `changed_entries>0`: one or more photo records changed, so `version.json` is bumped
+- `changed_entries>0`: one or more photo records were filled, repaired, or refreshed, so `version.json` is bumped
 - `manifest_changed=True`: usable public photo availability changed, so `version.json` is bumped
 - a lookup-only `photos.json` change: the workflow bumps `version.json` once after rebuilding the lookup
 - only `cursor_changed=True`: the queue advanced and a cursor-only commit is expected, with no version bump
@@ -123,11 +124,11 @@ The workflow should remain red for problems that require attention, including:
 - A missing `version.json` when public photo metadata, manifest, or lookup changes require a version bump.
 - A missing or non-integer `version` field when a version bump is required.
 - Unreadable or syntactically malformed public photo, manifest, lookup, or version JSON when those files are processed.
-- Unreadable or syntactically malformed cursor JSON during normal blank-filling mode.
+- Unreadable or syntactically malformed cursor JSON during normal mode.
 - Unexpected Unsplash response shapes, HTTP responses, or network failures other than recognized quota exhaustion.
 - A Git rebase conflict or a push that still fails after the limited retry.
 
-Valid JSON photo files with unsupported non-list payloads are skipped from candidate and manifest processing. Individual records whose required photo fields are missing, empty, or not strings are treated as incomplete rather than usable cached photos.
+Valid JSON photo files with unsupported non-list payloads are skipped from candidate and manifest processing. Individual records whose required photo fields are missing, empty, or not strings are treated as incomplete and become normal repair or fill candidates rather than usable cached photos.
 
 Malformed source JSON is skipped by the synchronization script and does not fail the workflow by itself.
 
@@ -143,7 +144,7 @@ For larger manual batches, increase `limit` carefully. Each place can generate m
 
 Prefer a manual `workflow_dispatch` run for normal operational maintenance because it preserves the same synchronization, generation, lookup, versioning, and commit sequence used by scheduled runs.
 
-For local diagnostics, `scripts/generate_place_photos.py` supports `--dry-run`. A dry run may still perform Unsplash searches, but it does not persist selected photo metadata or trigger download-location tracking. Keep diagnostic limits small and review the output before running without `--dry-run`.
+For local diagnostics, `scripts/generate_place_photos.py` supports `--dry-run`. A dry run may still perform Unsplash searches, including repair searches for incomplete records, but it does not persist selected photo metadata or trigger download-location tracking. Keep diagnostic limits small and review the output before running without `--dry-run`.
 
 Run `python scripts/build_photo_lookup.py` only to regenerate `photos.json` from already-correct canonical records under `place_photos/`. Repair canonical records rather than editing `photos.json` directly. If a local manual rebuild changes `photos.json`, ensure the corresponding public payload version is also bumped before publishing the change; the automatic lookup-only safeguard lives in the workflow.
 
@@ -153,10 +154,10 @@ Manual synchronization or stale pruning should use the documented source tree an
 
 - `.github/workflows/update-place-photos.yml`: Workflow definition.
 - `scripts/sync_place_photo_tree.py`: Synchronizes placeholders and prunes stale files safely.
-- `scripts/generate_place_photos.py`: Selects candidates, rotates normal runs through the cursor, searches Unsplash, writes photo records, rebuilds the manifest, and updates the version.
+- `scripts/generate_place_photos.py`: Selects repair, fill, or overwrite candidates, rotates normal runs through the cursor, searches Unsplash, writes complete photo records, rebuilds the manifest, and updates the version.
 - `scripts/photo_queries.py`: Builds deterministic search queries from place IDs and paths.
 - `scripts/build_photo_lookup.py`: Rebuilds the bulk `photos.json` lookup from complete canonical photo records.
-- `photo_cursor.json`: Stores the last attempted place ID for normal blank-filling runs.
+- `photo_cursor.json`: Stores the last attempted place ID for normal repair-and-fill runs.
 - `manifest.json`: Lists place IDs with complete usable photo records.
 - `photos.json`: Generated place-ID lookup used by bulk consumers.
 - `version.json`: Public payload version incremented when public photo output changes.
