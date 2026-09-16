@@ -8,6 +8,7 @@ Country, subdivision, and city photo paths are generated from a private source p
 
 - `place_photos/` photo metadata tree
 - `manifest.json` place IDs with complete usable photo metadata
+- `photos.json` generated place-ID lookup for bulk consumers
 - `version.json` public payload version
 
 ## Documentation
