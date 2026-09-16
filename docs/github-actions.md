@@ -4,7 +4,7 @@
 
 The `Update Place Photos` workflow is defined in `.github/workflows/update-place-photos.yml`.
 
-It keeps country, subdivision, and city photo paths synchronized with the private source place tree, searches Unsplash for eligible photos across the public photo tree, advances the normal blank-entry cursor, rebuilds the public manifest and bulk photo lookup, bumps `version.json` when cached photo metadata or the rebuilt manifest changes, and commits any resulting updates. Region membership in `place_photos/world.json` is maintained separately.
+It keeps country, subdivision, and city photo paths synchronized with the private source place tree, searches Unsplash for eligible photos across the public photo tree, advances the normal blank-entry cursor, rebuilds the public manifest and bulk photo lookup, bumps `version.json` when public photo output changes, and commits any resulting updates. Region membership in `place_photos/world.json` is maintained separately.
 
 ## Schedule and manual runs
 
@@ -66,7 +66,10 @@ Missing or invalid configuration is treated as a real failure.
 8. Rebuild `manifest.json` from complete cached photo records.
 9. Bump `version.json` when cached photo metadata or the rebuilt manifest changes.
 10. Rebuild `photos.json` from complete canonical records for bulk consumers.
-11. Commit any resulting changes, rebase that commit onto the latest branch state, and push with a limited retry for non-fast-forward races.
+11. If `photos.json` changed but `version.json` did not already change during photo generation, bump `version.json` once for the lookup-only public payload change.
+12. Commit any resulting changes, rebase that commit onto the latest branch state, and push with a limited retry for non-fast-forward races.
+
+The lookup safeguard prevents a generated `photos.json` change from being published without a corresponding public payload version change. It first checks whether photo generation already changed `version.json`, so normal photo updates are not double-bumped.
 
 ## Normal successful outcomes
 
@@ -101,6 +104,7 @@ Typical outcomes include:
 
 - `changed_entries>0`: one or more photo records changed, so `version.json` is bumped
 - `manifest_changed=True`: usable public photo availability changed, so `version.json` is bumped
+- a lookup-only `photos.json` change: the workflow bumps `version.json` once after rebuilding the lookup
 - only `cursor_changed=True`: the queue advanced and a cursor-only commit is expected, with no version bump
 - all change fields false: no tracked generated state changed, so `no changes to commit` is expected
 - a recognized quota warning: processing stopped cleanly at the current attempted place and normal-mode cursor progress is still saved
@@ -116,9 +120,9 @@ The workflow should remain red for problems that require attention, including:
 - A missing or invalid source path.
 - An invalid attempt limit, including a negative value.
 - Unsafe stale-file pruning beyond the configured safety threshold.
-- A missing `version.json` when photo metadata or manifest changes require a version bump.
+- A missing `version.json` when public photo metadata, manifest, or lookup changes require a version bump.
 - A missing or non-integer `version` field when a version bump is required.
-- Unreadable or syntactically malformed public photo or manifest JSON, or version JSON when a version bump is required.
+- Unreadable or syntactically malformed public photo, manifest, lookup, or version JSON when those files are processed.
 - Unreadable or syntactically malformed cursor JSON during normal blank-filling mode.
 - Unexpected Unsplash response shapes, HTTP responses, or network failures other than recognized quota exhaustion.
 - A Git rebase conflict or a push that still fails after the limited retry.
@@ -141,7 +145,7 @@ Prefer a manual `workflow_dispatch` run for normal operational maintenance becau
 
 For local diagnostics, `scripts/generate_place_photos.py` supports `--dry-run`. A dry run may still perform Unsplash searches, but it does not persist selected photo metadata or trigger download-location tracking. Keep diagnostic limits small and review the output before running without `--dry-run`.
 
-Run `python scripts/build_photo_lookup.py` only to regenerate `photos.json` from already-correct canonical records under `place_photos/`. Repair canonical records rather than editing `photos.json` directly.
+Run `python scripts/build_photo_lookup.py` only to regenerate `photos.json` from already-correct canonical records under `place_photos/`. Repair canonical records rather than editing `photos.json` directly. If a local manual rebuild changes `photos.json`, ensure the corresponding public payload version is also bumped before publishing the change; the automatic lookup-only safeguard lives in the workflow.
 
 Manual synchronization or stale pruning should use the documented source tree and existing safety guards. Review migration and deletion output carefully, and do not bypass the 10% stale-delete protection merely to complete a run.
 
@@ -155,7 +159,7 @@ Manual synchronization or stale pruning should use the documented source tree an
 - `photo_cursor.json`: Stores the last attempted place ID for normal blank-filling runs.
 - `manifest.json`: Lists place IDs with complete usable photo records.
 - `photos.json`: Generated place-ID lookup used by bulk consumers.
-- `version.json`: Public payload version incremented when cached photo metadata or the rebuilt manifest changes.
+- `version.json`: Public payload version incremented when public photo output changes.
 
 ## Related documentation
 
