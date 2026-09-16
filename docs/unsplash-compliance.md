@@ -1,4 +1,4 @@
-# Unsplash API compliance
+# Unsplash API Compliance
 
 This document records the Unsplash-specific behavior used by the Freebase place-photo pipeline and the rules that should be preserved when the integration changes.
 
