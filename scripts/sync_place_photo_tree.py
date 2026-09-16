@@ -6,6 +6,7 @@ from pathlib import Path
 
 
 MAX_STALE_DELETE_RATIO = 0.10
+JSON_LOAD_ERROR = object()
 REQUIRED_PHOTO_FIELDS = [
     "place_id",
     "image_url",
@@ -27,7 +28,7 @@ def load_json_file(file_path):
         with file_path.open("r", encoding="utf-8") as file_handle:
             return json.load(file_handle)
     except (json.JSONDecodeError, OSError):
-        return None
+        return JSON_LOAD_ERROR
 
 
 def get_first_entry(data):
@@ -44,10 +45,13 @@ def get_place_id(entry):
     if not isinstance(entry, dict):
         return ""
 
-    place_id = entry.get("place_id") or entry.get("id")
-
+    place_id = entry.get("place_id")
     if isinstance(place_id, str) and place_id.strip():
         return place_id.strip()
+
+    legacy_id = entry.get("id")
+    if isinstance(legacy_id, str) and legacy_id.strip():
+        return legacy_id.strip()
 
     return ""
 
@@ -92,8 +96,14 @@ def write_json_file(file_path, data):
 def normalize_existing_photo_file(target_file, expected_place_id):
     target_data = load_json_file(target_file)
 
-    if not isinstance(target_data, list):
+    if target_data is JSON_LOAD_ERROR:
         return False
+
+    if isinstance(target_data, dict):
+        target_data = [target_data]
+    elif not isinstance(target_data, list):
+        write_json_file(target_file, get_blank_photo_data(expected_place_id))
+        return True
 
     if not target_data:
         write_json_file(target_file, get_blank_photo_data(expected_place_id))
@@ -102,7 +112,9 @@ def normalize_existing_photo_file(target_file, expected_place_id):
     first_entry = target_data[0]
 
     if not isinstance(first_entry, dict):
-        return False
+        target_data[0] = get_blank_photo_data(expected_place_id)[0]
+        write_json_file(target_file, target_data)
+        return True
 
     normalized_first_entry = {
         "place_id": expected_place_id,
