@@ -13,12 +13,14 @@ The sync script reads every JSON file under the configured source countries dire
 For each valid source file, it:
 
 - reads the first source object
-- accepts `place_id` or the legacy `id` field
+- prefers a valid non-empty string `place_id` and falls back to the legacy `id` field when `place_id` is missing, empty, or not a string
 - creates a missing public placeholder file
 - normalizes the first public entry to the expected fields while preserving any additional entries
 - updates the public `place_id` to the current source value
 - preserves existing string photo and attribution fields when the path remains current
 - converts non-string public photo metadata values to empty strings so malformed values become incomplete records instead of being treated as usable data
+- converts a recoverable public JSON object into the canonical array form while preserving its string photo metadata
+- resets valid-but-structurally unusable public JSON, such as a scalar value or a first array entry that is not an object, to a canonical blank first record so normal generation can recover it
 
 A new placeholder uses this shape:
 
@@ -35,9 +37,11 @@ A new placeholder uses this shape:
 ]
 ```
 
-Invalid source JSON, missing source objects, and missing IDs do not create or update a public placeholder for that source file. The source path is still counted as expected, so an existing public file at that exact path is not treated as stale during the same sync run.
+Syntactically malformed or unreadable source JSON, missing source objects, and source records without a valid `place_id` or legacy `id` do not create or update a public placeholder for that source file. The source path is still counted as expected, so an existing public file at that exact path is not treated as stale during the same sync run.
 
-Normalization can leave an existing non-empty `image_url` alongside missing or invalid required attribution metadata. Such a record is incomplete rather than usable. The normal photo generator now treats it as a repair candidate, searches the place again, and replaces it with a complete API-derived assignment when a usable result is found.
+Syntactically malformed or unreadable existing public JSON is also left untouched rather than overwritten automatically. Structurally invalid but syntactically valid JSON can be normalized safely because the source tree supplies the canonical place ID and unusable structures contain no trusted photo record to preserve.
+
+Normalization can leave an existing non-empty `image_url` alongside missing or invalid required attribution metadata. Such a record is incomplete rather than usable. The normal photo generator treats it as a repair candidate, searches the place again, and replaces it with a complete API-derived assignment when a usable result is found.
 
 ## Stale-file cleanup
 
@@ -107,7 +111,7 @@ The sync script itself manages the file tree. `scripts/generate_place_photos.py`
 
 When synchronization or cleanup changes usable public photo output, the corresponding public version must change. Photo repairs, new assignments, or manifest changes are handled during generation. If rebuilding `photos.json` produces a lookup-only change and `version.json` did not already change in the same run, the workflow bumps the version once after the lookup rebuild.
 
-Placeholder-only additions, path normalization, or cleanup of invalid metadata can be committed without a version bump when they do not change usable public photo output. Cursor-only workflow progress also does not bump the version.
+Placeholder-only additions, structural normalization, path normalization, or cleanup of invalid metadata can be committed without a version bump when they do not change usable public photo output. Cursor-only workflow progress also does not bump the version.
 
 ## Workflow behavior
 
@@ -116,12 +120,13 @@ The scheduled workflow runs synchronization with `--prune-stale` before attempti
 This order ensures that:
 
 1. current valid source paths exist in the public tree
-2. safely migratable cached photos are preserved
-3. obsolete files are removed
-4. incomplete existing records become repair candidates and blank or malformed image entries become fill candidates
-5. the manifest is rebuilt from the final tree
-6. the bulk lookup is rebuilt from the same canonical records
-7. `version.json` is bumped when public photo output changes, including lookup-only changes not already covered during generation
+2. recoverable valid-JSON structural problems are normalized into canonical photo records
+3. safely migratable cached photos are preserved
+4. obsolete files are removed
+5. incomplete existing records become repair candidates and blank or malformed image entries become fill candidates
+6. the manifest is rebuilt from the final tree
+7. the bulk lookup is rebuilt from the same canonical records
+8. `version.json` is bumped when public photo output changes, including lookup-only changes not already covered during generation
 
 A clean sync with no resulting repository changes is a successful workflow outcome.
 
@@ -133,7 +138,7 @@ For ordinary changes:
 
 1. update the private source place tree
 2. run or wait for the workflow
-3. review any migration and deletion logs
+3. review any normalization, migration, and deletion logs
 4. let the workflow repair incomplete photo records and rebuild the manifest, lookup, and version as needed
 
 Manual intervention is appropriate only for deliberate repairs that cannot be represented safely through the source tree and existing migration rules.
