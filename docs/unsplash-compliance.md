@@ -81,7 +81,22 @@ Never:
 
 The Unsplash API is used only to find place imagery for Freebase. The resulting experience is a place-information product rather than an Unsplash clone, stock-photo browser, or general photo-download service.
 
-The current generator searches for a place, considers a limited set of results, and chooses one photo for that place. Changes to automated or scheduled selection behavior should be reviewed against the latest Unsplash requirement that API integrations provide authentic, high-quality experiences and any current restrictions on automated API usage.
+The current generator searches for a specific Freebase place, considers a limited set of relevant results, and chooses one photo for that place. The workflow may run on a schedule so that missing place imagery can be filled gradually and existing assignments can be refreshed in bounded batches.
+
+Unsplash currently describes its API as intended for non-automated, high-quality, authentic experiences. The scheduled workflow is therefore a point that should continue to be monitored when reviewing policy changes.
+
+Our current interpretation is that this workflow remains compliant because the automation is narrow and product-specific rather than spammy or extractive:
+
+- it enriches an existing place-information product instead of creating a photo-search or photo-download product;
+- it searches only for known Freebase places rather than crawling the Unsplash catalog generally;
+- it processes bounded batches with rate-limit handling instead of aggressively harvesting API data;
+- it stores only the metadata needed to render and attribute one selected image per place;
+- it hotlinks Unsplash-hosted images rather than mirroring image files;
+- it preserves photographer and Unsplash attribution with referral parameters;
+- it triggers Unsplash download-location tracking when a selected image is actually persisted;
+- it is not used for spam, advertising inventory, AI training, or bulk resale of Unsplash content.
+
+This is a project compliance position, not a guarantee that Unsplash will interpret every future version of its policy the same way. If Unsplash asks for the scheduled behavior to change, or materially tightens its automation guidance, the schedule should be revisited promptly. The simplest fallback is to retain the same generator but run it only through manual `workflow_dispatch` executions.
 
 Do not assume that an existing schedule or historical implementation is permanently permitted simply because the technical API call succeeds.
 
@@ -115,4 +130,5 @@ Before changing the Unsplash integration, verify that:
 - `links.download_location` is still triggered once for each newly persisted selection;
 - dry runs and unchanged records do not create false download events;
 - the API key remains secret and server-side;
+- the scheduled workflow is still reasonably defensible as bounded product enrichment rather than spammy, extractive, or catalog-harvesting behavior;
 - current Unsplash API guidelines have been reviewed for changes affecting automation, attribution, caching, or tracking.
