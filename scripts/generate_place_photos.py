@@ -211,6 +211,24 @@ def unsplash_get(access_key: str, endpoint: str, params: Dict[str, Any]) -> Dict
         return json.loads(response.read().decode("utf-8"))
 
 
+def trigger_unsplash_download(access_key: str, photo: Dict[str, Any]) -> None:
+    # Unsplash requires a download event when an application selects a photo for use.
+    links = photo.get("links", {})
+    if not isinstance(links, dict):
+        raise RuntimeError("Unsplash photo links must contain a json object")
+
+    download_location = clean_string(links.get("download_location", ""))
+    if not download_location:
+        raise RuntimeError("Unsplash photo is missing links.download_location")
+
+    req = request.Request(download_location)
+    req.add_header("Authorization", f"Client-ID {access_key}")
+    req.add_header("Accept-Version", "v1")
+
+    with request.urlopen(req, timeout=30) as response:
+        response.read()
+
+
 def fetch_unsplash_results(access_key: str, query: str) -> List[Dict[str, Any]]:
     payload = unsplash_get(
         access_key,
@@ -456,6 +474,8 @@ def process_candidate(
     if dry_run:
         print(f"would update {rel}")
     else:
+        trigger_unsplash_download(access_key, photo)
+        print(f"[INFO] tracked Unsplash download for {place_id}")
         save_json(file_path, payload)
         print(f"updated {rel}")
 
