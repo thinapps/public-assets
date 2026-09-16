@@ -18,7 +18,7 @@ For each valid source file, it:
 - normalizes the first public entry to the expected fields while preserving any additional entries
 - updates the public `place_id` to the current source value
 - preserves existing string photo and attribution fields when the path remains current
-- converts non-string public photo metadata values to empty strings so malformed values become clean incomplete placeholders instead of being treated as usable data
+- converts non-string public photo metadata values to empty strings so malformed values become incomplete records instead of being treated as usable data
 
 A new placeholder uses this shape:
 
@@ -36,6 +36,8 @@ A new placeholder uses this shape:
 ```
 
 Invalid source JSON, missing source objects, and missing IDs do not create or update a public placeholder for that source file. The source path is still counted as expected, so an existing public file at that exact path is not treated as stale during the same sync run.
+
+Normalization can leave an existing non-empty `image_url` alongside missing or invalid required attribution metadata. Such a record is incomplete rather than usable. The normal photo generator now treats it as a repair candidate, searches the place again, and replaces it with a complete API-derived assignment when a usable result is found.
 
 ## Stale-file cleanup
 
@@ -101,11 +103,11 @@ Do not bypass this guard casually. Large intentional source-tree changes should 
 
 ## Relationship to manifest, lookup, and version
 
-The sync script itself manages the file tree. `scripts/generate_place_photos.py` subsequently rebuilds `manifest.json` from complete usable photo records, and the workflow then rebuilds `photos.json` from the same canonical tree.
+The sync script itself manages the file tree. `scripts/generate_place_photos.py` subsequently repairs incomplete records, fills blank placeholders, and rebuilds `manifest.json` from complete usable photo records. The workflow then rebuilds `photos.json` from the same canonical tree.
 
-When synchronization or cleanup changes usable public photo output, the corresponding public version must change. Photo or manifest changes are handled during generation. If rebuilding `photos.json` produces a lookup-only change and `version.json` did not already change in the same run, the workflow bumps the version once after the lookup rebuild.
+When synchronization or cleanup changes usable public photo output, the corresponding public version must change. Photo repairs, new assignments, or manifest changes are handled during generation. If rebuilding `photos.json` produces a lookup-only change and `version.json` did not already change in the same run, the workflow bumps the version once after the lookup rebuild.
 
-Placeholder-only additions, path normalization, or cleanup of invalid non-string metadata can be committed without a version bump when they do not change usable public photo output. Cursor-only workflow progress also does not bump the version.
+Placeholder-only additions, path normalization, or cleanup of invalid metadata can be committed without a version bump when they do not change usable public photo output. Cursor-only workflow progress also does not bump the version.
 
 ## Workflow behavior
 
@@ -116,7 +118,7 @@ This order ensures that:
 1. current valid source paths exist in the public tree
 2. safely migratable cached photos are preserved
 3. obsolete files are removed
-4. missing or malformed current entries become eligible for photo searches
+4. incomplete existing records become repair candidates and blank or malformed image entries become fill candidates
 5. the manifest is rebuilt from the final tree
 6. the bulk lookup is rebuilt from the same canonical records
 7. `version.json` is bumped when public photo output changes, including lookup-only changes not already covered during generation
@@ -132,7 +134,7 @@ For ordinary changes:
 1. update the private source place tree
 2. run or wait for the workflow
 3. review any migration and deletion logs
-4. let the workflow rebuild the manifest, lookup, and version as needed
+4. let the workflow repair incomplete photo records and rebuild the manifest, lookup, and version as needed
 
 Manual intervention is appropriate only for deliberate repairs that cannot be represented safely through the source tree and existing migration rules.
 
