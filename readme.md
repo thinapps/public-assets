@@ -1,6 +1,6 @@
 # Public Assets
 
-This repository stores public photo metadata without storing image binaries. Photo records point to external image URLs and preserve required photographer and source attribution links.
+This repository stores public photo metadata without storing image binaries. Photo records reference external image URLs and preserve required photographer and source attribution links.
 
 Country, subdivision, and city photo paths are generated from a private source place tree. Region records in `place_photos/world.json` are maintained separately.
 
