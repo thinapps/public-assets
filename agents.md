@@ -24,11 +24,11 @@ Apply instructions in this order:
 3. the documented repository behavior and compliance guidance
 4. existing repository conventions not covered above
 
-Downstream Freebase repositories may consume this data, but this repository remains the source of truth for its own public photo-data format and generation behavior.
+Downstream consumers may use this data, but this repository remains the source of truth for its own public photo-data format and generation behavior.
 
 ## Repository Purpose
 
-Preserve this repository as a focused public photo-metadata and synchronization pipeline for Freebase place imagery.
+Preserve this repository as a focused public photo-metadata and synchronization pipeline for place imagery.
 
 - Keep public photo records lightweight and deterministic.
 - Preserve the `place_photos/` tree, `manifest.json`, `photos.json`, `version.json`, and `photo_cursor.json` roles described in the documentation.
@@ -53,14 +53,14 @@ Unsplash-related behavior is compliance-sensitive. Preserve the rules in `docs/u
 
 - Use API-provided Unsplash image URLs directly for rendering.
 - Preserve visible photographer and Unsplash attribution in downstream consumers.
-- Preserve the configured Freebase referral parameters on attribution URLs.
+- Preserve the configured referral parameters on attribution URLs.
 - Keep `UNSPLASH_ACCESS_KEY` secret and server-side; never commit it, print it, place it in generated JSON, or expose it to downstream HTML or JavaScript.
 - When a newly selected or changed photo assignment is actually persisted, trigger the API-provided `links.download_location` tracking endpoint as documented.
 - Do not trigger download tracking for dry runs, unchanged selections, or ordinary downstream page views.
 - Do not repurpose the Unsplash integration for bulk catalog harvesting, resale, AI training, advertising inventory, or unrelated image collection.
 - Before materially changing Unsplash behavior, verify the current official Unsplash API guidance rather than relying only on historical repository behavior.
 
-The current scheduled workflow is intentionally bounded and product-specific. The repository documents the project's position that this behavior is compliant because it enriches known Freebase places rather than operating as spammy or extractive harvesting. Preserve that distinction, and revisit scheduling promptly if Unsplash materially changes its guidance or asks for different behavior.
+The current scheduled workflow is intentionally bounded and product-specific. The repository documents the project's position that this behavior is compliant because it enriches known places rather than operating as spammy or extractive harvesting. Preserve that distinction, and revisit scheduling promptly if Unsplash materially changes its guidance or asks for different behavior.
 
 ## Workflow Guardrails
 
