@@ -1,6 +1,6 @@
 # Unsplash API Compliance
 
-This document records the Unsplash-specific behavior used by the Freebase place-photo pipeline and the rules that should be preserved when the integration changes.
+This document records the Unsplash-specific behavior used by the place-photo pipeline and the rules that should be preserved when the integration changes.
 
 The primary reference is the official Unsplash API guidance:
 
@@ -12,15 +12,15 @@ These requirements can change. Review the current Unsplash documentation before 
 
 ## Architecture
 
-Unsplash API requests are made by this repository, not by the `freebase.top` website.
+Unsplash API requests are made by this repository.
 
-`scripts/generate_place_photos.py` searches Unsplash, chooses a photo for a place, and stores only the metadata needed by downstream consumers. `freebase.top` later reads the generated lookup and renders those photos.
+`scripts/generate_place_photos.py` searches Unsplash, chooses a photo for a place, and stores only the metadata needed by downstream consumers. Downstream consumers later read the generated data and render those photos.
 
-The website does not expose an Unsplash API key and does not call the Unsplash API directly.
+Consumers do not receive an Unsplash API key and should not call the Unsplash API directly for this dataset.
 
 ## Image hotlinking
 
-Do not download Unsplash image files into this repository or copy them to Freebase-controlled storage.
+Do not download Unsplash image files into this repository or copy them to separately controlled storage.
 
 The generator stores the image URL returned by Unsplash in `photo.urls.regular`. Downstream consumers use that `images.unsplash.com` URL directly.
 
@@ -35,7 +35,7 @@ Each usable photo record must retain:
 - `photographer_url`
 - `source_url`
 
-The photographer URL and photo/source URL are derived from the Unsplash API response and include the Freebase referral parameters:
+The photographer URL and photo/source URL are derived from the Unsplash API response and include the configured referral parameters:
 
 - `utm_source=freebase`
 - `utm_medium=referral`
@@ -46,7 +46,7 @@ Downstream interfaces that display an Unsplash photo should keep visible attribu
 
 ## Download-location tracking
 
-Unsplash uses `photo.links.download_location` as a usage-tracking event when an application selects a photo for use. This is not the image URL and does not mean that Freebase downloads or stores the image file.
+Unsplash uses `photo.links.download_location` as a usage-tracking event when an application selects a photo for use. This is not the image URL and does not mean that the image file is downloaded or stored locally.
 
 Whenever the generator selects a photo that will actually be written as a new or changed place-photo assignment, it must make one authenticated request to the returned `links.download_location` URL.
 
@@ -62,7 +62,7 @@ The tracking request:
 
 The tracking request is intentionally made before the local JSON write. If Unsplash rejects the tracking request, the new assignment is not persisted as though it had been successfully tracked.
 
-Do not trigger `download_location` for ordinary website page views. A visitor viewing a Freebase place page is not a new photo-selection event.
+Do not trigger `download_location` for ordinary downstream page views. A visitor viewing a rendered place page is not a new photo-selection event.
 
 ## API-key handling
 
@@ -74,21 +74,21 @@ Never:
 
 - commit the key to this repository;
 - put it in generated JSON;
-- expose it in `freebase.top` HTML or JavaScript;
+- expose it in downstream HTML or JavaScript;
 - include it in logs or attribution URLs.
 
 ## Search and selection
 
-The Unsplash API is used only to find place imagery for Freebase. The resulting experience is a place-information product rather than an Unsplash clone, stock-photo browser, or general photo-download service.
+The Unsplash API is used only to find place imagery. The resulting experience is a place-information use case rather than an Unsplash clone, stock-photo browser, or general photo-download service.
 
-The current generator searches for a specific Freebase place, considers a limited set of relevant results, and chooses one photo for that place. The workflow may run on a schedule so that missing place imagery can be filled gradually and existing assignments can be refreshed in bounded batches.
+The current generator searches for a specific known place, considers a limited set of relevant results, and chooses one photo for that place. The workflow may run on a schedule so that missing place imagery can be filled gradually and existing assignments can be refreshed in bounded batches.
 
 Unsplash currently describes its API as intended for non-automated, high-quality, authentic experiences. The scheduled workflow is therefore a point that should continue to be monitored when reviewing policy changes.
 
 Our current interpretation is that this workflow remains compliant because the automation is narrow and product-specific rather than spammy or extractive:
 
-- it enriches an existing place-information product instead of creating a photo-search or photo-download product;
-- it searches only for known Freebase places rather than crawling the Unsplash catalog generally;
+- it enriches an existing place-information use case instead of creating a photo-search or photo-download product;
+- it searches only for known places rather than crawling the Unsplash catalog generally;
 - it processes bounded batches with rate-limit handling instead of aggressively harvesting API data;
 - it stores only the metadata needed to render and attribute one selected image per place;
 - it hotlinks Unsplash-hosted images rather than mirroring image files;
@@ -102,7 +102,7 @@ Do not assume that an existing schedule or historical implementation is permanen
 
 ## Stored data and caching
 
-Freebase may cache the metadata needed to render and attribute a selected photo, including its Unsplash CDN image URL and attribution links.
+This repository may cache the metadata needed to render and attribute a selected photo, including its Unsplash CDN image URL and attribution links.
 
 Do not turn this cache into a mirror of Unsplash image binaries or a general-purpose copy of Unsplash catalog data.
 
@@ -110,15 +110,15 @@ When an existing assignment is refreshed or replaced, treat the newly selected p
 
 ## Consumer requirements
 
-Any Freebase surface that consumes this photo dataset should preserve these rules:
+Any surface that consumes this photo dataset should preserve these rules:
 
 1. Render the Unsplash CDN URL rather than copying the image to another image host.
 2. Display photographer attribution and an Unsplash/photo-source link.
-3. Keep Freebase referral UTM parameters on Unsplash attribution links.
+3. Keep the configured referral UTM parameters on Unsplash attribution links.
 4. Do not expose the Unsplash API key.
 5. Do not trigger download tracking on ordinary image views; selection tracking belongs in the generator.
 
-For `freebase.top`, the visible photo attribution is rendered over the image at the bottom-right. Styling can change, but attribution must remain readable and usable.
+Styling can vary by consumer, but attribution must remain readable and usable.
 
 ## Maintenance checklist
 
