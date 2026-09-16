@@ -8,7 +8,7 @@ on:
         required: false
         default: "20"
       overwrite:
-        description: Replace existing image_url values too
+        description: Refresh complete existing photo records
         required: false
         default: "false"
   schedule:
