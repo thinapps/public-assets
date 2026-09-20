@@ -21,7 +21,8 @@ PHOTO_CURSOR_FILENAME = "photo_cursor.json"
 # unsplash request defaults
 UNSPLASH_API_BASE = "https://api.unsplash.com"
 DEFAULT_PER_PAGE = 10
-DEFAULT_SELECTION_POOL = 5
+DEFAULT_SELECTION_POOL = 3
+DEFAULT_RELEVANCE_WEIGHTS = (4, 2, 1)
 DEFAULT_ORIENTATION = "landscape"
 DEFAULT_CONTENT_FILTER = "high"
 
@@ -273,14 +274,17 @@ def photo_likes(photo: Dict[str, Any]) -> int:
 
 
 def choose_best_photo(results: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
-    # keep Unsplash relevance meaningful, then prefer likes within the top results
+    # favor Unsplash relevance first, then let strong like-count differences matter
     candidates = [item for item in results[:DEFAULT_SELECTION_POOL] if isinstance(item, dict)]
     if not candidates:
         return None
 
     return max(
         enumerate(candidates),
-        key=lambda ranked: (photo_likes(ranked[1]), -ranked[0]),
+        key=lambda ranked: (
+            photo_likes(ranked[1]) * DEFAULT_RELEVANCE_WEIGHTS[ranked[0]],
+            -ranked[0],
+        ),
     )[1]
 
 
