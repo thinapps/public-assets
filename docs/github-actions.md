@@ -8,9 +8,9 @@ It keeps country, subdivision, and city photo paths synchronized with the privat
 
 ## Schedule and manual runs
 
-The workflow is currently manual-only and is started from the GitHub Actions tab with `workflow_dispatch`.
+The workflow runs automatically every three hours at 17 minutes past the hour using the UTC cron expression `17 */3 * * *`. It can also be started on demand from the GitHub Actions tab with `workflow_dispatch`.
 
-Historically, it also ran automatically every three hours at 17 minutes past the hour using the cron expression `17 */3 * * *`. That schedule was removed while preparing for Unsplash production API access so automated API usage is not assumed to be acceptable. The same schedule may be restored later if Unsplash confirms that this kind of bounded automated photo-selection workflow is permitted.
+Scheduled runs use the normal default limit of `20`, so they remain bounded rather than attempting the full queue. Manual runs can override that limit when deliberate maintenance requires a different batch size.
 
 Manual runs support one input:
 
@@ -144,13 +144,13 @@ Do not hide real failures by broadly ignoring command exit codes or increasing t
 
 ## Timeout and manual batch sizing
 
-The job timeout is 15 minutes. The default attempt limit of `20` is the normal control on a manual run; the timeout is only the final backstop.
+The job timeout is 15 minutes. The default attempt limit of `20` is the normal control for scheduled runs and the default control for manual runs; the timeout is only the final backstop.
 
 For larger manual batches, increase `limit` carefully. Each place can generate multiple Unsplash requests, and the script pauses between attempted entries. Bounded limits continue reserving roughly one quarter of capacity for refreshes, capped at five. `limit=0` removes both the attempt bound and the reserve split, so it processes the full repair-and-fill queue before refreshes; Unsplash quota and the job timeout still apply, so it should be reserved for deliberate manual runs.
 
 ## Manual maintenance
 
-Use a manual `workflow_dispatch` run for normal operational maintenance. It preserves the full synchronization, generation, lookup, versioning, and commit sequence in one controlled run.
+Use a manual `workflow_dispatch` run when you want an immediate on-demand update or a deliberately different batch size. Scheduled runs already perform the same synchronization, generation, lookup, versioning, and commit sequence every three hours with the default bounded limit.
 
 For local diagnostics, `scripts/generate_place_photos.py` supports `--dry-run`. A dry run may still perform Unsplash searches for repair, fill, and refresh candidates, but it does not persist selected photo metadata or trigger download-location tracking. Keep diagnostic limits small and review the output before running without `--dry-run`.
 
