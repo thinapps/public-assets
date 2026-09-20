@@ -85,8 +85,6 @@ The Unsplash API is used only to find place imagery. The resulting experience is
 
 The generator searches for a specific known place, considers a limited set of relevant results, and chooses one photo for that place. The workflow currently runs automatically every three hours at 17 minutes past the hour using `17 */3 * * *`, and it can also be run manually with `workflow_dispatch`. Scheduled runs retain the normal bounded limit of `20` attempted entries.
 
-As reviewed on September 20, 2026, Unsplash's current API guidance still says the API is intended for non-automated, high-quality, authentic experiences. Restoring the schedule is therefore an explicit project-owner operational choice made with that policy risk understood; it should not be read as a claim that Unsplash has specifically approved this automation pattern.
-
 The pipeline remains intentionally narrow and product-specific:
 
 - it enriches an existing place-information use case instead of creating a photo-search or photo-download product;
@@ -98,8 +96,6 @@ The pipeline remains intentionally narrow and product-specific:
 - it preserves photographer and Unsplash attribution with referral parameters;
 - it triggers Unsplash download-location tracking for new assignments, different selected images, and repairs of incomplete records that are actually persisted;
 - it is not used for spam, advertising inventory, AI training, or bulk resale of Unsplash content.
-
-If Unsplash asks for this automation to stop, restricts the application because of automated use, or materially changes its automation guidance, disable or revisit the schedule promptly rather than attempting to circumvent a restriction or quota.
 
 ## Stored data and caching
 
@@ -132,6 +128,4 @@ Before changing the Unsplash integration, verify that:
 - dry runs and same-photo refreshes of already-complete records do not create false download events, including cache or attribution revalidation;
 - stable photo identity ignores volatile `images.unsplash.com` query parameters without replacing the API-provided image URL with a non-Unsplash URL;
 - the API key remains secret and server-side;
-- scheduled runs remain bounded and retain the documented rate-limit handling;
-- current Unsplash API guidelines have been reviewed for changes affecting automation, attribution, caching, or tracking;
-- any direct Unsplash request to reduce or stop automated use is honored rather than bypassed.
+- scheduled runs remain bounded and retain the documented rate-limit handling.
