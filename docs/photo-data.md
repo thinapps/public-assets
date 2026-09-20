@@ -69,7 +69,7 @@ A photo is complete and usable only when all of these fields contain actual non-
 
 Values of other JSON types, including `null`, numbers, booleans, arrays, and objects, do not satisfy the schema even when converting them to text would produce a non-empty value.
 
-`cached_at` records when the cached photo metadata was written. It is optional for manifest and lookup eligibility and stale-photo migration. Missing, non-string, or invalid timestamps are treated as oldest when refresh ordering is calculated.
+`cached_at` records when the cached assignment was last written or successfully revalidated by the refresh search. It is optional for manifest and lookup eligibility and stale-photo migration. Missing, non-string, or invalid timestamps are treated as oldest when refresh ordering is calculated. When a refresh returns the same public photo fields already stored, only `cached_at` changes; that cache-only maintenance does not change the public payload version.
 
 `place_photos/world.json` is the main exception to the one-object-per-file convention. It may contain multiple region-level records in one JSON array.
 
@@ -220,15 +220,17 @@ The same principle applies to `photos.json`: keep the single lookup while its ac
 
 - newly cached photo metadata
 - repaired incomplete photo metadata
-- refreshed photo metadata
+- changed refreshed photo metadata
 - manifest changes caused by place additions, removals, or stale-file cleanup
 - lookup-only `photos.json` changes produced by the workflow
 
+A refresh that selects the same public photo metadata may update only `cached_at`. Because `cached_at` is omitted from the bulk lookup and does not change the usable public assignment, that cache-only refresh does not bump `version.json`.
+
 The file must contain a `version` field whose value is a JSON integer. Missing fields, numeric strings, floating-point values, booleans, and other JSON types are invalid and cause a required version bump to fail rather than silently resetting or coercing the counter.
 
-Photo generation bumps the version when photo metadata or the rebuilt manifest changes. After `photos.json` is rebuilt, the workflow performs a safeguard check: if the lookup changed but `version.json` did not already change during photo generation, the workflow bumps the version once for that lookup-only public payload change. This avoids both missing version bumps and double bumps during ordinary photo updates.
+Photo generation bumps the version when public photo metadata or the rebuilt manifest changes. After `photos.json` is rebuilt, the workflow performs a safeguard check: if the lookup changed but `version.json` did not already change during photo generation, the workflow bumps the version once for that lookup-only public payload change. This avoids both missing version bumps and double bumps during ordinary photo updates.
 
-Placeholder-only synchronization may be committed without a version bump when it does not change usable public photo output. Search attempts and cursor-only updates also do not bump the version.
+Placeholder-only synchronization may be committed without a version bump when it does not change usable public photo output. Search attempts, cursor-only updates, and cache-only `cached_at` refreshes also do not bump the version.
 
 If public photo metadata, the manifest, or a rebuilt lookup requires a version bump and `version.json` is missing or invalid, the workflow fails instead of silently skipping or recreating the required version state.
 
