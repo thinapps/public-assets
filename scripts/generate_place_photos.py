@@ -252,6 +252,7 @@ def fetch_unsplash_results(access_key: str, query: str) -> List[Dict[str, Any]]:
             "query": query,
             "page": 1,
             "per_page": DEFAULT_PER_PAGE,
+            "order_by": "relevant",
             "orientation": DEFAULT_ORIENTATION,
             "content_filter": DEFAULT_CONTENT_FILTER,
         },
@@ -275,14 +276,18 @@ def photo_likes(photo: Dict[str, Any]) -> int:
 
 def choose_best_photo(results: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
     # favor Unsplash relevance first, then let strong like-count differences matter
-    candidates = [item for item in results[:DEFAULT_SELECTION_POOL] if isinstance(item, dict)]
+    candidates = [
+        (rank, item)
+        for rank, item in enumerate(results[:DEFAULT_SELECTION_POOL])
+        if isinstance(item, dict)
+    ]
     if not candidates:
         return None
 
     return max(
-        enumerate(candidates),
+        candidates,
         key=lambda ranked: (
-            photo_likes(ranked[1]) * DEFAULT_RELEVANCE_WEIGHTS[ranked[0]],
+            (photo_likes(ranked[1]) + 1) * DEFAULT_RELEVANCE_WEIGHTS[ranked[0]],
             -ranked[0],
         ),
     )[1]
