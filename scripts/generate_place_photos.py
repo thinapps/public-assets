@@ -14,6 +14,7 @@ from urllib import error, parse, request
 # core paths and limits
 DEFAULT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_LIMIT = 20
+DEFAULT_REFRESH_RESERVE = 5
 DEFAULT_PAUSE_SECONDS = 1.25
 PHOTO_CURSOR_FILENAME = "photo_cursor.json"
 
@@ -613,8 +614,27 @@ def main() -> int:
         cursor_positions,
         last_attempted_place_id,
     )
-    queue_candidate_count = len(queue_candidates)
-    candidates = queue_candidates + refresh_candidates
+    eligible_candidate_count = len(queue_candidates) + len(refresh_candidates)
+
+    if args.limit and queue_candidates and refresh_candidates:
+        refresh_reserve = min(
+            DEFAULT_REFRESH_RESERVE,
+            max(1, args.limit // 4),
+            len(refresh_candidates),
+        )
+        queue_budget = max(1, args.limit - refresh_reserve)
+        selected_queue_candidates = queue_candidates[:queue_budget]
+        remaining_capacity = args.limit - len(selected_queue_candidates)
+        selected_refresh_candidates = refresh_candidates[:remaining_capacity]
+        candidates = selected_queue_candidates + selected_refresh_candidates
+        queue_candidate_count = len(selected_queue_candidates)
+        print(
+            f"[INFO] run mix -> repair_or_fill={len(selected_queue_candidates)} "
+            f"refresh={len(selected_refresh_candidates)}"
+        )
+    else:
+        queue_candidate_count = len(queue_candidates)
+        candidates = queue_candidates + refresh_candidates
 
     if not candidates:
         print("[INFO] no eligible photo entries; nothing to do")
@@ -666,7 +686,7 @@ def main() -> int:
         update_version_file(root, dry_run=args.dry_run)
 
     print(
-        f"eligible_candidates={len(candidates)} "
+        f"eligible_candidates={eligible_candidate_count} "
         f"attempted_entries={attempted_entries} "
         f"changed_entries={changed_entries} "
         f"cache_refreshed_entries={cache_refreshed_entries} "
