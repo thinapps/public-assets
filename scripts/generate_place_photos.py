@@ -394,8 +394,8 @@ def process_candidate(
     candidate: Dict[str, Any],
     access_key: str,
     dry_run: bool,
-) -> Tuple[bool, bool]:
-    # return changed, should_stop
+) -> Tuple[bool, bool, bool]:
+    # return public_changed, cache_refreshed, should_stop
     file_path = candidate["file_path"]
     index = candidate["index"]
     rel = file_path.relative_to(root).as_posix()
@@ -403,7 +403,7 @@ def process_candidate(
     payload = load_json(file_path)
     if not isinstance(payload, list):
         print(f"[WARN] skip non-list json: {rel}")
-        return (False, False)
+        return (False, False, False)
 
     # empty placeholder files need a stub record before photo data can be written
     if index is None:
@@ -411,7 +411,7 @@ def process_candidate(
     else:
         if index >= len(payload) or not isinstance(payload[index], dict):
             print(f"[WARN] skip missing entry: {rel} [{index}]")
-            return (False, False)
+            return (False, False, False)
 
         entry = normalize_photo_entry(payload[index])
         place_id = clean_string(entry.get("place_id", ""))
@@ -422,12 +422,12 @@ def process_candidate(
     place_id = clean_string(entry.get("place_id", ""))
     if not place_id:
         print(f"[WARN] skip missing place_id: {rel} [{index}]")
-        return (False, False)
+        return (False, False, False)
 
     queries = build_search_queries(place_photos_dir, place_id, file_path)
     if not queries:
         print(f"[WARN] skip empty search query: {place_id}")
-        return (False, False)
+        return (False, False, False)
 
     print(f"[INFO] search {place_id} -> {' | '.join(queries)}")
 
@@ -446,7 +446,7 @@ def process_candidate(
                 f"[WARN] Unsplash rate limit reached for {place_id} "
                 f"(HTTP {exc.code}); stopping cleanly"
             )
-            return (False, True)
+            return (False, False, True)
         print(f"[ERROR] api failure for {place_id}: {exc.code} {body}", file=sys.stderr)
         raise
     except error.URLError as exc:
@@ -455,15 +455,33 @@ def process_candidate(
 
     if not photo:
         print(f"[WARN] no results for {place_id} -> tried: {' | '.join(tried_queries)}")
-        return (False, False)
+        return (False, False, False)
 
     updated_entry = build_photo_entry(entry, photo)
     if not is_valid_photo_entry(updated_entry):
         raise RuntimeError(f"incomplete photo metadata returned for {place_id}")
 
-    if updated_entry == entry:
-        print(f"[INFO] no change for {place_id}")
-        return (False, False)
+    public_fields = (
+        "place_id",
+        "image_url",
+        "photographer_name",
+        "photographer_url",
+        "source_url",
+    )
+    if all(updated_entry[field] == entry[field] for field in public_fields):
+        if index is None:
+            payload = [updated_entry]
+        else:
+            payload[index] = updated_entry
+
+        if dry_run:
+            print(f"would refresh cached_at for {rel}")
+        else:
+            save_json(file_path, payload)
+            print(f"refreshed cached_at for {rel}")
+
+        print(f"[INFO] retained existing photo for {place_id} -> {tried_queries[-1]}")
+        return (False, True, False)
 
     if index is None:
         payload = [updated_entry]
@@ -479,7 +497,7 @@ def process_candidate(
         print(f"updated {rel}")
 
     print(f"[INFO] found photo for {place_id} -> {tried_queries[-1]}")
-    return (True, False)
+    return (True, False, False)
 
 
 def update_manifest_file(root: Path, place_photos_dir: Path, dry_run: bool) -> bool:
@@ -549,6 +567,7 @@ def main() -> int:
 
     attempted_entries = 0
     changed_entries = 0
+    cache_refreshed_entries = 0
     stop_cleanly = False
     cursor_changed = False
     cursor_advanced = False
@@ -569,7 +588,7 @@ def main() -> int:
         attempted_entries += 1
 
         try:
-            changed, should_stop = process_candidate(
+            changed, cache_refreshed, should_stop = process_candidate(
                 root=root,
                 place_photos_dir=place_photos_dir,
                 candidate=candidate,
@@ -586,6 +605,8 @@ def main() -> int:
 
         if changed:
             changed_entries += 1
+        if cache_refreshed:
+            cache_refreshed_entries += 1
 
         if should_stop:
             stop_cleanly = True
@@ -613,6 +634,7 @@ def main() -> int:
         f"eligible_candidates={len(candidates)} "
         f"attempted_entries={attempted_entries} "
         f"changed_entries={changed_entries} "
+        f"cache_refreshed_entries={cache_refreshed_entries} "
         f"manifest_changed={manifest_changed} "
         f"cursor_changed={cursor_changed}"
     )
@@ -623,7 +645,10 @@ def main() -> int:
     if stop_cleanly:
         print("[INFO] stopped cleanly after Unsplash rate limit")
     elif changed_entries == 0 and not manifest_changed:
-        print("[INFO] no photo changes found; exiting successfully")
+        if cache_refreshed_entries:
+            print("[INFO] refreshed cache timestamps without changing public photo assignments")
+        else:
+            print("[INFO] no photo changes found; exiting successfully")
 
     return 0
 
