@@ -8,7 +8,7 @@ The selection policy is intentionally simple. It favors predictable behavior, bo
 
 ## Candidate selection
 
-Every run uses one combined candidate flow. Incomplete records are handled first, and any remaining attempt capacity is used to refresh complete cached photos from oldest to newest.
+Every run uses one combined candidate flow. Incomplete records keep priority, while bounded runs reserve part of their attempt capacity for refreshing complete cached photos so older assignments cannot be starved indefinitely by a large incomplete queue.
 
 Incomplete candidates fall into two groups:
 
@@ -19,11 +19,13 @@ Repair candidates are placed ahead of ordinary blank candidates before cursor ro
 
 A repair does not attempt to reconstruct attribution from an existing image URL. The generator searches the place again and, when it finds a usable result, replaces the incomplete assignment with a complete API-derived record and performs the normal Unsplash download-location tracking for that newly persisted selection.
 
-After the rotated repair-and-fill queue, complete usable photo records are appended as refresh candidates. Existing photos are processed from the oldest `cached_at` value first. Missing, non-string, or invalid timestamps are treated as the oldest. Refresh candidates do not use or update the repair-and-fill cursor.
+Complete usable photo records form the refresh queue and are ordered from the oldest `cached_at` value first. Missing, non-string, or invalid timestamps are treated as the oldest. Refresh candidates do not use or update the repair-and-fill cursor.
+
+When both queues are non-empty and `--limit` is bounded, the generator reserves roughly one quarter of the attempt limit for refreshes, capped at five attempts. The normal `limit=20` therefore schedules up to 15 repair-or-fill attempts plus 5 refresh attempts; `limit=10` schedules up to 8 plus 2. If fewer incomplete candidates are available, unused capacity flows to additional refreshes. A one-attempt run still keeps incomplete work first. `limit=0` remains unbounded and processes the full repair-and-fill queue before continuing through refresh candidates.
 
 When a refresh search selects the same underlying Unsplash photo, the generator recognizes it from the stable `images.unsplash.com` host and URL path while ignoring volatile query parameters. It retains the existing image URL so parameter churn alone does not create a replacement. If all other public metadata is also unchanged, only `cached_at` is refreshed; if attribution metadata changed for that same photo, the metadata is updated and the public version changes without triggering a new download-selection event.
 
-This means a normal bounded run always gives incomplete data priority, while a mature library with few or no incomplete records naturally spends its capacity refreshing older assignments with the current search and selection logic.
+This keeps incomplete data as the higher-priority queue while guaranteeing regular bounded refresh progress, so older complete assignments are eventually reconsidered with the current search and selection logic even when incomplete records remain.
 
 ## Cursor behavior
 
@@ -46,13 +48,13 @@ For repair-and-fill candidates:
 - if the saved place ID no longer exists, processing starts from the beginning and logs a warning
 - cursor-only changes are committed but do not bump `version.json`
 
-Refresh candidates do not move the cursor. If a run finishes the incomplete queue and then uses remaining attempt capacity on complete cached photos, the cursor stays at the last repair-or-fill candidate attempted during that run.
+Refresh candidates do not move the cursor. When a bounded run schedules both repair-or-fill work and reserved refresh work, the cursor stays at the last repair-or-fill candidate attempted during that run.
 
 The cursor is operational workflow state. It is not included in `manifest.json` and does not change which photo records are considered complete.
 
 ### Why the cursor is necessary
 
-A small attempt limit keeps each workflow run reliable, but without persistent position every run would begin with the same incomplete entries. Places that repeatedly return no results could consume the whole batch forever while later candidates are never attempted.
+A small attempt limit keeps each workflow run reliable, but without persistent position every run would begin with the same incomplete entries. Places that repeatedly return no results could consume the repair-and-fill share forever while later incomplete candidates are never attempted.
 
 The cursor preserves deterministic ordering while rotating the starting point. This gives the full repair-and-fill queue a chance before earlier no-result entries are retried after wraparound.
 
@@ -72,12 +74,15 @@ Counting successful matches would make run length depend on Unsplash search qual
 
 Counting attempts provides a predictable amount of work regardless of result quality. The manual workflow uses the default limit of `20` unless another value is supplied.
 
-The attempt limit and cursor solve different problems:
+For bounded runs where both incomplete and refresh candidates exist, the refresh reserve is calculated as roughly 25% of `limit`, capped at five and constrained by the number of available refresh candidates. At least one repair-or-fill attempt remains ahead of refresh work for a one-item run. This gives refreshes guaranteed recurring capacity without removing incomplete-data priority.
 
-- the attempt limit bounds work within one run across repair, fill, and refresh candidates
+The attempt limit, refresh reserve, and cursor solve different problems:
+
+- the attempt limit bounds total work within one run across repair, fill, and refresh candidates
+- the refresh reserve prevents complete-photo refreshes from being starved by a permanently large incomplete queue
 - the cursor carries repair-and-fill queue progress across runs
 
-`limit=0` removes the attempt bound but does not remove the Unsplash quota or workflow timeout. It should be used deliberately for manual runs.
+`limit=0` removes the attempt bound and therefore does not use a reserve split; the generator processes the full repair-and-fill queue before the full refresh queue. Unsplash quota and the workflow timeout still apply, so unbounded runs should be used deliberately.
 
 ## Path and place ID behavior
 
