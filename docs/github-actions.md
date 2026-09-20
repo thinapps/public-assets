@@ -4,7 +4,7 @@
 
 The `Update Place Photos` workflow is defined in `.github/workflows/update-place-photos.yml`.
 
-It keeps country, subdivision, and city photo paths synchronized with the private source place tree, searches Unsplash for eligible photos across the public photo tree, advances the repair-and-fill cursor, refreshes older complete assignments when run capacity remains, rebuilds the public manifest and bulk photo lookup, bumps `version.json` when public photo output changes, and commits any resulting updates. Region membership in `place_photos/world.json` is maintained separately.
+It keeps country, subdivision, and city photo paths synchronized with the private source place tree, searches Unsplash for eligible photos across the public photo tree, advances the repair-and-fill cursor, reserves bounded capacity to refresh older complete assignments, rebuilds the public manifest and bulk photo lookup, bumps `version.json` when public photo output changes, and commits any resulting updates. Region membership in `place_photos/world.json` is maintained separately.
 
 ## Schedule and manual runs
 
@@ -18,11 +18,11 @@ Manual runs support one input:
 
 The limit counts attempted place entries, not successful photo matches. A place may use more than one Unsplash search query, but it still counts as one attempted entry.
 
-Each run first resumes after `photo_cursor.json` and wraps through the deterministic repair-and-fill queue. Repair candidates with an existing image but incomplete required metadata are prioritized ahead of ordinary blank candidates before cursor rotation. After those incomplete candidates, any remaining attempt capacity is used to refresh complete photos from the oldest cached entry first. Refresh attempts do not move the repair-and-fill cursor.
+Each run resumes after `photo_cursor.json` and rotates through the deterministic repair-and-fill queue. Repair candidates with an existing image but incomplete required metadata are prioritized ahead of ordinary blank candidates before cursor rotation. When both incomplete and complete refresh candidates exist in a bounded run, roughly one quarter of the attempt limit is reserved for oldest-first complete-photo refreshes, capped at five attempts. The normal `limit=20` therefore schedules up to 15 repair-or-fill attempts plus 5 refresh attempts. Refresh attempts do not move the repair-and-fill cursor.
 
 ## Reliability design
 
-Runs combine an attempt-based limit with a persistent repair-and-fill cursor. The limit bounds work within each run, while the cursor lets later runs resume after the last attempted incomplete place so repeated no-result entries do not permanently block the repair-and-fill queue.
+Runs combine an attempt-based limit, a bounded refresh reserve, and a persistent repair-and-fill cursor. The limit bounds work within each run, the reserve guarantees recurring complete-photo refresh progress, and the cursor lets later runs resume after the last attempted incomplete place so repeated no-result entries do not permanently block the repair-and-fill queue.
 
 Together, these rules provide:
 
@@ -30,12 +30,12 @@ Together, these rules provide:
 - lower risk of exhausting the Unsplash quota in one run
 - steady progress through the repair-and-fill queue
 - automatic repair of incomplete records that would otherwise remain unusable
-- continuous refresh of older complete assignments when no higher-priority incomplete work consumes the full batch
+- continuous oldest-first refresh of complete assignments even while incomplete records remain
 - structural recovery for syntactically valid country-tree photo JSON that no longer matches the canonical array/object shape
 - successful no-change outcomes when nothing is wrong
 - real failures for configuration, data, network, and unexpected API problems
 
-The 15-minute job timeout remains a final safety backstop rather than the normal batch-control mechanism. See [`photo-selection.md`](photo-selection.md) for the detailed candidate-ordering, attempt-limit, and cursor rationale.
+The 15-minute job timeout remains a final safety backstop rather than the normal batch-control mechanism. See [`photo-selection.md`](photo-selection.md) for the detailed candidate-ordering, attempt-limit, refresh-reserve, and cursor rationale.
 
 ## Concurrency
 
@@ -63,8 +63,8 @@ Missing or invalid configuration is treated as a real failure.
 3. Set up Python 3.11.
 4. Synchronize country, subdivision, and city photo placeholders with the current source place tree and normalize recoverable valid-JSON structural problems into canonical public records.
 5. Migrate usable cached photos when a place path changes and safely prune stale files.
-6. Resume after the stored repair-and-fill cursor and attempt Unsplash searches for incomplete repair candidates and blank fill candidates.
-7. If attempt capacity remains, continue with complete cached photos ordered from the oldest `cached_at` value first. The same underlying Unsplash photo is recognized from the stable image host and path while query parameters are ignored. Same-photo refreshes keep the existing image URL, update changed attribution metadata without a new download-selection event, and otherwise refresh only `cached_at`; a different photo is persisted with normal Unsplash download tracking.
+6. Resume after the stored repair-and-fill cursor and schedule incomplete repair candidates and blank fill candidates first within the bounded run mix.
+7. Reserve the bounded refresh share for complete cached photos ordered from the oldest `cached_at` value first. The same underlying Unsplash photo is recognized from the stable image host and path while query parameters are ignored. Same-photo refreshes keep the existing image URL, update changed attribution metadata without a new download-selection event, and otherwise refresh only `cached_at`; a different photo is persisted with normal Unsplash download tracking.
 8. Save the last attempted repair-or-fill place ID in `photo_cursor.json` when that portion of the queue advanced.
 9. Rebuild `manifest.json` from complete cached photo records.
 10. Bump `version.json` when public photo metadata or the rebuilt manifest changes. Cache-only `cached_at` refreshes do not bump it.
@@ -101,6 +101,8 @@ The generator prints a final summary containing:
 - `cache_refreshed_entries`: unchanged public photo assignments whose `cached_at` timestamp was refreshed
 - `manifest_changed`: whether rebuilding `manifest.json` changed its contents
 - `cursor_changed`: whether repair-and-fill workflow progress moved forward
+
+When both queues are populated in a bounded run, the generator also logs the scheduled run mix as `repair_or_fill` and `refresh` counts. The normal default mix is up to `15 + 5` for `limit=20`, while smaller limits scale the refresh share to roughly one quarter, capped at five.
 
 The generator also prints `last_attempted_place_id` when at least one repair-or-fill candidate was attempted. Refresh-only runs do not move or reprint the cursor as new progress.
 
@@ -144,7 +146,7 @@ Do not hide real failures by broadly ignoring command exit codes or increasing t
 
 The job timeout is 15 minutes. The default attempt limit of `20` is the normal control on a manual run; the timeout is only the final backstop.
 
-For larger manual batches, increase `limit` carefully. Each place can generate multiple Unsplash requests, and the script pauses between attempted entries. `limit=0` removes the attempt bound, but Unsplash quota and the job timeout still apply, so it should be reserved for deliberate manual runs.
+For larger manual batches, increase `limit` carefully. Each place can generate multiple Unsplash requests, and the script pauses between attempted entries. Bounded limits continue reserving roughly one quarter of capacity for refreshes, capped at five. `limit=0` removes both the attempt bound and the reserve split, so it processes the full repair-and-fill queue before refreshes; Unsplash quota and the job timeout still apply, so it should be reserved for deliberate manual runs.
 
 ## Manual maintenance
 
@@ -160,7 +162,7 @@ Manual synchronization or stale pruning should use the documented source tree an
 
 - `.github/workflows/update-place-photos.yml`: Workflow definition.
 - `scripts/sync_place_photo_tree.py`: Synchronizes placeholders, normalizes recoverable public record structure, and prunes stale files safely.
-- `scripts/generate_place_photos.py`: Selects repair and fill candidates first, appends oldest-first refresh candidates, rotates the incomplete queue through the cursor, searches Unsplash, writes complete photo records, refreshes unchanged cache timestamps, rebuilds the manifest, and updates the version when public output changes.
+- `scripts/generate_place_photos.py`: Prioritizes repair and fill candidates while reserving bounded capacity for oldest-first refresh candidates, rotates the incomplete queue through the cursor, searches Unsplash, writes complete photo records, refreshes unchanged cache timestamps, rebuilds the manifest, and updates the version when public output changes.
 - `scripts/photo_queries.py`: Builds deterministic search queries from place IDs and paths.
 - `scripts/build_photo_lookup.py`: Rebuilds the bulk `photos.json` lookup from complete canonical photo records.
 - `photo_cursor.json`: Stores the last attempted place ID for the repair-and-fill portion of runs.
