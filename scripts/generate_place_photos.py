@@ -60,6 +60,20 @@ def clean_string(value: Any) -> str:
     return value.strip() if isinstance(value, str) else ""
 
 
+def image_identity(value: Any) -> str:
+    # Unsplash image query parameters can change while the underlying photo stays the same
+    url = clean_string(value)
+    if not url:
+        return ""
+
+    parsed = parse.urlsplit(url)
+    host = (parsed.hostname or "").lower()
+    path = parsed.path.rstrip("/")
+    if host != "images.unsplash.com" or not path:
+        return ""
+    return f"{host}{path}"
+
+
 def parse_cached_at(value: Any) -> float:
     # missing, non-string, or invalid timestamps are treated as oldest
     value = clean_string(value)
@@ -468,20 +482,35 @@ def process_candidate(
         "photographer_url",
         "source_url",
     )
-    if all(updated_entry[field] == entry[field] for field in public_fields):
+    existing_identity = image_identity(entry.get("image_url", ""))
+    updated_identity = image_identity(updated_entry.get("image_url", ""))
+    same_photo = bool(existing_identity and existing_identity == updated_identity)
+
+    if same_photo:
+        # retain the original API-provided image URL so volatile query parameters do not create churn
+        updated_entry["image_url"] = entry["image_url"]
+
+    public_changed = any(updated_entry[field] != entry[field] for field in public_fields)
+    if same_photo or not public_changed:
         if index is None:
             payload = [updated_entry]
         else:
             payload[index] = updated_entry
 
         if dry_run:
-            print(f"would refresh cached_at for {rel}")
+            if public_changed:
+                print(f"would refresh metadata for {rel}")
+            else:
+                print(f"would refresh cached_at for {rel}")
         else:
             save_json(file_path, payload)
-            print(f"refreshed cached_at for {rel}")
+            if public_changed:
+                print(f"refreshed metadata for {rel}")
+            else:
+                print(f"refreshed cached_at for {rel}")
 
         print(f"[INFO] retained existing photo for {place_id} -> {tried_queries[-1]}")
-        return (False, True, False)
+        return (public_changed, not public_changed, False)
 
     if index is None:
         payload = [updated_entry]
