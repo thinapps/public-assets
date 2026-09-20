@@ -21,6 +21,8 @@ A repair does not attempt to reconstruct attribution from an existing image URL.
 
 After the rotated repair-and-fill queue, complete usable photo records are appended as refresh candidates. Existing photos are processed from the oldest `cached_at` value first. Missing, non-string, or invalid timestamps are treated as the oldest. Refresh candidates do not use or update the repair-and-fill cursor.
 
+When a refresh search selects exactly the same public photo metadata already stored, the assignment is retained and only `cached_at` is refreshed. That cache-only refresh moves the record toward the back of the oldest-first refresh queue without triggering a new Unsplash download event or a public payload version bump.
+
 This means a normal bounded run always gives incomplete data priority, while a mature library with few or no incomplete records naturally spends its capacity refreshing older assignments with the current search and selection logic.
 
 ## Cursor behavior
@@ -54,7 +56,7 @@ A small attempt limit keeps each workflow run reliable, but without persistent p
 
 The cursor preserves deterministic ordering while rotating the starting point. This gives the full repair-and-fill queue a chance before earlier no-result entries are retried after wraparound.
 
-Complete refresh candidates do not need the cursor because they are already ordered by `cached_at`, so successfully refreshed records naturally move toward the back of the refresh queue with their new timestamp.
+Complete refresh candidates do not need the cursor because they are already ordered by `cached_at`, so successfully refreshed or revalidated records naturally move toward the back of the refresh queue with their new timestamp.
 
 ## Attempt limit
 
@@ -137,6 +139,8 @@ Photographer and source links retain the configured Unsplash referral parameters
 
 The generated record is written only when `place_id`, `image_url`, `photographer_name`, `photographer_url`, and `source_url` are all actual non-empty strings. Missing, `null`, numeric, boolean, array, or object values do not pass validation and cause an incomplete Unsplash result to fail rather than enter the public manifest.
 
+For an existing complete record, those five public fields are compared before deciding whether the selection actually changed. If all five are identical, the script updates only `cached_at`, does not call `links.download_location`, and does not count the result as a public photo change.
+
 ## No-result behavior
 
 When all queries for a place return no results:
@@ -149,7 +153,7 @@ When all queries for a place return no results:
 
 No-result entries are normal and do not make the workflow fail. The cursor still advances for repair-and-fill attempts so later incomplete candidates receive a chance before that queue wraps back. Refresh attempts do not move the cursor.
 
-If the whole batch produces no photo or manifest changes, the script logs that outcome and exits successfully. A cursor-only commit is expected when repair-and-fill queue progress changed.
+If the whole batch produces no photo or manifest changes, the script logs that outcome and exits successfully. A cursor-only commit is expected when repair-and-fill queue progress changed. A cache-only refresh can also produce a commit without changing the public payload version.
 
 ## Rate limits and failures
 
@@ -168,12 +172,13 @@ Other unexpected HTTP errors, network errors, malformed required data, unexpecte
 
 After candidate processing, `manifest.json` is rebuilt from complete usable photo records whose required fields are actual non-empty strings.
 
-During generation, `version.json` is bumped when photo metadata or the rebuilt manifest changes. The workflow then rebuilds `photos.json`; if that lookup changes without an earlier version change in the same run, the workflow bumps `version.json` once for the lookup-only public payload change. Search attempts and cursor-only updates do not bump the version because they do not change public photo output.
+During generation, `version.json` is bumped when public photo metadata or the rebuilt manifest changes. The workflow then rebuilds `photos.json`; if that lookup changes without an earlier version change in the same run, the workflow bumps `version.json` once for the lookup-only public payload change. Search attempts, cursor-only updates, and cache-only `cached_at` refreshes do not bump the version because they do not change public photo output.
 
 A successful workflow run can therefore have several valid outcomes:
 
 - a repaired incomplete record or newly filled blank with a version bump
-- a refreshed complete photo with a version bump
+- a changed refreshed photo with a version bump
+- an unchanged photo revalidated with only `cached_at` refreshed and no version bump
 - other photo or manifest changes with a version bump
 - a lookup-only `photos.json` change with one workflow version bump
 - cursor-only progress with a commit but no version bump
