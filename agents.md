@@ -44,7 +44,7 @@ Preserve this repository as a focused public photo-metadata and synchronization 
 - Treat records missing any required usable-photo field as incomplete, even when `image_url` is already populated; normal generation should repair those records by selecting a complete API-derived assignment rather than reconstructing attribution from the existing image URL.
 - Do not manually bulk-edit generated photo records without understanding the synchronization, migration, manifest, version, and cursor rules.
 - Do not bypass stale-file pruning safeguards or deletion thresholds merely to make a run succeed.
-- Do not reset or rewrite `photo_cursor.json` casually; it is persistent operational state for normal repair-and-fill runs.
+- Do not reset or rewrite `photo_cursor.json` casually; it is persistent operational state for the repair-and-fill portion of runs.
 - Do not bump `version.json` for cursor-only progress when public photo availability has not changed.
 - Preserve existing path and place-ID conventions unless a coordinated migration is explicitly approved.
 
@@ -61,24 +61,24 @@ Unsplash-related behavior is compliance-sensitive. Preserve the rules in `docs/u
 - Do not repurpose the Unsplash integration for bulk catalog harvesting, resale, AI training, advertising inventory, or unrelated image collection.
 - Before materially changing Unsplash behavior, verify the current official Unsplash API guidance rather than relying only on historical repository behavior.
 
-The current scheduled workflow is intentionally bounded and product-specific. The repository documents the project's position that this behavior is compliant because it enriches known places rather than operating as spammy or extractive harvesting. Preserve that distinction, and revisit scheduling promptly if Unsplash materially changes its guidance or asks for different behavior.
+The current manual workflow is intentionally bounded and product-specific. The repository documents the project's position that this behavior is compliant because it enriches known places rather than operating as spammy or extractive harvesting. Preserve that distinction, and revisit scheduling promptly if Unsplash materially changes its guidance or asks for different behavior.
 
 ## Workflow Guardrails
 
 This repository intentionally contains `.github/workflows/update-place-photos.yml`.
 
-The workflow currently runs only through `workflow_dispatch` and its scheduled cron trigger; normal commits do not directly trigger it.
+The workflow currently runs only through `workflow_dispatch`; normal commits do not directly trigger it.
 
-- Do not add `push`, `pull_request`, or other new triggers without explicit approval.
+- Do not add `push`, `pull_request`, scheduled cron, or other new triggers without explicit approval.
 - Do not use GitHub Actions as a helper mechanism for normal repository edits.
-- Do not casually increase the scheduled frequency, default attempt limit, API request volume, or timeout.
-- Preserve concurrency protection and bounded normal runs unless a deliberate redesign is approved.
+- Do not casually increase the default attempt limit, API request volume, or timeout.
+- Preserve concurrency protection and bounded runs unless a deliberate redesign is approved.
 - Preserve real failures for invalid configuration, malformed data, unexpected API behavior, unsafe pruning, and Git conflicts.
 - Do not broadly ignore command failures or suppress errors just to keep the workflow green.
 - Treat workflow-generated commits as expected pipeline output; do not rewrite their history.
-- Before changing scripts used by the workflow, consider both manual and scheduled execution paths.
+- Before changing scripts used by the workflow, consider the current manual execution path and any documented future scheduling constraints.
 
-Because scheduled runs can occur independently of repository edits, fetch the latest target file immediately before every write and avoid overwriting changes made by another agent, user, or workflow run.
+Because workflow runs can create commits independently of manual repository edits, fetch the latest target file immediately before every write and avoid overwriting changes made by another agent, user, or workflow run.
 
 ## Mandatory Repository Policy
 
