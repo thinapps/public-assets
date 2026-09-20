@@ -128,7 +128,9 @@ The search response must be a JSON object whose `results` field is a list. Unexp
 
 ## Result selection
 
-Unsplash returns search results in relevance order. The script keeps that ordering meaningful by considering only the first five results, then selects the photo with the highest valid like count within that group. When like counts are equal, the earlier and therefore more relevant result wins.
+Unsplash returns search results in relevance order. The script now considers only the first three results and applies relevance weights of `4`, `2`, and `1` to their valid like counts. Result #1 therefore needs much less raw popularity to remain selected, while result #2 or #3 can still win when it is substantially more liked. Exact weighted-score ties go to the earlier, more relevant result.
+
+This keeps Unsplash relevance as the dominant signal while retaining likes as a simple quality signal. The script does not currently use description keyword filters or add generic terms such as `skyline`, `downtown`, or `landscape` to every query.
 
 Image width, height, area, and file size are not used for ranking. The selected `regular` image URL already provides the standard display-sized image used by this repository.
 
