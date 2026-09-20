@@ -56,8 +56,8 @@ Unsplash-related behavior is compliance-sensitive. Preserve the rules in `docs/u
 - Preserve visible photographer and Unsplash attribution in downstream consumers.
 - Preserve the configured referral parameters on attribution URLs.
 - Keep `UNSPLASH_ACCESS_KEY` secret and server-side; never commit it, print it, place it in generated JSON, or expose it to downstream HTML or JavaScript.
-- When a newly selected or changed photo assignment is actually persisted, trigger the API-provided `links.download_location` tracking endpoint as documented.
-- Do not trigger download tracking for dry runs, unchanged selections, or ordinary downstream page views.
+- When a newly selected or different photo assignment is actually persisted, including repair of an incomplete record, trigger the API-provided `links.download_location` tracking endpoint as documented.
+- Do not trigger download tracking for dry runs, same-photo refreshes of already-complete records, or ordinary downstream page views.
 - Do not repurpose the Unsplash integration for bulk catalog harvesting, resale, AI training, advertising inventory, or unrelated image collection.
 - Before materially changing Unsplash behavior, verify the current official Unsplash API guidance rather than relying only on historical repository behavior.
 
