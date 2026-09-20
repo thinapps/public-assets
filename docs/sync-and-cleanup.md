@@ -109,9 +109,9 @@ Do not bypass this guard casually. Large intentional source-tree changes should 
 
 The sync script itself manages the file tree. `scripts/generate_place_photos.py` subsequently repairs incomplete records, fills blank placeholders, refreshes older complete assignments when run capacity remains, and rebuilds `manifest.json` from complete usable photo records. The workflow then rebuilds `photos.json` from the same canonical tree.
 
-When synchronization or cleanup changes usable public photo output, the corresponding public version must change. Photo repairs, new assignments, refreshed assignments, or manifest changes are handled during generation. If rebuilding `photos.json` produces a lookup-only change and `version.json` did not already change in the same run, the workflow bumps the version once after the lookup rebuild.
+When synchronization or cleanup changes usable public photo output, the corresponding public version must change. Photo repairs, new assignments, changed refreshed assignments, or manifest changes are handled during generation. A refresh that reselects the same public photo metadata updates only `cached_at` and does not bump the public version. If rebuilding `photos.json` produces a lookup-only change and `version.json` did not already change in the same run, the workflow bumps the version once after the lookup rebuild.
 
-Placeholder-only additions, structural normalization, path normalization, or cleanup of invalid metadata can be committed without a version bump when they do not change usable public photo output. Cursor-only workflow progress also does not bump the version.
+Placeholder-only additions, structural normalization, path normalization, cleanup of invalid metadata, cache-only `cached_at` refreshes, or cursor-only workflow progress can be committed without a version bump when they do not change usable public photo output.
 
 ## Workflow behavior
 
