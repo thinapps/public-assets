@@ -64,7 +64,7 @@ Missing or invalid configuration is treated as a real failure.
 4. Synchronize country, subdivision, and city photo placeholders with the current source place tree and normalize recoverable valid-JSON structural problems into canonical public records.
 5. Migrate usable cached photos when a place path changes and safely prune stale files.
 6. Resume after the stored repair-and-fill cursor and attempt Unsplash searches for incomplete repair candidates and blank fill candidates.
-7. If attempt capacity remains, continue with complete cached photos ordered from the oldest `cached_at` value first. If the selected public photo fields are unchanged, refresh only `cached_at`; otherwise persist the new assignment and perform normal Unsplash download tracking.
+7. If attempt capacity remains, continue with complete cached photos ordered from the oldest `cached_at` value first. The same underlying Unsplash photo is recognized from the stable image host and path while query parameters are ignored. Same-photo refreshes keep the existing image URL, update changed attribution metadata without a new download-selection event, and otherwise refresh only `cached_at`; a different photo is persisted with normal Unsplash download tracking.
 8. Save the last attempted repair-or-fill place ID in `photo_cursor.json` when that portion of the queue advanced.
 9. Rebuild `manifest.json` from complete cached photo records.
 10. Bump `version.json` when public photo metadata or the rebuilt manifest changes. Cache-only `cached_at` refreshes do not bump it.
@@ -79,7 +79,7 @@ The lookup safeguard prevents a generated `photos.json` change from being publis
 The following conditions are normal and must complete successfully:
 
 - The attempted repair, fill, or refresh candidates return no Unsplash results.
-- A refresh selects the same public photo metadata and only advances `cached_at`.
+- A refresh reselects the same underlying Unsplash photo and, when other public metadata is unchanged, only advances `cached_at`.
 - The configured attempt limit is reached without finding a different photo.
 - Unsplash reports exhausted API quota through HTTP 429 or its recognized HTTP 403 rate-limit response.
 - Only `photo_cursor.json` changes.
