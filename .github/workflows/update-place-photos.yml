@@ -7,6 +7,8 @@ on:
         description: Maximum entries to attempt; 0 means no limit, negatives are invalid
         required: false
         default: "20"
+  schedule:
+    - cron: "17 */3 * * *"
 
 permissions:
   contents: write
