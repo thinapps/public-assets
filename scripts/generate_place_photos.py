@@ -497,7 +497,7 @@ def process_candidate(
         updated_entry["image_url"] = entry["image_url"]
 
     public_changed = any(updated_entry[field] != entry[field] for field in public_fields)
-    if same_photo or not public_changed:
+    if existing_was_complete and (same_photo or not public_changed):
         if index is None:
             payload = [updated_entry]
         else:
