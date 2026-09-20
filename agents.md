@@ -61,22 +61,22 @@ Unsplash-related behavior is compliance-sensitive. Preserve the rules in `docs/u
 - Do not repurpose the Unsplash integration for bulk catalog harvesting, resale, AI training, advertising inventory, or unrelated image collection.
 - Before materially changing Unsplash behavior, verify the current official Unsplash API guidance rather than relying only on historical repository behavior.
 
-The current manual workflow is intentionally bounded and product-specific. The repository documents the project's position that this behavior is compliant because it enriches known places rather than operating as spammy or extractive harvesting. Preserve that distinction, and revisit scheduling promptly if Unsplash materially changes its guidance or asks for different behavior.
+The current scheduled workflow is intentionally bounded and product-specific. As documented in `docs/unsplash-compliance.md`, Unsplash currently describes its API as intended for non-automated experiences, so the restored schedule is an explicit project-owner operational choice rather than a claim of Unsplash approval. Preserve the narrow place-enrichment use case, bounded limits, attribution, tracking, and rate-limit behavior, and revisit scheduling promptly if Unsplash asks for different behavior or restricts automated use.
 
 ## Workflow Guardrails
 
 This repository intentionally contains `.github/workflows/update-place-photos.yml`.
 
-The workflow currently runs only through `workflow_dispatch`; normal commits do not directly trigger it.
+The workflow currently runs every three hours at 17 minutes past the hour and also supports `workflow_dispatch`; normal commits do not directly trigger it.
 
-- Do not add `push`, `pull_request`, scheduled cron, or other new triggers without explicit approval.
+- Do not add `push`, `pull_request`, change or remove the scheduled cron, or add other triggers without explicit approval.
 - Do not use GitHub Actions as a helper mechanism for normal repository edits.
 - Do not casually increase the default attempt limit, API request volume, or timeout.
 - Preserve concurrency protection and bounded runs unless a deliberate redesign is approved.
 - Preserve real failures for invalid configuration, malformed data, unexpected API behavior, unsafe pruning, and Git conflicts.
 - Do not broadly ignore command failures or suppress errors just to keep the workflow green.
 - Treat workflow-generated commits as expected pipeline output; do not rewrite their history.
-- Before changing scripts used by the workflow, consider the current manual execution path and any documented future scheduling constraints.
+- Before changing scripts used by the workflow, consider both the current scheduled and manual execution paths and the documented scheduling constraints.
 
 Because workflow runs can create commits independently of manual repository edits, fetch the latest target file immediately before every write and avoid overwriting changes made by another agent, user, or workflow run.
 
