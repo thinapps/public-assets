@@ -41,7 +41,7 @@ Syntactically malformed or unreadable source JSON, missing source objects, and s
 
 Syntactically malformed or unreadable existing public JSON is also left untouched rather than overwritten automatically. Structurally invalid but syntactically valid JSON can be normalized safely because the source tree supplies the canonical place ID and unusable structures contain no trusted photo record to preserve.
 
-Normalization can leave an existing non-empty `image_url` alongside missing or invalid required attribution metadata. Such a record is incomplete rather than usable. The normal photo generator treats it as a repair candidate, searches the place again, and replaces it with a complete API-derived assignment when a usable result is found.
+Normalization can leave an existing non-empty `image_url` alongside missing or invalid required attribution metadata. Such a record is incomplete rather than usable. The photo generator treats it as a repair candidate, searches the place again, and replaces it with a complete API-derived assignment when a usable result is found.
 
 ## Stale-file cleanup
 
@@ -107,15 +107,15 @@ Do not bypass this guard casually. Large intentional source-tree changes should 
 
 ## Relationship to manifest, lookup, and version
 
-The sync script itself manages the file tree. `scripts/generate_place_photos.py` subsequently repairs incomplete records, fills blank placeholders, and rebuilds `manifest.json` from complete usable photo records. The workflow then rebuilds `photos.json` from the same canonical tree.
+The sync script itself manages the file tree. `scripts/generate_place_photos.py` subsequently repairs incomplete records, fills blank placeholders, refreshes older complete assignments when run capacity remains, and rebuilds `manifest.json` from complete usable photo records. The workflow then rebuilds `photos.json` from the same canonical tree.
 
-When synchronization or cleanup changes usable public photo output, the corresponding public version must change. Photo repairs, new assignments, or manifest changes are handled during generation. If rebuilding `photos.json` produces a lookup-only change and `version.json` did not already change in the same run, the workflow bumps the version once after the lookup rebuild.
+When synchronization or cleanup changes usable public photo output, the corresponding public version must change. Photo repairs, new assignments, refreshed assignments, or manifest changes are handled during generation. If rebuilding `photos.json` produces a lookup-only change and `version.json` did not already change in the same run, the workflow bumps the version once after the lookup rebuild.
 
 Placeholder-only additions, structural normalization, path normalization, or cleanup of invalid metadata can be committed without a version bump when they do not change usable public photo output. Cursor-only workflow progress also does not bump the version.
 
 ## Workflow behavior
 
-The scheduled workflow runs synchronization with `--prune-stale` before attempting Unsplash searches.
+The manual workflow runs synchronization with `--prune-stale` before attempting Unsplash searches.
 
 This order ensures that:
 
@@ -124,9 +124,10 @@ This order ensures that:
 3. safely migratable cached photos are preserved
 4. obsolete files are removed
 5. incomplete existing records become repair candidates and blank or malformed image entries become fill candidates
-6. the manifest is rebuilt from the final tree
-7. the bulk lookup is rebuilt from the same canonical records
-8. `version.json` is bumped when public photo output changes, including lookup-only changes not already covered during generation
+6. any remaining attempt capacity can refresh complete cached photos from oldest to newest
+7. the manifest is rebuilt from the final tree
+8. the bulk lookup is rebuilt from the same canonical records
+9. `version.json` is bumped when public photo output changes, including lookup-only changes not already covered during generation
 
 A clean sync with no resulting repository changes is a successful workflow outcome.
 
@@ -137,9 +138,9 @@ Manual deletion of stale public files should normally be unnecessary.
 For ordinary changes:
 
 1. update the private source place tree
-2. run or wait for the workflow
+2. run the workflow
 3. review any normalization, migration, and deletion logs
-4. let the workflow repair incomplete photo records and rebuild the manifest, lookup, and version as needed
+4. let the workflow repair incomplete photo records, refresh older complete assignments when capacity remains, and rebuild the manifest, lookup, and version as needed
 
 Manual intervention is appropriate only for deliberate repairs that cannot be represented safely through the source tree and existing migration rules.
 
