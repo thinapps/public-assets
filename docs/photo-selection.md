@@ -117,8 +117,11 @@ Each search request uses:
 - endpoint: `/search/photos`
 - first result page only
 - `per_page=10`
+- `order_by=relevant`
 - `orientation=landscape`
 - `content_filter=high`
+
+`order_by=relevant` is set explicitly even though it is currently the Unsplash default, because the ranking logic depends on the API returning the closest matches first.
 
 The workflow uses `UNSPLASH_ACCESS_KEY` for authentication.
 
@@ -128,7 +131,9 @@ The search response must be a JSON object whose `results` field is a list. Unexp
 
 ## Result selection
 
-Unsplash returns search results in relevance order. The script now considers only the first three results and applies relevance weights of `4`, `2`, and `1` to their valid like counts. Result #1 therefore needs much less raw popularity to remain selected, while result #2 or #3 can still win when it is substantially more liked. Exact weighted-score ties go to the earlier, more relevant result.
+Unsplash returns search results in relevance order. The script considers only the first three original result positions and applies relevance weights of `4`, `2`, and `1`. Each candidate's weighted score is `(valid likes + 1) × relevance weight`, so even a zero-like top result keeps a real relevance advantage instead of collapsing to a score of zero. Result #2 or #3 can still win when it is substantially more liked, and exact weighted-score ties go to the earlier, more relevant result.
+
+Malformed non-object entries are ignored without compressing their original result positions, so a valid item originally returned as result #2 cannot accidentally receive the #1 relevance weight merely because result #1 was malformed.
 
 This keeps Unsplash relevance as the dominant signal while retaining likes as a simple quality signal. The script does not currently use description keyword filters or add generic terms such as `skyline`, `downtown`, or `landscape` to every query.
 
