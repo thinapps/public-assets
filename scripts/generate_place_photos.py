@@ -34,7 +34,6 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", default=str(DEFAULT_ROOT))
     parser.add_argument("--limit", type=int, default=DEFAULT_LIMIT)
-    parser.add_argument("--overwrite", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
     if args.limit < 0:
@@ -285,10 +284,8 @@ def resolve_photo(access_key: str, queries: List[str]) -> Tuple[Optional[Dict[st
 
 def build_candidates(
     place_photos_dir: Path,
-    overwrite: bool,
-) -> Tuple[List[Dict[str, Any]], Dict[str, Tuple[str, int]]]:
-    # normal mode repairs incomplete records before filling blank placeholders
-    # overwrite mode refreshes the oldest complete cached photos first
+) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], Dict[str, Tuple[str, int]]]:
+    # keep the existing repair-and-fill queue, then refresh the oldest complete photos
     repair_candidates: List[Dict[str, Any]] = []
     blank_candidates: List[Dict[str, Any]] = []
     filled_candidates: List[Dict[str, Any]] = []
@@ -304,13 +301,12 @@ def build_candidates(
             place_id = infer_place_id_from_path(place_photos_dir, file_path)
             if place_id:
                 cursor_positions[place_id] = candidate_sort_key(file_path, None)
-                if not overwrite:
-                    blank_candidates.append({
-                        "file_path": file_path,
-                        "index": None,
-                        "place_id": place_id,
-                        "cached_at": "",
-                    })
+                blank_candidates.append({
+                    "file_path": file_path,
+                    "index": None,
+                    "place_id": place_id,
+                    "cached_at": "",
+                })
             continue
 
         for index, entry in enumerate(payload):
@@ -354,10 +350,7 @@ def build_candidates(
         )
     )
 
-    if overwrite:
-        return (filled_candidates, cursor_positions)
-
-    return (repair_candidates + blank_candidates, cursor_positions)
+    return (repair_candidates + blank_candidates, filled_candidates, cursor_positions)
 
 
 def rotate_candidates_after_cursor(
@@ -558,21 +551,21 @@ def main() -> int:
     changed_entries = 0
     stop_cleanly = False
     cursor_changed = False
-    last_attempted_place_id = ""
-    candidates, cursor_positions = build_candidates(place_photos_dir, overwrite=args.overwrite)
-
-    if not args.overwrite:
-        last_attempted_place_id = load_photo_cursor(root)
-        candidates = rotate_candidates_after_cursor(
-            candidates,
-            cursor_positions,
-            last_attempted_place_id,
-        )
+    cursor_advanced = False
+    last_attempted_place_id = load_photo_cursor(root)
+    queue_candidates, refresh_candidates, cursor_positions = build_candidates(place_photos_dir)
+    queue_candidates = rotate_candidates_after_cursor(
+        queue_candidates,
+        cursor_positions,
+        last_attempted_place_id,
+    )
+    queue_candidate_count = len(queue_candidates)
+    candidates = queue_candidates + refresh_candidates
 
     if not candidates:
         print("[INFO] no eligible photo entries; nothing to do")
 
-    for candidate in candidates:
+    for candidate_index, candidate in enumerate(candidates):
         attempted_entries += 1
 
         try:
@@ -587,8 +580,9 @@ def main() -> int:
             print(f"[ERROR] unexpected failure for {candidate['place_id']}: {exc}", file=sys.stderr)
             return 1
 
-        if not args.overwrite:
+        if candidate_index < queue_candidate_count:
             last_attempted_place_id = candidate["place_id"]
+            cursor_advanced = True
 
         if changed:
             changed_entries += 1
@@ -603,7 +597,7 @@ def main() -> int:
         if DEFAULT_PAUSE_SECONDS > 0:
             time.sleep(DEFAULT_PAUSE_SECONDS)
 
-    if not args.overwrite and attempted_entries:
+    if cursor_advanced:
         cursor_changed = update_photo_cursor(
             root,
             last_attempted_place_id,
@@ -623,7 +617,7 @@ def main() -> int:
         f"cursor_changed={cursor_changed}"
     )
 
-    if last_attempted_place_id and not args.overwrite:
+    if cursor_advanced:
         print(f"last_attempted_place_id={last_attempted_place_id}")
 
     if stop_cleanly:
