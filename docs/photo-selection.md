@@ -21,7 +21,7 @@ A repair does not attempt to reconstruct attribution from an existing image URL.
 
 After the rotated repair-and-fill queue, complete usable photo records are appended as refresh candidates. Existing photos are processed from the oldest `cached_at` value first. Missing, non-string, or invalid timestamps are treated as the oldest. Refresh candidates do not use or update the repair-and-fill cursor.
 
-When a refresh search selects exactly the same public photo metadata already stored, the assignment is retained and only `cached_at` is refreshed. That cache-only refresh moves the record toward the back of the oldest-first refresh queue without triggering a new Unsplash download event or a public payload version bump.
+When a refresh search selects the same underlying Unsplash photo, the generator recognizes it from the stable `images.unsplash.com` host and URL path while ignoring volatile query parameters. It retains the existing image URL so parameter churn alone does not create a replacement. If all other public metadata is also unchanged, only `cached_at` is refreshed; if attribution metadata changed for that same photo, the metadata is updated and the public version changes without triggering a new download-selection event.
 
 This means a normal bounded run always gives incomplete data priority, while a mature library with few or no incomplete records naturally spends its capacity refreshing older assignments with the current search and selection logic.
 
@@ -139,7 +139,7 @@ Photographer and source links retain the configured Unsplash referral parameters
 
 The generated record is written only when `place_id`, `image_url`, `photographer_name`, `photographer_url`, and `source_url` are all actual non-empty strings. Missing, `null`, numeric, boolean, array, or object values do not pass validation and cause an incomplete Unsplash result to fail rather than enter the public manifest.
 
-For an existing complete record, those five public fields are compared before deciding whether the selection actually changed. If all five are identical, the script updates only `cached_at`, does not call `links.download_location`, and does not count the result as a public photo change.
+For an existing complete Unsplash record, photo identity is determined from the `images.unsplash.com` host and URL path, ignoring the image URL query string. Matching identities are treated as the same underlying photo even when API-generated URL parameters differ. The existing image URL is retained in that case. If photographer or source metadata changed, those public fields are updated and versioned without a new download event; when they are also unchanged, only `cached_at` advances.
 
 ## No-result behavior
 
