@@ -422,12 +422,14 @@ def process_candidate(
     # empty placeholder files need a stub record before photo data can be written
     if index is None:
         entry = build_empty_photo_entry(candidate["place_id"])
+        existing_was_complete = False
     else:
         if index >= len(payload) or not isinstance(payload[index], dict):
             print(f"[WARN] skip missing entry: {rel} [{index}]")
             return (False, False, False)
 
         entry = normalize_photo_entry(payload[index])
+        existing_was_complete = is_valid_photo_entry(entry)
         place_id = clean_string(entry.get("place_id", ""))
         if not place_id:
             place_id = candidate["place_id"]
@@ -484,7 +486,11 @@ def process_candidate(
     )
     existing_identity = image_identity(entry.get("image_url", ""))
     updated_identity = image_identity(updated_entry.get("image_url", ""))
-    same_photo = bool(existing_identity and existing_identity == updated_identity)
+    same_photo = bool(
+        existing_was_complete
+        and existing_identity
+        and existing_identity == updated_identity
+    )
 
     if same_photo:
         # retain the original API-provided image URL so volatile query parameters do not create churn
