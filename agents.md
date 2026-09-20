@@ -21,7 +21,7 @@ Apply instructions in this order:
 
 1. the user's current request and explicit approvals
 2. the mandatory repository policy in this file, unless the user explicitly overrides a rule
-3. the documented repository behavior and compliance guidance
+3. the documented repository behavior and Unsplash integration guidance
 4. existing repository conventions not covered above
 
 Downstream consumers may use this data, but this repository remains the source of truth for its own public photo-data format and generation behavior.
@@ -50,7 +50,7 @@ Preserve this repository as a focused public photo-metadata and synchronization 
 
 ## Unsplash Requirements
 
-Unsplash-related behavior is compliance-sensitive. Preserve the rules in `docs/unsplash-compliance.md`.
+Preserve the Unsplash integration rules documented in `docs/unsplash-compliance.md`.
 
 - Use API-provided Unsplash image URLs directly for rendering.
 - Preserve visible photographer and Unsplash attribution in downstream consumers.
@@ -61,7 +61,7 @@ Unsplash-related behavior is compliance-sensitive. Preserve the rules in `docs/u
 - Do not repurpose the Unsplash integration for bulk catalog harvesting, resale, AI training, advertising inventory, or unrelated image collection.
 - Before materially changing Unsplash behavior, verify the current official Unsplash API guidance rather than relying only on historical repository behavior.
 
-The current scheduled workflow is intentionally bounded and product-specific. As documented in `docs/unsplash-compliance.md`, Unsplash currently describes its API as intended for non-automated experiences, so the restored schedule is an explicit project-owner operational choice rather than a claim of Unsplash approval. Preserve the narrow place-enrichment use case, bounded limits, attribution, tracking, and rate-limit behavior, and revisit scheduling promptly if Unsplash asks for different behavior or restricts automated use.
+The current scheduled workflow is intentionally bounded and product-specific. Preserve the narrow place-enrichment use case, bounded limits, attribution, tracking, and rate-limit behavior.
 
 ## Workflow Guardrails
 
