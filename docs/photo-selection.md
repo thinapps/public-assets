@@ -4,13 +4,13 @@
 
 `scripts/generate_place_photos.py` selects eligible place entries, builds deterministic Unsplash queries, chooses one result, and writes complete photo metadata back to the public photo tree.
 
-The selection policy is intentionally simple. It favors predictable behavior, bounded scheduled work, and future queue cycles instead of permanent failure markers or complex ranking rules.
+The selection policy is intentionally simple. It favors predictable behavior, bounded manual work, and future queue cycles instead of permanent failure markers or complex ranking rules.
 
 ## Candidate selection
 
-Normal runs process any photo record that is not complete and usable according to the same required-field rules used by the manifest and bulk lookup.
+Every run uses one combined candidate flow. Incomplete records are handled first, and any remaining attempt capacity is used to refresh complete cached photos from oldest to newest.
 
-Normal candidates fall into two groups:
+Incomplete candidates fall into two groups:
 
 - repair candidates: records that already have a non-empty `image_url` but are missing or have invalid required metadata such as `place_id`, `photographer_name`, `photographer_url`, or `source_url`
 - blank candidates: empty placeholder arrays or records whose `image_url` is missing, empty, or not a string
@@ -19,7 +19,9 @@ Repair candidates are placed ahead of ordinary blank candidates before cursor ro
 
 A repair does not attempt to reconstruct attribution from an existing image URL. The generator searches the place again and, when it finds a usable result, replaces the incomplete assignment with a complete API-derived record and performs the normal Unsplash download-location tracking for that newly persisted selection.
 
-When `--overwrite` is used, only complete usable photo records are eligible. Existing photos are processed from the oldest `cached_at` value first. Missing, non-string, or invalid timestamps are treated as the oldest. Incomplete records remain normal-mode repair candidates instead of entering the overwrite queue. Overwrite mode does not use or update the normal-mode cursor.
+After the rotated repair-and-fill queue, complete usable photo records are appended as refresh candidates. Existing photos are processed from the oldest `cached_at` value first. Missing, non-string, or invalid timestamps are treated as the oldest. Refresh candidates do not use or update the repair-and-fill cursor.
+
+This means a normal bounded run always gives incomplete data priority, while a mature library with few or no incomplete records naturally spends its capacity refreshing older assignments with the current search and selection logic.
 
 ## Cursor behavior
 
@@ -31,24 +33,28 @@ When `--overwrite` is used, only complete usable photo records are eligible. Exi
 }
 ```
 
-The value is operational state and changes as normal runs progress. The example above is illustrative rather than a permanent expected value.
+The value is operational state and changes as the repair-and-fill portion of runs progresses. The example above is illustrative rather than a permanent expected value.
 
-For normal repair-and-fill runs:
+For repair-and-fill candidates:
 
 - processing resumes immediately after `last_attempted_place_id`
 - candidate order wraps to the beginning after reaching the end
-- the cursor advances after every attempted candidate, including repair candidates, blank candidates, no-result attempts, and recognized rate-limit attempts
-- cursor position is resolved against the full photo tree, so a successfully repaired or filled entry can still be used as the resume point even though it is no longer in the normal candidate queue
+- the cursor advances after every attempted repair or blank candidate, including no-result attempts and recognized rate-limit attempts
+- cursor position is resolved against the full photo tree, so a successfully repaired or filled entry can still be used as the resume point even though it is no longer in the incomplete queue
 - if the saved place ID no longer exists, processing starts from the beginning and logs a warning
 - cursor-only changes are committed but do not bump `version.json`
+
+Refresh candidates do not move the cursor. If a run finishes the incomplete queue and then uses remaining attempt capacity on complete cached photos, the cursor stays at the last repair-or-fill candidate attempted during that run.
 
 The cursor is operational workflow state. It is not included in `manifest.json` and does not change which photo records are considered complete.
 
 ### Why the cursor is necessary
 
-A small attempt limit keeps each scheduled run reliable, but without persistent position every run would begin with the same incomplete entries. Places that repeatedly return no results could consume the whole batch forever while later candidates are never attempted.
+A small attempt limit keeps each workflow run reliable, but without persistent position every run would begin with the same incomplete entries. Places that repeatedly return no results could consume the whole batch forever while later candidates are never attempted.
 
 The cursor preserves deterministic ordering while rotating the starting point. This gives the full repair-and-fill queue a chance before earlier no-result entries are retried after wraparound.
+
+Complete refresh candidates do not need the cursor because they are already ordered by `cached_at`, so successfully refreshed records naturally move toward the back of the refresh queue with their new timestamp.
 
 ## Attempt limit
 
@@ -62,12 +68,12 @@ One attempted place may generate more than one Unsplash request, but it still co
 
 Counting successful matches would make run length depend on Unsplash search quality. When many queries return no results, a success-based limit can continue through a large part of the queue, consume the available API quota, or reach the workflow timeout without finding the requested number of photos.
 
-Counting attempts provides a predictable amount of work regardless of result quality. This is especially important for the automatic three-hour schedule, which uses the default limit of `20`.
+Counting attempts provides a predictable amount of work regardless of result quality. The manual workflow uses the default limit of `20` unless another value is supplied.
 
 The attempt limit and cursor solve different problems:
 
-- the attempt limit bounds work within one run
-- the cursor carries queue progress across runs
+- the attempt limit bounds work within one run across repair, fill, and refresh candidates
+- the cursor carries repair-and-fill queue progress across runs
 
 `limit=0` removes the attempt bound but does not remove the Unsplash quota or workflow timeout. It should be used deliberately for manual runs.
 
@@ -136,14 +142,14 @@ The generated record is written only when `place_id`, `image_url`, `photographer
 When all queries for a place return no results:
 
 - no photo metadata is written
-- in normal mode, an incomplete existing record remains unchanged and eligible for a future repair cycle
-- in normal mode, a blank entry remains blank and eligible for a future fill cycle
-- in overwrite mode, the existing complete photo record remains unchanged
+- an incomplete existing record remains unchanged and eligible for a future repair cycle
+- a blank entry remains blank and eligible for a future fill cycle
+- an existing complete photo remains unchanged when its refresh attempt finds no replacement
 - the run continues to the next candidate
 
-No-result entries are normal and do not make the workflow fail. The normal-mode cursor still advances so later candidates receive a chance before the queue wraps back.
+No-result entries are normal and do not make the workflow fail. The cursor still advances for repair-and-fill attempts so later incomplete candidates receive a chance before that queue wraps back. Refresh attempts do not move the cursor.
 
-If the whole batch produces no photo or manifest changes, the script logs that outcome and exits successfully. A cursor-only commit is expected when normal-mode queue progress changed.
+If the whole batch produces no photo or manifest changes, the script logs that outcome and exits successfully. A cursor-only commit is expected when repair-and-fill queue progress changed.
 
 ## Rate limits and failures
 
@@ -152,11 +158,11 @@ Unsplash quota exhaustion is treated as a warning rather than an error. The clea
 - HTTP 429
 - HTTP 403 only when `X-Ratelimit-Remaining` is `0` and the response body says `Rate Limit Exceeded`
 
-The current candidate is left unchanged, processing stops cleanly, and the normal-mode cursor records that attempted place before the script exits successfully.
+The current candidate is left unchanged and processing stops cleanly. If the rate limit is reached while attempting a repair-or-fill candidate, the cursor records that attempted place before the script exits successfully. If it is reached during a refresh candidate, the repair-and-fill cursor remains unchanged from its latest position.
 
 The narrow HTTP 403 check is intentional. Other 403 responses may indicate authentication, permission, or request problems and must remain real failures rather than being hidden as quota exhaustion.
 
-Other unexpected HTTP errors, network errors, malformed required data, unexpected response shapes, missing configuration, malformed cursor data in normal mode, and invalid negative limits remain real failures. They should not be hidden by broadly ignoring exit codes.
+Other unexpected HTTP errors, network errors, malformed required data, unexpected response shapes, missing configuration, malformed cursor data, and invalid negative limits remain real failures. They should not be hidden by broadly ignoring exit codes.
 
 ## Relationship to generated data
 
@@ -167,6 +173,7 @@ During generation, `version.json` is bumped when photo metadata or the rebuilt m
 A successful workflow run can therefore have several valid outcomes:
 
 - a repaired incomplete record or newly filled blank with a version bump
+- a refreshed complete photo with a version bump
 - other photo or manifest changes with a version bump
 - a lookup-only `photos.json` change with one workflow version bump
 - cursor-only progress with a commit but no version bump
@@ -178,4 +185,4 @@ A successful workflow run can therefore have several valid outcomes:
 - [`photo-data.md`](photo-data.md): Public schema, path conventions, manifest rules, version behavior, and attribution requirements.
 - [`github-actions.md`](github-actions.md): Workflow inputs, secrets, reliability design, result summaries, graceful outcomes, and real failures.
 - [`sync-and-cleanup.md`](sync-and-cleanup.md): Source synchronization, cached-photo migration, stale cleanup, and deletion safeguards.
-- [`unsplash-compliance.md`](unsplash-compliance.md): Unsplash hotlinking, attribution, tracking, API-key, and scheduled-workflow compliance requirements.
+- [`unsplash-compliance.md`](unsplash-compliance.md): Unsplash hotlinking, attribution, tracking, API-key, and workflow compliance requirements.
