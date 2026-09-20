@@ -48,7 +48,7 @@ Downstream interfaces that display an Unsplash photo should keep visible attribu
 
 Unsplash uses `photo.links.download_location` as a usage-tracking event when an application selects a photo for use. This is not the image URL and does not mean that the image file is downloaded or stored locally.
 
-Whenever the generator selects a photo that will actually be written as a new or changed place-photo assignment, it must make one authenticated request to the returned `links.download_location` URL.
+Whenever the generator selects a new or different photo that will actually become the place-photo assignment, it must make one authenticated request to the returned `links.download_location` URL.
 
 Current behavior is implemented by `trigger_unsplash_download()` in `scripts/generate_place_photos.py`.
 
@@ -56,9 +56,11 @@ The tracking request:
 
 - uses the existing `UNSPLASH_ACCESS_KEY` with `Authorization: Client-ID ...`;
 - uses the `download_location` URL supplied by Unsplash without rebuilding or stripping its query string;
-- runs only when a changed photo assignment is about to be persisted;
+- runs only when a new or different image assignment is about to be persisted;
 - does not run for a dry run;
-- does not run when the selected public photo assignment is unchanged, even when `cached_at` is refreshed to record successful revalidation.
+- does not run when refresh search reselects the same underlying Unsplash photo, even when attribution metadata or `cached_at` is refreshed.
+
+For refresh identity checks, the generator compares the stable `images.unsplash.com` host and URL path and ignores query parameters. This prevents API-generated URL parameter changes from being treated as a different image. The existing API-provided image URL is retained when the underlying photo matches.
 
 The tracking request is intentionally made before the local JSON write. If Unsplash rejects the tracking request, the new assignment is not persisted as though it had been successfully tracked.
 
@@ -93,7 +95,7 @@ The pipeline remains intentionally narrow and product-specific:
 - it stores only the metadata needed to render and attribute one selected image per place;
 - it hotlinks Unsplash-hosted images rather than mirroring image files;
 - it preserves photographer and Unsplash attribution with referral parameters;
-- it triggers Unsplash download-location tracking when a selected image is actually persisted as a new or changed assignment;
+- it triggers Unsplash download-location tracking when a new or different selected image is actually persisted as the assignment;
 - it is not used for spam, advertising inventory, AI training, or bulk resale of Unsplash content.
 
 Do not re-enable scheduled API runs merely because the technical API call succeeds. Review the current Unsplash guidance first and, when possible, get confirmation that this automation pattern is permitted before restoring the historical cron schedule.
@@ -104,7 +106,7 @@ This repository may cache the metadata needed to render and attribute a selected
 
 Do not turn this cache into a mirror of Unsplash image binaries or a general-purpose copy of Unsplash catalog data.
 
-When an existing assignment is replaced with a different selected photo, treat that replacement as a new usage selection and trigger its `download_location` before persisting it. When refresh search reselects the same public assignment, only cache freshness may advance and no new download event is triggered.
+When an existing assignment is replaced with a different selected photo, treat that replacement as a new usage selection and trigger its `download_location` before persisting it. When refresh search reselects the same underlying photo, the existing API-provided image URL is retained, attribution metadata may be refreshed, and no new download event is triggered.
 
 ## Consumer requirements
 
@@ -125,8 +127,9 @@ Before changing the Unsplash integration, verify that:
 - `photo.urls.regular` or another API-provided Unsplash image URL is still used directly;
 - photographer name and attribution URLs are still retained;
 - referral UTM parameters are still added;
-- `links.download_location` is still triggered once for each newly persisted selection;
-- dry runs and unchanged public assignments do not create false download events, including cache-only revalidation;
+- `links.download_location` is still triggered once for each new or different image assignment that is persisted;
+- dry runs and same-photo refreshes do not create false download events, including cache or attribution revalidation;
+- stable photo identity ignores volatile `images.unsplash.com` query parameters without replacing the API-provided image URL with a non-Unsplash URL;
 - the API key remains secret and server-side;
 - API-backed workflow execution remains manual-only unless current Unsplash guidance or direct confirmation supports restoring automation;
 - current Unsplash API guidelines have been reviewed for changes affecting automation, attribution, caching, or tracking.
