@@ -69,7 +69,7 @@ A photo is complete and usable only when all of these fields contain actual non-
 
 Values of other JSON types, including `null`, numbers, booleans, arrays, and objects, do not satisfy the schema even when converting them to text would produce a non-empty value.
 
-`cached_at` records when the cached assignment was last written or successfully revalidated by the refresh search. It is optional for manifest and lookup eligibility and stale-photo migration. Missing, non-string, or invalid timestamps are treated as oldest when refresh ordering is calculated. For complete Unsplash records, the generator recognizes the same underlying photo from the `images.unsplash.com` host and URL path while ignoring query parameters. If that identity matches and attribution metadata is also unchanged, only `cached_at` changes; if attribution changed for the same photo, those public fields are updated and versioned without treating URL-parameter churn as a new image selection.
+`cached_at` records when the cached assignment was last written or when its most recent refresh check completed successfully. It is optional for manifest and lookup eligibility and stale-photo migration. Missing, non-string, or invalid timestamps are treated as oldest when refresh ordering is calculated. For complete Unsplash records, the generator recognizes the same underlying photo from the `images.unsplash.com` host and URL path while ignoring query parameters. If that identity matches and attribution metadata is also unchanged, only `cached_at` changes; if all refresh queries return no replacement, the current public assignment is likewise preserved and only `cached_at` advances so later complete records can move through the refresh queue. If attribution changed for the same photo, those public fields are updated and versioned without treating URL-parameter churn as a new image selection.
 
 `place_photos/world.json` is the main exception to the one-object-per-file convention. It may contain multiple region-level records in one JSON array.
 
@@ -224,7 +224,7 @@ The same principle applies to `photos.json`: keep the single lookup while its ac
 - manifest changes caused by place additions, removals, or stale-file cleanup
 - lookup-only `photos.json` changes produced by the workflow
 
-A refresh that reselects the same underlying Unsplash photo may update only `cached_at` when all other public metadata is unchanged. Because `cached_at` is omitted from the bulk lookup and does not change the usable public assignment, that cache-only refresh does not bump `version.json`. If attribution metadata changes for the same photo, those public changes do bump the version even though no new image-selection event is triggered.
+A refresh that reselects the same underlying Unsplash photo may update only `cached_at` when all other public metadata is unchanged. A completed refresh that finds no replacement also updates only `cached_at`. Because `cached_at` is omitted from the bulk lookup and does not change the usable public assignment, these cache-only refreshes do not bump `version.json`. If attribution metadata changes for the same photo, those public changes do bump the version even though no new image-selection event is triggered.
 
 The file must contain a `version` field whose value is a JSON integer. Missing fields, numeric strings, floating-point values, booleans, and other JSON types are invalid and cause a required version bump to fail rather than silently resetting or coercing the counter.
 
