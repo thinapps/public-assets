@@ -115,7 +115,7 @@ Placeholder-only additions, structural normalization, path normalization, cleanu
 
 ## Workflow behavior
 
-The manual workflow runs synchronization with `--prune-stale` before attempting Unsplash searches.
+The workflow runs synchronization with `--prune-stale` before attempting Unsplash searches.
 
 This order ensures that:
 
