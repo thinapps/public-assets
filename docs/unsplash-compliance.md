@@ -58,7 +58,8 @@ The tracking request:
 - uses the `download_location` URL supplied by Unsplash without rebuilding or stripping its query string;
 - runs when a new assignment, different replacement, or incomplete-record repair is about to be persisted;
 - does not run for a dry run;
-- does not run when refresh search reselects the same underlying Unsplash photo for an already-complete record, even when attribution metadata or `cached_at` is refreshed.
+- does not run when refresh search reselects the same underlying Unsplash photo for an already-complete record, even when attribution metadata or `cached_at` is refreshed;
+- does not run when all refresh queries for an already-complete record return no replacement and only `cached_at` advances.
 
 For refresh identity checks, the generator compares the stable `images.unsplash.com` host and URL path and ignores query parameters. This prevents API-generated URL parameter changes from being treated as a different image. The existing API-provided image URL is retained when the underlying photo matches.
 
@@ -103,7 +104,7 @@ This repository may cache the metadata needed to render and attribute a selected
 
 Do not turn this cache into a mirror of Unsplash image binaries or a general-purpose copy of Unsplash catalog data.
 
-When an existing complete assignment is replaced with a different selected photo, treat that replacement as a new usage selection and trigger its `download_location` before persisting it. Repair of an incomplete record also uses normal selection tracking before the complete API-derived assignment is persisted. When refresh search reselects the same underlying photo for an already-complete record, the existing API-provided image URL is retained, attribution metadata may be refreshed, and no new download event is triggered.
+When an existing complete assignment is replaced with a different selected photo, treat that replacement as a new usage selection and trigger its `download_location` before persisting it. Repair of an incomplete record also uses normal selection tracking before the complete API-derived assignment is persisted. When refresh search reselects the same underlying photo for an already-complete record, the existing API-provided image URL is retained, attribution metadata may be refreshed, and no new download event is triggered. When all refresh queries return no replacement, the current public assignment is retained and only `cached_at` advances so refresh ordering can continue; no download event is triggered because no new photo was selected.
 
 ## Consumer requirements
 
@@ -125,7 +126,7 @@ Before changing the Unsplash integration, verify that:
 - photographer name and attribution URLs are still retained;
 - referral UTM parameters are still added;
 - `links.download_location` is still triggered once for each new assignment, different image replacement, or incomplete-record repair that is persisted;
-- dry runs and same-photo refreshes of already-complete records do not create false download events, including cache or attribution revalidation;
+- dry runs, same-photo refreshes, and no-result refreshes of already-complete records do not create false download events;
 - stable photo identity ignores volatile `images.unsplash.com` query parameters without replacing the API-provided image URL with a non-Unsplash URL;
 - the API key remains secret and server-side;
 - scheduled runs remain bounded and retain the documented rate-limit handling.
