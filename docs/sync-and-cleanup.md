@@ -109,7 +109,7 @@ Do not bypass this guard casually. Large intentional source-tree changes should 
 
 The sync script itself manages the file tree. `scripts/generate_place_photos.py` subsequently repairs incomplete records, fills blank placeholders, reserves bounded capacity for oldest-first refreshes of complete assignments, and rebuilds `manifest.json` from complete usable photo records. The workflow then rebuilds `photos.json` from the same canonical tree.
 
-When synchronization or cleanup changes usable public photo output, the corresponding public version must change. Photo repairs, new assignments, changed refreshed assignments, or manifest changes are handled during generation. A refresh that reselects the same underlying Unsplash photo is recognized from the stable image host and path while ignoring query parameters. If all other public metadata is unchanged, only `cached_at` advances with no version bump; attribution changes for that same photo are versioned without treating it as a new image selection. If rebuilding `photos.json` produces a lookup-only change and `version.json` did not already change in the same run, the workflow bumps the version once after the lookup rebuild.
+When synchronization or cleanup changes usable public photo output, the corresponding public version must change. Photo repairs, new assignments, changed refreshed assignments, or manifest changes are handled during generation. A refresh that reselects the same underlying Unsplash photo is recognized from the stable image host and path while ignoring query parameters. If all other public metadata is unchanged, only `cached_at` advances with no version bump. If all refresh queries return no replacement, the current public assignment is also preserved and only `cached_at` advances so the checked record moves behind older unchecked refresh candidates. Attribution changes for the same photo are versioned without treating it as a new image selection. If rebuilding `photos.json` produces a lookup-only change and `version.json` did not already change in the same run, the workflow bumps the version once after the lookup rebuild.
 
 Placeholder-only additions, structural normalization, path normalization, cleanup of invalid metadata, cache-only `cached_at` refreshes, or cursor-only workflow progress can be committed without a version bump when they do not change usable public photo output.
 
@@ -124,7 +124,7 @@ This order ensures that:
 3. safely migratable cached photos are preserved
 4. obsolete files are removed
 5. incomplete existing records become repair candidates and blank or malformed image entries become fill candidates
-6. bounded runs reserve recurring capacity to refresh complete cached photos from oldest to newest while still prioritizing repair and fill work
+6. bounded runs reserve recurring capacity to refresh complete cached photos from oldest to newest while still prioritizing repair and fill work; completed same-photo and no-result refreshes advance `cached_at` so later complete assignments continue through the refresh queue
 7. the manifest is rebuilt from the final tree
 8. the bulk lookup is rebuilt from the same canonical records
 9. `version.json` is bumped when public photo output changes, including lookup-only changes not already covered during generation
