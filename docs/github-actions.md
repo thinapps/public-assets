@@ -74,6 +74,12 @@ Missing or invalid configuration is treated as a real failure.
 
 The lookup safeguard prevents a generated `photos.json` change from being published without a corresponding public payload version change. It first checks whether photo generation already changed `version.json`, so normal photo updates are not double-bumped.
 
+## Generated commit shape
+
+A successful workflow run should commit all generated changes from that run together as one combined commit. This is preferable to splitting each generated file into separate commits because the changed place-photo records, `photos.json`, `manifest.json`, `version.json`, and `photo_cursor.json` together represent one coherent pipeline state.
+
+Keeping the run atomic avoids intermediate repository states where a place photo has changed but the lookup, public version, manifest, or cursor still reflects the previous state. It also keeps automated history easy to understand and makes a complete generated run simpler to inspect or revert. The one-file-per-commit rule for manual repository edits does not apply to these workflow-generated commits.
+
 ## Normal successful outcomes
 
 The following conditions are normal and must complete successfully:
