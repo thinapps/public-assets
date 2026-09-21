@@ -58,7 +58,7 @@ A small attempt limit keeps each workflow run reliable, but without persistent p
 
 The cursor preserves deterministic ordering while rotating the starting point. This gives the full repair-and-fill queue a chance before earlier no-result entries are retried after wraparound.
 
-Complete refresh candidates do not need the cursor because they are already ordered by `cached_at`, so successfully refreshed or revalidated records naturally move toward the back of the refresh queue with their new timestamp.
+Complete refresh candidates do not need the cursor because they are already ordered by `cached_at`. A completed refresh advances that timestamp when the same photo is retained or when all queries return no replacement, so checked records naturally move toward the back of the refresh queue and later complete assignments continue making progress.
 
 ## Attempt limit
 
@@ -157,15 +157,15 @@ For an existing complete Unsplash record, photo identity is determined from the 
 
 When all queries for a place return no results:
 
-- no photo metadata is written
+- no new or replacement photo assignment is written
 - an incomplete existing record remains unchanged and eligible for a future repair cycle
 - a blank entry remains blank and eligible for a future fill cycle
-- an existing complete photo remains unchanged when its refresh attempt finds no replacement
+- an existing complete photo keeps its current public assignment, while its `cached_at` timestamp advances to record the completed refresh check and move it behind older unchecked refresh candidates
 - the run continues to the next candidate
 
-No-result entries are normal and do not make the workflow fail. The cursor still advances for repair-and-fill attempts so later incomplete candidates receive a chance before that queue wraps back. Refresh attempts do not move the cursor.
+No-result entries are normal and do not make the workflow fail. The cursor still advances for repair-and-fill attempts so later incomplete candidates receive a chance before that queue wraps back. Refresh attempts do not move the cursor; completed no-result refreshes use `cached_at` ordering instead.
 
-If the whole batch produces no photo or manifest changes, the script logs that outcome and exits successfully. A cursor-only commit is expected when repair-and-fill queue progress changed. A cache-only refresh can also produce a commit without changing the public payload version.
+If the whole batch produces no photo or manifest changes, the script logs that outcome and exits successfully. A cursor-only commit is expected when repair-and-fill queue progress changed. A cache-only refresh, including a completed no-result refresh of an existing complete assignment, can also produce a commit without changing the public payload version.
 
 ## Rate limits and failures
 
@@ -191,6 +191,7 @@ A successful workflow run can therefore have several valid outcomes:
 - a repaired incomplete record or newly filled blank with a version bump
 - a changed refreshed photo with a version bump
 - an unchanged photo revalidated with only `cached_at` refreshed and no version bump
+- a no-result refresh of an existing complete photo with only `cached_at` refreshed and no version bump
 - other photo or manifest changes with a version bump
 - a lookup-only `photos.json` change with one workflow version bump
 - cursor-only progress with a commit but no version bump
