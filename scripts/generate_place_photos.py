@@ -481,6 +481,14 @@ def process_candidate(
 
     if not photo:
         print(f"[WARN] no results for {place_id} -> tried: {' | '.join(tried_queries)}")
+        if existing_was_complete and index is not None:
+            payload[index]["cached_at"] = utc_now_iso()
+            if dry_run:
+                print(f"would refresh cached_at for {rel} after no-result refresh")
+            else:
+                save_json(file_path, payload)
+                print(f"refreshed cached_at for {rel} after no-result refresh")
+            return (False, True, False)
         return (False, False, False)
 
     updated_entry = build_photo_entry(entry, photo)
