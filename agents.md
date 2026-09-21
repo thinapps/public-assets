@@ -93,7 +93,7 @@ Because workflow runs can create commits independently of manual repository edit
 - Avoid unrelated formatting, cleanup, renaming, or refactoring.
 - After each repository change, report the commit SHA, commit message, and exact file changed.
 
-The one-file-per-commit rule applies to manual repository edits. The existing photo-update workflow may commit multiple generated output files together when they represent one coherent pipeline result; do not split or rewrite those workflow-generated commits merely to satisfy the manual-edit rule.
+The one-file-per-commit rule applies to manual repository edits. The existing photo-update workflow should commit all generated output from one successful run together as a single combined commit because those files represent one coherent pipeline state. Keeping the run atomic prevents intermediate states where place-photo records, `photos.json`, `manifest.json`, `version.json`, or `photo_cursor.json` disagree, and it keeps automated history easier to inspect or revert. Do not split or rewrite those workflow-generated commits merely to satisfy the manual-edit rule.
 
 If a requested change requires multiple files, make separate direct commits while preserving a valid intermediate repository state. If one-file commits would temporarily create a broken or unsafe state, stop and explain the dependency rather than violating the one-file rule.
 
