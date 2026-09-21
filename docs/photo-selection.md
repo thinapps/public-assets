@@ -4,7 +4,7 @@
 
 `scripts/generate_place_photos.py` selects eligible place entries, builds deterministic Unsplash queries, chooses one result, and writes complete photo metadata back to the public photo tree.
 
-The selection policy is intentionally simple. It favors predictable behavior, bounded manual work, and future queue cycles instead of permanent failure markers or complex ranking rules.
+The selection policy is intentionally simple. It favors predictable behavior, bounded workflow runs, and future queue cycles instead of permanent failure markers or complex ranking rules.
 
 ## Candidate selection
 
@@ -72,7 +72,7 @@ One attempted place may generate more than one Unsplash request, but it still co
 
 Counting successful matches would make run length depend on Unsplash search quality. When many queries return no results, a success-based limit can continue through a large part of the queue, consume the available API quota, or reach the workflow timeout without finding the requested number of photos.
 
-Counting attempts provides a predictable amount of work regardless of result quality. The manual workflow uses the default limit of `20` unless another value is supplied.
+Counting attempts provides a predictable amount of work regardless of result quality. Scheduled and manual workflow runs use the default limit of `20` unless a manual run supplies another value.
 
 For bounded runs where both incomplete and refresh candidates exist, the refresh reserve is calculated as roughly 25% of `limit`, capped at five and constrained by the number of available refresh candidates. At least one repair-or-fill attempt remains ahead of refresh work for a one-item run. This gives refreshes guaranteed recurring capacity without removing incomplete-data priority.
 
