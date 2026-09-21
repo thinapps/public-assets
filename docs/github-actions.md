@@ -27,7 +27,7 @@ Runs combine an attempt-based limit, a bounded refresh reserve, and a persistent
 Together, these rules provide:
 
 - predictable run time
-- lower risk of exhausting the Unsplash quota in one run
+- bounded Unsplash quota usage within one run
 - steady progress through the repair-and-fill queue
 - automatic repair of incomplete records that would otherwise remain unusable
 - continuous oldest-first refresh of complete assignments even while incomplete records remain
