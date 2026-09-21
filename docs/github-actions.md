@@ -64,7 +64,7 @@ Missing or invalid configuration is treated as a real failure.
 4. Synchronize country, subdivision, and city photo placeholders with the current source place tree and normalize recoverable valid-JSON structural problems into canonical public records.
 5. Migrate usable cached photos when a place path changes and safely prune stale files.
 6. Resume after the stored repair-and-fill cursor and schedule incomplete repair candidates and blank fill candidates first within the bounded run mix.
-7. Reserve the bounded refresh share for complete cached photos ordered from the oldest `cached_at` value first. The same underlying Unsplash photo is recognized from the stable image host and path while query parameters are ignored. Same-photo refreshes keep the existing image URL, update changed attribution metadata without a new download-selection event, and otherwise refresh only `cached_at`; a different photo is persisted with normal Unsplash download tracking.
+7. Reserve the bounded refresh share for complete cached photos ordered from the oldest `cached_at` value first. The same underlying Unsplash photo is recognized from the stable image host and path while query parameters are ignored. Same-photo refreshes keep the existing image URL, update changed attribution metadata without a new download-selection event, and otherwise refresh only `cached_at`. If all refresh queries return no replacement, the existing public assignment is preserved and only `cached_at` advances so the checked record moves behind older unchecked refresh candidates. A different photo is persisted with normal Unsplash download tracking.
 8. Save the last attempted repair-or-fill place ID in `photo_cursor.json` when that portion of the queue advanced.
 9. Rebuild `manifest.json` from complete cached photo records.
 10. Bump `version.json` when public photo metadata or the rebuilt manifest changes. Cache-only `cached_at` refreshes do not bump it.
@@ -84,7 +84,8 @@ Keeping the run atomic avoids intermediate repository states where a place photo
 
 The following conditions are normal and must complete successfully:
 
-- The attempted repair, fill, or refresh candidates return no Unsplash results.
+- Repair or fill candidates return no Unsplash results and remain eligible for a later queue cycle.
+- A complete-photo refresh returns no replacement and only advances `cached_at` so refresh ordering continues progressing.
 - A refresh reselects the same underlying Unsplash photo and, when other public metadata is unchanged, only advances `cached_at`.
 - The configured attempt limit is reached without finding a different photo.
 - Unsplash reports exhausted API quota through HTTP 429 or its recognized HTTP 403 rate-limit response.
@@ -104,7 +105,7 @@ The generator prints a final summary containing:
 - `eligible_candidates`: combined repair, fill, and refresh candidates available after repair-and-fill cursor rotation and refresh ordering
 - `attempted_entries`: place entries processed during this run
 - `changed_entries`: public photo records added, repaired, or changed during refresh
-- `cache_refreshed_entries`: unchanged public photo assignments whose `cached_at` timestamp was refreshed
+- `cache_refreshed_entries`: unchanged complete photo assignments whose `cached_at` timestamp was refreshed after a same-photo or completed no-result refresh
 - `manifest_changed`: whether rebuilding `manifest.json` changed its contents
 - `cursor_changed`: whether repair-and-fill workflow progress moved forward
 
@@ -115,7 +116,7 @@ The generator also prints `last_attempted_place_id` when at least one repair-or-
 Typical outcomes include:
 
 - `changed_entries>0`: one or more public photo records were filled, repaired, or changed during refresh, so `version.json` is bumped
-- `cache_refreshed_entries>0` with no other public changes: existing assignments were revalidated and moved back in refresh ordering without an Unsplash download event or version bump
+- `cache_refreshed_entries>0` with no other public changes: existing complete assignments were checked and moved back in refresh ordering after a same-photo or no-result refresh, without an Unsplash download event or version bump
 - `manifest_changed=True`: usable public photo availability changed, so `version.json` is bumped
 - a lookup-only `photos.json` change: the workflow bumps `version.json` once after rebuilding the lookup
 - only `cursor_changed=True`: the repair-and-fill queue advanced and a cursor-only commit is expected, with no version bump
