@@ -24252,22 +24252,22 @@
     "source_url": "https://unsplash.com/photos/aerial-view-of-miami-beach-coastline-KDS5lCrj_ew?utm_source=freebase&utm_medium=referral"
   },
   "city:united_states:illinois:chicago": {
-    "image_url": "https://images.unsplash.com/photo-1674464741772-c7618602abd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxDaGljYWdvJTJDJTIwSWxsaW5vaXMlMkMlMjBVbml0ZWQlMjBTdGF0ZXMlMjBza3lsaW5lJTIwY2l0eXxlbnwxfDB8fHwxNzc1Njg1Njc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Seri",
-    "photographer_url": "https://unsplash.com/@seri_lia?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-city-skyline-with-tall-buildings-in-the-foreground-3mzfH_kRiIU?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDaGljYWdvJTIwSWxsaW5vaXN8ZW58MXwwfHx8MTc5MDg3OTE0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Pedro Lastra",
+    "photographer_url": "https://unsplash.com/@peterlaster?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-brown-city-buildings-during-daytime-Nyvq2juw4_o?utm_source=freebase&utm_medium=referral"
   },
   "city:united_states:massachusetts:boston": {
-    "image_url": "https://images.unsplash.com/photo-1543164939-264c96ac5b6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw2fHxCb3N0b24lMkMlMjBNYXNzYWNodXNldHRzJTJDJTIwVW5pdGVkJTIwU3RhdGVzJTIwc2t5bGluZSUyMGNpdHl8ZW58MXwwfHx8MTc3NTY4NTY3OHww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Artem Sapegin",
-    "photographer_url": "https://unsplash.com/@sapegin?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/calm-body-of-water-near-building-wADxq12XD5c?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1565127803082-69dd82351360?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCb3N0b24lMjBNYXNzYWNodXNldHRzfGVufDF8MHx8fDE3OTA4NzkxNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "jacob Licht",
+    "photographer_url": "https://unsplash.com/@jolicht?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/body-of-water-near-cityscape-at-daytime-8nA_iHrxHIo?utm_source=freebase&utm_medium=referral"
   },
   "city:united_states:new_york:new_york": {
-    "image_url": "https://images.unsplash.com/photo-1592805195598-85fd6b3d500a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw2fHxOZXclMjBZb3JrJTJDJTIwVW5pdGVkJTIwU3RhdGVzJTIwc2t5bGluZSUyMGNpdHl8ZW58MXwwfHx8MTc3NTY4OTMwMHww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Udayaditya Barua",
-    "photographer_url": "https://unsplash.com/@nookscribe?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/aerial-view-of-city-buildings-during-daytime-NcuVbEtUcrw?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxOZXclMjBZb3JrJTIwVW5pdGVkJTIwU3RhdGVzfGVufDF8MHx8fDE3OTA4NzkxNTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Patrick Tomasso",
+    "photographer_url": "https://unsplash.com/@impatrickt?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/manhattan-skyline-and-brooklyn-bridge-SVVTZtTGyaU?utm_source=freebase&utm_medium=referral"
   },
   "city:united_states:oregon:ashland": {
     "image_url": "https://images.unsplash.com/photo-1566085284297-3e91858b7f3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxBc2hsYW5kJTIwT3JlZ29ufGVufDF8MHx8fDE3ODY1NTEwOTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -37818,16 +37818,16 @@
     "source_url": "https://unsplash.com/photos/white-and-brown-city-buildings-during-daytime-Nyvq2juw4_o?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:united_states:massachusetts": {
-    "image_url": "https://images.unsplash.com/photo-1582862593135-5f71aa3db8b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxNYXNzYWNodXNldHRzJTJDJTIwVW5pdGVkJTIwU3RhdGVzJTIwdHJhdmVsfGVufDF8MHx8fDE3NzU2ODU2Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Kareya  Saleh",
-    "photographer_url": "https://unsplash.com/@thinkmagically?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/city-skyline-under-blue-sky-during-daytime-SPyY5BZwX5Y?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1635792837157-4a9d469de7e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNYXNzYWNodXNldHRzJTIwVW5pdGVkJTIwU3RhdGVzfGVufDF8MHx8fDE3OTA4NzkxNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Yuval Zukerman",
+    "photographer_url": "https://unsplash.com/@yuvalz?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-city-from-the-water-mG1atdfQp3g?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:united_states:new_york": {
-    "image_url": "https://images.unsplash.com/photo-1552834022-5d2c00e8ee03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxOZXclMjBZb3JrJTJDJTIwVW5pdGVkJTIwU3RhdGVzJTIwdHJhdmVsfGVufDF8MHx8fDE3NzU2ODkyOTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Jan Sauter",
-    "photographer_url": "https://unsplash.com/@jansauter?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/city-skyline-during-golden-hour-9mffbHqmqx4?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxOZXclMjBZb3JrJTIwVW5pdGVkJTIwU3RhdGVzfGVufDF8MHx8fDE3OTA4NzkxNTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Patrick Tomasso",
+    "photographer_url": "https://unsplash.com/@impatrickt?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/manhattan-skyline-and-brooklyn-bridge-SVVTZtTGyaU?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:united_states:oregon": {
     "image_url": "https://images.unsplash.com/photo-1592533833134-bdc86615b141?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxPcmVnb24lMjBVbml0ZWQlMjBTdGF0ZXN8ZW58MXwwfHx8MTc4NjU1MTA5MXww&ixlib=rb-4.1.0&q=80&w=1080",
