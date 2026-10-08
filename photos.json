@@ -840,10 +840,10 @@
     "source_url": "https://unsplash.com/photos/a-living-room-filled-with-furniture-and-pictures-on-the-wall-9QCPFc7PNNg?utm_source=freebase&utm_medium=referral"
   },
   "city:australia:western_australia:perth": {
-    "image_url": "https://images.unsplash.com/photo-1579425789363-f360540e4834?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxQZXJ0aCUyMFdlc3Rlcm4lMjBBdXN0cmFsaWF8ZW58MXwwfHx8MTc3NjkzOTI3NXww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Nathan Hurst",
-    "photographer_url": "https://unsplash.com/@nathan_hurst?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/city-buildings-under-white-sky-during-daytime-1VtXqlexBHY?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1524586410818-196d249560e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQZXJ0aCUyMFdlc3Rlcm4lMjBBdXN0cmFsaWF8ZW58MXwwfHx8MTc5MTQ4NTQ3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "fadder 8",
+    "photographer_url": "https://unsplash.com/@fadder8?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/city-near-body-of-water-during-daytime-RESEQty1uvc?utm_source=freebase&utm_medium=referral"
   },
   "city:austria:burgenland:eisenstadt": {
     "image_url": "https://images.unsplash.com/photo-1690305190348-f1db2fcf8cee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxFaXNlbnN0YWR0JTIwQXVzdHJpYXxlbnwxfDB8fHwxNzc3Mzk1ODA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -13661,6 +13661,12 @@
     "photographer_url": "https://unsplash.com/@brentninaber?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/landscape-photo-of-a-city-skyline-7uvHtSn5a90?utm_source=freebase&utm_medium=referral"
   },
+  "city:madagascar:analanjirofo:fenoarivo_atsinanana": {
+    "image_url": "https://images.unsplash.com/photo-1558694440-03ade9215d7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxGZW5vYXJpdm8lMjBBdHNpbmFuYW5hJTIwTWFkYWdhc2NhcnxlbnwxfDB8fHwxNzkxNDg1NDY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Graphic Node",
+    "photographer_url": "https://unsplash.com/@graphicnode?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/baobab-trees-along-a-dirt-road-yPSbirjJWzs?utm_source=freebase&utm_medium=referral"
+  },
   "city:madagascar:androy:ambovombe": {
     "image_url": "https://images.unsplash.com/photo-1624695759189-6d1804edf202?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxBbWJvdm9tYmUlMjBBbmRyb3l8ZW58MXwwfHx8MTc4NDczOTA4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
     "photographer_name": "Steward Masweneng",
@@ -25320,10 +25326,10 @@
     "source_url": "https://unsplash.com/photos/city-skyline-under-blue-sky-during-daytime-wX_9ZhIErpg?utm_source=freebase&utm_medium=referral"
   },
   "country:bahamas": {
-    "image_url": "https://images.unsplash.com/photo-1559956144-83a135c9872e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxCYWhhbWFzfGVufDF8MHx8fDE3NzY5MzkyNzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1548574505-5e239809ee19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCYWhhbWFzfGVufDF8MHx8fDE3OTE0ODU0NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
     "photographer_name": "Fernando Jorge",
     "photographer_url": "https://unsplash.com/@fx24?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/shoreline-and-body-of-water-during-daytime-eiBxnesl3_I?utm_source=freebase&utm_medium=referral"
+    "source_url": "https://unsplash.com/photos/aerial-photography-of-white-and-blue-cruise-ships-during-daytime-rMaWin9-9Gk?utm_source=freebase&utm_medium=referral"
   },
   "country:bahrain": {
     "image_url": "https://images.unsplash.com/photo-1748066768504-99532da7d1e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxCYWhyYWlufGVufDF8MHx8fDE3Nzk5ODYxMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -27348,10 +27354,10 @@
     "source_url": "https://unsplash.com/photos/a-person-parasailing-on-a-large-body-of-water-NgINtLybSr0?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:bahamas:new_providence": {
-    "image_url": "https://images.unsplash.com/photo-1704667806510-4515198d1be7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxOZXclMjBQcm92aWRlbmNlJTIwQmFoYW1hc3xlbnwxfDB8fHwxNzc2OTM5Mjc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1628591068027-d4ba41d34bc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxOZXclMjBQcm92aWRlbmNlJTIwQmFoYW1hc3xlbnwxfDB8fHwxNzkxNDg1NDc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
     "photographer_name": "Rinald Rolle",
     "photographer_url": "https://unsplash.com/@anstoxx?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-sailboat-in-the-water-with-a-lighthouse-in-the-background-Yy9M-zqMjhg?utm_source=freebase&utm_medium=referral"
+    "source_url": "https://unsplash.com/photos/woman-in-blue-and-white-dress-pAUqrxKOvQE?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:bahamas:ragged_island": {
     "image_url": "https://images.unsplash.com/photo-1615035402850-397002ee74ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxSYWdnZWQlMjBJc2xhbmQlMjBCYWhhbWFzfGVufDF8MHx8fDE3Nzk1MDk0ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
