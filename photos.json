@@ -2646,10 +2646,10 @@
     "source_url": "https://unsplash.com/photos/christ-the-redeemer-brazil-OkiDIla7K8Q?utm_source=freebase&utm_medium=referral"
   },
   "city:brazil:rio_de_janeiro:rio_de_janeiro": {
-    "image_url": "https://images.unsplash.com/photo-1466986334032-276c4d2b810b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxSaW8lMjBEZSUyMEphbmVpcm8lMjBCcmF6aWx8ZW58MXwwfHx8MTc3Njk0MTQyOHww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Antonio Lapa",
-    "photographer_url": "https://unsplash.com/@tomlapa?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/gray-and-black-helicopter-under-white-cloudy-sky-during-daytime-lHsgbAVACws?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxSaW8lMjBEZSUyMEphbmVpcm8lMjBCcmF6aWx8ZW58MXwwfHx8MTc5MTU0MTk3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Agustin Diaz Gargiulo",
+    "photographer_url": "https://unsplash.com/@agustindiazg?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-photography-of-cityscape-near-sea-7F65HDP0-E0?utm_source=freebase&utm_medium=referral"
   },
   "city:brazil:rio_grande_do_norte:natal": {
     "image_url": "https://images.unsplash.com/photo-1602094697524-2f1a8c1f9e5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxOYXRhbCUyMFJpbyUyMEdyYW5kZSUyMERvJTIwTm9ydGV8ZW58MXwwfHx8MTc4MTA0NTc0NXww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -3258,10 +3258,10 @@
     "source_url": "https://unsplash.com/photos/a-large-body-of-water-surrounded-by-a-forest-vCxRJI4p4AQ?utm_source=freebase&utm_medium=referral"
   },
   "city:canada:british_columbia:delta": {
-    "image_url": "https://images.unsplash.com/photo-1656006572141-74a5a468d75f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxEZWx0YSUyMEJyaXRpc2glMjBDb2x1bWJpYXxlbnwxfDB8fHwxNzc2OTUzNjcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "GurlAl SINGH Toor",
-    "photographer_url": "https://unsplash.com/@barmalipuria?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-city-with-mountains-in-the-background-VbwwmIQ5VzY?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1577464365163-894dc9e9d4d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxEZWx0YSUyMEJyaXRpc2glMjBDb2x1bWJpYXxlbnwxfDB8fHwxNzkxNTQxOTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Rich McCue",
+    "photographer_url": "https://unsplash.com/@richmccue?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/cruise-ship-on-body-of-water-during-sunset-wMQ17F9etGs?utm_source=freebase&utm_medium=referral"
   },
   "city:canada:british_columbia:kamloops": {
     "image_url": "https://images.unsplash.com/photo-1589807611106-ec3e54302e04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxLYW1sb29wcyUyMEJyaXRpc2glMjBDb2x1bWJpYXxlbnwxfDB8fHwxNzg5OTA3Njc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -14512,6 +14512,12 @@
     "photographer_name": "Abdulla Abeedh",
     "photographer_url": "https://unsplash.com/@abeedh?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/aerial-photography-of-island-p4q2n4qFraY?utm_source=freebase&utm_medium=referral"
+  },
+  "city:maldives:north_atolls:naifaru": {
+    "image_url": "https://images.unsplash.com/photo-1583835401881-69a874a3b342?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxOYWlmYXJ1JTIwTm9ydGglMjBBdG9sbHN8ZW58MXwwfHx8MTc5MTU0MTk2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Husen Siraaj",
+    "photographer_url": "https://unsplash.com/@sirajmv?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/palm-tree-near-body-of-water-during-daytime-UxZVUDxWppw?utm_source=freebase&utm_medium=referral"
   },
   "city:maldives:north_atolls:thulusdhoo": {
     "image_url": "https://images.unsplash.com/photo-1467377791767-c929b5dc9a23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUaHVsdXNkaG9vJTIwTWFsZGl2ZXN8ZW58MXwwfHx8MTc3OTEyMDE3OHww&ixlib=rb-4.1.0&q=80&w=1080",
