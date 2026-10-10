@@ -3504,10 +3504,10 @@
     "source_url": "https://unsplash.com/photos/green-trees-on-green-grass-field-during-daytime-1PrSTHspVig?utm_source=freebase&utm_medium=referral"
   },
   "city:canada:ontario:milton": {
-    "image_url": "https://images.unsplash.com/photo-1661627334852-2877617bf3d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNaWx0b24lMjBPbnRhcmlvfGVufDF8MHx8fDE3NzY5NjMyMzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1661627334859-f439afcf7e61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNaWx0b24lMjBPbnRhcmlvfGVufDF8MHx8fDE3OTE2MjU4MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
     "photographer_name": "Eirene Thoms",
     "photographer_url": "https://unsplash.com/@eirenethoms?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-wooden-bridge-over-a-river-M-jttbGY6eI?utm_source=freebase&utm_medium=referral"
+    "source_url": "https://unsplash.com/photos/train-tracks-with-trees-and-a-bridge-in-the-background-dQHr6QRjGDc?utm_source=freebase&utm_medium=referral"
   },
   "city:canada:ontario:mississauga": {
     "image_url": "https://images.unsplash.com/photo-1667492582679-84e2c3b3094d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNaXNzaXNzYXVnYSUyME9udGFyaW98ZW58MXwwfHx8MTc4OTk2NjUzOXww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -3600,10 +3600,10 @@
     "source_url": "https://unsplash.com/photos/gray-concrete-road-between-high-rise-buildings-during-daytime-oU5JHCpKGYg?utm_source=freebase&utm_medium=referral"
   },
   "city:canada:ontario:whitby": {
-    "image_url": "https://images.unsplash.com/photo-1610918152727-497ab071d4b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxXaGl0YnklMjBPbnRhcmlvfGVufDF8MHx8fDE3NzY5NjMyNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Meri Vasilevski",
-    "photographer_url": "https://unsplash.com/@meri_vasilevski?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/brown-and-white-wooden-house-on-brown-grass-field-under-blue-sky-during-daytime-zHU-dquIOlM?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1672542856418-11a4d1e9b57f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxXaGl0YnklMjBPbnRhcmlvfGVufDF8MHx8fDE3OTE2MjU4MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Emme Kearns",
+    "photographer_url": "https://unsplash.com/@emmebience?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-couple-of-benches-sitting-on-top-of-snow-covered-ground-TkNgc0p2Des?utm_source=freebase&utm_medium=referral"
   },
   "city:canada:ontario:windsor": {
     "image_url": "https://images.unsplash.com/photo-1530025809667-1f4bcff8e60f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxXaW5kc29yJTIwT250YXJpb3xlbnwxfDB8fHwxNzg5OTk0ODgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -15311,6 +15311,12 @@
     "photographer_url": "https://unsplash.com/@vincegx?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/white-tents-on-field-yhbanN00pb8?utm_source=freebase&utm_medium=referral"
   },
+  "city:mongolia:bayankhongor:bayankhongor": {
+    "image_url": "https://images.unsplash.com/photo-1575415868394-e3b78f3e9b3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCYXlhbmtob25nb3IlMjBNb25nb2xpYXxlbnwxfDB8fHwxNzkxNjI1Nzg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Vince Gx",
+    "photographer_url": "https://unsplash.com/@vincegx?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-tents-on-field-yhbanN00pb8?utm_source=freebase&utm_medium=referral"
+  },
   "city:mongolia:bulgan:bulgan": {
     "image_url": "https://images.unsplash.com/photo-1575415868394-e3b78f3e9b3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCdWxnYW4lMjBNb25nb2xpYXxlbnwxfDB8fHwxNzg0OTMyMTc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
     "photographer_name": "Vince Gx",
@@ -15448,6 +15454,12 @@
     "photographer_name": "Jon Tyson",
     "photographer_url": "https://unsplash.com/@jontyson?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/white-and-yellow-wooden-signage-IJ5jaoisJ70?utm_source=freebase&utm_medium=referral"
+  },
+  "city:mongolia:umnugovi:khankhongor": {
+    "image_url": "https://images.unsplash.com/photo-1575415868394-e3b78f3e9b3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLaGFua2hvbmdvciUyME1vbmdvbGlhfGVufDF8MHx8fDE3OTE2MjU3OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Vince Gx",
+    "photographer_url": "https://unsplash.com/@vincegx?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-tents-on-field-yhbanN00pb8?utm_source=freebase&utm_medium=referral"
   },
   "city:mongolia:uvs:ulaangom": {
     "image_url": "https://images.unsplash.com/photo-1551800536-a6c39a1a91a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw1fHxVbGFhbmdvbSUyMFV2c3xlbnwxfDB8fHwxNzg0OTY3OTc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -28392,10 +28404,10 @@
     "source_url": "https://unsplash.com/photos/canadian-flag-on-parliament-hill-ottawa-C2keINMOhIE?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:canada:prince_edward_island": {
-    "image_url": "https://images.unsplash.com/photo-1731902417526-a4254593a95c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQcmluY2UlMjBFZHdhcmQlMjBJc2xhbmQlMjBDYW5hZGF8ZW58MXwwfHx8MTc3Njk2MzI0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Usman Qureshi",
-    "photographer_url": "https://unsplash.com/@officialusmanqureshi?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-row-of-houses-on-a-street-with-a-car-parked-on-the-side-of-the-nCTvDfTPgr4?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1691727334557-4a7354b5c47e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQcmluY2UlMjBFZHdhcmQlMjBJc2xhbmQlMjBDYW5hZGF8ZW58MXwwfHx8MTc5MTYyNTgxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jaime Bishara",
+    "photographer_url": "https://unsplash.com/@itsjaimeb?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-white-and-red-lighthouse-sitting-on-top-of-a-sandy-beach-3m69haTPByM?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:canada:quebec": {
     "image_url": "https://images.unsplash.com/photo-1576771304215-6d4d30f7bb63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxRdWViZWMlMjBDYW5hZGF8ZW58MXwwfHx8MTc5MDAyMDc3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -33653,6 +33665,12 @@
     "photographer_url": "https://unsplash.com/@vincegx?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/white-tents-on-field-yhbanN00pb8?utm_source=freebase&utm_medium=referral"
   },
+  "subdivision:mongolia:bayankhongor": {
+    "image_url": "https://images.unsplash.com/photo-1575415868394-e3b78f3e9b3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCYXlhbmtob25nb3IlMjBNb25nb2xpYXxlbnwxfDB8fHwxNzkxNjI1Nzg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Vince Gx",
+    "photographer_url": "https://unsplash.com/@vincegx?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-tents-on-field-yhbanN00pb8?utm_source=freebase&utm_medium=referral"
+  },
   "subdivision:mongolia:bulgan": {
     "image_url": "https://images.unsplash.com/photo-1575415868394-e3b78f3e9b3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCdWxnYW4lMjBNb25nb2xpYXxlbnwxfDB8fHwxNzg0OTMyMTc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
     "photographer_name": "Vince Gx",
@@ -33706,6 +33724,12 @@
     "photographer_name": "Alexander Popovkin",
     "photographer_url": "https://unsplash.com/@popovkin?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/a-field-with-a-river-and-mountains-in-the-background-a1FEQO3U3Hg?utm_source=freebase&utm_medium=referral"
+  },
+  "subdivision:mongolia:selenge": {
+    "image_url": "https://images.unsplash.com/photo-1575415868394-e3b78f3e9b3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTZWxlbmdlJTIwTW9uZ29saWF8ZW58MXwwfHx8MTc5MTYyNTc5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Vince Gx",
+    "photographer_url": "https://unsplash.com/@vincegx?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-tents-on-field-yhbanN00pb8?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:mongolia:sukhbaatar": {
     "image_url": "https://images.unsplash.com/photo-1695555875394-4e8aa542ccdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTdWtoYmFhdGFyJTIwTW9uZ29saWF8ZW58MXwwfHx8MTc4NDk2Nzk0OXww&ixlib=rb-4.1.0&q=80&w=1080",
