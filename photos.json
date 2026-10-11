@@ -10620,10 +10620,10 @@
     "source_url": "https://unsplash.com/photos/woman-in-red-and-gold-traditional-dress-BbtTua9rU9s?utm_source=freebase&utm_medium=referral"
   },
   "city:indonesia:east_java:kediri": {
-    "image_url": "https://images.unsplash.com/photo-1719406567281-e929125f5cb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLZWRpcmklMjBFYXN0JTIwSmF2YXxlbnwxfDB8fHwxNzc2OTY5NjI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Aryasatya Rafa Prayitno",
-    "photographer_url": "https://unsplash.com/@911mind?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-group-of-people-riding-motorcycles-down-a-street-Zdq6hnX0Z78?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1616388560850-89b6a8df572d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxLZWRpcmklMjBFYXN0JTIwSmF2YXxlbnwxfDB8fHwxNzkxNzIyOTYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Adrian Hartanto",
+    "photographer_url": "https://unsplash.com/@adriannetwork?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/people-gathering-on-street-during-daytime-0mAzHPfRVE0?utm_source=freebase&utm_medium=referral"
   },
   "city:indonesia:east_java:madiun": {
     "image_url": "https://images.unsplash.com/photo-1595835018349-198460e1d309?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNYWRpdW4lMjBFYXN0JTIwSmF2YXxlbnwxfDB8fHwxNzc2OTY5NjI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -10632,10 +10632,10 @@
     "source_url": "https://unsplash.com/photos/green-trees-on-mountain-during-daytime-nXUT5sYIA30?utm_source=freebase&utm_medium=referral"
   },
   "city:indonesia:east_java:malang": {
-    "image_url": "https://images.unsplash.com/photo-1608613435881-b96d1ea2a847?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxNYWxhbmclMjBFYXN0JTIwSmF2YXxlbnwxfDB8fHwxNzc2OTY5NjMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Robert Euro Djojoseputro",
-    "photographer_url": "https://unsplash.com/@roberteurodjo?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/brown-and-green-mountain-under-blue-sky-and-white-clouds-during-daytime-FvAdpy4DX6I?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1598194397025-0181d558d089?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxNYWxhbmclMjBFYXN0JTIwSmF2YXxlbnwxfDB8fHwxNzkxNzIyOTY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Nanda Firdaus",
+    "photographer_url": "https://unsplash.com/@nanda_firdaus?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-and-brown-rock-formation-beside-body-of-water-during-daytime-YXuS_RpJATU?utm_source=freebase&utm_medium=referral"
   },
   "city:indonesia:east_java:probolinggo": {
     "image_url": "https://images.unsplash.com/photo-1665028029080-dc11b3be258f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQcm9ib2xpbmdnbyUyMEVhc3QlMjBKYXZhfGVufDF8MHx8fDE3ODQ0MDMyOTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -16810,6 +16810,12 @@
     "photographer_name": "Hermes Rivera",
     "photographer_url": "https://unsplash.com/@hermez777?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/pathway-of-houses-under-blue-clouds-during-daytime-Ye9MgFlD10E?utm_source=freebase&utm_medium=referral"
+  },
+  "city:nicaragua:leon:la_paz_centro": {
+    "image_url": "https://images.unsplash.com/photo-1684861746842-7115e4530437?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMYSUyMFBheiUyMENlbnRybyUyMExlb258ZW58MXwwfHx8MTc5MTcyMjk0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Austin Curtis",
+    "photographer_url": "https://unsplash.com/@afcurtis?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-city-with-a-church-in-the-background-kYXyvWGv9Z0?utm_source=freebase&utm_medium=referral"
   },
   "city:nicaragua:leon:leon": {
     "image_url": "https://images.unsplash.com/photo-1539735016193-2bfc5a8f6699?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMZW9uJTIwTmljYXJhZ3VhfGVufDF8MHx8fDE3ODUxOTEzNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
