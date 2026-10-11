@@ -10572,10 +10572,10 @@
     "source_url": "https://unsplash.com/photos/man-in-red-long-sleeve-shirt-playing-drum-8AirHgE4a1w?utm_source=freebase&utm_medium=referral"
   },
   "city:indonesia:central_java:solo": {
-    "image_url": "https://images.unsplash.com/photo-1637618881011-ccd86c4caba2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTb2xvJTIwQ2VudHJhbCUyMEphdmF8ZW58MXwwfHx8MTc3Njk2OTYyNnww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Mourizal Zativa",
-    "photographer_url": "https://unsplash.com/@mourimoto?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-man-standing-in-front-of-a-train-at-a-train-station-2s-dnBRdKek?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1621982400152-883d350ac611?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTb2xvJTIwQ2VudHJhbCUyMEphdmF8ZW58MXwwfHx8MTc5MTY5NzU4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mufid Majnun",
+    "photographer_url": "https://unsplash.com/@mufidpwt?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/man-in-black-crew-neck-shirt-wearing-black-framed-eyeglasses-kZJYtmxg35U?utm_source=freebase&utm_medium=referral"
   },
   "city:indonesia:central_java:tegal": {
     "image_url": "https://images.unsplash.com/photo-1629341280853-7c7873e628e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUZWdhbCUyMENlbnRyYWwlMjBKYXZhfGVufDF8MHx8fDE3ODQ0MDMyNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -31278,10 +31278,10 @@
     "source_url": "https://unsplash.com/photos/white-and-black-bus-on-road-during-daytime-7Vt3Kao-JJc?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:indonesia:central_java": {
-    "image_url": "https://images.unsplash.com/photo-1708443103317-7fe1041dd74d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxDZW50cmFsJTIwSmF2YSUyMEluZG9uZXNpYXxlbnwxfDB8fHwxNzc2OTY5NjIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "livy Sast",
-    "photographer_url": "https://unsplash.com/@sukmasas8?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-narrow-road-in-the-middle-of-a-forest-DILF72zZyBo?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1620549146396-9024d914cd99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDZW50cmFsJTIwSmF2YSUyMEluZG9uZXNpYXxlbnwxfDB8fHwxNzkxNjk3NTc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Mario La Pergola",
+    "photographer_url": "https://unsplash.com/@mlapergolaphoto?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/buddha-statue-at-borobudur-temple-KTHA8H_qpOw?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:indonesia:central_papua": {
     "image_url": "https://images.unsplash.com/photo-1607427225127-a4ae1d4b050c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDZW50cmFsJTIwUGFwdWElMjBJbmRvbmVzaWF8ZW58MXwwfHx8MTc4NDQwMzI4NXww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -34330,6 +34330,12 @@
     "photographer_name": "roberto zuniga",
     "photographer_url": "https://unsplash.com/@errezuniga?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/brown-and-black-mountain-under-blue-sky-during-daytime-0LmAVugy02A?utm_source=freebase&utm_medium=referral"
+  },
+  "subdivision:nicaragua:chontales": {
+    "image_url": "https://images.unsplash.com/photo-1584904558330-f9772a6778c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDaG9udGFsZXMlMjBOaWNhcmFndWF8ZW58MXwwfHx8MTc5MTY5NzU2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Emil Diallo",
+    "photographer_url": "https://unsplash.com/@emildiallo?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-and-gray-concrete-church-qIcEfORROas?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:nicaragua:granada": {
     "image_url": "https://images.unsplash.com/photo-1584904558330-f9772a6778c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxHcmFuYWRhJTIwTmljYXJhZ3VhfGVufDF8MHx8fDE3ODUxOTEzNjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
