@@ -17027,6 +17027,12 @@
     "photographer_url": "https://unsplash.com/@michelo243?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/a-large-flat-area-with-a-body-of-water-in-the-distance-fuqicAvYp-w?utm_source=freebase&utm_medium=referral"
   },
+  "city:niger:zinder:zinder": {
+    "image_url": "https://images.unsplash.com/photo-1567981964169-7c2597346322?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxaaW5kZXIlMjBOaWdlcnxlbnwxfDB8fHwxNzkxNzQ3MjE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Thiébaud Faix",
+    "photographer_url": "https://unsplash.com/@thips?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/man-playing-brown-guitar-bAiPTY5xhbE?utm_source=freebase&utm_medium=referral"
+  },
   "city:nigeria:abia:umuahia": {
     "image_url": "https://images.unsplash.com/photo-1594750301491-4023e192171a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxVbXVhaGlhJTIwQWJpYXxlbnwxfDB8fHwxNzg1MjQ5NzI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
     "photographer_name": "Nqobile Vundla",
@@ -31362,16 +31368,16 @@
     "source_url": "https://unsplash.com/photos/a-street-light-with-a-blue-sky-in-the-background-SWxe1bDNwYY?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:indonesia:north_sulawesi": {
-    "image_url": "https://images.unsplash.com/photo-1735088155829-d95e7902a0bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxOb3J0aCUyMFN1bGF3ZXNpJTIwSW5kb25lc2lhfGVufDF8MHx8fDE3NzY5NzM0MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Joshua Umboh",
-    "photographer_url": "https://unsplash.com/@joshuaumboh?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-man-playing-a-musical-instrument-in-front-of-a-microphone-FxZzIzBF7Rk?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1600481171699-a5c3359c3aa5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxOb3J0aCUyMFN1bGF3ZXNpJTIwSW5kb25lc2lhfGVufDF8MHx8fDE3OTE3NDcyMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Helen G",
+    "photographer_url": "https://unsplash.com/@helengdesigns?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-sea-near-mountain-under-blue-sky-during-daytime-87t_qFNWrmw?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:indonesia:north_sumatra": {
-    "image_url": "https://images.unsplash.com/photo-1591285359917-a97cd96cd29c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxOb3J0aCUyMFN1bWF0cmElMjBJbmRvbmVzaWF8ZW58MXwwfHx8MTc3Njk3MzQzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1591284915748-bc48608e894d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxOb3J0aCUyMFN1bWF0cmElMjBJbmRvbmVzaWF8ZW58MXwwfHx8MTc5MTc0NzIzOXww&ixlib=rb-4.1.0&q=80&w=1080",
     "photographer_name": "Levi T.",
     "photographer_url": "https://unsplash.com/@hengyao?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/waterfalls-in-the-middle-of-green-trees-lyanBLpZvW4?utm_source=freebase&utm_medium=referral"
+    "source_url": "https://unsplash.com/photos/green-and-brown-mountains-beside-river-during-daytime-fmtI2yxWCEI?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:indonesia:papua": {
     "image_url": "https://images.unsplash.com/photo-1604250015955-42fc0bd204f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQYXB1YSUyMEluZG9uZXNpYXxlbnwxfDB8fHwxNzc2OTczNDM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -34420,6 +34426,12 @@
     "photographer_name": "Michel Isamuna",
     "photographer_url": "https://unsplash.com/@michelo243?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/a-large-flat-area-with-a-body-of-water-in-the-distance-fuqicAvYp-w?utm_source=freebase&utm_medium=referral"
+  },
+  "subdivision:niger:zinder": {
+    "image_url": "https://images.unsplash.com/photo-1567981964169-7c2597346322?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxaaW5kZXIlMjBOaWdlcnxlbnwxfDB8fHwxNzkxNzQ3MjE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Thiébaud Faix",
+    "photographer_url": "https://unsplash.com/@thips?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/man-playing-brown-guitar-bAiPTY5xhbE?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:nigeria:abia": {
     "image_url": "https://images.unsplash.com/photo-1528645046579-596f02cf16eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxBYmlhJTIwTmlnZXJpYXxlbnwxfDB8fHwxNzg1MjQ5NzIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
