@@ -10980,10 +10980,10 @@
     "source_url": "https://unsplash.com/photos/green-trees-near-body-of-water-during-daytime-MeL_OLPuCtY?utm_source=freebase&utm_medium=referral"
   },
   "city:indonesia:west_sumatra:padang": {
-    "image_url": "https://images.unsplash.com/photo-1720033787459-0eb7ea2913d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQYWRhbmclMjBXZXN0JTIwU3VtYXRyYXxlbnwxfDB8fHwxNzc3MDAyODE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Fathur Rizki",
-    "photographer_url": "https://unsplash.com/@jaksell?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-view-of-a-lush-green-valley-surrounded-by-mountains-42m5DqxTcE0?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1653910729824-df4f32c60acf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQYWRhbmclMjBXZXN0JTIwU3VtYXRyYXxlbnwxfDB8fHwxNzkxODU4OTk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Adli Hadiyan Munif",
+    "photographer_url": "https://unsplash.com/@adli_hm?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-wooden-structure-with-a-clock-on-the-top-of-it-krIssfp8rgw?utm_source=freebase&utm_medium=referral"
   },
   "city:indonesia:west_sumatra:payakumbuh": {
     "image_url": "https://images.unsplash.com/photo-1699445463129-5ed9d99cae7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQYXlha3VtYnVoJTIwV2VzdCUyMFN1bWF0cmF8ZW58MXwwfHx8MTc4NDQ1MDE3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -11010,10 +11010,10 @@
     "source_url": "https://unsplash.com/photos/man-in-black-long-sleeve-shirt-holding-white-smartphone-TmEAmLgVzMc?utm_source=freebase&utm_medium=referral"
   },
   "city:indonesia:yogyakarta:yogyakarta": {
-    "image_url": "https://images.unsplash.com/photo-1612633296346-ee8c9ff06c7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxZb2d5YWthcnRhJTIwSW5kb25lc2lhfGVufDF8MHx8fDE3NzcwMDI4MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Rendy Novantino",
-    "photographer_url": "https://unsplash.com/@novantino?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/man-in-red-and-black-polo-shirt-carrying-red-and-black-backpack-73g__rYxCXQ?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1578469550956-0e16b69c6a3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxZb2d5YWthcnRhJTIwSW5kb25lc2lhfGVufDF8MHx8fDE3OTE4NTkwMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Eugenia Clara @fleetingstill",
+    "photographer_url": "https://unsplash.com/@eugeniaclara?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/prambanan-temple-complex-stone-spires-_QTeGT478_8?utm_source=freebase&utm_medium=referral"
   },
   "city:iran:east_azerbaijan:tabriz": {
     "image_url": "https://images.unsplash.com/photo-1725436486900-b80c2de2fb48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxUYWJyaXolMjBFYXN0JTIwQXplcmJhaWphbnxlbnwxfDB8fHwxNzg0NDU3OTI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -18370,6 +18370,12 @@
     "photographer_name": "Eduardo Flores",
     "photographer_url": "https://unsplash.com/@eduardoflorespe?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/mother-mary-mosaic-glass-window-cathedral-interior-SR0GWtHwZEc?utm_source=freebase&utm_medium=referral"
+  },
+  "city:philippines:bangsamoro:bongao": {
+    "image_url": "https://images.unsplash.com/photo-1589898489635-c63e3e84092f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxCb25nYW8lMjBCYW5nc2Ftb3JvfGVufDF8MHx8fDE3OTE4NTg5ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Kath Yu Faina",
+    "photographer_url": "https://unsplash.com/@erinyuuu?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/people-walking-on-street-near-houses-under-white-clouds-during-daytime-OFz4iIq7QJw?utm_source=freebase&utm_medium=referral"
   },
   "city:philippines:bangsamoro:cotabato_city": {
     "image_url": "https://images.unsplash.com/photo-1749102192371-9a8fe5d6cd1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDb3RhYmF0byUyMENpdHklMjBQaGlsaXBwaW5lc3xlbnwxfDB8fHwxNzg1NTE3MTM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -25818,10 +25824,10 @@
     "source_url": "https://unsplash.com/photos/aerial-view-of-beach-with-mountains-4dcsLxQxSHY?utm_source=freebase&utm_medium=referral"
   },
   "country:jamaica": {
-    "image_url": "https://images.unsplash.com/photo-1606466123170-d39e5346aa76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxKYW1haWNhfGVufDF8MHx8fDE3NzcwMDI4MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Rock Staar",
-    "photographer_url": "https://unsplash.com/@rockstaar_?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/white-and-blue-bus-near-palm-tree-under-blue-sky-during-daytime-wGyHvtLcW_U?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1437719417032-8595fd9e9dc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxKYW1haWNhfGVufDF8MHx8fDE3OTE4NTkwMDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sébastien Jermer",
+    "photographer_url": "https://unsplash.com/@seb?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-boat-on-body-of-water-near-green-palm-trees-n7DY58YFg9E?utm_source=freebase&utm_medium=referral"
   },
   "country:japan": {
     "image_url": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxKYXBhbnxlbnwxfDB8fHwxNzkwMzU2MjY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -31464,10 +31470,10 @@
     "source_url": "https://unsplash.com/photos/a-man-riding-on-the-back-of-a-brown-and-white-cow-BGzpTX9fHcI?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:indonesia:yogyakarta": {
-    "image_url": "https://images.unsplash.com/photo-1612633296346-ee8c9ff06c7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxZb2d5YWthcnRhJTIwSW5kb25lc2lhfGVufDF8MHx8fDE3NzcwMDI4MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Rendy Novantino",
-    "photographer_url": "https://unsplash.com/@novantino?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/man-in-red-and-black-polo-shirt-carrying-red-and-black-backpack-73g__rYxCXQ?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1578469550956-0e16b69c6a3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxZb2d5YWthcnRhJTIwSW5kb25lc2lhfGVufDF8MHx8fDE3OTE4NTkwMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Eugenia Clara @fleetingstill",
+    "photographer_url": "https://unsplash.com/@eugeniaclara?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/prambanan-temple-complex-stone-spires-_QTeGT478_8?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:iran:east_azerbaijan": {
     "image_url": "https://images.unsplash.com/photo-1583597598320-410c8d956936?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxFYXN0JTIwQXplcmJhaWphbiUyMElyYW58ZW58MXwwfHx8MTc4NDQ1NzkyMnww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -31974,10 +31980,10 @@
     "source_url": "https://unsplash.com/photos/photo-of-beach-during-daytime-WAP2_qkTe18?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:jamaica:saint_james": {
-    "image_url": "https://images.unsplash.com/photo-1706835606888-7d01505ae9a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYWludCUyMEphbWVzJTIwSmFtYWljYXxlbnwxfDB8fHwxNzc3MDAyODIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "JA Aerial photography",
-    "photographer_url": "https://unsplash.com/@jason895?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-close-up-of-a-white-flower-with-a-blurry-background-Ew16XuYYKZo?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1530225029356-e301a685e6b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTYWludCUyMEphbWVzJTIwSmFtYWljYXxlbnwxfDB8fHwxNzkxODU5MDA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Lakeisha Bennett",
+    "photographer_url": "https://unsplash.com/@lakeishajannell?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/photo-of-beach-during-daytime-WAP2_qkTe18?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:jamaica:saint_thomas": {
     "image_url": "https://images.unsplash.com/photo-1530225029356-e301a685e6b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTYWludCUyMFRob21hcyUyMEphbWFpY2F8ZW58MXwwfHx8MTc4NDUyMDQ4MHww&ixlib=rb-4.1.0&q=80&w=1080",
