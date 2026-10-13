@@ -12342,10 +12342,10 @@
     "source_url": "https://unsplash.com/photos/photo-of-beach-during-daytime-WAP2_qkTe18?utm_source=freebase&utm_medium=referral"
   },
   "city:jamaica:saint_james:montego_bay": {
-    "image_url": "https://images.unsplash.com/photo-1589960592070-d7ecdcd577e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNb250ZWdvJTIwQmF5JTIwSmFtYWljYXxlbnwxfDB8fHwxNzc3MDE5MDg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Brighton Pereira",
-    "photographer_url": "https://unsplash.com/@brighton1977?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/people-on-beach-during-daytime-7LbIUXkMA8I?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1530225029356-e301a685e6b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNb250ZWdvJTIwQmF5JTIwSmFtYWljYXxlbnwxfDB8fHwxNzkxODg3NzA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Lakeisha Bennett",
+    "photographer_url": "https://unsplash.com/@lakeishajannell?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/photo-of-beach-during-daytime-WAP2_qkTe18?utm_source=freebase&utm_medium=referral"
   },
   "city:jamaica:saint_mary:port_maria": {
     "image_url": "https://images.unsplash.com/photo-1572448117705-d5a2191d8ddd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQb3J0JTIwTWFyaWElMjBTYWludCUyME1hcnl8ZW58MXwwfHx8MTc4NDUyMDQ3OXww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -12612,10 +12612,10 @@
     "source_url": "https://unsplash.com/photos/a-field-of-grass-and-flowers-with-the-sun-in-the-background-NLwCr4yWl1A?utm_source=freebase&utm_medium=referral"
   },
   "city:kazakhstan:almaty:almaty": {
-    "image_url": "https://images.unsplash.com/photo-1757430289583-2410bc23fd2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxBbG1hdHklMjBLYXpha2hzdGFufGVufDF8MHx8fDE3NzcwMTkwODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Dmitrii Filatov",
-    "photographer_url": "https://unsplash.com/@dmitrii_filatov?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/person-standing-by-a-water-channel-with-mountains-behind-S3rjDB-X_6o?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1530480667809-b655d4dc3aaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxBbG1hdHklMjBLYXpha2hzdGFufGVufDF8MHx8fDE3OTE4ODc3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Polina Skaia",
+    "photographer_url": "https://unsplash.com/@polinaskaia?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/lake-surrounded-with-mountains-during-daytime-ToJNyWpDn9I?utm_source=freebase&utm_medium=referral"
   },
   "city:kazakhstan:almaty_region:konaev": {
     "image_url": "https://images.unsplash.com/photo-1723555036833-cdd0b278e8f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxLb25hZXYlMjBBbG1hdHklMjBSZWdpb258ZW58MXwwfHx8MTc4NDU3NzUyNXww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -18628,6 +18628,12 @@
     "photographer_name": "Mark Dave Bayona",
     "photographer_url": "https://unsplash.com/@markdaves123?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/green-coconut-trees-x7qDHv8VpfM?utm_source=freebase&utm_medium=referral"
+  },
+  "city:philippines:eastern_visayas:borongan": {
+    "image_url": "https://images.unsplash.com/photo-1591325408953-ef9298125f96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCb3JvbmdhbiUyMEVhc3Rlcm4lMjBWaXNheWFzfGVufDF8MHx8fDE3OTE4ODc2ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Trevar Skillicorn-Chilver",
+    "photographer_url": "https://unsplash.com/@tachilver?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-near-body-of-water-under-blue-sky-during-daytime-rbmwEl8H-Oc?utm_source=freebase&utm_medium=referral"
   },
   "city:philippines:eastern_visayas:calbayog": {
     "image_url": "https://images.unsplash.com/photo-1585904794031-49b25e65161f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxDYWxiYXlvZyUyMFBoaWxpcHBpbmVzfGVufDF8MHx8fDE3ODU1NTY0NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -25842,10 +25848,10 @@
     "source_url": "https://unsplash.com/photos/mountains-under-white-clouds-at-daytime-pZ-XFIrJMtE?utm_source=freebase&utm_medium=referral"
   },
   "country:kazakhstan": {
-    "image_url": "https://images.unsplash.com/photo-1666975823342-3b755b3784d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxLYXpha2hzdGFufGVufDF8MHx8fDE3NzcwMTkwODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Viktor Hesse",
-    "photographer_url": "https://unsplash.com/@vikhesse?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-city-skyline-with-a-fountain-JvQCPAtNMGw?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1530480667809-b655d4dc3aaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxLYXpha2hzdGFufGVufDF8MHx8fDE3OTE4ODc3MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Polina Skaia",
+    "photographer_url": "https://unsplash.com/@polinaskaia?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/lake-surrounded-with-mountains-during-daytime-ToJNyWpDn9I?utm_source=freebase&utm_medium=referral"
   },
   "country:kenya": {
     "image_url": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxLZW55YXxlbnwxfDB8fHwxNzc2NzQzMjU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -32226,10 +32232,10 @@
     "source_url": "https://unsplash.com/photos/a-field-of-grass-and-flowers-with-the-sun-in-the-background-NLwCr4yWl1A?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:kazakhstan:almaty": {
-    "image_url": "https://images.unsplash.com/photo-1757430289583-2410bc23fd2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxBbG1hdHklMjBLYXpha2hzdGFufGVufDF8MHx8fDE3NzcwMTkwODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Dmitrii Filatov",
-    "photographer_url": "https://unsplash.com/@dmitrii_filatov?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/person-standing-by-a-water-channel-with-mountains-behind-S3rjDB-X_6o?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1530480667809-b655d4dc3aaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxBbG1hdHklMjBLYXpha2hzdGFufGVufDF8MHx8fDE3OTE4ODc3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Polina Skaia",
+    "photographer_url": "https://unsplash.com/@polinaskaia?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/lake-surrounded-with-mountains-during-daytime-ToJNyWpDn9I?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:kazakhstan:almaty_region": {
     "image_url": "https://images.unsplash.com/photo-1530480667809-b655d4dc3aaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBbG1hdHklMjBSZWdpb24lMjBLYXpha2hzdGFufGVufDF8MHx8fDE3ODQ1Nzc1MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -32238,10 +32244,10 @@
     "source_url": "https://unsplash.com/photos/lake-surrounded-with-mountains-during-daytime-ToJNyWpDn9I?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:kazakhstan:astana": {
-    "image_url": "https://images.unsplash.com/photo-1666975823342-3b755b3784d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBc3RhbmElMjBLYXpha2hzdGFufGVufDF8MHx8fDE3NzcwMTkwOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Viktor Hesse",
-    "photographer_url": "https://unsplash.com/@vikhesse?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-city-skyline-with-a-fountain-JvQCPAtNMGw?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1659651117607-d2b397cf100f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxBc3RhbmElMjBLYXpha2hzdGFufGVufDF8MHx8fDE3OTE4ODc3MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ilyas Dautov",
+    "photographer_url": "https://unsplash.com/@ilyas_d?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-city-with-a-mountain-in-the-background-ljw3mBWuwTA?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:kazakhstan:atyrau": {
     "image_url": "https://images.unsplash.com/photo-1681365502531-d872e7a8ce54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxBdHlyYXUlMjBLYXpha2hzdGFufGVufDF8MHx8fDE3ODQ1Nzc1Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
