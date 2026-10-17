@@ -14964,16 +14964,16 @@
     "source_url": "https://unsplash.com/photos/a-beach-with-a-lot-of-people-on-it-TPx6lNUNf4I?utm_source=freebase&utm_medium=referral"
   },
   "city:mexico:puebla:puebla": {
-    "image_url": "https://images.unsplash.com/photo-1653661279002-692227e35f0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQdWVibGElMjBNZXhpY298ZW58MXwwfHx8MTc3NzE0NDM3NXww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Anil Wasif",
-    "photographer_url": "https://unsplash.com/@24sussex?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-street-lined-with-colorful-buildings-and-tables-wDS9TxrYJpg?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1541033861714-bd82cd092c74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQdWVibGElMjBNZXhpY298ZW58MXwwfHx8MTc5MjIxMTExNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sandra Gabriel",
+    "photographer_url": "https://unsplash.com/@sandragabriel?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/assorted-color-peubla-standee-decors-6ZWreVoaNEk?utm_source=freebase&utm_medium=referral"
   },
   "city:mexico:queretaro:queretaro": {
-    "image_url": "https://images.unsplash.com/photo-1600185404121-336a156bc75f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxRdWVyZXRhcm8lMjBNZXhpY298ZW58MXwwfHx8MTc3NzE0NDM3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Jose Antonio Chávez Mendez",
-    "photographer_url": "https://unsplash.com/@josean?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/man-statue-near-brown-concrete-building-during-daytime-32zuGfq9XVk?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1512442827816-8e5a088619c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxRdWVyZXRhcm8lMjBNZXhpY298ZW58MXwwfHx8MTc5MjIxMTExOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Arturo Ruiz",
+    "photographer_url": "https://unsplash.com/@celtic_king?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/person-sitting-beside-brown-concrete-wall-facing-park-cars-jpKXOaxJ1Vw?utm_source=freebase&utm_medium=referral"
   },
   "city:mexico:quintana_roo:cancun": {
     "image_url": "https://images.unsplash.com/photo-1650927282131-2d44d32729bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxDYW5jdW4lMjBRdWludGFuYSUyMFJvb3xlbnwxfDB8fHwxNzc3MTU0MDc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -23608,6 +23608,12 @@
     "photographer_name": "Jorge Sá",
     "photographer_url": "https://unsplash.com/@jorgesa?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/aerial-view-of-houses-near-body-of-water-Tri_u7qeqGw?utm_source=freebase&utm_medium=referral"
+  },
+  "city:togo:centrale:sokode": {
+    "image_url": "https://images.unsplash.com/photo-1560165183-23a9178eb463?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTb2tvZGUlMjBDZW50cmFsZXxlbnwxfDB8fHwxNzkyMjExMDk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "L'Odyssée Belle",
+    "photographer_url": "https://unsplash.com/@lodyssee_belle?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/man-in-white-and-black-shirt-walking-in-front-if-store-TJGjTaT5jgg?utm_source=freebase&utm_medium=referral"
   },
   "city:togo:maritime:aneho": {
     "image_url": "https://images.unsplash.com/photo-1672675224932-00552a3ed77a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxBbmVobyUyMFRvZ298ZW58MXwwfHx8MTc4NjQyMzM1MXww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -33498,22 +33504,22 @@
     "source_url": "https://unsplash.com/photos/green-trees-under-blue-cloudy-sky-scenery-Kswnnx95_YU?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:mexico:puebla": {
-    "image_url": "https://images.unsplash.com/photo-1653661279002-692227e35f0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQdWVibGElMjBNZXhpY298ZW58MXwwfHx8MTc3NzE0NDM3NXww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Anil Wasif",
-    "photographer_url": "https://unsplash.com/@24sussex?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-street-lined-with-colorful-buildings-and-tables-wDS9TxrYJpg?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1541033861714-bd82cd092c74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQdWVibGElMjBNZXhpY298ZW58MXwwfHx8MTc5MjIxMTExNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sandra Gabriel",
+    "photographer_url": "https://unsplash.com/@sandragabriel?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/assorted-color-peubla-standee-decors-6ZWreVoaNEk?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:mexico:queretaro": {
-    "image_url": "https://images.unsplash.com/photo-1600185404121-336a156bc75f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxRdWVyZXRhcm8lMjBNZXhpY298ZW58MXwwfHx8MTc3NzE0NDM3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Jose Antonio Chávez Mendez",
-    "photographer_url": "https://unsplash.com/@josean?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/man-statue-near-brown-concrete-building-during-daytime-32zuGfq9XVk?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1512442827816-8e5a088619c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxRdWVyZXRhcm8lMjBNZXhpY298ZW58MXwwfHx8MTc5MjIxMTExOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Arturo Ruiz",
+    "photographer_url": "https://unsplash.com/@celtic_king?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/person-sitting-beside-brown-concrete-wall-facing-park-cars-jpKXOaxJ1Vw?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:mexico:quintana_roo": {
-    "image_url": "https://images.unsplash.com/photo-1603131747133-e95271822da5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxRdWludGFuYSUyMFJvbyUyME1leGljb3xlbnwxfDB8fHwxNzc3MTU0MDc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Tomas Martinez",
-    "photographer_url": "https://unsplash.com/@tomasmartinez?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/brown-wooden-beach-house-on-blue-sea-under-blue-sky-during-daytime-cfsXeT944zA?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1616423841125-8307665a0469?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxRdWludGFuYSUyMFJvbyUyME1leGljb3xlbnwxfDB8fHwxNzkyMjExMTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Aman",
+    "photographer_url": "https://unsplash.com/@ams_c?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-palm-trees-near-body-of-water-during-daytime-mzEyEp3syMI?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:mexico:san_luis_potosi": {
     "image_url": "https://images.unsplash.com/photo-1594693013781-b0d6dbcb59ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTYW4lMjBMdWlzJTIwUG90b3NpJTIwTWV4aWNvfGVufDF8MHx8fDE3ODQ5MDI1NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -37456,6 +37462,12 @@
     "photographer_name": "Jorge Sá",
     "photographer_url": "https://unsplash.com/@jorgesa?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/aerial-view-of-houses-near-body-of-water-Tri_u7qeqGw?utm_source=freebase&utm_medium=referral"
+  },
+  "subdivision:togo:savanes": {
+    "image_url": "https://images.unsplash.com/photo-1721011793681-abf40cebff04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYXZhbmVzJTIwVG9nb3xlbnwxfDB8fHwxNzkyMjExMTA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Omoniyi David",
+    "photographer_url": "https://unsplash.com/@mocream_coffee?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-street-with-a-bunch-of-umbrellas-on-the-side-of-it-syuGbgVO_2U?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:tonga:tongatapu": {
     "image_url": "https://images.unsplash.com/photo-1542007861864-933e1cb58376?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHw0fHxUb25nYXRhcHUlMjBUb25nYXxlbnwxfDB8fHwxNzg2NDIzMzcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
