@@ -2004,10 +2004,10 @@
     "source_url": "https://unsplash.com/photos/yellow-and-green-concrete-building-rbVireqDBtg?utm_source=freebase&utm_medium=referral"
   },
   "city:belize:cayo:spanish_lookout": {
-    "image_url": "https://images.unsplash.com/photo-1756378293581-a4c2a76f71f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTcGFuaXNoJTIwTG9va291dCUyMENheW98ZW58MXwwfHx8MTc3NzE5ODE3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "no_second_best",
-    "photographer_url": "https://unsplash.com/@no_second_best?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/coastal-cliffs-meet-the-blue-ocean-under-a-clear-sky-m1WaNv_y3SA?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1482912308370-955c8b0c3b27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTcGFuaXNoJTIwTG9va291dCUyMENheW98ZW58MXwwfHx8MTc5MjI5Nzk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dave Weatherall",
+    "photographer_url": "https://unsplash.com/@thattravelblog?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-brown-concrete-building-near-sea-during-daytime-g6OYToBRGB0?utm_source=freebase&utm_medium=referral"
   },
   "city:belize:corozal:consejo": {
     "image_url": "https://images.unsplash.com/photo-1760200614373-4168b91e2890?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxDb25zZWpvJTIwQ29yb3phbHxlbnwxfDB8fHwxNzgzMTM4MDE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -2022,10 +2022,10 @@
     "source_url": "https://unsplash.com/photos/reflective-water-and-blue-sky-on-a-sunny-day-UjUnmrJGyP4?utm_source=freebase&utm_medium=referral"
   },
   "city:belize:corozal:sarteneja": {
-    "image_url": "https://images.unsplash.com/photo-1585531455743-0c272a0b8cd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxTYXJ0ZW5lamElMjBCZWxpemV8ZW58MXwwfHx8MTc3NzE5ODE4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Meritt Thomas",
-    "photographer_url": "https://unsplash.com/@merittthomas?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/blue-car-parked-in-front-of-brown-concrete-building-m-WhWVdsaEw?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1592237281373-16d80309335c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYXJ0ZW5lamElMjBCZWxpemV8ZW58MXwwfHx8MTc5MjI5Nzk5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "reisetopia",
+    "photographer_url": "https://unsplash.com/@reisetopia?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-wooden-gazebo-on-beach-during-daytime-KbqaqW73_cg?utm_source=freebase&utm_medium=referral"
   },
   "city:belize:orange_walk:orange_walk": {
     "image_url": "https://images.unsplash.com/photo-1603776766489-150a0c4e9aab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxPcmFuZ2UlMjBXYWxrJTIwQmVsaXplfGVufDF8MHx8fDE3NzcxOTgxODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -25043,6 +25043,12 @@
     "photographer_url": "https://unsplash.com/@tuannguyen728?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/aerial-photography-of-boats-sailing-on-sea-at-daytime-HJpS_vj1VWo?utm_source=freebase&utm_medium=referral"
   },
+  "city:vietnam:hai_phong:hai_duong": {
+    "image_url": "https://images.unsplash.com/photo-1528127269322-539801943592?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxIYWklMjBEdW9uZyUyMFZpZXRuYW18ZW58MXwwfHx8MTc5MjI5Nzk3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Ammie Ngo",
+    "photographer_url": "https://unsplash.com/@ammiengo?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/high-angle-photography-of-boats-on-water-near-hill-during-daytime-vcu-OZBxxRk?utm_source=freebase&utm_medium=referral"
+  },
   "city:vietnam:hai_phong:hai_phong": {
     "image_url": "https://images.unsplash.com/photo-1595875421347-3da1b04ed7b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxIYWklMjBQaG9uZyUyMFZpZXRuYW18ZW58MXwwfHx8MTc5MDkzNDM0OHww&ixlib=rb-4.1.0&q=80&w=1080",
     "photographer_name": "Thao Ho",
@@ -25246,6 +25252,12 @@
     "photographer_name": "Yousaf Khalil",
     "photographer_url": "https://unsplash.com/@yousafk279?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/man-in-red-and-white-stripe-long-sleeve-shirt-standing-beside-white-wooden-fence-during-daytime-UAN6r72ElKs?utm_source=freebase&utm_medium=referral"
+  },
+  "city:vietnam:vinh_long:tra_vinh": {
+    "image_url": "https://images.unsplash.com/photo-1791118371348-b1170c21bc25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUcmElMjBWaW5oJTIwVmluaCUyMExvbmd8ZW58MXwwfHx8MTc5MjI5Nzk4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Thảo Phạm",
+    "photographer_url": "https://unsplash.com/@thora_phum?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/ornate-temple-altar-with-golden-statue-dOujEL9lEVA?utm_source=freebase&utm_medium=referral"
   },
   "city:vietnam:vinh_long:vinh_long": {
     "image_url": "https://images.unsplash.com/photo-1441839438427-ad31d742a202?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxWaW5oJTIwTG9uZyUyMFZpZXRuYW18ZW58MXwwfHx8MTc4NjY3NjQ2MXww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -38560,6 +38572,12 @@
     "photographer_name": "Atlas Green",
     "photographer_url": "https://unsplash.com/@atlas_green?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/boy-with-black-stain-on-hand-hVdZBDs2an0?utm_source=freebase&utm_medium=referral"
+  },
+  "subdivision:zambia:copperbelt": {
+    "image_url": "https://images.unsplash.com/photo-1753771145085-d71e89c23092?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDb3BwZXJiZWx0JTIwWmFtYmlhfGVufDF8MHx8fDE3OTIyOTc5ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sikwe Scarter",
+    "photographer_url": "https://unsplash.com/@sikwe?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/piles-of-copper-sheets-stacked-for-storage-d61RBncf9k8?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:zambia:eastern": {
     "image_url": "https://images.unsplash.com/photo-1511355823905-f042687908eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxFYXN0ZXJuJTIwWmFtYmlhfGVufDF8MHx8fDE3ODY2ODQwNTh8MA&ixlib=rb-4.1.0&q=80&w=1080",

@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:zambia:copperbelt",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1753771145085-d71e89c23092?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDb3BwZXJiZWx0JTIwWmFtYmlhfGVufDF8MHx8fDE3OTIyOTc5ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sikwe Scarter",
+    "photographer_url": "https://unsplash.com/@sikwe?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/piles-of-copper-sheets-stacked-for-storage-d61RBncf9k8?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-10-18T04:33:04Z"
   }
 ]
