@@ -2279,6 +2279,12 @@
     "photographer_url": "https://unsplash.com/@utenzy?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/a-large-white-building-sitting-on-top-of-a-hill-XdSM1KUimyY?utm_source=freebase&utm_medium=referral"
   },
+  "city:bhutan:trashiyangtse:trashiyangtse": {
+    "image_url": "https://images.unsplash.com/photo-1598869012638-f5351b49498f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUcmFzaGl5YW5ndHNlJTIwQmh1dGFufGVufDF8MHx8fDE3OTI0NDIxMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Gaurav Bagdi",
+    "photographer_url": "https://unsplash.com/@dfyngrvty?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-brown-concrete-house-on-rocky-mountain-during-daytime-OzAPEQPMcPA?utm_source=freebase&utm_medium=referral"
+  },
   "city:bhutan:trongsa:trongsa": {
     "image_url": "https://images.unsplash.com/photo-1729176989417-10cab5aa9076?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxUcm9uZ3NhJTIwQmh1dGFufGVufDF8MHx8fDE3ODAxNzk0NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
     "photographer_name": "Raul Taciu",
@@ -4734,10 +4740,10 @@
     "source_url": "https://unsplash.com/photos/green-trees-beside-blue-sea-xGhaXZtQb1s?utm_source=freebase&utm_medium=referral"
   },
   "city:costa_rica:limon:siquirres": {
-    "image_url": "https://images.unsplash.com/photo-1657375444545-b9ea2bcd605b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTaXF1aXJyZXMlMjBDb3N0YSUyMFJpY2F8ZW58MXwwfHx8MTc3NzMwMDE1NXww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Yoel Salazar",
-    "photographer_url": "https://unsplash.com/@yostev?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-small-bird-perched-on-a-branch-l7AzKs1255o?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1536709017021-ce8f99c17e38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTaXF1aXJyZXMlMjBDb3N0YSUyMFJpY2F8ZW58MXwwfHx8MTc5MjQ0MjEyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Atanas Malamov",
+    "photographer_url": "https://unsplash.com/@atanasmalamov?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-beside-blue-sea-xGhaXZtQb1s?utm_source=freebase&utm_medium=referral"
   },
   "city:costa_rica:limon:tortuguero": {
     "image_url": "https://images.unsplash.com/photo-1580182019279-9c9a88350737?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUb3J0dWd1ZXJvJTIwQ29zdGElMjBSaWNhfGVufDF8MHx8fDE3NzczMDkwOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -4752,10 +4758,10 @@
     "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-city-with-tall-buildings--CJvgl9hmsw?utm_source=freebase&utm_medium=referral"
   },
   "city:costa_rica:puntarenas:dominical": {
-    "image_url": "https://images.unsplash.com/photo-1694137959967-a22606cd0dec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxEb21pbmljYWwlMjBQdW50YXJlbmFzfGVufDF8MHx8fDE3NzczMTk0MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Chalo Garcia",
-    "photographer_url": "https://unsplash.com/@photosbychalo?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-beach-and-a-body-of-water-jaqTyfCw2J8?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1719718924996-3bdb483c37cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxEb21pbmljYWwlMjBQdW50YXJlbmFzfGVufDF8MHx8fDE3OTI0NDIxMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Juan Pablo Mascanfroni",
+    "photographer_url": "https://unsplash.com/@juanmascan1978?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-birds-eye-view-of-a-beach-and-ocean-IjaMUNftki0?utm_source=freebase&utm_medium=referral"
   },
   "city:costa_rica:puntarenas:esparza": {
     "image_url": "https://images.unsplash.com/photo-1536709017021-ce8f99c17e38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxFc3BhcnphJTIwQ29zdGElMjBSaWNhfGVufDF8MHx8fDE3ODIzMzIzMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -4770,10 +4776,10 @@
     "source_url": "https://unsplash.com/photos/green-trees-near-blue-sea-under-blue-sky-during-daytime-g0zUgpRaAcs?utm_source=freebase&utm_medium=referral"
   },
   "city:costa_rica:puntarenas:jaco": {
-    "image_url": "https://images.unsplash.com/photo-1615681666366-e8a35535fb72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxKYWNvJTIwUHVudGFyZW5hc3xlbnwxfDB8fHwxNzc3MzE5NDE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Chalo Garcia",
-    "photographer_url": "https://unsplash.com/@photosbychalo?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/body-of-water-during-sunset-w1D0_Gs7ttg?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1601922369043-c1e6808d9102?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxKYWNvJTIwUHVudGFyZW5hc3xlbnwxfDB8fHwxNzkyNDQyMTM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Jan Weber",
+    "photographer_url": "https://unsplash.com/@itsjanweber?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/people-surfing-on-sea-waves-during-daytime-dIjBpor0Anw?utm_source=freebase&utm_medium=referral"
   },
   "city:costa_rica:puntarenas:monteverde": {
     "image_url": "https://images.unsplash.com/photo-1680708610230-2c38bb627653?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxNb250ZXZlcmRlJTIwUHVudGFyZW5hc3xlbnwxfDB8fHwxNzc3MzI3Nzg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -27845,6 +27851,12 @@
     "photographer_url": "https://unsplash.com/@utenzy?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/a-large-white-building-sitting-on-top-of-a-hill-XdSM1KUimyY?utm_source=freebase&utm_medium=referral"
   },
+  "subdivision:bhutan:trashiyangtse": {
+    "image_url": "https://images.unsplash.com/photo-1598869012638-f5351b49498f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxUcmFzaGl5YW5ndHNlJTIwQmh1dGFufGVufDF8MHx8fDE3OTI0NDIxMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Gaurav Bagdi",
+    "photographer_url": "https://unsplash.com/@dfyngrvty?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-brown-concrete-house-on-rocky-mountain-during-daytime-OzAPEQPMcPA?utm_source=freebase&utm_medium=referral"
+  },
   "subdivision:bhutan:trongsa": {
     "image_url": "https://images.unsplash.com/photo-1729176989417-10cab5aa9076?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxUcm9uZ3NhJTIwQmh1dGFufGVufDF8MHx8fDE3ODAxNzk0NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
     "photographer_name": "Raul Taciu",
@@ -29166,10 +29178,10 @@
     "source_url": "https://unsplash.com/photos/green-trees-on-seashore-during-daytime-zqpq2y51WvQ?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:costa_rica:puntarenas": {
-    "image_url": "https://images.unsplash.com/photo-1651464661808-9706a6e8289d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQdW50YXJlbmFzJTIwQ29zdGElMjBSaWNhfGVufDF8MHx8fDE3NzczMDkwOTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Christian Hess Araya",
-    "photographer_url": "https://unsplash.com/@chessacr?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-fish-swimming-in-the-water-nBLQJIVcH-s?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1719719595774-67f961da5d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQdW50YXJlbmFzJTIwQ29zdGElMjBSaWNhfGVufDF8MHx8fDE3OTI0NDIxMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Juan Pablo Mascanfroni",
+    "photographer_url": "https://unsplash.com/@juanmascan1978?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-beach-and-ocean-vuP4OKgShnw?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:costa_rica:san_jose": {
     "image_url": "https://images.unsplash.com/photo-1682963847132-1923d1e7928a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYW4lMjBKb3NlJTIwQ29zdGElMjBSaWNhfGVufDF8MHx8fDE3OTE2NTI4NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
