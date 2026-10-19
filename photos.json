@@ -2165,6 +2165,12 @@
     "photographer_url": "https://unsplash.com/@djtearsplk?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/man-in-sunglasses-adjusts-them-against-blue-background-iaipxV2Vybc?utm_source=freebase&utm_medium=referral"
   },
+  "city:benin:zou:bohicon": {
+    "image_url": "https://images.unsplash.com/photo-1580654842703-532c62fd0144?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCb2hpY29uJTIwWm91fGVufDF8MHx8fDE3OTI0MTU2NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Camille Brodard",
+    "photographer_url": "https://unsplash.com/@kmile_ch?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-black-wooden-store-front-AvKhrx-QMHM?utm_source=freebase&utm_medium=referral"
+  },
   "city:bhutan:bumthang:jakar": {
     "image_url": "https://images.unsplash.com/photo-1772702697047-24deed5a0e96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxKYWthciUyMEJ1bXRoYW5nfGVufDF8MHx8fDE3ODAxNTc5NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
     "photographer_name": "Pema Gyamtsho",
@@ -4692,10 +4698,10 @@
     "source_url": "https://unsplash.com/photos/people-walking-on-grass-field-during-golden-hour-vOBZ84S6BV8?utm_source=freebase&utm_medium=referral"
   },
   "city:costa_rica:limon:cahuita": {
-    "image_url": "https://images.unsplash.com/photo-1616890069499-f05321ca20fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDYWh1aXRhJTIwQ29zdGElMjBSaWNhfGVufDF8MHx8fDE3NzcyNzkzMzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Adrián Valverde",
-    "photographer_url": "https://unsplash.com/@adrianvalverdem?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/brown-monkey-on-tree-branch-during-daytime--TvZ6VB915M?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1536709017021-ce8f99c17e38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDYWh1aXRhJTIwQ29zdGElMjBSaWNhfGVufDF8MHx8fDE3OTI0MTU2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Atanas Malamov",
+    "photographer_url": "https://unsplash.com/@atanasmalamov?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-beside-blue-sea-xGhaXZtQb1s?utm_source=freebase&utm_medium=referral"
   },
   "city:costa_rica:limon:guacimo": {
     "image_url": "https://images.unsplash.com/photo-1611223156134-07ade11dfe6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxHdWFjaW1vJTIwQ29zdGElMjBSaWNhfGVufDF8MHx8fDE3ODIzMjIwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -4704,16 +4710,16 @@
     "source_url": "https://unsplash.com/photos/green-mountain-under-blue-sky-and-white-clouds-during-daytime-AL8LzIpl7YI?utm_source=freebase&utm_medium=referral"
   },
   "city:costa_rica:limon:guapiles": {
-    "image_url": "https://images.unsplash.com/photo-1661670014292-6f5953f03ba9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxHdWFwaWxlcyUyMExpbW9ufGVufDF8MHx8fDE3NzcyODg4MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "MiguelPhoto",
-    "photographer_url": "https://unsplash.com/@miguelphoto?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-pile-of-limes-HABEO_t2S_Q?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1588514206468-9657a68c7b95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxHdWFwaWxlcyUyMExpbW9ufGVufDF8MHx8fDE3OTI0MTU2NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Shaun Meintjes",
+    "photographer_url": "https://unsplash.com/@shaunmcreatives?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/sliced-lemon-on-white-background-c5_N5ak_kJU?utm_source=freebase&utm_medium=referral"
   },
   "city:costa_rica:limon:limon": {
-    "image_url": "https://images.unsplash.com/photo-1634772801856-9f176c5b58be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxMaW1vbiUyMENvc3RhJTIwUmljYXxlbnwxfDB8fHwxNzc3Mjc5MzM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Chalo Garcia",
-    "photographer_url": "https://unsplash.com/@photosbychalo?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-small-town-next-to-the-ocean-1M_vop6Ec9U?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1610944054588-c406989ad20e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMaW1vbiUyMENvc3RhJTIwUmljYXxlbnwxfDB8fHwxNzkyNDE1NjQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Tim Jones",
+    "photographer_url": "https://unsplash.com/@timajones?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-on-seashore-during-daytime-zqpq2y51WvQ?utm_source=freebase&utm_medium=referral"
   },
   "city:costa_rica:limon:matina": {
     "image_url": "https://images.unsplash.com/photo-1592593210599-492c25d93ef9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNYXRpbmElMjBDb3N0YSUyMFJpY2F8ZW58MXwwfHx8MTc4MjMyMjAyMnww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -4722,10 +4728,10 @@
     "source_url": "https://unsplash.com/photos/brown-wooden-bridge-over-green-mountains-during-daytime-DFfNVwhOIWQ?utm_source=freebase&utm_medium=referral"
   },
   "city:costa_rica:limon:puerto_viejo_de_talamanca": {
-    "image_url": "https://images.unsplash.com/photo-1608478498872-508fd13e7b1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxQdWVydG8lMjBWaWVqbyUyMERlJTIwVGFsYW1hbmNhJTIwQ29zdGElMjBSaWNhfGVufDF8MHx8fDE3NzczMDAxNTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Robin Canfield",
-    "photographer_url": "https://unsplash.com/@robincanfield?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/green-trees-beside-river-during-daytime-i3XOJ-3ssqg?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1536709017021-ce8f99c17e38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQdWVydG8lMjBWaWVqbyUyMERlJTIwVGFsYW1hbmNhJTIwQ29zdGElMjBSaWNhfGVufDF8MHx8fDE3OTI0MTU2NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Atanas Malamov",
+    "photographer_url": "https://unsplash.com/@atanasmalamov?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-beside-blue-sea-xGhaXZtQb1s?utm_source=freebase&utm_medium=referral"
   },
   "city:costa_rica:limon:siquirres": {
     "image_url": "https://images.unsplash.com/photo-1657375444545-b9ea2bcd605b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTaXF1aXJyZXMlMjBDb3N0YSUyMFJpY2F8ZW58MXwwfHx8MTc3NzMwMDE1NXww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -29154,10 +29160,10 @@
     "source_url": "https://unsplash.com/photos/a-very-tall-mountain-with-a-very-cloudy-sky-above-it-LgrGHYZzBSk?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:costa_rica:limon": {
-    "image_url": "https://images.unsplash.com/photo-1634772801856-9f176c5b58be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxMaW1vbiUyMENvc3RhJTIwUmljYXxlbnwxfDB8fHwxNzc3Mjc5MzM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Chalo Garcia",
-    "photographer_url": "https://unsplash.com/@photosbychalo?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/an-aerial-view-of-a-small-town-next-to-the-ocean-1M_vop6Ec9U?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1610944054588-c406989ad20e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxMaW1vbiUyMENvc3RhJTIwUmljYXxlbnwxfDB8fHwxNzkyNDE1NjQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Tim Jones",
+    "photographer_url": "https://unsplash.com/@timajones?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-trees-on-seashore-during-daytime-zqpq2y51WvQ?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:costa_rica:puntarenas": {
     "image_url": "https://images.unsplash.com/photo-1651464661808-9706a6e8289d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQdW50YXJlbmFzJTIwQ29zdGElMjBSaWNhfGVufDF8MHx8fDE3NzczMDkwOTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
