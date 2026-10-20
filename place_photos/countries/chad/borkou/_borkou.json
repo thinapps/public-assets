@@ -1,10 +1,10 @@
 [
   {
     "place_id": "subdivision:chad:borkou",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1783026827841-5f7482d4d422?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCb3Jrb3UlMjBDaGFkfGVufDF8MHx8fDE3OTI1NDAzNDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Baptiste Riethmann",
+    "photographer_url": "https://unsplash.com/@du_sable_et_du_vent?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/three-women-walk-on-a-dirt-road-past-mud-brick-buildings-2NxCiT_avAg?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-10-20T23:52:27Z"
   }
 ]
