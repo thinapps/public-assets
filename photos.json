@@ -1830,10 +1830,10 @@
     "source_url": "https://unsplash.com/photos/river-in-between-houses-during-daytime-oCIat8vWkEk?utm_source=freebase&utm_medium=referral"
   },
   "city:belgium:flanders:ostend": {
-    "image_url": "https://images.unsplash.com/photo-1653385024126-d2a52181bd83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxPc3RlbmQlMjBGbGFuZGVyc3xlbnwxfDB8fHwxNzc3NDczMjAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Sergey Sukhov",
-    "photographer_url": "https://unsplash.com/@sukhov?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-river-running-through-a-city-next-to-tall-buildings-IVSHeVFZ4ac?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1576459166724-f795adce4603?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxPc3RlbmQlMjBGbGFuZGVyc3xlbnwxfDB8fHwxNzkyNzA0OTMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Dan V",
+    "photographer_url": "https://unsplash.com/@dsvi?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/people-near-buildings-during-daytime-bUDNYjDygU0?utm_source=freebase&utm_medium=referral"
   },
   "city:belgium:flanders:roeselare": {
     "image_url": "https://images.unsplash.com/photo-1642448217803-6154bf9a1151?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxSb2VzZWxhcmUlMjBCZWxnaXVtfGVufDF8MHx8fDE3Nzc2NjQ1MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -6496,6 +6496,12 @@
     "photographer_name": "Gary Runn",
     "photographer_url": "https://unsplash.com/@garunn?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/green-trees-beside-sea-during-daytime-HhHxc_Eo25w?utm_source=freebase&utm_medium=referral"
+  },
+  "city:fiji:western:sigatoka": {
+    "image_url": "https://images.unsplash.com/photo-1718152220071-dc4396f654fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTaWdhdG9rYSUyMEZpaml8ZW58MXwwfHx8MTc5MjcwNDkyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Josh Withers",
+    "photographer_url": "https://unsplash.com/@joshwithers?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-people-standing-on-top-of-a-sandy-beach-jXr1eqiuUyQ?utm_source=freebase&utm_medium=referral"
   },
   "city:finland:aland:mariehamn": {
     "image_url": "https://images.unsplash.com/photo-1596932366594-b5d2d28d4696?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxNYXJpZWhhbW4lMjBGaW5sYW5kfGVufDF8MHx8fDE3Nzc5OTEzOTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -27732,10 +27738,10 @@
     "source_url": "https://unsplash.com/photos/brown-concrete-building-beside-river-during-daytime-5eMuDNuM08o?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:belgium:wallonia": {
-    "image_url": "https://images.unsplash.com/photo-1726087526641-adb7957727c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxXYWxsb25pYSUyMEJlbGdpdW18ZW58MXwwfHx8MTc3NzQ3MzIwNnww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Coralie Meurice",
-    "photographer_url": "https://unsplash.com/@cmeurice?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-sheep-looking-through-a-fence-at-the-camera-INOZB7m2pYM?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1599619792041-e1e516ebfe1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxXYWxsb25pYSUyMEJlbGdpdW18ZW58MXwwfHx8MTc5MjcwNDkzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Michael Maga-ao",
+    "photographer_url": "https://unsplash.com/@michaelmagaao?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-city-during-daytime-n6VdPO3csOo?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:belize:belize": {
     "image_url": "https://images.unsplash.com/photo-1585535284003-0483dbc54daa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCZWxpemUlMjBCZWxpemV8ZW58MXwwfHx8MTc5MjI2OTM4NHww&ixlib=rb-4.1.0&q=80&w=1080",
