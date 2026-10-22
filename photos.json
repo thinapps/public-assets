@@ -1734,16 +1734,16 @@
     "source_url": "https://unsplash.com/photos/a-couple-of-people-that-are-sitting-in-the-grass-JjVxHP1Aad0?utm_source=freebase&utm_medium=referral"
   },
   "city:belgium:brussels_capital:brussels": {
-    "image_url": "https://images.unsplash.com/photo-1662577572427-f7250de6a9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCcnVzc2VscyUyMEJydXNzZWxzJTIwQ2FwaXRhbHxlbnwxfDB8fHwxNzc3NDUxNzEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Matthias Münning",
-    "photographer_url": "https://unsplash.com/@muenningmedia?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-few-skyscrapers-in-a-city-XI81jDO10RY?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1575845664732-ee40fdc525a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCcnVzc2VscyUyMEJydXNzZWxzJTIwQ2FwaXRhbHxlbnwxfDB8fHwxNzkyNjQ0MjQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "François Genon",
+    "photographer_url": "https://unsplash.com/@genon2?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/photography-of-buildings-during-daytime-TUthZjfR3Ps?utm_source=freebase&utm_medium=referral"
   },
   "city:belgium:brussels_capital:ixelles": {
-    "image_url": "https://images.unsplash.com/photo-1653940855875-95c9f53778ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxJeGVsbGVzJTIwQnJ1c3NlbHMlMjBDYXBpdGFsfGVufDF8MHx8fDE3Nzc0NTE3MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "henri buenen",
-    "photographer_url": "https://unsplash.com/@henri_b?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-large-building-with-a-lot-of-windows-on-top-of-it-OQNVJzKbWEY?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1541503506238-58dbe11ef244?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxJeGVsbGVzJTIwQmVsZ2l1bXxlbnwxfDB8fHwxNzkyNjQ0MjQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alex Vasey",
+    "photographer_url": "https://unsplash.com/@alexrvasey?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-buildings-zMbxBDg4qBc?utm_source=freebase&utm_medium=referral"
   },
   "city:belgium:brussels_capital:saint_gilles": {
     "image_url": "https://images.unsplash.com/photo-1788469161958-60a29310c780?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTYWludCUyMEdpbGxlcyUyMEJlbGdpdW18ZW58MXwwfHx8MTc4OTIxMDQzOXww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -5662,6 +5662,12 @@
     "photographer_name": "Fiqih Alfarish",
     "photographer_url": "https://unsplash.com/@fiqihalfarish?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/a-group-of-three-men-standing-next-to-each-other-fW-f6Sg8nkc?utm_source=freebase&utm_medium=referral"
+  },
+  "city:ecuador:orellana:puerto_francisco_de_orellana": {
+    "image_url": "https://images.unsplash.com/photo-1603854690030-13b18ce2a495?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxQdWVydG8lMjBGcmFuY2lzY28lMjBEZSUyME9yZWxsYW5hJTIwRWN1YWRvcnxlbnwxfDB8fHwxNzkyNjQ0MjM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Andres Medina",
+    "photographer_url": "https://unsplash.com/@kiyoshi_jpg?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/city-skyline-near-sea-under-cloudy-sky-during-daytime-e_AeYfnuffY?utm_source=freebase&utm_medium=referral"
   },
   "city:ecuador:pastaza:puyo": {
     "image_url": "https://images.unsplash.com/photo-1681557732648-b05b197ed049?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQdXlvJTIwUGFzdGF6YXxlbnwxfDB8fHwxNzc5ODk4NTg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -27708,16 +27714,16 @@
     "source_url": "https://unsplash.com/photos/a-couple-of-people-that-are-sitting-in-the-grass-JjVxHP1Aad0?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:belgium:brussels_capital": {
-    "image_url": "https://images.unsplash.com/photo-1662577572427-f7250de6a9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCcnVzc2VscyUyMENhcGl0YWwlMjBCZWxnaXVtfGVufDF8MHx8fDE3Nzc0NTE3MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Matthias Münning",
-    "photographer_url": "https://unsplash.com/@muenningmedia?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-few-skyscrapers-in-a-city-XI81jDO10RY?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1548092304-e0205cb0031b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCcnVzc2VscyUyMENhcGl0YWwlMjBCZWxnaXVtfGVufDF8MHx8fDE3OTI2NDQyNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Stephanie LeBlanc",
+    "photographer_url": "https://unsplash.com/@sleblanc01?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-concrete-buildings-suTr28QV4wU?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:belgium:flanders": {
-    "image_url": "https://images.unsplash.com/photo-1666170001373-2689649c3376?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxGbGFuZGVycyUyMEJlbGdpdW18ZW58MXwwfHx8MTc3NzQ1MTcxNXww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Eduard Delputte",
-    "photographer_url": "https://unsplash.com/@edelputte?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-castle-with-a-moat-x2zm_EWNB0o?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1601961208755-3519c8a31ded?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxGbGFuZGVycyUyMEJlbGdpdW18ZW58MXwwfHx8MTc5MjY0NDI0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Despina Galani",
+    "photographer_url": "https://unsplash.com/@despinagalani?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/brown-concrete-building-beside-river-during-daytime-5eMuDNuM08o?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:belgium:wallonia": {
     "image_url": "https://images.unsplash.com/photo-1726087526641-adb7957727c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxXYWxsb25pYSUyMEJlbGdpdW18ZW58MXwwfHx8MTc3NzQ3MzIwNnww&ixlib=rb-4.1.0&q=80&w=1080",
