@@ -1,10 +1,10 @@
 [
   {
     "place_id": "city:greece:attica:petroupoli",
-    "image_url": "",
-    "photographer_name": "",
-    "photographer_url": "",
-    "source_url": "",
-    "cached_at": ""
+    "image_url": "https://images.unsplash.com/photo-1601581875039-e899893d520c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxQZXRyb3Vwb2xpJTIwR3JlZWNlfGVufDF8MHx8fDE3OTI3NTU0ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Johnny Africa",
+    "photographer_url": "https://unsplash.com/@johnnyafrica?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/pink-flower-tree-on-white-concrete-building-qvdGgOwgw1Q?utm_source=freebase&utm_medium=referral",
+    "cached_at": "2026-10-23T11:38:00Z"
   }
 ]
