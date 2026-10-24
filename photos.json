@@ -924,10 +924,10 @@
     "source_url": "https://unsplash.com/photos/a-view-of-a-sunset-through-a-fence-8bpR_j-vH58?utm_source=freebase&utm_medium=referral"
   },
   "city:austria:salzburg:bad_gastein": {
-    "image_url": "https://images.unsplash.com/photo-1757535466942-bdc6afab7c36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxCYWQlMjBHYXN0ZWluJTIwQXVzdHJpYXxlbnwxfDB8fHwxNzc3NjMyMzYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Bart Ros",
-    "photographer_url": "https://unsplash.com/@bartros?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/cable-cars-ascend-over-cows-grazing-in-a-mountain-village-wwkarUAgPqM?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1535653831895-6eeaaa50953c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxCYWQlMjBHYXN0ZWluJTIwU2FsemJ1cmd8ZW58MXwwfHx8MTc5Mjg3NDk0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Alex Hufnagl",
+    "photographer_url": "https://unsplash.com/@dobiefigh?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-view-of-village-at-daytime-oExluu6sL2Q?utm_source=freebase&utm_medium=referral"
   },
   "city:austria:salzburg:hallein": {
     "image_url": "https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxIYWxsZWluJTIwQXVzdHJpYXxlbnwxfDB8fHwxNzkyNTIzODExfDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -978,10 +978,10 @@
     "source_url": "https://unsplash.com/photos/a-view-of-a-city-with-mountains-in-the-background-XDtinlzNVN0?utm_source=freebase&utm_medium=referral"
   },
   "city:austria:styria:schladming": {
-    "image_url": "https://images.unsplash.com/photo-1767537551488-770e15b15173?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxTY2hsYWRtaW5nJTIwU3R5cmlhfGVufDF8MHx8fDE3Nzc2NDM3OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Andy Arbeit",
-    "photographer_url": "https://unsplash.com/@izeberg?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/half-timbered-house-with-blue-shutters-on-a-hill-wolRTOHxOKk?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1616178691802-6c5a2ceca961?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTY2hsYWRtaW5nJTIwU3R5cmlhfGVufDF8MHx8fDE3OTI4NzQ5NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Andrew Meßner",
+    "photographer_url": "https://unsplash.com/@scho_and?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-brown-cow-on-green-grass-field-during-daytime-YL9zE6HDU9A?utm_source=freebase&utm_medium=referral"
   },
   "city:austria:tyrol:hall_in_tirol": {
     "image_url": "https://images.unsplash.com/photo-1769096188897-2153e5501359?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxIYWxsJTIwSW4lMjBUaXJvbCUyMFR5cm9sfGVufDF8MHx8fDE3OTI1NTc5NDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -11470,6 +11470,12 @@
     "photographer_name": "Fiona Dodd",
     "photographer_url": "https://unsplash.com/@funen99?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/a-branch-with-water-drops-hanging-from-it-tw0quBC0MO0?utm_source=freebase&utm_medium=referral"
+  },
+  "city:ireland:mayo:castlebar": {
+    "image_url": "https://images.unsplash.com/photo-1557843961-b589ce207737?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxDYXN0bGViYXIlMjBJcmVsYW5kfGVufDF8MHx8fDE3OTI4NzQ5MzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sylvia Szekely",
+    "photographer_url": "https://unsplash.com/@sylviacreate?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-rock-cliff-beside-body-of-water-tfdG9vbKdzo?utm_source=freebase&utm_medium=referral"
   },
   "city:ireland:mayo:westport": {
     "image_url": "https://images.unsplash.com/photo-1755471538677-d5f9ea17282c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxXZXN0cG9ydCUyMElyZWxhbmR8ZW58MXwwfHx8MTc3ODc1MDA2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -25494,10 +25500,10 @@
     "source_url": "https://unsplash.com/photos/a-large-body-of-water-with-a-mountain-in-the-background-s0-pTq-FjYc?utm_source=freebase&utm_medium=referral"
   },
   "country:albania": {
-    "image_url": "https://images.unsplash.com/photo-1623167278440-fd212b72e1bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBbGJhbmlhfGVufDF8MHx8fDE3Nzc2MDk5MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Johnny Africa",
-    "photographer_url": "https://unsplash.com/@johnnyafrica?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/boat-on-sea-near-rocky-mountain-during-daytime-0hSua1F0-P0?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1529592767881-c6bb394eb83d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxBbGJhbmlhfGVufDF8MHx8fDE3OTI4NzQ5NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Polina Rytova",
+    "photographer_url": "https://unsplash.com/@polina_art?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/red-boat-on-body-of-water-near-brown-wooden-foot-board-s8meKJ9iUT8?utm_source=freebase&utm_medium=referral"
   },
   "country:algeria": {
     "image_url": "https://images.unsplash.com/photo-1575664274476-e02d99195164?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxBbGdlcmlhfGVufDF8MHx8fDE3ODAyMzY4MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
