@@ -67,7 +67,7 @@ The current scheduled workflow is intentionally bounded and product-specific. Pr
 
 This repository intentionally contains `.github/workflows/update-place-photos.yml`.
 
-The workflow currently runs every three hours at 17 minutes past the hour and also supports `workflow_dispatch`; normal commits do not directly trigger it.
+The workflow currently runs every four hours at 17 minutes past the hour and also supports `workflow_dispatch`; normal commits do not directly trigger it.
 
 - Do not add `push`, `pull_request`, change or remove the scheduled cron, or add other triggers without explicit approval.
 - Do not use GitHub Actions as a helper mechanism for normal repository edits.
