@@ -8,7 +8,7 @@ It keeps country, subdivision, and city photo paths synchronized with the privat
 
 ## Schedule and manual runs
 
-The workflow runs automatically every three hours at 17 minutes past the hour using the UTC cron expression `17 */3 * * *`. It can also be started on demand from the GitHub Actions tab with `workflow_dispatch`.
+The workflow runs automatically every four hours at 17 minutes past the hour using the UTC cron expression `17 */4 * * *`. It can also be started on demand from the GitHub Actions tab with `workflow_dispatch`.
 
 Scheduled runs use the normal default limit of `20`, so they remain bounded rather than attempting the full queue. Manual runs can override that limit when deliberate maintenance requires a different batch size.
 
@@ -157,7 +157,7 @@ For larger manual batches, increase `limit` carefully. Each place can generate m
 
 ## Manual maintenance
 
-Use a manual `workflow_dispatch` run when you want an immediate on-demand update or a deliberately different batch size. Scheduled runs already perform the same synchronization, generation, lookup, versioning, and commit sequence every three hours with the default bounded limit.
+Use a manual `workflow_dispatch` run when you want an immediate on-demand update or a deliberately different batch size. Scheduled runs already perform the same synchronization, generation, lookup, versioning, and commit sequence every four hours with the default bounded limit.
 
 For local diagnostics, `scripts/generate_place_photos.py` supports `--dry-run`. A dry run may still perform Unsplash searches for repair, fill, and refresh candidates, but it does not persist selected photo metadata or trigger download-location tracking. Keep diagnostic limits small and review the output before running without `--dry-run`.
 
