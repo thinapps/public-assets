@@ -84,7 +84,7 @@ Never:
 
 The Unsplash API is used only to find place imagery. The resulting experience is a place-information use case rather than an Unsplash clone, stock-photo browser, or general photo-download service.
 
-The generator searches for a specific known place, considers a limited set of relevant results, and chooses one photo for that place. The workflow currently runs automatically every three hours at 17 minutes past the hour using `17 */3 * * *`, and it can also be run manually with `workflow_dispatch`. Scheduled runs retain the normal bounded limit of `20` attempted entries.
+The generator searches for a specific known place, considers a limited set of relevant results, and chooses one photo for that place. The workflow currently runs automatically every four hours at 17 minutes past the hour using `17 */4 * * *`, and it can also be run manually with `workflow_dispatch`. Scheduled runs retain the normal bounded limit of `20` attempted entries.
 
 The pipeline remains intentionally narrow and product-specific:
 
