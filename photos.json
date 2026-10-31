@@ -5256,16 +5256,16 @@
     "source_url": "https://unsplash.com/photos/aerial-view-of-city-during-daytime-ItScuDBcZyc?utm_source=freebase&utm_medium=referral"
   },
   "city:denmark:north_denmark:skagen": {
-    "image_url": "https://images.unsplash.com/photo-1709746833501-546da1391a97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTa2FnZW4lMjBOb3J0aCUyMERlbm1hcmt8ZW58MXwwfHx8MTc3Nzg0NTkyNnww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Igor Peftiev",
-    "photographer_url": "https://unsplash.com/@igorpeftiev?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-foggy-beach-with-a-lighthouse-in-the-distance-MBn5ikKljMs?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1534684105949-56869170677f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTa2FnZW4lMjBOb3J0aCUyMERlbm1hcmt8ZW58MXwwfHx8MTc5MzQ4OTA3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Sandro Kradolfer",
+    "photographer_url": "https://unsplash.com/@skradi?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/top-view-of-mountains-with-houses-imLsDPLnr7Y?utm_source=freebase&utm_medium=referral"
   },
   "city:denmark:south_denmark:esbjerg": {
-    "image_url": "https://images.unsplash.com/photo-1639844905023-f89192e7847d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxFc2JqZXJnJTIwRGVubWFya3xlbnwxfDB8fHwxNzc3ODY4MDc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Machrife",
-    "photographer_url": "https://unsplash.com/@machrife?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-couple-of-swans-swimming-on-top-of-a-lake-5gJAh1VNFzc?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1723014582811-b22666b8dcc1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxFc2JqZXJnJTIwRGVubWFya3xlbnwxfDB8fHwxNzkzNDg5MDgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Wolfgang Weiser",
+    "photographer_url": "https://unsplash.com/@hamburgmeinefreundin?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-group-of-white-statues-sitting-on-top-of-a-hill-oGllDgwQ728?utm_source=freebase&utm_medium=referral"
   },
   "city:denmark:south_denmark:kolding": {
     "image_url": "https://images.unsplash.com/photo-1690913857828-0ab7f6533bcf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxLb2xkaW5nJTIwRGVubWFya3xlbnwxfDB8fHwxNzc3ODY4MDgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -29544,10 +29544,10 @@
     "source_url": "https://unsplash.com/photos/people-walking-near-white-building-during-daytime-LBgyZ7A730E?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:denmark:north_denmark": {
-    "image_url": "https://images.unsplash.com/photo-1722258119820-9b0932340d4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxOb3J0aCUyMERlbm1hcmslMjBEZW5tYXJrfGVufDF8MHx8fDE3Nzc4NDU5MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Daniel J. Schwarz",
-    "photographer_url": "https://unsplash.com/@danieljschwarz?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-group-of-boats-that-are-sitting-in-the-water-7hd8KU7223o?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1731142073757-e18013d6c840?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxOb3J0aCUyMERlbm1hcmslMjBEZW5tYXJrfGVufDF8MHx8fDE3OTM0ODkwNzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Daria Kruts",
+    "photographer_url": "https://unsplash.com/@daria_kruts?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-grassy-hill-with-a-beach-in-the-background-_9LaHpjjnC8?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:denmark:south_denmark": {
     "image_url": "https://images.unsplash.com/photo-1662534997850-658af9b329c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMERlbm1hcmslMjBEZW5tYXJrfGVufDF8MHx8fDE3Nzc4NDU5Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
