@@ -6150,10 +6150,10 @@
     "source_url": "https://unsplash.com/photos/a-view-of-a-mountain-with-a-village-in-the-foreground-QAnuUe3kbPo?utm_source=freebase&utm_medium=referral"
   },
   "city:el_salvador:sonsonate:juayua": {
-    "image_url": "https://images.unsplash.com/photo-1718913988427-0bccb71908fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxKdWF5dWElMjBFbCUyMFNhbHZhZG9yfGVufDF8MHx8fDE3Nzc5MzMxMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Devin Santiago",
-    "photographer_url": "https://unsplash.com/@ydcphotography?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-city-street-with-a-hill-in-the-background-9OgZPvMjYoI?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1695525519309-ce141531353a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxKdWF5dWElMjBTb25zb25hdGV8ZW58MXwwfHx8MTc5Mzg4MTM2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Griselda Guevara",
+    "photographer_url": "https://unsplash.com/@greylopez?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-body-of-water-with-palm-trees-in-the-background-stSACco8Tfc?utm_source=freebase&utm_medium=referral"
   },
   "city:el_salvador:sonsonate:nahuizalco": {
     "image_url": "https://images.unsplash.com/photo-1695525519309-ce141531353a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxOYWh1aXphbGNvJTIwU29uc29uYXRlfGVufDF8MHx8fDE3ODQwNTgzOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -26813,6 +26813,12 @@
     "photographer_url": "https://unsplash.com/@sebghatullah_moid?utm_source=freebase&utm_medium=referral",
     "source_url": "https://unsplash.com/photos/woman-in-brown-and-beige-long-sleeve-dress-standing-on-ground-during-daytime-dhOQmuXbumU?utm_source=freebase&utm_medium=referral"
   },
+  "subdivision:afghanistan:ghor": {
+    "image_url": "https://images.unsplash.com/photo-1590531970580-046a37dfbb68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxHaG9yJTIwQWZnaGFuaXN0YW58ZW58MXwwfHx8MTc5Mzg4MTMzOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "EJ Wolfson",
+    "photographer_url": "https://unsplash.com/@ejwolfson?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/green-grass-field-near-lake-and-mountains-during-daytime-8A7M2u4G4d0?utm_source=freebase&utm_medium=referral"
+  },
   "subdivision:afghanistan:helmand": {
     "image_url": "https://images.unsplash.com/photo-1616346796308-bd3e4207d222?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxIZWxtYW5kJTIwQWZnaGFuaXN0YW58ZW58MXwwfHx8MTc4MDc0MzYyOXww&ixlib=rb-4.1.0&q=80&w=1080",
     "photographer_name": "emran sayeed",
@@ -30126,10 +30132,10 @@
     "source_url": "https://unsplash.com/photos/a-yellow-jeep-parked-in-a-field-next-to-a-tree-MOc-f5z2ye4?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:el_salvador:usulutan": {
-    "image_url": "https://images.unsplash.com/photo-1673470738721-a9f0b75e37ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxVc3VsdXRhbiUyMEVsJTIwU2FsdmFkb3J8ZW58MXwwfHx8MTc3NzkzMzExNnww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Chris Ticas!",
-    "photographer_url": "https://unsplash.com/@chromebot?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-couple-of-cows-that-are-standing-in-the-grass-zkrpGMakOyU?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1663946457157-476b36a0b99a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxVc3VsdXRhbiUyMEVsJTIwU2FsdmFkb3J8ZW58MXwwfHx8MTc5Mzg4MTM2NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Shalom de León",
+    "photographer_url": "https://unsplash.com/@sakgraphy?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-beach-with-trees-and-water-fnQ6nfAMen4?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:equatorial_guinea:bioko_sur": {
     "image_url": "https://images.unsplash.com/photo-1786640008716-57d2d49fa401?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxCaW9rbyUyMFN1ciUyMEVxdWF0b3JpYWwlMjBHdWluZWF8ZW58MXwwfHx8MTc4NzUxMTAyMXww&ixlib=rb-4.1.0&q=80&w=1080",
