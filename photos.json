@@ -6342,22 +6342,22 @@
     "source_url": "https://unsplash.com/photos/gray-concrete-bridge-near-orange-and-gray-concrete-building-wGUxu0RGcck?utm_source=freebase&utm_medium=referral"
   },
   "city:estonia:tartu:elva": {
-    "image_url": "https://images.unsplash.com/photo-1719577823946-8a6331d450a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxFbHZhJTIwVGFydHV8ZW58MXwwfHx8MTc3Nzk3ODcwOHww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Denisa Trif",
-    "photographer_url": "https://unsplash.com/@denisatrif?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-close-up-of-a-pie-on-a-plate-Bmg2NAItnhE?utm_source=freebase&utm_medium=referral"
-  },
-  "city:estonia:tartu:tartu": {
-    "image_url": "https://images.unsplash.com/photo-1694013248932-64a3dccbb553?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxUYXJ0dSUyMEVzdG9uaWF8ZW58MXwwfHx8MTc3Nzk3ODcwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1694013148890-dd07119963fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxFbHZhJTIwVGFydHV8ZW58MXwwfHx8MTc5NDA2MzMwMHww&ixlib=rb-4.1.0&q=80&w=1080",
     "photographer_name": "Marek Lumi",
     "photographer_url": "https://unsplash.com/@mareklumi?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-street-with-cars-parked-on-both-sides-of-it-NkT0ne2gE5I?utm_source=freebase&utm_medium=referral"
+    "source_url": "https://unsplash.com/photos/there-is-a-sign-that-says-tartuga-in-a-town-square-CDA0NYntMPM?utm_source=freebase&utm_medium=referral"
+  },
+  "city:estonia:tartu:tartu": {
+    "image_url": "https://images.unsplash.com/photo-1591704592973-3b57b025d80e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxUYXJ0dSUyMEVzdG9uaWF8ZW58MXwwfHx8MTc5NDA2MzI5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Liina-Mai Kaunissaare",
+    "photographer_url": "https://unsplash.com/@lm_k?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-blue-boat-on-river-during-daytime-1WkpYWtQ0SM?utm_source=freebase&utm_medium=referral"
   },
   "city:estonia:valga:otepaa": {
-    "image_url": "https://images.unsplash.com/photo-1777799856207-c1d8c361089d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxPdGVwYWElMjBFc3RvbmlhfGVufDF8MHx8fDE3Nzc5Nzg3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Margo Evardson",
-    "photographer_url": "https://unsplash.com/@stadinstudio?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/historic-fortress-and-colorful-buildings-by-a-calm-river-_N2PV1EBTtM?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1709862366377-54b16f3e51f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwxfHxPdGVwYWElMjBFc3RvbmlhfGVufDF8MHx8fDE3OTQwNjMzMDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Hongbin",
+    "photographer_url": "https://unsplash.com/@hbsun2013?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/a-view-of-a-city-from-a-hill-G58T5XKHO14?utm_source=freebase&utm_medium=referral"
   },
   "city:estonia:valga:valga": {
     "image_url": "https://images.unsplash.com/photo-1777799856207-c1d8c361089d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxWYWxnYSUyMEVzdG9uaWF8ZW58MXwwfHx8MTc3Nzk3ODcxMXww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -30222,16 +30222,16 @@
     "source_url": "https://unsplash.com/photos/a-lighthouse-on-a-beach-iL3RRuwlsS0?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:estonia:tartu": {
-    "image_url": "https://images.unsplash.com/photo-1694013248932-64a3dccbb553?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxUYXJ0dSUyMEVzdG9uaWF8ZW58MXwwfHx8MTc3Nzk3ODcwNnww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Marek Lumi",
-    "photographer_url": "https://unsplash.com/@mareklumi?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/a-street-with-cars-parked-on-both-sides-of-it-NkT0ne2gE5I?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1591704592973-3b57b025d80e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxUYXJ0dSUyMEVzdG9uaWF8ZW58MXwwfHx8MTc5NDA2MzI5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Liina-Mai Kaunissaare",
+    "photographer_url": "https://unsplash.com/@lm_k?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/white-and-blue-boat-on-river-during-daytime-1WkpYWtQ0SM?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:estonia:valga": {
-    "image_url": "https://images.unsplash.com/photo-1777799856207-c1d8c361089d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwzfHxWYWxnYSUyMEVzdG9uaWF8ZW58MXwwfHx8MTc3Nzk3ODcxMXww&ixlib=rb-4.1.0&q=80&w=1080",
-    "photographer_name": "Margo Evardson",
-    "photographer_url": "https://unsplash.com/@stadinstudio?utm_source=freebase&utm_medium=referral",
-    "source_url": "https://unsplash.com/photos/historic-fortress-and-colorful-buildings-by-a-calm-river-_N2PV1EBTtM?utm_source=freebase&utm_medium=referral"
+    "image_url": "https://images.unsplash.com/photo-1564951537954-29dd59397b90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxWYWxnYSUyMEVzdG9uaWF8ZW58MXwwfHx8MTc5NDA2MzMwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "photographer_name": "Karson",
+    "photographer_url": "https://unsplash.com/@karson_?utm_source=freebase&utm_medium=referral",
+    "source_url": "https://unsplash.com/photos/aerial-photo-of-city-building-NyIBNMueUQI?utm_source=freebase&utm_medium=referral"
   },
   "subdivision:estonia:viljandi": {
     "image_url": "https://images.unsplash.com/photo-1662619480721-936f25c388aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTYzNzR8MHwxfHNlYXJjaHwyfHxWaWxqYW5kaSUyMEVzdG9uaWF8ZW58MXwwfHx8MTc3Nzk3ODcxNXww&ixlib=rb-4.1.0&q=80&w=1080",
